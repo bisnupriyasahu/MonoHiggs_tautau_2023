@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd MET2018D_0000_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_992.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_993.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_994.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_995.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_996.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_997.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_998.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau/MET2018D_0000/Ntuple_data2018_MET2018D_999.root
+mv MET2018D_0000_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/ 

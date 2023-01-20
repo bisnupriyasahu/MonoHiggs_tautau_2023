@@ -1,0 +1,13 @@
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_00.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_01.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_010.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_011.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_012.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_02.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_03.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_04.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_05.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_06.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_07.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_08.root 
+du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/tautau_hadd/DY2JetsToLL_0000_09.root 
