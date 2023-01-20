@@ -1,0 +1,165 @@
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+#0  0x00007f70a553260c in waitpid () from /lib64/libc.so.6
+#1  0x00007f70a54aff62 in do_system () from /lib64/libc.so.6
+#2  0x00007f70a33caa6c in TUnixSystem::StackTrace() () from /usr/lib64/root/libCore.so.6.24
+#3  0x00007f70a33cc98a in TUnixSystem::DispatchSignals(ESignals) () from /usr/lib64/root/libCore.so.6.24
+#4  <signal handler called>
+#5  0x00007f70a1cc11c9 in llvm::sys::DynamicLibrary::addPermanentLibrary(void*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#6  0x00007f709f104319 in CreateInterpreter () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#7  0x00007f70a4321e7c in TROOT::InitInterpreter() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#8  0x00007f70a432232f in ROOT::Internal::GetROOT2() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#9  0x00007f709f0f527e in TClingLookupHelper__ExistingTypeCheck(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#10 0x00007f70a43fb36a in TClassEdit::ResolveTypedef[abi:cxx11](char const*, bool) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#11 0x00007f70a43ffb2d in TClassEdit::TSplitType::ShortType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#12 0x00007f70a44007b9 in TClassEdit::GetNormalizedName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::basic_string_view<char, std::char_traits<char> >) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#13 0x00007f70a44488d0 in ROOT::TSchemaRule::SetTargetClass(TString const&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#14 0x00007f70a444be72 in ROOT::TSchemaRule::SetFromRule(char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#15 0x00007f70a441ea21 in TClass::AddRule(char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#16 0x00007f70a441ec9f in (anonymous namespace)::ReadRulesContent(_IO_FILE*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#17 0x00007f70a441ef78 in TClass::ReadRules() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#18 0x00007f709f115215 in TCling::Initialize() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#19 0x00007f70a328b409 in TROOT::InitInterpreter() () from /usr/lib64/root/libCore.so.6.24
+#20 0x00007f70a328b716 in ROOT::Internal::GetROOT2() () from /usr/lib64/root/libCore.so.6.24
+#21 0x00007f70a37650e3 in (anonymous namespace)::ApplicationStarter::ApplicationStarter() () from /usr/lib64/root/libcppyy_backend2_7.so.6.24
+#22 0x00007f70a3759ea0 in __static_initialization_and_destruction_0(int, int) [clone .constprop.271] () from /usr/lib64/root/libcppyy_backend2_7.so.6.24
+#23 0x00007f70a653b9c3 in _dl_init_internal () from /lib64/ld-linux-x86-64.so.2
+#24 0x00007f70a654059e in dl_open_worker () from /lib64/ld-linux-x86-64.so.2
+#25 0x00007f70a653b7d4 in _dl_catch_error () from /lib64/ld-linux-x86-64.so.2
+#26 0x00007f70a653fb8b in _dl_open () from /lib64/ld-linux-x86-64.so.2
+#27 0x00007f70a5d40fab in dlopen_doit () from /lib64/libdl.so.2
+#28 0x00007f70a653b7d4 in _dl_catch_error () from /lib64/ld-linux-x86-64.so.2
+#29 0x00007f70a5d415ad in _dlerror_run () from /lib64/libdl.so.2
+#30 0x00007f70a5d41041 in dlopen
+
+GLIBC_2.2.5 () from /lib64/libdl.so.2
+#31 0x00007f70a6271a4f in _PyImport_GetDynLoadFunc () from /lib64/libpython2.7.so.1.0
+#32 0x00007f70a625a34e in _PyImport_LoadDynamicModule () from /lib64/libpython2.7.so.1.0
+#33 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#34 0x00007f70a625869d in load_next () from /lib64/libpython2.7.so.1.0
+#35 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#36 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#37 0x00007f70a6245300 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#38 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#39 0x00007f70a6244b4c in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#40 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#41 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#42 0x00007f70a625753c in PyImport_ExecCodeModuleEx () from /lib64/libpython2.7.so.1.0
+#43 0x00007f70a62577b8 in load_source_module () from /lib64/libpython2.7.so.1.0
+#44 0x00007f70a6258c4a in load_package () from /lib64/libpython2.7.so.1.0
+#45 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#46 0x00007f70a6258736 in load_next () from /lib64/libpython2.7.so.1.0
+#47 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#48 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#49 0x00007f70a61ac073 in PyObject_Call () from /lib64/libpython2.7.so.1.0
+#50 0x00007f70a623df07 in PyEval_CallObjectWithKeywords () from /lib64/libpython2.7.so.1.0
+#51 0x00007f70a6242bc5 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#52 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#53 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#54 0x00007f70a625753c in PyImport_ExecCodeModuleEx () from /lib64/libpython2.7.so.1.0
+#55 0x00007f70a62577b8 in load_source_module () from /lib64/libpython2.7.so.1.0
+#56 0x00007f70a6258c4a in load_package () from /lib64/libpython2.7.so.1.0
+#57 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#58 0x00007f70a625869d in load_next () from /lib64/libpython2.7.so.1.0
+#59 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#60 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#61 0x00007f70a61ac073 in PyObject_Call () from /lib64/libpython2.7.so.1.0
+#62 0x00007f70a623df07 in PyEval_CallObjectWithKeywords () from /lib64/libpython2.7.so.1.0
+#63 0x00007f70a6242bc5 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#64 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#65 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#66 0x00007f70a6260b8f in run_mod () from /lib64/libpython2.7.so.1.0
+#67 0x00007f70a6261d5e in PyRun_FileExFlags () from /lib64/libpython2.7.so.1.0
+#68 0x00007f70a6262fe9 in PyRun_SimpleFileExFlags () from /lib64/libpython2.7.so.1.0
+#69 0x00007f70a627419f in Py_Main () from /lib64/libpython2.7.so.1.0
+#70 0x00007f70a548f555 in __libc_start_main () from /lib64/libc.so.6
+#71 0x000000000040068e in _start ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f70a1cc11c9 in llvm::sys::DynamicLibrary::addPermanentLibrary(void*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#6  0x00007f709f104319 in CreateInterpreter () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#7  0x00007f70a4321e7c in TROOT::InitInterpreter() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#8  0x00007f70a432232f in ROOT::Internal::GetROOT2() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#9  0x00007f709f0f527e in TClingLookupHelper__ExistingTypeCheck(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#10 0x00007f70a43fb36a in TClassEdit::ResolveTypedef[abi:cxx11](char const*, bool) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#11 0x00007f70a43ffb2d in TClassEdit::TSplitType::ShortType(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, int) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#12 0x00007f70a44007b9 in TClassEdit::GetNormalizedName(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::basic_string_view<char, std::char_traits<char> >) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#13 0x00007f70a44488d0 in ROOT::TSchemaRule::SetTargetClass(TString const&) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#14 0x00007f70a444be72 in ROOT::TSchemaRule::SetFromRule(char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#15 0x00007f70a441ea21 in TClass::AddRule(char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#16 0x00007f70a441ec9f in (anonymous namespace)::ReadRulesContent(_IO_FILE*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#17 0x00007f70a441ef78 in TClass::ReadRules() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#18 0x00007f709f115215 in TCling::Initialize() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCling.so
+#19 0x00007f70a328b409 in TROOT::InitInterpreter() () from /usr/lib64/root/libCore.so.6.24
+#20 0x00007f70a328b716 in ROOT::Internal::GetROOT2() () from /usr/lib64/root/libCore.so.6.24
+#21 0x00007f70a37650e3 in (anonymous namespace)::ApplicationStarter::ApplicationStarter() () from /usr/lib64/root/libcppyy_backend2_7.so.6.24
+#22 0x00007f70a3759ea0 in __static_initialization_and_destruction_0(int, int) [clone .constprop.271] () from /usr/lib64/root/libcppyy_backend2_7.so.6.24
+#23 0x00007f70a653b9c3 in _dl_init_internal () from /lib64/ld-linux-x86-64.so.2
+#24 0x00007f70a654059e in dl_open_worker () from /lib64/ld-linux-x86-64.so.2
+#25 0x00007f70a653b7d4 in _dl_catch_error () from /lib64/ld-linux-x86-64.so.2
+#26 0x00007f70a653fb8b in _dl_open () from /lib64/ld-linux-x86-64.so.2
+#27 0x00007f70a5d40fab in dlopen_doit () from /lib64/libdl.so.2
+#28 0x00007f70a653b7d4 in _dl_catch_error () from /lib64/ld-linux-x86-64.so.2
+#29 0x00007f70a5d415ad in _dlerror_run () from /lib64/libdl.so.2
+#30 0x00007f70a5d41041 in dlopen
+
+GLIBC_2.2.5 () from /lib64/libdl.so.2
+#31 0x00007f70a6271a4f in _PyImport_GetDynLoadFunc () from /lib64/libpython2.7.so.1.0
+#32 0x00007f70a625a34e in _PyImport_LoadDynamicModule () from /lib64/libpython2.7.so.1.0
+#33 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#34 0x00007f70a625869d in load_next () from /lib64/libpython2.7.so.1.0
+#35 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#36 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#37 0x00007f70a6245300 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#38 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#39 0x00007f70a6244b4c in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#40 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#41 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#42 0x00007f70a625753c in PyImport_ExecCodeModuleEx () from /lib64/libpython2.7.so.1.0
+#43 0x00007f70a62577b8 in load_source_module () from /lib64/libpython2.7.so.1.0
+#44 0x00007f70a6258c4a in load_package () from /lib64/libpython2.7.so.1.0
+#45 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#46 0x00007f70a6258736 in load_next () from /lib64/libpython2.7.so.1.0
+#47 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#48 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#49 0x00007f70a61ac073 in PyObject_Call () from /lib64/libpython2.7.so.1.0
+#50 0x00007f70a623df07 in PyEval_CallObjectWithKeywords () from /lib64/libpython2.7.so.1.0
+#51 0x00007f70a6242bc5 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#52 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#53 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#54 0x00007f70a625753c in PyImport_ExecCodeModuleEx () from /lib64/libpython2.7.so.1.0
+#55 0x00007f70a62577b8 in load_source_module () from /lib64/libpython2.7.so.1.0
+#56 0x00007f70a6258c4a in load_package () from /lib64/libpython2.7.so.1.0
+#57 0x00007f70a6258451 in import_submodule () from /lib64/libpython2.7.so.1.0
+#58 0x00007f70a625869d in load_next () from /lib64/libpython2.7.so.1.0
+#59 0x00007f70a625907e in PyImport_ImportModuleLevel () from /lib64/libpython2.7.so.1.0
+#60 0x00007f70a623c32f in builtin___import__ () from /lib64/libpython2.7.so.1.0
+#61 0x00007f70a61ac073 in PyObject_Call () from /lib64/libpython2.7.so.1.0
+#62 0x00007f70a623df07 in PyEval_CallObjectWithKeywords () from /lib64/libpython2.7.so.1.0
+#63 0x00007f70a6242bc5 in PyEval_EvalFrameEx () from /lib64/libpython2.7.so.1.0
+#64 0x00007f70a624764d in PyEval_EvalCodeEx () from /lib64/libpython2.7.so.1.0
+#65 0x00007f70a6247752 in PyEval_EvalCode () from /lib64/libpython2.7.so.1.0
+#66 0x00007f70a6260b8f in run_mod () from /lib64/libpython2.7.so.1.0
+#67 0x00007f70a6261d5e in PyRun_FileExFlags () from /lib64/libpython2.7.so.1.0
+#68 0x00007f70a6262fe9 in PyRun_SimpleFileExFlags () from /lib64/libpython2.7.so.1.0
+#69 0x00007f70a627419f in Py_Main () from /lib64/libpython2.7.so.1.0
+#70 0x00007f70a548f555 in __libc_start_main () from /lib64/libc.so.6
+#71 0x000000000040068e in _start ()
+===========================================================
+
+
