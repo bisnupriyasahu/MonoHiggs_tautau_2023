@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd MET_EraF_01_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_991.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_992.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_993.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_994.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_995.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_996.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_997.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_998.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/MET_EraF_01/MET_EraF_01_999.root
+mv MET_EraF_01_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/hadd/ 

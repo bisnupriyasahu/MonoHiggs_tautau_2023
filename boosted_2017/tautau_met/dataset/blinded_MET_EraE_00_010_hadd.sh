@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd blinded_MET_EraE_00_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_992.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_993.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_994.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_995.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_996.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_997.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_998.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/mutau/blinded_MET_EraE_00/blinded_MET_EraE_00_999.root
+mv blinded_MET_EraE_00_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/hadd/ 

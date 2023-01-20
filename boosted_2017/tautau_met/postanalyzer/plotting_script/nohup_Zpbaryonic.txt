@@ -1,0 +1,2242 @@
+nohup: ignoring input
+running tot_TMass_new
+sample exists
+Take action sample is not Empty .... removing existing files .....
+removing sample/*tot_TMass_new*.root  
+55 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.7890672630184475
+
+ before applying BR weight:  0.7890672630184475
+
+ after applying the BR factor for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.7890672630184475
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.9757898821278432
+
+ before applying BR weight:  0.9757898821278432
+
+ after applying the BR factor for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.9757898821278432
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.561363579860325
+
+ before applying BR weight:  0.561363579860325
+
+ after applying the BR factor for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.561363579860325
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.561363579860325
+
+ before applying BR weight:  0.561363579860325
+
+ after applying the BR factor for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.561363579860325
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.4949503833971885
+
+ before applying BR weight:  0.4949503833971885
+
+ after applying the BR factor for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.4949503833971885
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.067931392509794
+
+ before applying BR weight:  6.067931392509794
+
+ after applying the BR factor for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.067931392509794
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.4780227321426906
+
+ before applying BR weight:  2.4780227321426906
+
+ after applying the BR factor for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.4780227321426906
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for tot_TMass_new
+ZTTjet_inc 2.4780227321426906
+ZTT1jet 0.7890672630184475
+ZTT2jet 0.9757898821278432
+ZTT3jet 0.561363579860325
+ZTT4jet 0.4949503833971885
+
+ before applying the BR factor for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.4780227321426906
+
+ before applying BR weight:  2.4780227321426906
+
+ after applying the BR factor for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.4780227321426906
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.22035282492642724
+
+ before applying BR weight:  0.22035282492642724
+
+ after applying the BR factor for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.22035282492642724
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.278812082871796
+
+ before applying BR weight:  0.278812082871796
+
+ after applying the BR factor for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.278812082871796
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+
+ before applying BR weight:  0.18799240519062466
+
+ after applying the BR factor for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.15113029344879159
+
+ before applying BR weight:  0.15113029344879159
+
+ after applying the BR factor for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.15113029344879159
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04437102300499956
+
+ before applying BR weight:  0.04437102300499956
+
+ after applying the BR factor for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04437102300499956
+GluGluHToTauTau_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05238801661928712
+
+ before applying BR weight:  0.05238801661928712
+
+ after applying the BR factor for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05238801661928712
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+MET_EraB_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for MET_EraB
+checking sample data_obs  weight = 0.0008709861425936894
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+MET_EraC_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for MET_EraC
+checking sample data_obs  weight = 0.00039306270827022113
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+MET_EraD_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for MET_EraD
+checking sample data_obs  weight = 0.0021678502997032156
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+MET_EraE_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for MET_EraE
+checking sample data_obs  weight = 0.0006078407949011644
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+MET_EraF_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for MET_EraF
+checking sample data_obs  weight = 0.0002432901605021284
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8691358663187755
+
+ before applying BR weight:  0.8691358663187755
+
+ after applying the BR factor for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8691358663187755
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9771132448140362
+
+ before applying BR weight:  0.9771132448140362
+
+ after applying the BR factor for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9771132448140362
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19249193365878892
+
+ before applying BR weight:  0.19249193365878892
+
+ after applying the BR factor for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19249193365878892
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1975859998184084
+
+ before applying BR weight:  0.1975859998184084
+
+ after applying the BR factor for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1975859998184084
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_10_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_10
+checking sample Signal_ZpBaryonic2017_10  weight = 7.001803245842517e-05
+
+ before applying BR weight:  7.001803245842517e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_10
+checking sample Signal_ZpBaryonic2017_10  weight = 7.001803245842517e-05
+Signal_ZpBaryonic2017_10_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_11_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_11
+checking sample Signal_ZpBaryonic2017_11  weight = 6.102599911386796e-05
+
+ before applying BR weight:  6.102599911386796e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_11
+checking sample Signal_ZpBaryonic2017_11  weight = 6.102599911386796e-05
+Signal_ZpBaryonic2017_11_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_12_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_12
+checking sample Signal_ZpBaryonic2017_12  weight = 5.360623836951705e-05
+
+ before applying BR weight:  5.360623836951705e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_12
+checking sample Signal_ZpBaryonic2017_12  weight = 5.360623836951705e-05
+Signal_ZpBaryonic2017_12_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_13_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_13
+checking sample Signal_ZpBaryonic2017_13  weight = 3.126110766504209e-05
+
+ before applying BR weight:  3.126110766504209e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_13
+checking sample Signal_ZpBaryonic2017_13  weight = 3.126110766504209e-05
+Signal_ZpBaryonic2017_13_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_14_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_14
+checking sample Signal_ZpBaryonic2017_14  weight = 2.4994169251218433e-07
+
+ before applying BR weight:  2.4994169251218433e-07
+
+ after applying the BR factor for Signal_ZpBaryonic2017_14
+checking sample Signal_ZpBaryonic2017_14  weight = 2.4994169251218433e-07
+Signal_ZpBaryonic2017_14_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_15_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_15
+checking sample Signal_ZpBaryonic2017_15  weight = 1.7439503766061144e-05
+
+ before applying BR weight:  1.7439503766061144e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_15
+checking sample Signal_ZpBaryonic2017_15  weight = 1.7439503766061144e-05
+Signal_ZpBaryonic2017_15_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_16_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_16
+checking sample Signal_ZpBaryonic2017_16  weight = 1.7476295968099245e-05
+
+ before applying BR weight:  1.7476295968099245e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_16
+checking sample Signal_ZpBaryonic2017_16  weight = 1.7476295968099245e-05
+Signal_ZpBaryonic2017_16_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_17_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_17
+checking sample Signal_ZpBaryonic2017_17  weight = 1.732912715994683e-05
+
+ before applying BR weight:  1.732912715994683e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_17
+checking sample Signal_ZpBaryonic2017_17  weight = 1.732912715994683e-05
+Signal_ZpBaryonic2017_17_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_18_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_18
+checking sample Signal_ZpBaryonic2017_18  weight = 1.656875498449269e-05
+
+ before applying BR weight:  1.656875498449269e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_18
+checking sample Signal_ZpBaryonic2017_18  weight = 1.656875498449269e-05
+Signal_ZpBaryonic2017_18_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_19_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_19
+checking sample Signal_ZpBaryonic2017_19  weight = 1.442254319893664e-05
+
+ before applying BR weight:  1.442254319893664e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_19
+checking sample Signal_ZpBaryonic2017_19  weight = 1.442254319893664e-05
+Signal_ZpBaryonic2017_19_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_1_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_1
+checking sample Signal_ZpBaryonic2017_1  weight = 0.0002547246787771378
+
+ before applying BR weight:  0.0002547246787771378
+
+ after applying the BR factor for Signal_ZpBaryonic2017_1
+checking sample Signal_ZpBaryonic2017_1  weight = 0.0002547246787771378
+Signal_ZpBaryonic2017_1_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_20_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_20
+checking sample Signal_ZpBaryonic2017_20  weight = 9.450690296854231e-06
+
+ before applying BR weight:  9.450690296854231e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_20
+checking sample Signal_ZpBaryonic2017_20  weight = 9.450690296854231e-06
+Signal_ZpBaryonic2017_20_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_21_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_21
+checking sample Signal_ZpBaryonic2017_21  weight = 0.0006858303614457831
+
+ before applying BR weight:  0.0006858303614457831
+
+ after applying the BR factor for Signal_ZpBaryonic2017_21
+checking sample Signal_ZpBaryonic2017_21  weight = 0.0006858303614457831
+Signal_ZpBaryonic2017_21_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_22_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_22
+checking sample Signal_ZpBaryonic2017_22  weight = 4.0471422241914045e-06
+
+ before applying BR weight:  4.0471422241914045e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_22
+checking sample Signal_ZpBaryonic2017_22  weight = 4.0471422241914045e-06
+Signal_ZpBaryonic2017_22_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_23_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_23
+checking sample Signal_ZpBaryonic2017_23  weight = 0.003274505981391227
+
+ before applying BR weight:  0.003274505981391227
+
+ after applying the BR factor for Signal_ZpBaryonic2017_23
+checking sample Signal_ZpBaryonic2017_23  weight = 0.003274505981391227
+Signal_ZpBaryonic2017_23_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_24_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_24
+checking sample Signal_ZpBaryonic2017_24  weight = 0.002678472308373948
+
+ before applying BR weight:  0.002678472308373948
+
+ after applying the BR factor for Signal_ZpBaryonic2017_24
+checking sample Signal_ZpBaryonic2017_24  weight = 0.002678472308373948
+Signal_ZpBaryonic2017_24_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_25_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_25
+checking sample Signal_ZpBaryonic2017_25  weight = 5.385151971643776e-06
+
+ before applying BR weight:  5.385151971643776e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_25
+checking sample Signal_ZpBaryonic2017_25  weight = 5.385151971643776e-06
+Signal_ZpBaryonic2017_25_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_26_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_26
+checking sample Signal_ZpBaryonic2017_26  weight = 5.67358862417363e-06
+
+ before applying BR weight:  5.67358862417363e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_26
+checking sample Signal_ZpBaryonic2017_26  weight = 5.67358862417363e-06
+Signal_ZpBaryonic2017_26_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_27_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_27
+checking sample Signal_ZpBaryonic2017_27  weight = 5.334869295525033e-06
+
+ before applying BR weight:  5.334869295525033e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_27
+checking sample Signal_ZpBaryonic2017_27  weight = 5.334869295525033e-06
+Signal_ZpBaryonic2017_27_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_28_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_28
+checking sample Signal_ZpBaryonic2017_28  weight = 5.252700044306602e-06
+
+ before applying BR weight:  5.252700044306602e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_28
+checking sample Signal_ZpBaryonic2017_28  weight = 5.252700044306602e-06
+Signal_ZpBaryonic2017_28_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_29_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_29
+checking sample Signal_ZpBaryonic2017_29  weight = 4.946098360655738e-06
+
+ before applying BR weight:  4.946098360655738e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_29
+checking sample Signal_ZpBaryonic2017_29  weight = 4.946098360655738e-06
+Signal_ZpBaryonic2017_29_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_2_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_2
+checking sample Signal_ZpBaryonic2017_2  weight = 0.00025680957022596366
+
+ before applying BR weight:  0.00025680957022596366
+
+ after applying the BR factor for Signal_ZpBaryonic2017_2
+checking sample Signal_ZpBaryonic2017_2  weight = 0.00025680957022596366
+Signal_ZpBaryonic2017_2_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_30_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_30
+checking sample Signal_ZpBaryonic2017_30  weight = 4.312046078865751e-06
+
+ before applying BR weight:  4.312046078865751e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_30
+checking sample Signal_ZpBaryonic2017_30  weight = 4.312046078865751e-06
+Signal_ZpBaryonic2017_30_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_31_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_31
+checking sample Signal_ZpBaryonic2017_31  weight = 1.794233052724856e-06
+
+ before applying BR weight:  1.794233052724856e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_31
+checking sample Signal_ZpBaryonic2017_31  weight = 1.794233052724856e-06
+Signal_ZpBaryonic2017_31_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_32_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_32
+checking sample Signal_ZpBaryonic2017_32  weight = 1.7881010190518387e-06
+
+ before applying BR weight:  1.7881010190518387e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_32
+checking sample Signal_ZpBaryonic2017_32  weight = 1.7881010190518387e-06
+Signal_ZpBaryonic2017_32_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_33_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_33
+checking sample Signal_ZpBaryonic2017_33  weight = 1.7856482055826318e-06
+
+ before applying BR weight:  1.7856482055826318e-06
+
+ after applying the BR factor for Signal_ZpBaryonic2017_33
+checking sample Signal_ZpBaryonic2017_33  weight = 1.7856482055826318e-06
+Signal_ZpBaryonic2017_33_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_34_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_34
+checking sample Signal_ZpBaryonic2017_34  weight = 0.0003879124501550732
+
+ before applying BR weight:  0.0003879124501550732
+
+ after applying the BR factor for Signal_ZpBaryonic2017_34
+checking sample Signal_ZpBaryonic2017_34  weight = 0.0003879124501550732
+Signal_ZpBaryonic2017_34_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_35_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_35
+checking sample Signal_ZpBaryonic2017_35  weight = 6.410428001772263e-07
+
+ before applying BR weight:  6.410428001772263e-07
+
+ after applying the BR factor for Signal_ZpBaryonic2017_35
+checking sample Signal_ZpBaryonic2017_35  weight = 6.410428001772263e-07
+Signal_ZpBaryonic2017_35_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_36_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_36
+checking sample Signal_ZpBaryonic2017_36  weight = 6.444767390341161e-07
+
+ before applying BR weight:  6.444767390341161e-07
+
+ after applying the BR factor for Signal_ZpBaryonic2017_36
+checking sample Signal_ZpBaryonic2017_36  weight = 6.444767390341161e-07
+Signal_ZpBaryonic2017_36_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_37_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_37
+checking sample Signal_ZpBaryonic2017_37  weight = 0.0025761089961931476
+
+ before applying BR weight:  0.0025761089961931476
+
+ after applying the BR factor for Signal_ZpBaryonic2017_37
+checking sample Signal_ZpBaryonic2017_37  weight = 0.0025761089961931476
+Signal_ZpBaryonic2017_37_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_38_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_38
+checking sample Signal_ZpBaryonic2017_38  weight = 0.0012205199822773593
+
+ before applying BR weight:  0.0012205199822773593
+
+ after applying the BR factor for Signal_ZpBaryonic2017_38
+checking sample Signal_ZpBaryonic2017_38  weight = 0.0012205199822773593
+Signal_ZpBaryonic2017_38_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_39_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_39
+checking sample Signal_ZpBaryonic2017_39  weight = 0.0013968772707133362
+
+ before applying BR weight:  0.0013968772707133362
+
+ after applying the BR factor for Signal_ZpBaryonic2017_39
+checking sample Signal_ZpBaryonic2017_39  weight = 0.0013968772707133362
+Signal_ZpBaryonic2017_39_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_3_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_3
+checking sample Signal_ZpBaryonic2017_3  weight = 0.0002387813912272929
+
+ before applying BR weight:  0.0002387813912272929
+
+ after applying the BR factor for Signal_ZpBaryonic2017_3
+checking sample Signal_ZpBaryonic2017_3  weight = 0.0002387813912272929
+Signal_ZpBaryonic2017_3_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_40_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_40
+checking sample Signal_ZpBaryonic2017_40  weight = 0.0005193832521045636
+
+ before applying BR weight:  0.0005193832521045636
+
+ after applying the BR factor for Signal_ZpBaryonic2017_40
+checking sample Signal_ZpBaryonic2017_40  weight = 0.0005193832521045636
+Signal_ZpBaryonic2017_40_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_41_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_41
+checking sample Signal_ZpBaryonic2017_41  weight = 1.5366876384581305e-07
+
+ before applying BR weight:  1.5366876384581305e-07
+
+ after applying the BR factor for Signal_ZpBaryonic2017_41
+checking sample Signal_ZpBaryonic2017_41  weight = 1.5366876384581305e-07
+Signal_ZpBaryonic2017_41_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_42_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_42
+checking sample Signal_ZpBaryonic2017_42  weight = 0.0008031737704918033
+
+ before applying BR weight:  0.0008031737704918033
+
+ after applying the BR factor for Signal_ZpBaryonic2017_42
+checking sample Signal_ZpBaryonic2017_42  weight = 0.0008031737704918033
+Signal_ZpBaryonic2017_42_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_43_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_43
+checking sample Signal_ZpBaryonic2017_43  weight = 0.0004825910500664599
+
+ before applying BR weight:  0.0004825910500664599
+
+ after applying the BR factor for Signal_ZpBaryonic2017_43
+checking sample Signal_ZpBaryonic2017_43  weight = 0.0004825910500664599
+Signal_ZpBaryonic2017_43_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_4_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_4
+checking sample Signal_ZpBaryonic2017_4  weight = 0.00011095301727957466
+
+ before applying BR weight:  0.00011095301727957466
+
+ after applying the BR factor for Signal_ZpBaryonic2017_4
+checking sample Signal_ZpBaryonic2017_4  weight = 0.00011095301727957466
+Signal_ZpBaryonic2017_4_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_5
+checking sample Signal_ZpBaryonic2017_5  weight = 1.769704918032787e-07
+
+ before applying BR weight:  1.769704918032787e-07
+
+ after applying the BR factor for Signal_ZpBaryonic2017_5
+checking sample Signal_ZpBaryonic2017_5  weight = 1.769704918032787e-07
+Signal_ZpBaryonic2017_5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_6_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_6
+checking sample Signal_ZpBaryonic2017_6  weight = 6.301277802392556e-09
+
+ before applying BR weight:  6.301277802392556e-09
+
+ after applying the BR factor for Signal_ZpBaryonic2017_6
+checking sample Signal_ZpBaryonic2017_6  weight = 6.301277802392556e-09
+Signal_ZpBaryonic2017_6_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_7_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_7
+checking sample Signal_ZpBaryonic2017_7  weight = 0.0040741231723526805
+
+ before applying BR weight:  0.0040741231723526805
+
+ after applying the BR factor for Signal_ZpBaryonic2017_7
+checking sample Signal_ZpBaryonic2017_7  weight = 0.0040741231723526805
+Signal_ZpBaryonic2017_7_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_8_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_8
+checking sample Signal_ZpBaryonic2017_8  weight = 0.001109407532122286
+
+ before applying BR weight:  0.001109407532122286
+
+ after applying the BR factor for Signal_ZpBaryonic2017_8
+checking sample Signal_ZpBaryonic2017_8  weight = 0.001109407532122286
+Signal_ZpBaryonic2017_8_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+Signal_ZpBaryonic2017_9_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for Signal_ZpBaryonic2017_9
+checking sample Signal_ZpBaryonic2017_9  weight = 6.212976517501107e-05
+
+ before applying BR weight:  6.212976517501107e-05
+
+ after applying the BR factor for Signal_ZpBaryonic2017_9
+checking sample Signal_ZpBaryonic2017_9  weight = 6.212976517501107e-05
+Signal_ZpBaryonic2017_9_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.4098722640713686
+
+ before applying BR weight:  0.4098722640713686
+
+ after applying the BR factor for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.4098722640713686
+TTTo2L2Nu_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3767146640671675
+
+ before applying BR weight:  0.3767146640671675
+
+ after applying the BR factor for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3767146640671675
+TTToHadronic_TuneCP5_final.root histograms in file 1004
+Searching for  tot_TMass_new_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.3483522877166631
+
+ before applying BR weight:  0.3483522877166631
+
+ after applying the BR factor for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.3483522877166631
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003362646937799697
+
+ before applying BR weight:  0.003362646937799697
+
+ after applying the BR factor for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003362646937799697
+VBFHToTauTau_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+
+ before applying BR weight:  0.007448688
+
+ after applying the BR factor for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.06120273892941474
+
+ before applying BR weight:  0.06120273892941474
+
+ after applying the BR factor for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.06120273892941474
+VVTo2L2Nu_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+
+ before applying BR weight:  7.715
+
+ after applying the BR factor for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 1436
+Searching for  tot_TMass_new_9
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+
+ before applying BR weight:  17.0511
+
+ after applying the BR factor for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+
+ before applying BR weight:  2.357
+
+ after applying the BR factor for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+
+ before applying BR weight:  2.1368
+
+ after applying the BR factor for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for tot_TMass_new
+WJetsToLNu_Incl_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for tot_TMass_new
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+
+ before applying BR weight:  57.29217
+
+ after applying the BR factor for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 1004
+Searching for  tot_TMass_new_9
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+
+ before applying BR weight:  0.08798061684677123
+
+ after applying the BR factor for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05096116192758409
+
+ before applying BR weight:  0.05096116192758409
+
+ after applying the BR factor for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05096116192758409
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03868276909334525
+
+ before applying BR weight:  0.03868276909334525
+
+ after applying the BR factor for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03868276909334525
+WWW_4F_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+
+ before applying BR weight:  0.027419808
+
+ after applying the BR factor for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WW_TuneCP5
+checking sample WW  weight = 0.06591215025393417
+
+ before applying BR weight:  0.06591215025393417
+
+ after applying the BR factor for WW_TuneCP5
+checking sample WW  weight = 0.06591215025393417
+WW_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01688565660719974
+
+ before applying BR weight:  0.01688565660719974
+
+ after applying the BR factor for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01688565660719974
+WZTo3LNu_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+
+ before applying BR weight:  0.009242351999999999
+
+ after applying the BR factor for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WZ_TuneCP5
+checking sample WZ  weight = 0.047951947317241034
+
+ before applying BR weight:  0.047951947317241034
+
+ after applying the BR factor for WZ_TuneCP5
+checking sample WZ  weight = 0.047951947317241034
+WZ_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00036594918736316894
+
+ before applying BR weight:  0.00036594918736316894
+
+ after applying the BR factor for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00036594918736316894
+WminusHToTauTau_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.0005535873869358183
+
+ before applying BR weight:  0.0005535873869358183
+
+ after applying the BR factor for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.0005535873869358183
+WplusHToTauTau_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.0004070530106107988
+
+ before applying BR weight:  0.0004070530106107988
+
+ after applying the BR factor for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.0004070530106107988
+ZHToTauTau_M125_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5151140902037598
+
+ before applying BR weight:  0.5151140902037598
+
+ after applying the BR factor for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5151140902037598
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.04055577722417268
+
+ before applying BR weight:  0.04055577722417268
+
+ after applying the BR factor for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.04055577722417268
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14919283184883136
+
+ before applying BR weight:  0.14919283184883136
+
+ after applying the BR factor for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14919283184883136
+ZJetsToNuNu_HT-200To400_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+
+ before applying BR weight:  0.042746979506979504
+
+ after applying the BR factor for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04879831081553638
+
+ before applying BR weight:  0.04879831081553638
+
+ after applying the BR factor for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04879831081553638
+ZJetsToNuNu_HT-400To600_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.01889199674594705
+
+ before applying BR weight:  0.01889199674594705
+
+ after applying the BR factor for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.01889199674594705
+ZJetsToNuNu_HT-600To800_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+
+ before applying BR weight:  0.023761140132269105
+
+ after applying the BR factor for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.004814347803917264
+
+ before applying BR weight:  0.004814347803917264
+
+ after applying the BR factor for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.004814347803917264
+ZZTo2L2Q_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019132552269235646
+
+ before applying BR weight:  0.0019132552269235646
+
+ after applying the BR factor for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019132552269235646
+ZZTo4L_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0024522585551330794
+
+ before applying BR weight:  0.0024522585551330794
+
+ after applying the BR factor for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0024522585551330794
+ZZZ_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+
+ before applying BR weight:  0.012158940273561201
+
+ after applying the BR factor for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 1463
+Searching for  tot_TMass_new_9
+Done......................
+blinded_MET_EraB_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for blinded_MET_EraB
+checking sample blinded_data_obs  weight = 0.004164912060369558
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for blinded_MET_EraB
+checking sample blinded_data_obs  weight = 1.0
+blinded_MET_EraB_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+blinded_MET_EraC_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for blinded_MET_EraC
+checking sample blinded_data_obs  weight = 0.0018286915896659193
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for blinded_MET_EraC
+checking sample blinded_data_obs  weight = 1.0
+blinded_MET_EraC_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+blinded_MET_EraD_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for blinded_MET_EraD
+checking sample blinded_data_obs  weight = 0.01004382562351184
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for blinded_MET_EraD
+checking sample blinded_data_obs  weight = 1.0
+blinded_MET_EraD_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+blinded_MET_EraE_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for blinded_MET_EraE
+checking sample blinded_data_obs  weight = 0.002891408193089242
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for blinded_MET_EraE
+checking sample blinded_data_obs  weight = 1.0
+blinded_MET_EraE_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+blinded_MET_EraF_final.root
+Making root files for tot_TMass_new
+
+ before applying the BR factor for blinded_MET_EraF
+checking sample blinded_data_obs  weight = 0.00113229269307963
+
+ before applying BR weight:  1.0
+
+ after applying the BR factor for blinded_MET_EraF
+checking sample blinded_data_obs  weight = 1.0
+blinded_MET_EraF_final.root histograms in file 1193
+Searching for  tot_TMass_new_9
+Done......................
+Take action root files exits
+hadd Target file: f_tot_TMass_new_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_tot_TMass_new.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 6: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_tot_TMass_new.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new.root
+hadd Source file 8: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 9: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 10: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_tot_TMass_new.root
+hadd Source file 11: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 12: sample/GluGluHToTauTau_M125_final_tot_TMass_new.root
+hadd Source file 13: sample/GluGluHToWWTo2L2Nu_M125_final_tot_TMass_new.root
+hadd Source file 14: sample/MET_EraB_final_tot_TMass_new.root
+hadd Source file 15: sample/MET_EraC_final_tot_TMass_new.root
+hadd Source file 16: sample/MET_EraD_final_tot_TMass_new.root
+hadd Source file 17: sample/MET_EraE_final_tot_TMass_new.root
+hadd Source file 18: sample/MET_EraF_final_tot_TMass_new.root
+hadd Source file 19: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new.root
+hadd Source file 20: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new.root
+hadd Source file 21: sample/Signal_ZpBaryonic2017_10_final_tot_TMass_new.root
+hadd Source file 22: sample/Signal_ZpBaryonic2017_11_final_tot_TMass_new.root
+hadd Source file 23: sample/Signal_ZpBaryonic2017_12_final_tot_TMass_new.root
+hadd Source file 24: sample/Signal_ZpBaryonic2017_13_final_tot_TMass_new.root
+hadd Source file 25: sample/Signal_ZpBaryonic2017_14_final_tot_TMass_new.root
+hadd Source file 26: sample/Signal_ZpBaryonic2017_15_final_tot_TMass_new.root
+hadd Source file 27: sample/Signal_ZpBaryonic2017_16_final_tot_TMass_new.root
+hadd Source file 28: sample/Signal_ZpBaryonic2017_17_final_tot_TMass_new.root
+hadd Source file 29: sample/Signal_ZpBaryonic2017_18_final_tot_TMass_new.root
+hadd Source file 30: sample/Signal_ZpBaryonic2017_19_final_tot_TMass_new.root
+hadd Source file 31: sample/Signal_ZpBaryonic2017_1_final_tot_TMass_new.root
+hadd Source file 32: sample/Signal_ZpBaryonic2017_20_final_tot_TMass_new.root
+hadd Source file 33: sample/Signal_ZpBaryonic2017_21_final_tot_TMass_new.root
+hadd Source file 34: sample/Signal_ZpBaryonic2017_22_final_tot_TMass_new.root
+hadd Source file 35: sample/Signal_ZpBaryonic2017_23_final_tot_TMass_new.root
+hadd Source file 36: sample/Signal_ZpBaryonic2017_24_final_tot_TMass_new.root
+hadd Source file 37: sample/Signal_ZpBaryonic2017_25_final_tot_TMass_new.root
+hadd Source file 38: sample/Signal_ZpBaryonic2017_26_final_tot_TMass_new.root
+hadd Source file 39: sample/Signal_ZpBaryonic2017_27_final_tot_TMass_new.root
+hadd Source file 40: sample/Signal_ZpBaryonic2017_28_final_tot_TMass_new.root
+hadd Source file 41: sample/Signal_ZpBaryonic2017_29_final_tot_TMass_new.root
+hadd Source file 42: sample/Signal_ZpBaryonic2017_2_final_tot_TMass_new.root
+hadd Source file 43: sample/Signal_ZpBaryonic2017_30_final_tot_TMass_new.root
+hadd Source file 44: sample/Signal_ZpBaryonic2017_31_final_tot_TMass_new.root
+hadd Source file 45: sample/Signal_ZpBaryonic2017_32_final_tot_TMass_new.root
+hadd Source file 46: sample/Signal_ZpBaryonic2017_33_final_tot_TMass_new.root
+hadd Source file 47: sample/Signal_ZpBaryonic2017_34_final_tot_TMass_new.root
+hadd Source file 48: sample/Signal_ZpBaryonic2017_35_final_tot_TMass_new.root
+hadd Source file 49: sample/Signal_ZpBaryonic2017_36_final_tot_TMass_new.root
+hadd Source file 50: sample/Signal_ZpBaryonic2017_37_final_tot_TMass_new.root
+hadd Source file 51: sample/Signal_ZpBaryonic2017_38_final_tot_TMass_new.root
+hadd Source file 52: sample/Signal_ZpBaryonic2017_39_final_tot_TMass_new.root
+hadd Source file 53: sample/Signal_ZpBaryonic2017_3_final_tot_TMass_new.root
+hadd Source file 54: sample/Signal_ZpBaryonic2017_40_final_tot_TMass_new.root
+hadd Source file 55: sample/Signal_ZpBaryonic2017_41_final_tot_TMass_new.root
+hadd Source file 56: sample/Signal_ZpBaryonic2017_42_final_tot_TMass_new.root
+hadd Source file 57: sample/Signal_ZpBaryonic2017_43_final_tot_TMass_new.root
+hadd Source file 58: sample/Signal_ZpBaryonic2017_4_final_tot_TMass_new.root
+hadd Source file 59: sample/Signal_ZpBaryonic2017_5_final_tot_TMass_new.root
+hadd Source file 60: sample/Signal_ZpBaryonic2017_6_final_tot_TMass_new.root
+hadd Source file 61: sample/Signal_ZpBaryonic2017_7_final_tot_TMass_new.root
+hadd Source file 62: sample/Signal_ZpBaryonic2017_8_final_tot_TMass_new.root
+hadd Source file 63: sample/Signal_ZpBaryonic2017_9_final_tot_TMass_new.root
+hadd Source file 64: sample/TTTo2L2Nu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 65: sample/TTToHadronic_TuneCP5_final_tot_TMass_new.root
+hadd Source file 66: sample/TTToSemiLeptonic_TuneCP5_final_tot_TMass_new.root
+hadd Source file 67: sample/VBFHToTauTau_M125_final_tot_TMass_new.root
+hadd Source file 68: sample/VVTo2L2Nu_final_tot_TMass_new.root
+hadd Source file 69: sample/W1JetsToLNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 70: sample/W3JetsToLNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 71: sample/W4JetsToLNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 72: sample/WJetsToLNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 73: sample/WWTo1L1Nu2Q_final_tot_TMass_new.root
+hadd Source file 74: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_tot_TMass_new.root
+hadd Source file 75: sample/WWW_4F_TuneCP5_final_tot_TMass_new.root
+hadd Source file 76: sample/WWZ_4F_TuneCP5_final_tot_TMass_new.root
+hadd Source file 77: sample/WW_TuneCP5_final_tot_TMass_new.root
+hadd Source file 78: sample/WZTo3LNu_TuneCP5_final_tot_TMass_new.root
+hadd Source file 79: sample/WZZ_TuneCP5_final_tot_TMass_new.root
+hadd Source file 80: sample/WZ_TuneCP5_final_tot_TMass_new.root
+hadd Source file 81: sample/WminusHToTauTau_M125_final_tot_TMass_new.root
+hadd Source file 82: sample/WplusHToTauTau_M125_final_tot_TMass_new.root
+hadd Source file 83: sample/ZHToTauTau_M125_final_tot_TMass_new.root
+hadd Source file 84: sample/ZJetsToNuNu_HT-1200To2500_final_tot_TMass_new.root
+hadd Source file 85: sample/ZJetsToNuNu_HT-400To600_final_tot_TMass_new.root
+hadd Source file 86: sample/ZJetsToNuNu_HT-600To800_final_tot_TMass_new.root
+hadd Source file 87: sample/ZJetsToNuNu_HT-800To1200_final_tot_TMass_new.root
+hadd Source file 88: sample/ZZTo2L2Q_final_tot_TMass_new.root
+hadd Source file 89: sample/ZZTo4L_TuneCP5_final_tot_TMass_new.root
+hadd Source file 90: sample/ZZZ_TuneCP5_final_tot_TMass_new.root
+hadd Source file 91: sample/ZZ_TuneCP5_final_tot_TMass_new.root
+hadd Source file 92: sample/blinded_MET_EraB_final_tot_TMass_new.root
+hadd Source file 93: sample/blinded_MET_EraC_final_tot_TMass_new.root
+hadd Source file 94: sample/blinded_MET_EraD_final_tot_TMass_new.root
+hadd Source file 95: sample/blinded_MET_EraE_final_tot_TMass_new.root
+hadd Source file 96: sample/blinded_MET_EraF_final_tot_TMass_new.root
+hadd Target path: f_tot_TMass_new_initial.root:/
+hadd Target path: f_tot_TMass_new_initial.root:/tot_TMass_new_9
+hadd Target path: f_tot_TMass_new_initial.root:/tot_TMass_new_9_fr
+hadd Target file: f_tot_TMass_new_up.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_tot_TMass_new_up.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new_up.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 6: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_tot_TMass_new_up.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new_up.root
+hadd Source file 8: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 9: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 10: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 11: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 12: sample/GluGluHToTauTau_M125_final_tot_TMass_new_up.root
+hadd Source file 13: sample/GluGluHToWWTo2L2Nu_M125_final_tot_TMass_new_up.root
+hadd Source file 14: sample/MET_EraB_final_tot_TMass_new_up.root
+hadd Source file 15: sample/MET_EraC_final_tot_TMass_new_up.root
+hadd Source file 16: sample/MET_EraD_final_tot_TMass_new_up.root
+hadd Source file 17: sample/MET_EraE_final_tot_TMass_new_up.root
+hadd Source file 18: sample/MET_EraF_final_tot_TMass_new_up.root
+hadd Source file 19: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 20: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 21: sample/Signal_ZpBaryonic2017_10_final_tot_TMass_new_up.root
+hadd Source file 22: sample/Signal_ZpBaryonic2017_11_final_tot_TMass_new_up.root
+hadd Source file 23: sample/Signal_ZpBaryonic2017_12_final_tot_TMass_new_up.root
+hadd Source file 24: sample/Signal_ZpBaryonic2017_13_final_tot_TMass_new_up.root
+hadd Source file 25: sample/Signal_ZpBaryonic2017_14_final_tot_TMass_new_up.root
+hadd Source file 26: sample/Signal_ZpBaryonic2017_15_final_tot_TMass_new_up.root
+hadd Source file 27: sample/Signal_ZpBaryonic2017_16_final_tot_TMass_new_up.root
+hadd Source file 28: sample/Signal_ZpBaryonic2017_17_final_tot_TMass_new_up.root
+hadd Source file 29: sample/Signal_ZpBaryonic2017_18_final_tot_TMass_new_up.root
+hadd Source file 30: sample/Signal_ZpBaryonic2017_19_final_tot_TMass_new_up.root
+hadd Source file 31: sample/Signal_ZpBaryonic2017_1_final_tot_TMass_new_up.root
+hadd Source file 32: sample/Signal_ZpBaryonic2017_20_final_tot_TMass_new_up.root
+hadd Source file 33: sample/Signal_ZpBaryonic2017_21_final_tot_TMass_new_up.root
+hadd Source file 34: sample/Signal_ZpBaryonic2017_22_final_tot_TMass_new_up.root
+hadd Source file 35: sample/Signal_ZpBaryonic2017_23_final_tot_TMass_new_up.root
+hadd Source file 36: sample/Signal_ZpBaryonic2017_24_final_tot_TMass_new_up.root
+hadd Source file 37: sample/Signal_ZpBaryonic2017_25_final_tot_TMass_new_up.root
+hadd Source file 38: sample/Signal_ZpBaryonic2017_26_final_tot_TMass_new_up.root
+hadd Source file 39: sample/Signal_ZpBaryonic2017_27_final_tot_TMass_new_up.root
+hadd Source file 40: sample/Signal_ZpBaryonic2017_28_final_tot_TMass_new_up.root
+hadd Source file 41: sample/Signal_ZpBaryonic2017_29_final_tot_TMass_new_up.root
+hadd Source file 42: sample/Signal_ZpBaryonic2017_2_final_tot_TMass_new_up.root
+hadd Source file 43: sample/Signal_ZpBaryonic2017_30_final_tot_TMass_new_up.root
+hadd Source file 44: sample/Signal_ZpBaryonic2017_31_final_tot_TMass_new_up.root
+hadd Source file 45: sample/Signal_ZpBaryonic2017_32_final_tot_TMass_new_up.root
+hadd Source file 46: sample/Signal_ZpBaryonic2017_33_final_tot_TMass_new_up.root
+hadd Source file 47: sample/Signal_ZpBaryonic2017_34_final_tot_TMass_new_up.root
+hadd Source file 48: sample/Signal_ZpBaryonic2017_35_final_tot_TMass_new_up.root
+hadd Source file 49: sample/Signal_ZpBaryonic2017_36_final_tot_TMass_new_up.root
+hadd Source file 50: sample/Signal_ZpBaryonic2017_37_final_tot_TMass_new_up.root
+hadd Source file 51: sample/Signal_ZpBaryonic2017_38_final_tot_TMass_new_up.root
+hadd Source file 52: sample/Signal_ZpBaryonic2017_39_final_tot_TMass_new_up.root
+hadd Source file 53: sample/Signal_ZpBaryonic2017_3_final_tot_TMass_new_up.root
+hadd Source file 54: sample/Signal_ZpBaryonic2017_40_final_tot_TMass_new_up.root
+hadd Source file 55: sample/Signal_ZpBaryonic2017_41_final_tot_TMass_new_up.root
+hadd Source file 56: sample/Signal_ZpBaryonic2017_42_final_tot_TMass_new_up.root
+hadd Source file 57: sample/Signal_ZpBaryonic2017_43_final_tot_TMass_new_up.root
+hadd Source file 58: sample/Signal_ZpBaryonic2017_4_final_tot_TMass_new_up.root
+hadd Source file 59: sample/Signal_ZpBaryonic2017_5_final_tot_TMass_new_up.root
+hadd Source file 60: sample/Signal_ZpBaryonic2017_6_final_tot_TMass_new_up.root
+hadd Source file 61: sample/Signal_ZpBaryonic2017_7_final_tot_TMass_new_up.root
+hadd Source file 62: sample/Signal_ZpBaryonic2017_8_final_tot_TMass_new_up.root
+hadd Source file 63: sample/Signal_ZpBaryonic2017_9_final_tot_TMass_new_up.root
+hadd Source file 64: sample/TTTo2L2Nu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 65: sample/TTToHadronic_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 66: sample/TTToSemiLeptonic_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 67: sample/VBFHToTauTau_M125_final_tot_TMass_new_up.root
+hadd Source file 68: sample/VVTo2L2Nu_final_tot_TMass_new_up.root
+hadd Source file 69: sample/W1JetsToLNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 70: sample/W3JetsToLNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 71: sample/W4JetsToLNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 72: sample/WJetsToLNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 73: sample/WWTo1L1Nu2Q_final_tot_TMass_new_up.root
+hadd Source file 74: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 75: sample/WWW_4F_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 76: sample/WWZ_4F_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 77: sample/WW_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 78: sample/WZTo3LNu_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 79: sample/WZZ_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 80: sample/WZ_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 81: sample/WminusHToTauTau_M125_final_tot_TMass_new_up.root
+hadd Source file 82: sample/WplusHToTauTau_M125_final_tot_TMass_new_up.root
+hadd Source file 83: sample/ZHToTauTau_M125_final_tot_TMass_new_up.root
+hadd Source file 84: sample/ZJetsToNuNu_HT-1200To2500_final_tot_TMass_new_up.root
+hadd Source file 85: sample/ZJetsToNuNu_HT-400To600_final_tot_TMass_new_up.root
+hadd Source file 86: sample/ZJetsToNuNu_HT-600To800_final_tot_TMass_new_up.root
+hadd Source file 87: sample/ZJetsToNuNu_HT-800To1200_final_tot_TMass_new_up.root
+hadd Source file 88: sample/ZZTo2L2Q_final_tot_TMass_new_up.root
+hadd Source file 89: sample/ZZTo4L_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 90: sample/ZZZ_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 91: sample/ZZ_TuneCP5_final_tot_TMass_new_up.root
+hadd Source file 92: sample/blinded_MET_EraB_final_tot_TMass_new_up.root
+hadd Source file 93: sample/blinded_MET_EraC_final_tot_TMass_new_up.root
+hadd Source file 94: sample/blinded_MET_EraD_final_tot_TMass_new_up.root
+hadd Source file 95: sample/blinded_MET_EraE_final_tot_TMass_new_up.root
+hadd Source file 96: sample/blinded_MET_EraF_final_tot_TMass_new_up.root
+hadd Target path: f_tot_TMass_new_up.root:/
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_CMS_scale_met_unclustered_2017_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_CMS_htt_dyShape_up
+hadd Target path: f_tot_TMass_new_up.root:/tot_TMass_new_9_CMS_htt_ttbarShape_up
+hadd Target file: f_tot_TMass_new_down.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_tot_TMass_new_down.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new_down.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 6: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_tot_TMass_new_down.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_v1_final_tot_TMass_new_down.root
+hadd Source file 8: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 9: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 10: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 11: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 12: sample/GluGluHToTauTau_M125_final_tot_TMass_new_down.root
+hadd Source file 13: sample/GluGluHToWWTo2L2Nu_M125_final_tot_TMass_new_down.root
+hadd Source file 14: sample/MET_EraB_final_tot_TMass_new_down.root
+hadd Source file 15: sample/MET_EraC_final_tot_TMass_new_down.root
+hadd Source file 16: sample/MET_EraD_final_tot_TMass_new_down.root
+hadd Source file 17: sample/MET_EraE_final_tot_TMass_new_down.root
+hadd Source file 18: sample/MET_EraF_final_tot_TMass_new_down.root
+hadd Source file 19: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 20: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 21: sample/Signal_ZpBaryonic2017_10_final_tot_TMass_new_down.root
+hadd Source file 22: sample/Signal_ZpBaryonic2017_11_final_tot_TMass_new_down.root
+hadd Source file 23: sample/Signal_ZpBaryonic2017_12_final_tot_TMass_new_down.root
+hadd Source file 24: sample/Signal_ZpBaryonic2017_13_final_tot_TMass_new_down.root
+hadd Source file 25: sample/Signal_ZpBaryonic2017_14_final_tot_TMass_new_down.root
+hadd Source file 26: sample/Signal_ZpBaryonic2017_15_final_tot_TMass_new_down.root
+hadd Source file 27: sample/Signal_ZpBaryonic2017_16_final_tot_TMass_new_down.root
+hadd Source file 28: sample/Signal_ZpBaryonic2017_17_final_tot_TMass_new_down.root
+hadd Source file 29: sample/Signal_ZpBaryonic2017_18_final_tot_TMass_new_down.root
+hadd Source file 30: sample/Signal_ZpBaryonic2017_19_final_tot_TMass_new_down.root
+hadd Source file 31: sample/Signal_ZpBaryonic2017_1_final_tot_TMass_new_down.root
+hadd Source file 32: sample/Signal_ZpBaryonic2017_20_final_tot_TMass_new_down.root
+hadd Source file 33: sample/Signal_ZpBaryonic2017_21_final_tot_TMass_new_down.root
+hadd Source file 34: sample/Signal_ZpBaryonic2017_22_final_tot_TMass_new_down.root
+hadd Source file 35: sample/Signal_ZpBaryonic2017_23_final_tot_TMass_new_down.root
+hadd Source file 36: sample/Signal_ZpBaryonic2017_24_final_tot_TMass_new_down.root
+hadd Source file 37: sample/Signal_ZpBaryonic2017_25_final_tot_TMass_new_down.root
+hadd Source file 38: sample/Signal_ZpBaryonic2017_26_final_tot_TMass_new_down.root
+hadd Source file 39: sample/Signal_ZpBaryonic2017_27_final_tot_TMass_new_down.root
+hadd Source file 40: sample/Signal_ZpBaryonic2017_28_final_tot_TMass_new_down.root
+hadd Source file 41: sample/Signal_ZpBaryonic2017_29_final_tot_TMass_new_down.root
+hadd Source file 42: sample/Signal_ZpBaryonic2017_2_final_tot_TMass_new_down.root
+hadd Source file 43: sample/Signal_ZpBaryonic2017_30_final_tot_TMass_new_down.root
+hadd Source file 44: sample/Signal_ZpBaryonic2017_31_final_tot_TMass_new_down.root
+hadd Source file 45: sample/Signal_ZpBaryonic2017_32_final_tot_TMass_new_down.root
+hadd Source file 46: sample/Signal_ZpBaryonic2017_33_final_tot_TMass_new_down.root
+hadd Source file 47: sample/Signal_ZpBaryonic2017_34_final_tot_TMass_new_down.root
+hadd Source file 48: sample/Signal_ZpBaryonic2017_35_final_tot_TMass_new_down.root
+hadd Source file 49: sample/Signal_ZpBaryonic2017_36_final_tot_TMass_new_down.root
+hadd Source file 50: sample/Signal_ZpBaryonic2017_37_final_tot_TMass_new_down.root
+hadd Source file 51: sample/Signal_ZpBaryonic2017_38_final_tot_TMass_new_down.root
+hadd Source file 52: sample/Signal_ZpBaryonic2017_39_final_tot_TMass_new_down.root
+hadd Source file 53: sample/Signal_ZpBaryonic2017_3_final_tot_TMass_new_down.root
+hadd Source file 54: sample/Signal_ZpBaryonic2017_40_final_tot_TMass_new_down.root
+hadd Source file 55: sample/Signal_ZpBaryonic2017_41_final_tot_TMass_new_down.root
+hadd Source file 56: sample/Signal_ZpBaryonic2017_42_final_tot_TMass_new_down.root
+hadd Source file 57: sample/Signal_ZpBaryonic2017_43_final_tot_TMass_new_down.root
+hadd Source file 58: sample/Signal_ZpBaryonic2017_4_final_tot_TMass_new_down.root
+hadd Source file 59: sample/Signal_ZpBaryonic2017_5_final_tot_TMass_new_down.root
+hadd Source file 60: sample/Signal_ZpBaryonic2017_6_final_tot_TMass_new_down.root
+hadd Source file 61: sample/Signal_ZpBaryonic2017_7_final_tot_TMass_new_down.root
+hadd Source file 62: sample/Signal_ZpBaryonic2017_8_final_tot_TMass_new_down.root
+hadd Source file 63: sample/Signal_ZpBaryonic2017_9_final_tot_TMass_new_down.root
+hadd Source file 64: sample/TTTo2L2Nu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 65: sample/TTToHadronic_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 66: sample/TTToSemiLeptonic_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 67: sample/VBFHToTauTau_M125_final_tot_TMass_new_down.root
+hadd Source file 68: sample/VVTo2L2Nu_final_tot_TMass_new_down.root
+hadd Source file 69: sample/W1JetsToLNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 70: sample/W3JetsToLNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 71: sample/W4JetsToLNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 72: sample/WJetsToLNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 73: sample/WWTo1L1Nu2Q_final_tot_TMass_new_down.root
+hadd Source file 74: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 75: sample/WWW_4F_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 76: sample/WWZ_4F_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 77: sample/WW_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 78: sample/WZTo3LNu_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 79: sample/WZZ_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 80: sample/WZ_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 81: sample/WminusHToTauTau_M125_final_tot_TMass_new_down.root
+hadd Source file 82: sample/WplusHToTauTau_M125_final_tot_TMass_new_down.root
+hadd Source file 83: sample/ZHToTauTau_M125_final_tot_TMass_new_down.root
+hadd Source file 84: sample/ZJetsToNuNu_HT-1200To2500_final_tot_TMass_new_down.root
+hadd Source file 85: sample/ZJetsToNuNu_HT-400To600_final_tot_TMass_new_down.root
+hadd Source file 86: sample/ZJetsToNuNu_HT-600To800_final_tot_TMass_new_down.root
+hadd Source file 87: sample/ZJetsToNuNu_HT-800To1200_final_tot_TMass_new_down.root
+hadd Source file 88: sample/ZZTo2L2Q_final_tot_TMass_new_down.root
+hadd Source file 89: sample/ZZTo4L_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 90: sample/ZZZ_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 91: sample/ZZ_TuneCP5_final_tot_TMass_new_down.root
+hadd Source file 92: sample/blinded_MET_EraB_final_tot_TMass_new_down.root
+hadd Source file 93: sample/blinded_MET_EraC_final_tot_TMass_new_down.root
+hadd Source file 94: sample/blinded_MET_EraD_final_tot_TMass_new_down.root
+hadd Source file 95: sample/blinded_MET_EraE_final_tot_TMass_new_down.root
+hadd Source file 96: sample/blinded_MET_EraF_final_tot_TMass_new_down.root
+hadd Target path: f_tot_TMass_new_down.root:/
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_CMS_scale_met_unclustered_2017_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_CMS_htt_dyShape_down
+hadd Target path: f_tot_TMass_new_down.root:/tot_TMass_new_9_CMS_htt_ttbarShape_down
+histogram =  tot_TMass_new
+histogram =  tot_TMass_new
+
+
+tdir  =   tot_TMass_new_9
+Small MC STT_tot_TMass_new_9 integral = 1.1371010057628155
+Small MC VVT_tot_TMass_new_9 integral = 1.841553452437438
+Small MC otherMC_tot_TMass_new_9 integral = 6.485991525996724
+
+
+tdir  =   tot_TMass_new_9_fr
+Small MC STT_tot_TMass_new_9_fr integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_up
+Small MC STT_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_up integral = 1.2314675860106945
+Small MC VVT_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_up integral = 1.8056836970190489
+Small MC otherMC_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_up integral = 6.650839278436251
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up
+Small MC STT_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up integral = 1.13081581518054
+Small MC VVT_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up integral = 1.8459957877475972
+Small MC otherMC_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up integral = 6.21889748940157
+
+
+tdir  =   tot_TMass_new_9_CMS_scale_met_unclustered_2017_up
+Small MC STT_tot_TMass_new_9_CMS_scale_met_unclustered_2017_up integral = 1.391719974577427
+Small MC VVT_tot_TMass_new_9_CMS_scale_met_unclustered_2017_up integral = 1.7933301952125476
+Small MC otherMC_tot_TMass_new_9_CMS_scale_met_unclustered_2017_up integral = 6.4814923702224405
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_dyShape_up
+Small MC STT_tot_TMass_new_9_CMS_htt_dyShape_up integral = 1.1371010057628155
+Small MC VVT_tot_TMass_new_9_CMS_htt_dyShape_up integral = 1.8659393867837935
+Small MC otherMC_tot_TMass_new_9_CMS_htt_dyShape_up integral = 6.479960192691578
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_ttbarShape_up
+Small MC STT_tot_TMass_new_9_CMS_htt_ttbarShape_up integral = 1.1371010057628155
+Small MC VVT_tot_TMass_new_9_CMS_htt_ttbarShape_up integral = 1.8659393867837935
+Small MC otherMC_tot_TMass_new_9_CMS_htt_ttbarShape_up integral = 6.479960192691578
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down
+Small MC STT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down integral = 0.0
+Small MC VVT_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down integral = 0.0
+Small MC otherMC_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down integral = 0.0
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_down
+Small MC STT_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_down integral = 1.1977176330983639
+Small MC VVT_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_down integral = 1.700307185181373
+Small MC otherMC_tot_TMass_new_9_CMS_htt_boson_scale_met_Jet_2017_down integral = 6.647193559851075
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_down
+Small MC STT_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_down integral = 1.1907415315508842
+Small MC VVT_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_down integral = 1.829490552407151
+Small MC otherMC_tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_down integral = 6.7481441137279035
+
+
+tdir  =   tot_TMass_new_9_CMS_scale_met_unclustered_2017_down
+Small MC STT_tot_TMass_new_9_CMS_scale_met_unclustered_2017_down integral = 1.1618679724633694
+Small MC VVT_tot_TMass_new_9_CMS_scale_met_unclustered_2017_down integral = 1.802850159974696
+Small MC otherMC_tot_TMass_new_9_CMS_scale_met_unclustered_2017_down integral = 6.385278192956321
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_dyShape_down
+Small MC STT_tot_TMass_new_9_CMS_htt_dyShape_down integral = 1.1371010057628155
+Small MC VVT_tot_TMass_new_9_CMS_htt_dyShape_down integral = 1.8659393867837935
+Small MC otherMC_tot_TMass_new_9_CMS_htt_dyShape_down integral = 6.479960192691578
+
+
+tdir  =   tot_TMass_new_9_CMS_htt_ttbarShape_down
+Small MC STT_tot_TMass_new_9_CMS_htt_ttbarShape_down integral = 1.1371010057628155
+Small MC VVT_tot_TMass_new_9_CMS_htt_ttbarShape_down integral = 1.8659393867837935
+Small MC otherMC_tot_TMass_new_9_CMS_htt_ttbarShape_down integral = 6.479960192691578
+running with full data
+histogram =  tot_TMass_new
+
+ tot_TMass_new_9_fr
+ checking tot_TMass_new_9_fr/data_obs_tot_TMass_new_9_fr
+tot_TMass_new_9_fr integral  data_obs 0.0
+integral  jetFakes 0.0
+running blinded with 1/5th data
+histogram =  tot_TMass_new
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up
+ checking tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_up
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc1_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_qcd_unc2_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc1_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_tt_unc2_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc1_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down
+ checking tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down/data_obs_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down jetFakes_tot_TMass_new_9_fr_CMS_rawFF_mt_w_unc2_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_OSSS_mvis_mt_qcd_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_qcd_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_tt_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_mt_w_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_qcd_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_tt_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_lpt_xtrg_mt_w_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc1_2017_down
+
+***************************     tdir  =   tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down
+ checking tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down/data_obs_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down
+data integral =  0.0
+integral  jetFakes 0.0
+hist written to  tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down jetFakes_tot_TMass_new_9_fr_CMS_FF_closure_mt_mt_w_unc2_2017_down
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ ##  hist tot_TMass_new  : 55
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 55, ' : ', 'tot_TMass_new')
+executing  |  echo running tot_TMass_new  ; bash remove_existingfiles.sh scaled_files tot_TMass_new ; python3 postAnalyzer.py --hist 55 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file tot_TMass_new ; hadd f_tot_TMass_new_initial.root sample/*tot_TMass_new.root ; hadd f_tot_TMass_new_up.root sample/*tot_TMass_new_up.root ; hadd f_tot_TMass_new_down.root sample/*tot_TMass_new_down.root ; python3 get_zll.py --hist tot_TMass_new ; python3 get_small_mc.py --hist tot_TMass_new ; python3 get_jetFakes.py --hist tot_TMass_new --blinded 0 ; python3 get_jetFakes_unc.py --hist tot_TMass_new --blinded 0
+('Time for execution = ', 1.7, 'minutes')
+Total time for executing = 1.0 minutes 
+....Done.....
