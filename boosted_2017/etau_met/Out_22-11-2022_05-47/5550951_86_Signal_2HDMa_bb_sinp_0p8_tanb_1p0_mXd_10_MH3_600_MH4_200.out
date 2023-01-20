@@ -1,0 +1,84 @@
+analyze_etau Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200
+.... MC file ..... 
+Coming in: 
+nentries:53507
+Running over 53507 events.
+Finished entry 0/53506
+Finished entry 2000/53506
+Finished entry 6000/53506
+Finished entry 8000/53506
+Finished entry 10000/53506
+Finished entry 12000/53506
+Finished entry 14000/53506
+Finished entry 16000/53506
+Finished entry 18000/53506
+Finished entry 20000/53506
+Finished entry 22000/53506
+Finished entry 24000/53506
+Finished entry 26000/53506
+Finished entry 28000/53506
+Finished entry 30000/53506
+Finished entry 32000/53506
+Finished entry 34000/53506
+Finished entry 36000/53506
+Finished entry 38000/53506
+Finished entry 40000/53506
+Finished entry 42000/53506
+Finished entry 44000/53506
+Finished entry 46000/53506
+Finished entry 48000/53506
+Finished entry 50000/53506
+Finished entry 52000/53506
+Finished entry 53506/53506
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 53507.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 76.000000   % change= -inf
+     PassedBjetVeto 76.000000   % change= 0.000000
+       DeltaRPassed 76.000000   % change= 0.000000
+      Total change :99.857963
+*******************************************
+*******************************************
+Number of events inspected: 53507
+Number of events inspected (minus negative gen. weights): 53491.000000
+ Outpt written to Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200.root
+Real time 0:01:31, CP time 32.400
+1669120658 - 1669120562

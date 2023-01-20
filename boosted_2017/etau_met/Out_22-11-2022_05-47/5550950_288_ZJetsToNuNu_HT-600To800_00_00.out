@@ -1,0 +1,79 @@
+analyze_etau ZJetsToNuNu_HT-600To800_00_00 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ZJetsToNuNu_HT-600To800_00_00
+.... MC file ..... 
+Coming in: 
+nentries:83009
+Running over 83009 events.
+Finished entry 0/83008
+Finished entry 4000/83008
+Finished entry 8000/83008
+Finished entry 12000/83008
+Finished entry 16000/83008
+Finished entry 20000/83008
+Finished entry 24000/83008
+Finished entry 28000/83008
+Finished entry 32000/83008
+Finished entry 36000/83008
+Finished entry 40000/83008
+Finished entry 44000/83008
+Finished entry 48000/83008
+Finished entry 52000/83008
+Finished entry 56000/83008
+Finished entry 60000/83008
+Finished entry 64000/83008
+Finished entry 68000/83008
+Finished entry 72000/83008
+Finished entry 76000/83008
+Finished entry 80000/83008
+Finished entry 83008/83008
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 83009.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 76.000000   % change= -inf
+     PassedBjetVeto 76.000000   % change= 0.000000
+       DeltaRPassed 76.000000   % change= 0.000000
+      Total change :99.908444
+*******************************************
+*******************************************
+Number of events inspected: 83009
+Number of events inspected (minus negative gen. weights): 82661.000000
+ Outpt written to ZJetsToNuNu_HT-600To800_00_00.root
+Real time 0:02:28, CP time 60.280
+1669119808 - 1669119657

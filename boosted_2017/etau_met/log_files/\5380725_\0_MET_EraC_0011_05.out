@@ -1,0 +1,7 @@
+hadd Target file: MET_EraC_0011_05.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraC_0011/Ntuple_data2017_MET_EraC_1596.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraC_0011/Ntuple_data2017_MET_EraC_1597.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraC_0011/Ntuple_data2017_MET_EraC_1598.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraC_0011/Ntuple_data2017_MET_EraC_1599.root
+hadd Target path: MET_EraC_0011_05.root:/

@@ -1,0 +1,8 @@
+hadd Target file: WZZ_TuneCP5_00_00.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/WZZ_TuneCP5_00/WZZ_TuneCP5_00_1.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/WZZ_TuneCP5_00/WZZ_TuneCP5_00_2.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/WZZ_TuneCP5_00/WZZ_TuneCP5_00_3.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/WZZ_TuneCP5_00/WZZ_TuneCP5_00_4.root
+hadd Source file 5: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/WZZ_TuneCP5_00/WZZ_TuneCP5_00_5.root
+hadd Target path: WZZ_TuneCP5_00_00.root:/

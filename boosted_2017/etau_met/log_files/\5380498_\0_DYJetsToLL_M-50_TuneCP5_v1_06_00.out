@@ -1,0 +1,14 @@
+hadd Target file: DYJetsToLL_M-50_TuneCP5_v1_06_00.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_1.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_10.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_11.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_2.root
+hadd Source file 5: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_3.root
+hadd Source file 6: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_4.root
+hadd Source file 7: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_5.root
+hadd Source file 8: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_6.root
+hadd Source file 9: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_7.root
+hadd Source file 10: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_8.root
+hadd Source file 11: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_v1_06/DYJetsToLL_M-50_TuneCP5_v1_06_9.root
+hadd Target path: DYJetsToLL_M-50_TuneCP5_v1_06_00.root:/

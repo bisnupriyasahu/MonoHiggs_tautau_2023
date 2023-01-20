@@ -1,0 +1,89 @@
+analyze_etau WWToLNuQQ_NNPDF31_TuneCP5_00_01 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========WWToLNuQQ_NNPDF31_TuneCP5_00_01
+.... MC file ..... 
+Coming in: 
+nentries:302750
+Running over 302750 events.
+Finished entry 0/302749
+Finished entry 10000/302749
+Finished entry 20000/302749
+Finished entry 30000/302749
+Finished entry 40000/302749
+Finished entry 50000/302749
+Finished entry 60000/302749
+Finished entry 70000/302749
+Finished entry 80000/302749
+Finished entry 90000/302749
+Finished entry 100000/302749
+Finished entry 110000/302749
+Finished entry 120000/302749
+Finished entry 130000/302749
+Finished entry 140000/302749
+Finished entry 150000/302749
+Finished entry 160000/302749
+Finished entry 170000/302749
+Finished entry 180000/302749
+Finished entry 190000/302749
+Finished entry 200000/302749
+Finished entry 210000/302749
+Finished entry 220000/302749
+Finished entry 230000/302749
+Finished entry 240000/302749
+Finished entry 250000/302749
+Finished entry 260000/302749
+Finished entry 270000/302749
+Finished entry 280000/302749
+Finished entry 290000/302749
+Finished entry 300000/302749
+Finished entry 302749/302749
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 302750.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 38.000000   % change= -inf
+     PassedBjetVeto 38.000000   % change= 0.000000
+       DeltaRPassed 38.000000   % change= 0.000000
+      Total change :99.987448
+*******************************************
+*******************************************
+Number of events inspected: 302750
+Number of events inspected (minus negative gen. weights): 301842.000000
+ Outpt written to WWToLNuQQ_NNPDF31_TuneCP5_00_01.root
+Real time 0:07:28, CP time 103.330
+1669119906 - 1669119430

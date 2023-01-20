@@ -1,0 +1,5 @@
+hadd Target file: ZJetsToNuNu_HT-2500ToInf_00_00.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-2500ToInf_00/ZJetsToNuNu_HT-2500ToInf_00_1.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-2500ToInf_00/ZJetsToNuNu_HT-2500ToInf_00_2.root
+hadd Target path: ZJetsToNuNu_HT-2500ToInf_00_00.root:/

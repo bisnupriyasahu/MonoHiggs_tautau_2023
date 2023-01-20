@@ -1,0 +1,90 @@
+analyze_etau Signal_ZpBaryonic_2017_0000_36 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========Signal_ZpBaryonic_2017_0000_36
+.... MC file ..... 
+Coming in: 
+nentries:3165352
+Running over 3165352 events.
+Finished entry 0/3165351
+Finished entry 100000/3165351
+Finished entry 200000/3165351
+Finished entry 300000/3165351
+Finished entry 400000/3165351
+Finished entry 500000/3165351
+Finished entry 600000/3165351
+Finished entry 700000/3165351
+Finished entry 800000/3165351
+Finished entry 900000/3165351
+Finished entry 1000000/3165351
+Finished entry 1100000/3165351
+Finished entry 1200000/3165351
+Finished entry 1300000/3165351
+Finished entry 1400000/3165351
+Finished entry 1500000/3165351
+Finished entry 1600000/3165351
+Finished entry 1700000/3165351
+Finished entry 1800000/3165351
+Finished entry 1900000/3165351
+Finished entry 2000000/3165351
+Finished entry 2100000/3165351
+Finished entry 2200000/3165351
+Finished entry 2300000/3165351
+Finished entry 2400000/3165351
+Finished entry 2500000/3165351
+Finished entry 2600000/3165351
+Finished entry 2700000/3165351
+Finished entry 2800000/3165351
+Finished entry 2900000/3165351
+Finished entry 3000000/3165351
+Finished entry 3100000/3165351
+Finished entry 3165351/3165351
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 3165352.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 409925.000000   % change= -inf
+     PassedBjetVeto 409925.000000   % change= 0.000000
+       DeltaRPassed 409925.000000   % change= 0.000000
+      Total change :87.049624
+*******************************************
+*******************************************
+Number of events inspected: 3165352
+Number of events inspected (minus negative gen. weights): 3165352.000000
+ Outpt written to Signal_ZpBaryonic_2017_0000_36.root
+Real time 1:00:47, CP time 1161.430
+1669124499 - 1669120823

@@ -1,0 +1,12 @@
+hadd Target file: MET_EraE_0001_010.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1991.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1992.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1993.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1994.root
+hadd Source file 5: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1995.root
+hadd Source file 6: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1996.root
+hadd Source file 7: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1997.root
+hadd Source file 8: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1998.root
+hadd Source file 9: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraE_0001/Ntuple_data2017_MET_EraE_1999.root
+hadd Target path: MET_EraE_0001_010.root:/

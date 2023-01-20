@@ -1,0 +1,91 @@
+analyze_etau ST_tW_top_5f_inclusiveDecays_TuneCP5_00_01 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ST_tW_top_5f_inclusiveDecays_TuneCP5_00_01
+.... MC file ..... 
+Coming in: 
+nentries:323538
+Running over 323538 events.
+Finished entry 0/323537
+Finished entry 10000/323537
+Finished entry 20000/323537
+Finished entry 30000/323537
+Finished entry 40000/323537
+Finished entry 50000/323537
+Finished entry 60000/323537
+Finished entry 70000/323537
+Finished entry 80000/323537
+Finished entry 90000/323537
+Finished entry 100000/323537
+Finished entry 110000/323537
+Finished entry 120000/323537
+Finished entry 130000/323537
+Finished entry 140000/323537
+Finished entry 150000/323537
+Finished entry 160000/323537
+Finished entry 170000/323537
+Finished entry 180000/323537
+Finished entry 190000/323537
+Finished entry 200000/323537
+Finished entry 210000/323537
+Finished entry 220000/323537
+Finished entry 230000/323537
+Finished entry 240000/323537
+Finished entry 250000/323537
+Finished entry 260000/323537
+Finished entry 270000/323537
+Finished entry 280000/323537
+Finished entry 290000/323537
+Finished entry 300000/323537
+Finished entry 310000/323537
+Finished entry 320000/323537
+Finished entry 323537/323537
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 323538.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 38.000000   % change= -inf
+     PassedBjetVeto 38.000000   % change= 0.000000
+       DeltaRPassed 38.000000   % change= 0.000000
+      Total change :99.988255
+*******************************************
+*******************************************
+Number of events inspected: 323538
+Number of events inspected (minus negative gen. weights): 321028.000000
+ Outpt written to ST_tW_top_5f_inclusiveDecays_TuneCP5_00_01.root
+Real time 0:04:53, CP time 125.160
+1671972783 - 1671972488

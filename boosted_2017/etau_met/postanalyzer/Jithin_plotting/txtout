@@ -1,0 +1,4960 @@
+running tauPt
+running metLongXaxis
+running higgsPt
+running nJet
+running deltaR
+running visMass
+running met
+running muPt
+running mT_muMet
+sample exists
+sample exists
+sample exists
+sample exists
+sample exists
+sample exists
+sample exists
+sample exists
+sample exists
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+Take action sample is not Empty .... removing existing files .....
+removing sample/*mT_muMet*.root  
+removing sample/*higgsPt*.root  
+removing sample/*visMass*.root  
+Take action sample is not Empty .... removing existing files .....
+removing sample/*deltaR*.root  
+removing sample/*tauPt*.root  
+removing sample/*metLongXaxis*.root  
+removing sample/*muPt*.root  
+removing sample/*nJet*.root  
+removing sample/*met*.root  
+rm: cannot remove 'sample/*tauPt*.root': No such file or directory
+rm: cannot remove 'sample/DY1JetsToLL_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DY2JetsToLL_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DY3JetsToLL_M-50_TuneCP5_v1_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DY4JetsToLL_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_M-10to50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_M-50_TuneCP5_v1_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_Pt-100To250_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_Pt-250To400_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_Pt-400To650_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_Pt-50To100_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/DYJetsToLL_Pt-650ToInf_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/GluGluHToTauTau_M125_final_metLongXaxis.root'Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 7, ' : ', 'tauPt')
+executing  |  echo running tauPt  ; bash remove_existingfiles.sh scaled_files tauPt ; python3 postAnalyzer.py --hist 7 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file tauPt ; hadd f_tauPt_initial.root sample/*tauPt.root ; python3 get_zll.py --hist tauPt ; python3 get_small_mc.py --hist tauPt ; python3 get_jetFakes.py --hist tauPt --blinded 0
+: No such file or directory
+Traceback (most recent call last):
+  File "main.py", line 143, in <module>
+    main(int(hist), idx, channel, args.blinded)
+  File "main.py", line 92, in main
+    rm: cannot remove 'sample/GluGluHToWWTo2L2Nu_M125_final_metLongXaxis.root'subprocess.check_call( cmd , shell=True)
+: No such file or directory
+  File "/usr/lib64/python2.7/subprocess.py", line 542, in check_call
+    raise CalledProcessError(retcode, cmd)
+rm: cannot remove 'sample/MET_EraB_final_metLongXaxis.root'subprocess: No such file or directory.
+CalledProcessError: Command 'bash remove_existingfiles.sh scaled_files tauPt' returned non-zero exit status 1
+rm: cannot remove 'sample/MET_EraC_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/MET_EraD_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/MET_EraE_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/MET_EraF_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/TTTo2L2Nu_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/TTToHadronic_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/TTToSemiLeptonic_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/VBFHToTauTau_M125_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/VBFHToWWTo2L2Nu_M125_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/VVTo2L2Nu_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/W3JetsToLNu_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/W4JetsToLNu_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT100-200_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT1200-2500_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT200-400_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT2500-Inf_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT400-600_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT600-800_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_HT800-1200_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WJetsToLNu_Incl_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WWTo1L1Nu2Q_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WWToLNuQQ_NNPDF31_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WWW_4F_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WWZ_4F_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WW_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WZTo3LNu_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WZZ_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WZ_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WminusHToTauTau_M125_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/WplusHToTauTau_M125_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZHToTauTau_M125_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZJetsToNuNu_HT-1200To2500_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZJetsToNuNu_HT-200To400_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZJetsToNuNu_HT-400To600_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZJetsToNuNu_HT-600To800_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZJetsToNuNu_HT-800To1200_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZZTo2L2Q_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZZTo4L_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZZZ_TuneCP5_final_metLongXaxis.root': No such file or directory
+rm: cannot remove 'sample/ZZ_TuneCP5_final_metLongXaxis.root': No such file or directory
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 26, ' : ', 'met')
+executing  |  echo running met  ; bash remove_existingfiles.sh scaled_files met ; python3 postAnalyzer.py --hist 26 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file met ; hadd f_met_initial.root sample/*met.root ; python3 get_zll.py --hist met ; python3 get_small_mc.py --hist met ; python3 get_jetFakes.py --hist met --blinded 0
+Traceback (most recent call last):
+  File "main.py", line 143, in <module>
+    main(int(hist), idx, channel, args.blinded)
+  File "main.py", line 92, in main
+    subprocess.check_call( cmd , shell=True)
+  File "/usr/lib64/python2.7/subprocess.py", line 542, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'bash remove_existingfiles.sh scaled_files met' returned non-zero exit status 1
+TFile::Init:0: RuntimeWarning: file sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root probably not closed, cannot read free segments
+TFile::Init:0: RuntimeWarning: file sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root probably not closed, trying to recover
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_3 at address 298
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_4 at address 796
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_5 at address 1296
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_6 at address 1797
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_7 at address 2298
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_8 at address 2799
+Info in <TFile::Recover>: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_met.root, recovered key TDirectoryFile:met_9 at address 3255
+TFile::Init:0: RuntimeWarning: successfully recovered 7 keys
+4 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for muPt
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for muPt
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for muPt
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for muPt
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for muPt
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for muPt
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for muPt
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for muPt
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for muPt
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for muPt
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for muPt
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for muPt
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for muPt
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for muPt
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+MET_EraB_final.root
+Making root files for muPt
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+MET_EraC_final.root
+Making root files for muPt
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+MET_EraD_final.root
+Making root files for muPt
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+MET_EraE_final.root
+Making root files for muPt
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+MET_EraF_final.root
+Making root files for muPt
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for muPt
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  muPt_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for muPt
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  muPt_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for muPt
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for muPt
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for muPt
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for muPt
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for muPt
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for muPt
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for muPt
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for muPt
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for muPt
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for muPt
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for muPt
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for muPt
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for muPt
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for muPt
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for muPt
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for muPt
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for muPt
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for muPt
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for muPt
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for muPt
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for muPt
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for muPt
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for muPt
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for muPt
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for muPt
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for muPt
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for muPt
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for muPt
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for muPt
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for muPt
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for muPt
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for muPt
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for muPt
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for muPt
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  muPt_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  muPt_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for muPt
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for muPt
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for muPt
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for muPt
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for muPt
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  muPt_9
+Done......................
+Take action root files exits
+hadd Target file: f_muPt_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_muPt.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_muPt.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_muPt.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_muPt.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_muPt.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_muPt.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_muPt.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_muPt.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_muPt.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_muPt.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_muPt.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_muPt.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_muPt.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_muPt.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_muPt.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_muPt.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_muPt.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_muPt.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_muPt.root
+hadd Source file 20: sample/MET_EraB_final_muPt.root
+hadd Source file 21: sample/MET_EraC_final_muPt.root
+hadd Source file 22: sample/MET_EraD_final_muPt.root
+hadd Source file 23: sample/MET_EraE_final_muPt.root
+hadd Source file 24: sample/MET_EraF_final_muPt.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_muPt.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_muPt.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_muPt.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_muPt.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_muPt.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_muPt.root
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_muPt.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_muPt.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_muPt.root
+hadd Source file 34: sample/VVTo2L2Nu_final_muPt.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_muPt.root
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_muPt.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_muPt.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_muPt.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_muPt.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_muPt.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_muPt.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_muPt.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_muPt.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_muPt.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_muPt.root
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_muPt.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_muPt.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_muPt.root
+hadd Source file 49: sample/WW_TuneCP5_final_muPt.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_muPt.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_muPt.root
+hadd Source file 52: sample/WZ_TuneCP5_final_muPt.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_muPt.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_muPt.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_muPt.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_muPt.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_muPt.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_muPt.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_muPt.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_muPt.root
+hadd Source file 61: sample/ZZTo2L2Q_final_muPt.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_muPt.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_muPt.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_muPt.root
+hadd Target path: f_muPt_initial.root:/
+hadd Target path: f_muPt_initial.root:/muPt_9
+hadd Target path: f_muPt_initial.root:/muPt_9_fr
+hadd Target path: f_muPt_initial.root:/muPt_3_fr
+hadd Target path: f_muPt_initial.root:/muPt_4_fr
+hadd Target path: f_muPt_initial.root:/muPt_5_fr
+hadd Target path: f_muPt_initial.root:/muPt_6_fr
+hadd Target path: f_muPt_initial.root:/muPt_7_fr
+hadd Target path: f_muPt_initial.root:/muPt_8_fr
+21 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for nJet
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for nJet
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for nJet
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for nJet
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for nJet
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for nJet
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for nJet
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for nJet
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for nJet
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for nJet
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for nJet
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for nJet
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for nJet
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for nJet
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+MET_EraB_final.root
+Making root files for nJet
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+MET_EraC_final.root
+Making root files for nJet
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+MET_EraD_final.root
+Making root files for nJet
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+MET_EraE_final.root
+Making root files for nJet
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+MET_EraF_final.root
+Making root files for nJet
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for nJet
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  nJet_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for nJet
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  nJet_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for nJet
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for nJet
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for nJet
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for nJet
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for nJet
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for nJet
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for nJet
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for nJet
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for nJet
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for nJet
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for nJet
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for nJet
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for nJet
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for nJet
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for nJet
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for nJet
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for nJet
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for nJet
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for nJet
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for nJet
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for nJet
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for nJet
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for nJet
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for nJet
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for nJet
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for nJet
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for nJet
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for nJet
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for nJet
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for nJet
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for nJet
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for nJet
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for nJet
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for nJet
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  nJet_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  nJet_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for nJet
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for nJet
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for nJet
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for nJet
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for nJet
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  nJet_9
+Done......................
+Take action root files exits
+hadd Target file: f_nJet_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_nJet.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_nJet.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_nJet.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_nJet.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_nJet.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_nJet.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_nJet.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_nJet.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_nJet.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_nJet.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_nJet.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_nJet.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_nJet.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_nJet.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_nJet.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_nJet.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_nJet.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_nJet.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_nJet.root
+hadd Source file 20: sample/MET_EraB_final_nJet.root
+hadd Source file 21: sample/MET_EraC_final_nJet.root
+hadd Source file 22: sample/MET_EraD_final_nJet.root
+hadd Source file 23: sample/MET_EraE_final_nJet.root
+hadd Source file 24: sample/MET_EraF_final_nJet.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_nJet.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_nJet.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_nJet.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_nJet.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_nJet.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_nJet.root
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_nJet.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_nJet.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_nJet.root
+hadd Source file 34: sample/VVTo2L2Nu_final_nJet.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_nJet.root
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_nJet.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_nJet.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_nJet.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_nJet.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_nJet.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_nJet.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_nJet.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_nJet.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_nJet.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_nJet.root
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_nJet.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_nJet.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_nJet.root
+hadd Source file 49: sample/WW_TuneCP5_final_nJet.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_nJet.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_nJet.root
+hadd Source file 52: sample/WZ_TuneCP5_final_nJet.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_nJet.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_nJet.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_nJet.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_nJet.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_nJet.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_nJet.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_nJet.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_nJet.root
+hadd Source file 61: sample/ZZTo2L2Q_final_nJet.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_nJet.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_nJet.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_nJet.root
+hadd Target path: f_nJet_initial.root:/
+hadd Target path: f_nJet_initial.root:/nJet_9
+hadd Target path: f_nJet_initial.root:/nJet_9_fr
+hadd Target path: f_nJet_initial.root:/nJet_3_fr
+hadd Target path: f_nJet_initial.root:/nJet_4_fr
+hadd Target path: f_nJet_initial.root:/nJet_5_fr
+hadd Target path: f_nJet_initial.root:/nJet_6_fr
+hadd Target path: f_nJet_initial.root:/nJet_7_fr
+hadd Target path: f_nJet_initial.root:/nJet_8_fr
+histogram =  muPt
+Error in <TFile::ReadBuffer>: error reading all requested bytes from file sample/VBFHToWWTo2L2Nu_M125_final_visMass.root, got 63 of 300
+Error in <TFile::Init>: sample/VBFHToWWTo2L2Nu_M125_final_visMass.root failed to read the file type data.
+22 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  visMass_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for visMass
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  visMass_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for visMass
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for visMass
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  visMass_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for visMass
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for visMass
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for visMass
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for visMass
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for visMass
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for visMass
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  visMass_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for visMass
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for visMass
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for visMass
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  visMass_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for visMass
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for visMass
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+MET_EraB_final.root
+Making root files for visMass
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+MET_EraC_final.root
+Making root files for visMass
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+MET_EraD_final.root
+Making root files for visMass
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+MET_EraE_final.root
+Making root files for visMass
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+MET_EraF_final.root
+Making root files for visMass
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for visMass
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  visMass_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for visMass
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  visMass_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for visMass
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for visMass
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for visMass
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for visMass
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for visMass
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for visMass
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  visMass_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for visMass
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  visMass_9
+Traceback (most recent call last):
+  File "/nfs_scratch/jmadhusu/CMSSW_12_3_5/src/with_boostedtaus/2017/mutau_met/postanalyzer/plotting_script/postAnalyzer.py", line 128, in <module>
+    postAnalyzer(hist, idx, isBlinded)
+  File "/nfs_scratch/jmadhusu/CMSSW_12_3_5/src/with_boostedtaus/2017/mutau_met/postanalyzer/plotting_script/postAnalyzer.py", line 102, in postAnalyzer
+    make_files(infile , var_mapping[int(hist)], idx, isBlinded)
+  File "/nfs_scratch/jmadhusu/CMSSW_12_3_5/src/with_boostedtaus/2017/mutau_met/postanalyzer/plotting_script/postAnalyzer.py", line 79, in make_files
+    outFile = ROOT.TFile("sample/"+sampleName.replace('.root', '')+'_'+key+'.root' ,  "UPDATE")
+  File "/cvmfs/cms.cern.ch/slc7_amd64_gcc10/lcg/root/6.24.07-6b24df5a7040a677b8f0d27957c7cb74/lib/ROOT/pythonization/_tfile.py", line 55, in _TFileConstructor
+    raise OSError('Failed to open file {}'.format(args[0]))
+OSError: Failed to open file sample/VBFHToWWTo2L2Nu_M125_final_visMass.root
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 22, ' : ', 'visMass')
+executing  |  echo running visMass  ; bash remove_existingfiles.sh scaled_files visMass ; python3 postAnalyzer.py --hist 22 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file visMass ; hadd f_visMass_initial.root sample/*visMass.root ; python3 get_zll.py --hist visMass ; python3 get_small_mc.py --hist visMass ; python3 get_jetFakes.py --hist visMass --blinded 0
+Traceback (most recent call last):
+  File "main.py", line 143, in <module>
+    main(int(hist), idx, channel, args.blinded)
+  File "main.py", line 92, in main
+    subprocess.check_call( cmd , shell=True)
+  File "/usr/lib64/python2.7/subprocess.py", line 542, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'python3 postAnalyzer.py --hist 22 --idx 9 --blinded 0' returned non-zero exit status 1
+19 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for deltaR
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for deltaR
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for deltaR
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for deltaR
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for deltaR
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for deltaR
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for deltaR
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for deltaR
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for deltaR
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for deltaR
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for deltaR
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for deltaR
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for deltaR
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+MET_EraB_final.root
+Making root files for deltaR
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+MET_EraC_final.root
+Making root files for deltaR
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+MET_EraD_final.root
+Making root files for deltaR
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+MET_EraE_final.root
+Making root files for deltaR
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+MET_EraF_final.root
+Making root files for deltaR
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for deltaR
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  deltaR_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for deltaR
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  deltaR_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for deltaR
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for deltaR
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for deltaR
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for deltaR
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for deltaR
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for deltaR
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for deltaR
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for deltaR
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for deltaR
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for deltaR
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for deltaR
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for deltaR
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for deltaR
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for deltaR
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for deltaR
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for deltaR
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for deltaR
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for deltaR
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for deltaR
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for deltaR
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for deltaR
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for deltaR
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for deltaR
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for deltaR
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for deltaR
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for deltaR
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for deltaR
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for deltaR
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for deltaR
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for deltaR
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for deltaR
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for deltaR
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for deltaR
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for deltaR
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  deltaR_9
+Done......................
+Take action root files exits
+histogram =  nJet
+histogram =  muPt
+
+
+tdir  =   muPt_9
+Small MC STT_muPt_9 integral = 5.365331223234534
+Small MC VVT_muPt_9 integral = 3.423877928755246
+Small MC otherMC_muPt_9 integral = 4.754693196504377
+
+
+tdir  =   muPt_9_fr
+Small MC STT_muPt_9_fr integral = 0.21464897057740018
+Small MC VVT_muPt_9_fr integral = 0.07403439785230148
+Small MC otherMC_muPt_9_fr integral = 0.23203206273819887
+
+
+tdir  =   muPt_3_fr
+tdir = muPt_3_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_3_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_3_fr integral = 0.1869915327988565
+
+
+tdir  =   muPt_4_fr
+tdir = muPt_4_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_4_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_4_fr integral = 0.14021433086600155
+
+
+tdir  =   muPt_5_fr
+tdir = muPt_5_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_5_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_5_fr integral = 0.14021433086600155
+
+
+tdir  =   muPt_6_fr
+tdir = muPt_6_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_6_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_6_fr integral = 0.14021433086600155
+
+
+tdir  =   muPt_7_fr
+tdir = muPt_7_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_7_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_7_fr integral = 0.11664908879902214
+
+
+tdir  =   muPt_8_fr
+tdir = muPt_8_fr didnt have any matching cases 
+##################### nothing filled for  ['ST_t']
+tdir = muPt_8_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_muPt_8_fr integral = 0.11664908879902214
+hadd Target file: f_deltaR_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_deltaR.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_deltaR.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_deltaR.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_deltaR.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_deltaR.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_deltaR.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_deltaR.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_deltaR.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_deltaR.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_deltaR.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_deltaR.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_deltaR.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_deltaR.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_deltaR.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_deltaR.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_deltaR.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_deltaR.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_deltaR.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_deltaR.root
+hadd Source file 20: sample/MET_EraB_final_deltaR.root
+hadd Source file 21: sample/MET_EraC_final_deltaR.root
+hadd Source file 22: sample/MET_EraD_final_deltaR.root
+hadd Source file 23: sample/MET_EraE_final_deltaR.root
+hadd Source file 24: sample/MET_EraF_final_deltaR.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_deltaR.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_deltaR.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_deltaR.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_deltaR.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_deltaR.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_deltaR.root
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_deltaR.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_deltaR.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_deltaR.root
+hadd Source file 34: sample/VVTo2L2Nu_final_deltaR.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_deltaR.root
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_deltaR.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_deltaR.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_deltaR.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_deltaR.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_deltaR.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_deltaR.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_deltaR.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_deltaR.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_deltaR.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_deltaR.root
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_deltaR.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_deltaR.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_deltaR.root
+hadd Source file 49: sample/WW_TuneCP5_final_deltaR.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_deltaR.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_deltaR.root
+hadd Source file 52: sample/WZ_TuneCP5_final_deltaR.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_deltaR.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_deltaR.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_deltaR.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_deltaR.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_deltaR.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_deltaR.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_deltaR.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_deltaR.root
+hadd Source file 61: sample/ZZTo2L2Q_final_deltaR.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_deltaR.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_deltaR.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_deltaR.root
+hadd Target path: f_deltaR_initial.root:/
+hadd Target path: f_deltaR_initial.root:/deltaR_9
+hadd Target path: f_deltaR_initial.root:/deltaR_3
+hadd Target path: f_deltaR_initial.root:/deltaR_4
+hadd Target path: f_deltaR_initial.root:/deltaR_5
+hadd Target path: f_deltaR_initial.root:/deltaR_6
+Error in <TDirectoryFile::ReadKeys>: reading illegal key, exiting after 0 keys
+hadd Target path: f_deltaR_initial.root:/deltaR_7
+Error in <TDirectoryFile::ReadKeys>: reading illegal key, exiting after 0 keys
+hadd Target path: f_deltaR_initial.root:/deltaR_8
+hadd Target path: f_deltaR_initial.root:/deltaR_9_fr
+30 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for metLongXaxis
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for metLongXaxis
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for metLongXaxis
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for metLongXaxis
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for metLongXaxis
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for metLongXaxis
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for metLongXaxis
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for metLongXaxis
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for metLongXaxis
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for metLongXaxis
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for metLongXaxis
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+MET_EraB_final.root
+Making root files for metLongXaxis
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+MET_EraC_final.root
+Making root files for metLongXaxis
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+MET_EraD_final.root
+Making root files for metLongXaxis
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+MET_EraE_final.root
+Making root files for metLongXaxis
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+MET_EraF_final.root
+Making root files for metLongXaxis
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  metLongXaxis_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  metLongXaxis_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for metLongXaxis
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for metLongXaxis
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for metLongXaxis
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for metLongXaxis
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for metLongXaxis
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for metLongXaxis
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for metLongXaxis
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for metLongXaxis
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for metLongXaxis
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for metLongXaxis
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  metLongXaxis_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  metLongXaxis_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for metLongXaxis
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for metLongXaxis
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for metLongXaxis
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  metLongXaxis_9
+Done......................
+Take action root files exits
+hadd Target file: f_metLongXaxis_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_metLongXaxis.root
+running with full data
+histogram =  muPt
+
+ muPt_9_fr
+ checking muPt_9_fr/data_obs_muPt_9_fr
+muPt_9_fr integral  data_obs 13.733790710568428
+integral  jetFakes 7.826187395490706
+
+ muPt_3_fr
+ checking muPt_3_fr/data_obs_muPt_3_fr
+################## No histogram for muPt_3_fr/data_obs_muPt_3_fr 
+################## check this please
+
+ muPt_4_fr
+ checking muPt_4_fr/data_obs_muPt_4_fr
+################## No histogram for muPt_4_fr/data_obs_muPt_4_fr 
+################## check this please
+
+ muPt_5_fr
+ checking muPt_5_fr/data_obs_muPt_5_fr
+################## No histogram for muPt_5_fr/data_obs_muPt_5_fr 
+################## check this please
+
+ muPt_6_fr
+ checking muPt_6_fr/data_obs_muPt_6_fr
+################## No histogram for muPt_6_fr/data_obs_muPt_6_fr 
+################## check this please
+
+ muPt_7_fr
+ checking muPt_7_fr/data_obs_muPt_7_fr
+################## No histogram for muPt_7_fr/data_obs_muPt_7_fr 
+################## check this please
+
+ muPt_8_fr
+ checking muPt_8_fr/data_obs_muPt_8_fr
+################## No histogram for muPt_8_fr/data_obs_muPt_8_fr 
+################## check this please
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_metLongXaxis.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_metLongXaxis.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_metLongXaxis.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_metLongXaxis.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_metLongXaxis.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_metLongXaxis.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_metLongXaxis.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_metLongXaxis.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_metLongXaxis.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_metLongXaxis.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_metLongXaxis.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_metLongXaxis.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_metLongXaxis.root
+hadd Source file 20: sample/MET_EraB_final_metLongXaxis.root
+hadd Source file 21: sample/MET_EraC_final_metLongXaxis.root
+hadd Source file 22: sample/MET_EraD_final_metLongXaxis.root
+hadd Source file 23: sample/MET_EraE_final_metLongXaxis.root
+hadd Source file 24: sample/MET_EraF_final_metLongXaxis.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_metLongXaxis.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_metLongXaxis.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_metLongXaxis.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_metLongXaxis.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_metLongXaxis.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_metLongXaxis.root
+histogram =  nJet
+
+
+tdir  =   nJet_9
+Small MC STT_nJet_9 integral = 7.2437344044446945
+Small MC VVT_nJet_9 integral = 4.689014704898
+Small MC otherMC_nJet_9 integral = 5.9372174590826035
+
+
+tdir  =   nJet_9_fr
+Small MC STT_nJet_9_fr integral = 0.22424140758812428
+Small MC VVT_nJet_9_fr integral = 0.12010519171599299
+Small MC otherMC_nJet_9_fr integral = 0.2751650296122534
+
+
+tdir  =   nJet_3_fr
+Small MC STT_nJet_3_fr integral = 0.4264669865369797
+tdir = nJet_3_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_3_fr integral = 0.2791346497833729
+
+
+tdir  =   nJet_4_fr
+Small MC STT_nJet_4_fr integral = 0.26168885454535484
+tdir = nJet_4_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_4_fr integral = 0.18186807818710804
+
+
+tdir  =   nJet_5_fr
+Small MC STT_nJet_5_fr integral = 0.26168885454535484
+tdir = nJet_5_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_5_fr integral = 0.18186807818710804
+
+
+tdir  =   nJet_6_fr
+Small MC STT_nJet_6_fr integral = 0.26168885454535484
+tdir = nJet_6_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_6_fr integral = 0.18186807818710804
+
+
+tdir  =   nJet_7_fr
+Small MC STT_nJet_7_fr integral = 0.2585636228322983
+tdir = nJet_7_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_7_fr integral = 0.15830283146351576
+
+
+tdir  =   nJet_8_fr
+Small MC STT_nJet_8_fr integral = 0.2585636228322983
+tdir = nJet_8_fr didnt have any matching cases 
+##################### nothing filled for  ['VV', 'VVV']
+Small MC otherMC_nJet_8_fr integral = 0.15830283146351576
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_metLongXaxis.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_metLongXaxis.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_metLongXaxis.root
+hadd Source file 34: sample/VVTo2L2Nu_final_metLongXaxis.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_metLongXaxis.root
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 4, ' : ', 'muPt')
+executing  |  echo running muPt  ; bash remove_existingfiles.sh scaled_files muPt ; python3 postAnalyzer.py --hist 4 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file muPt ; hadd f_muPt_initial.root sample/*muPt.root ; python3 get_zll.py --hist muPt ; python3 get_small_mc.py --hist muPt ; python3 get_jetFakes.py --hist muPt --blinded 0
+('Time for execution = ', 0.7, 'minutes')
+Total time for executing = 0.0 minutes 
+....Done.....
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_metLongXaxis.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_metLongXaxis.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_metLongXaxis.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_metLongXaxis.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_metLongXaxis.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_metLongXaxis.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_metLongXaxis.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_metLongXaxis.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_metLongXaxis.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_metLongXaxis.root
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_metLongXaxis.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_metLongXaxis.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_metLongXaxis.root
+hadd Source file 49: sample/WW_TuneCP5_final_metLongXaxis.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_metLongXaxis.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_metLongXaxis.root
+hadd Source file 52: sample/WZ_TuneCP5_final_metLongXaxis.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_metLongXaxis.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_metLongXaxis.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_metLongXaxis.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_metLongXaxis.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_metLongXaxis.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_metLongXaxis.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_metLongXaxis.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_metLongXaxis.root
+hadd Source file 61: sample/ZZTo2L2Q_final_metLongXaxis.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_metLongXaxis.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_metLongXaxis.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_metLongXaxis.root
+hadd Target path: f_metLongXaxis_initial.root:/
+hadd Target path: f_metLongXaxis_initial.root:/metLongXaxis_9
+hadd Target path: f_metLongXaxis_initial.root:/metLongXaxis_9_fr
+51 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for mT_muMet
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for mT_muMet
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for mT_muMet
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for mT_muMet
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for mT_muMet
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for mT_muMet
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for mT_muMet
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for mT_muMet
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for mT_muMet
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for mT_muMet
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for mT_muMet
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+MET_EraB_final.root
+Making root files for mT_muMet
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+MET_EraC_final.root
+Making root files for mT_muMet
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+MET_EraD_final.root
+Making root files for mT_muMet
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+MET_EraE_final.root
+Making root files for mT_muMet
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+MET_EraF_final.root
+Making root files for mT_muMet
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  mT_muMet_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  mT_muMet_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for mT_muMet
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for mT_muMet
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for mT_muMet
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for mT_muMet
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for mT_muMet
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for mT_muMet
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for mT_muMet
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for mT_muMet
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for mT_muMet
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for mT_muMet
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for mT_muMet
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for mT_muMet
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for mT_muMet
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  mT_muMet_9
+Done......................
+Take action root files exits
+histogram =  deltaR
+hadd Target file: f_mT_muMet_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_mT_muMet.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_mT_muMet.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_mT_muMet.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_mT_muMet.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_mT_muMet.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_mT_muMet.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_mT_muMet.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_mT_muMet.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_mT_muMet.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_mT_muMet.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_mT_muMet.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_mT_muMet.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_mT_muMet.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_mT_muMet.root
+hadd Source file 20: sample/MET_EraB_final_mT_muMet.root
+hadd Source file 21: sample/MET_EraC_final_mT_muMet.root
+hadd Source file 22: sample/MET_EraD_final_mT_muMet.root
+hadd Source file 23: sample/MET_EraE_final_mT_muMet.root
+hadd Source file 24: sample/MET_EraF_final_mT_muMet.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_mT_muMet.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_mT_muMet.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_mT_muMet.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_mT_muMet.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_mT_muMet.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_mT_muMet.root
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_mT_muMet.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_mT_muMet.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_mT_muMet.root
+hadd Source file 34: sample/VVTo2L2Nu_final_mT_muMet.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_mT_muMet.root
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_mT_muMet.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_mT_muMet.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_mT_muMet.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_mT_muMet.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_mT_muMet.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_mT_muMet.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_mT_muMet.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_mT_muMet.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_mT_muMet.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_mT_muMet.root
+20 9 False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.785055866
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 0.968954563
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for higgsPt
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for higgsPt
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.552080344
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.48914453
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056982434150838
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for higgsPt
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for higgsPt
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.447677534
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_Pt-100To250_final.root
+Making root files for higgsPt
+DYJetsToLL_Pt-100To250_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_Pt-250To400_final.root
+Making root files for higgsPt
+DYJetsToLL_Pt-250To400_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_Pt-400To650_final.root
+Making root files for higgsPt
+DYJetsToLL_Pt-400To650_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_Pt-50To100_final.root
+Making root files for higgsPt
+DYJetsToLL_Pt-50To100_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+DYJetsToLL_Pt-650ToInf_final.root
+Making root files for higgsPt
+DYJetsToLL_Pt-650ToInf_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for higgsPt
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for higgsPt
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for higgsPt
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+MET_EraB_final.root
+Making root files for higgsPt
+
+ for MET_EraB
+checking sample data_obs  weight = 1.0
+MET_EraB_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+MET_EraC_final.root
+Making root files for higgsPt
+
+ for MET_EraC
+checking sample data_obs  weight = 1.0
+MET_EraC_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+MET_EraD_final.root
+Making root files for higgsPt
+
+ for MET_EraD
+checking sample data_obs  weight = 1.0
+MET_EraD_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+MET_EraE_final.root
+Making root files for higgsPt
+
+ for MET_EraE
+checking sample data_obs  weight = 1.0
+MET_EraE_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+MET_EraF_final.root
+Making root files for higgsPt
+
+ for MET_EraF
+checking sample data_obs  weight = 1.0
+MET_EraF_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  higgsPt_9
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 346
+Searching for  higgsPt_9
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for higgsPt
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for higgsPt
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.34797613489717993
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for higgsPt
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for higgsPt
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+VVTo2L2Nu_final.root
+Making root files for higgsPt
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for higgsPt
+WJetsToLNu_HT100-200_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for higgsPt
+WJetsToLNu_HT1200-2500_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for higgsPt
+WJetsToLNu_HT200-400_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for higgsPt
+WJetsToLNu_HT2500-Inf_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for higgsPt
+WJetsToLNu_HT400-600_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for higgsPt
+WJetsToLNu_HT600-800_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for higgsPt
+WJetsToLNu_HT70-100_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for higgsPt
+WJetsToLNu_HT800-1200_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for higgsPt
+WJetsToLNu_Incl_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WJetsToLNu_Inclv2_final.root
+Making root files for higgsPt
+WJetsToLNu_Inclv2_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for higgsPt
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WW_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.065109677937755
+WW_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WZ_TuneCP5_final.root
+Making root files for higgsPt
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.04681876379297617
+WZ_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for higgsPt
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for higgsPt
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for higgsPt
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5129815695519417
+ZJetsToNuNu_HT-100To200_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 222
+Searching for  higgsPt_9
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 5
+Searching for  higgsPt_9
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for higgsPt
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZZTo2L2Q_final.root
+Making root files for higgsPt
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.00480208268979617
+ZZTo2L2Q_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019098093949331276
+ZZTo4L_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for higgsPt
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.012158940273561201
+ZZ_TuneCP5_final.root histograms in file 439
+Searching for  higgsPt_9
+Done......................
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_mT_muMet.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_mT_muMet.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_mT_muMet.root
+hadd Source file 49: sample/WW_TuneCP5_final_mT_muMet.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_mT_muMet.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_mT_muMet.root
+hadd Source file 52: sample/WZ_TuneCP5_final_mT_muMet.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_mT_muMet.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_mT_muMet.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_mT_muMet.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_mT_muMet.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_mT_muMet.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_mT_muMet.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_mT_muMet.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_mT_muMet.root
+hadd Source file 61: sample/ZZTo2L2Q_final_mT_muMet.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_mT_muMet.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_mT_muMet.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_mT_muMet.root
+hadd Target path: f_mT_muMet_initial.root:/
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_9
+Take action root files exits
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_3_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_4_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_5_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_6_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_7_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_8_fr
+hadd Target path: f_mT_muMet_initial.root:/mT_muMet_9_fr
+histogram =  metLongXaxis
+Error in <TFile::cd>: Unknown directory nJet_3
+Error in <TFile::cd>: Unknown directory nJet_4
+Error in <TFile::cd>: Unknown directory nJet_5
+Error in <TFile::cd>: Unknown directory nJet_6
+Error in <TFile::cd>: Unknown directory nJet_7
+Error in <TFile::cd>: Unknown directory nJet_8
+histogram =  deltaR
+
+
+tdir  =   deltaR_9
+Small MC STT_deltaR_9 integral = 7.449184358119965
+Small MC VVT_deltaR_9 integral = 4.726104974746704
+Small MC otherMC_deltaR_9 integral = 6.438569366931915
+
+
+tdir  =   deltaR_3
+Small MC STT_deltaR_3 integral = 14.304436802864075
+Small MC VVT_deltaR_3 integral = 3.210650533437729
+Small MC otherMC_deltaR_3 integral = 10.541189834475517
+
+
+tdir  =   deltaR_4
+Small MC STT_deltaR_4 integral = 9.241956293582916
+Small MC VVT_deltaR_4 integral = 2.109670490026474
+Small MC otherMC_deltaR_4 integral = 6.186800837516785
+
+
+tdir  =   deltaR_5
+Small MC STT_deltaR_5 integral = 9.241956293582916
+Small MC VVT_deltaR_5 integral = 2.109670490026474
+Small MC otherMC_deltaR_5 integral = 6.186800837516785
+
+
+tdir  =   deltaR_6
+Small MC STT_deltaR_6 integral = 9.241956293582916
+Small MC VVT_deltaR_6 integral = 2.109670490026474
+Small MC otherMC_deltaR_6 integral = 6.186800837516785
+
+
+tdir  =   deltaR_7
+Small MC STT_deltaR_7 integral = 7.998667061328888
+Small MC VVT_deltaR_7 integral = 2.0749317705631256
+Small MC otherMC_deltaR_7 integral = 5.938838094472885
+
+
+tdir  =   deltaR_8
+Small MC STT_deltaR_8 integral = 7.998667061328888
+Small MC VVT_deltaR_8 integral = 2.0749317705631256
+Small MC otherMC_deltaR_8 integral = 5.938838094472885
+
+
+tdir  =   deltaR_9_fr
+Small MC STT_deltaR_9_fr integral = 0.2256393302232027
+Small MC VVT_deltaR_9_fr integral = 0.12025218270719051
+Small MC otherMC_deltaR_9_fr integral = 0.2802583770826459
+running with full data
+histogram =  nJet
+
+ nJet_9_fr
+ checking nJet_9_fr/data_obs_nJet_9_fr
+nJet_9_fr integral  data_obs 16.019847989082336
+integral  jetFakes 9.274276055395603
+
+ nJet_3_fr
+ checking nJet_3_fr/data_obs_nJet_3_fr
+nJet_3_fr integral  data_obs 20.51250831782818
+integral  jetFakes 16.739198729395866
+
+ nJet_4_fr
+ checking nJet_4_fr/data_obs_nJet_4_fr
+nJet_4_fr integral  data_obs 20.51250831782818
+integral  jetFakes 18.22857515513897
+
+ nJet_5_fr
+ checking nJet_5_fr/data_obs_nJet_5_fr
+nJet_5_fr integral  data_obs 20.51250831782818
+integral  jetFakes 18.22857515513897
+
+ nJet_6_fr
+ checking nJet_6_fr/data_obs_nJet_6_fr
+nJet_6_fr integral  data_obs 20.51250831782818
+integral  jetFakes 18.22857515513897
+
+ nJet_7_fr
+ checking nJet_7_fr/data_obs_nJet_7_fr
+nJet_7_fr integral  data_obs 18.43180811405182
+integral  jetFakes 16.174564838409424
+
+ nJet_8_fr
+ checking nJet_8_fr/data_obs_nJet_8_fr
+nJet_8_fr integral  data_obs 18.43180811405182
+integral  jetFakes 16.174564838409424
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 21, ' : ', 'nJet')
+executing  |  echo running nJet  ; bash remove_existingfiles.sh scaled_files nJet ; python3 postAnalyzer.py --hist 21 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file nJet ; hadd f_nJet_initial.root sample/*nJet.root ; python3 get_zll.py --hist nJet ; python3 get_small_mc.py --hist nJet ; python3 get_jetFakes.py --hist nJet --blinded 0
+('Time for execution = ', 0.8, 'minutes')
+Total time for executing = 0.0 minutes 
+....Done.....
+hadd Target file: f_higgsPt_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 2: sample/DY2JetsToLL_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 3: sample/DY3JetsToLL_M-50_TuneCP5_ext1_final_higgsPt.root
+hadd Source file 4: sample/DY3JetsToLL_M-50_TuneCP5_v1_final_higgsPt.root
+hadd Source file 5: sample/DY4JetsToLL_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 6: sample/DYJetsToLL_M-10to50_TuneCP5_final_higgsPt.root
+hadd Source file 7: sample/DYJetsToLL_M-50_TuneCP5_ext1_v1_final_higgsPt.root
+hadd Source file 8: sample/DYJetsToLL_M-50_TuneCP5_v1_final_higgsPt.root
+hadd Source file 9: sample/DYJetsToLL_Pt-100To250_final_higgsPt.root
+hadd Source file 10: sample/DYJetsToLL_Pt-250To400_final_higgsPt.root
+hadd Source file 11: sample/DYJetsToLL_Pt-400To650_final_higgsPt.root
+hadd Source file 12: sample/DYJetsToLL_Pt-50To100_final_higgsPt.root
+hadd Source file 13: sample/DYJetsToLL_Pt-650ToInf_final_higgsPt.root
+hadd Source file 14: sample/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 15: sample/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 16: sample/EWKZ2Jets_ZToLL_M-50_TuneCP5_final_higgsPt.root
+hadd Source file 17: sample/EWKZ2Jets_ZToNuNu_TuneCP5_final_higgsPt.root
+hadd Source file 18: sample/GluGluHToTauTau_M125_final_higgsPt.root
+hadd Source file 19: sample/GluGluHToWWTo2L2Nu_M125_final_higgsPt.root
+hadd Source file 20: sample/MET_EraB_final_higgsPt.root
+hadd Source file 21: sample/MET_EraC_final_higgsPt.root
+hadd Source file 22: sample/MET_EraD_final_higgsPt.root
+hadd Source file 23: sample/MET_EraE_final_higgsPt.root
+hadd Source file 24: sample/MET_EraF_final_higgsPt.root
+hadd Source file 25: sample/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final_higgsPt.root
+hadd Source file 26: sample/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final_higgsPt.root
+hadd Source file 27: sample/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final_higgsPt.root
+hadd Source file 28: sample/ST_tW_top_5f_inclusiveDecays_TuneCP5_final_higgsPt.root
+hadd Source file 29: sample/TTTo2L2Nu_TuneCP5_final_higgsPt.root
+hadd Source file 30: sample/TTToHadronic_TuneCP5_final_higgsPt.root
+hadd Source file 31: sample/TTToSemiLeptonic_TuneCP5_final_higgsPt.root
+hadd Source file 32: sample/VBFHToTauTau_M125_final_higgsPt.root
+hadd Source file 33: sample/VBFHToWWTo2L2Nu_M125_final_higgsPt.root
+hadd Source file 34: sample/VVTo2L2Nu_final_higgsPt.root
+hadd Source file 35: sample/W3JetsToLNu_TuneCP5_final_higgsPt.root
+hadd Source file 36: sample/W4JetsToLNu_TuneCP5_final_higgsPt.root
+hadd Source file 37: sample/WJetsToLNu_HT100-200_final_higgsPt.root
+hadd Source file 38: sample/WJetsToLNu_HT1200-2500_final_higgsPt.root
+hadd Source file 39: sample/WJetsToLNu_HT200-400_final_higgsPt.root
+hadd Source file 40: sample/WJetsToLNu_HT2500-Inf_final_higgsPt.root
+hadd Source file 41: sample/WJetsToLNu_HT400-600_final_higgsPt.root
+hadd Source file 42: sample/WJetsToLNu_HT600-800_final_higgsPt.root
+hadd Source file 43: sample/WJetsToLNu_HT800-1200_final_higgsPt.root
+hadd Source file 44: sample/WJetsToLNu_Incl_final_higgsPt.root
+hadd Source file 45: sample/WWTo1L1Nu2Q_final_higgsPt.root
+hadd Source file 46: sample/WWToLNuQQ_NNPDF31_TuneCP5_final_higgsPt.root
+hadd Source file 47: sample/WWW_4F_TuneCP5_final_higgsPt.root
+hadd Source file 48: sample/WWZ_4F_TuneCP5_final_higgsPt.root
+hadd Source file 49: sample/WW_TuneCP5_final_higgsPt.root
+hadd Source file 50: sample/WZTo3LNu_TuneCP5_final_higgsPt.root
+hadd Source file 51: sample/WZZ_TuneCP5_final_higgsPt.root
+hadd Source file 52: sample/WZ_TuneCP5_final_higgsPt.root
+hadd Source file 53: sample/WminusHToTauTau_M125_final_higgsPt.root
+hadd Source file 54: sample/WplusHToTauTau_M125_final_higgsPt.root
+hadd Source file 55: sample/ZHToTauTau_M125_final_higgsPt.root
+hadd Source file 56: sample/ZJetsToNuNu_HT-1200To2500_final_higgsPt.root
+hadd Source file 57: sample/ZJetsToNuNu_HT-200To400_final_higgsPt.root
+hadd Source file 58: sample/ZJetsToNuNu_HT-400To600_final_higgsPt.root
+hadd Source file 59: sample/ZJetsToNuNu_HT-600To800_final_higgsPt.root
+hadd Source file 60: sample/ZJetsToNuNu_HT-800To1200_final_higgsPt.root
+hadd Source file 61: sample/ZZTo2L2Q_final_higgsPt.root
+hadd Source file 62: sample/ZZTo4L_TuneCP5_final_higgsPt.root
+hadd Source file 63: sample/ZZZ_TuneCP5_final_higgsPt.root
+hadd Source file 64: sample/ZZ_TuneCP5_final_higgsPt.root
+hadd Target path: f_higgsPt_initial.root:/
+hadd Target path: f_higgsPt_initial.root:/higgsPt_3
+hadd Target path: f_higgsPt_initial.root:/higgsPt_4
+hadd Target path: f_higgsPt_initial.root:/higgsPt_5
+hadd Target path: f_higgsPt_initial.root:/higgsPt_6
+hadd Target path: f_higgsPt_initial.root:/higgsPt_7
+hadd Target path: f_higgsPt_initial.root:/higgsPt_8
+hadd Target path: f_higgsPt_initial.root:/higgsPt_9
+hadd Target path: f_higgsPt_initial.root:/higgsPt_9_fr
+histogram =  mT_muMet
+running with full data
+histogram =  deltaR
+
+ deltaR_9_fr
+ checking deltaR_9_fr/data_obs_deltaR_9_fr
+deltaR_9_fr integral  data_obs 17.126055002212524
+integral  jetFakes 9.86910828948021
+histogram =  metLongXaxis
+
+
+tdir  =   metLongXaxis_9
+Small MC STT_metLongXaxis_9 integral = 3.526344947516918
+Small MC VVT_metLongXaxis_9 integral = 2.1256085294589866
+Small MC otherMC_metLongXaxis_9 integral = 2.488613632041961
+
+
+tdir  =   metLongXaxis_9_fr
+Small MC STT_metLongXaxis_9_fr integral = 0.15207910881144926
+Small MC VVT_metLongXaxis_9_fr integral = 0.04834922239535899
+Small MC otherMC_metLongXaxis_9_fr integral = 0.14070132531924173
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 19, ' : ', 'deltaR')
+executing  |  echo running deltaR  ; bash remove_existingfiles.sh scaled_files deltaR ; python3 postAnalyzer.py --hist 19 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file deltaR ; hadd f_deltaR_initial.root sample/*deltaR.root ; python3 get_zll.py --hist deltaR ; python3 get_small_mc.py --hist deltaR ; python3 get_jetFakes.py --hist deltaR --blinded 0
+('Time for execution = ', 0.9, 'minutes')
+Total time for executing = 0.0 minutes 
+....Done.....
+histogram =  higgsPt
+running with full data
+histogram =  metLongXaxis
+
+ metLongXaxis_9_fr
+ checking metLongXaxis_9_fr/data_obs_metLongXaxis_9_fr
+metLongXaxis_9_fr integral  data_obs 10.932180225849152
+integral  jetFakes 7.668508619070053
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 30, ' : ', 'metLongXaxis')
+executing  |  echo running metLongXaxis  ; bash remove_existingfiles.sh scaled_files metLongXaxis ; python3 postAnalyzer.py --hist 30 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file metLongXaxis ; hadd f_metLongXaxis_initial.root sample/*metLongXaxis.root ; python3 get_zll.py --hist metLongXaxis ; python3 get_small_mc.py --hist metLongXaxis ; python3 get_jetFakes.py --hist metLongXaxis --blinded 0
+('Time for execution = ', 1.0, 'minutes')
+Total time for executing = 1.0 minutes 
+....Done.....
+histogram =  mT_muMet
+
+
+tdir  =   mT_muMet_9
+Small MC STT_mT_muMet_9 integral = 6.935647040605545
+Small MC VVT_mT_muMet_9 integral = 4.47650055680424
+Small MC otherMC_mT_muMet_9 integral = 6.3975277717763674
+
+
+tdir  =   mT_muMet_3_fr
+Small MC STT_mT_muMet_3_fr integral = 0.22008780157193542
+Small MC VVT_mT_muMet_3_fr integral = 0.18604646250605583
+Small MC otherMC_mT_muMet_3_fr integral = 0.3791216357894882
+
+
+tdir  =   mT_muMet_4_fr
+Small MC STT_mT_muMet_4_fr integral = 0.1537791769951582
+Small MC VVT_mT_muMet_4_fr integral = 0.10268262424506247
+Small MC otherMC_mT_muMet_4_fr integral = 0.2584103869567116
+
+
+tdir  =   mT_muMet_5_fr
+Small MC STT_mT_muMet_5_fr integral = 0.1537791769951582
+Small MC VVT_mT_muMet_5_fr integral = 0.10268262424506247
+Small MC otherMC_mT_muMet_5_fr integral = 0.2584103869567116
+
+
+tdir  =   mT_muMet_6_fr
+Small MC STT_mT_muMet_6_fr integral = 0.1537791769951582
+Small MC VVT_mT_muMet_6_fr integral = 0.10268262424506247
+Small MC otherMC_mT_muMet_6_fr integral = 0.2584103869567116
+
+
+tdir  =   mT_muMet_7_fr
+Small MC STT_mT_muMet_7_fr integral = 0.15065394528210163
+Small MC VVT_mT_muMet_7_fr integral = 0.09967039548791945
+Small MC otherMC_mT_muMet_7_fr integral = 0.2260272059475028
+
+
+tdir  =   mT_muMet_8_fr
+Small MC STT_mT_muMet_8_fr integral = 0.15065394528210163
+Small MC VVT_mT_muMet_8_fr integral = 0.09967039548791945
+Small MC otherMC_mT_muMet_8_fr integral = 0.2260272059475028
+
+
+tdir  =   mT_muMet_9_fr
+Small MC STT_mT_muMet_9_fr integral = 0.11633172631263733
+Small MC VVT_mT_muMet_9_fr integral = 0.10606065369211137
+Small MC otherMC_mT_muMet_9_fr integral = 0.2258122710045427
+histogram =  higgsPt
+
+
+tdir  =   higgsPt_3
+Small MC STT_higgsPt_3 integral = 14.048210632055998
+Small MC VVT_higgsPt_3 integral = 7.074426815845072
+Small MC otherMC_higgsPt_3 integral = 10.914599066367373
+
+
+tdir  =   higgsPt_4
+Small MC STT_higgsPt_4 integral = 9.220131239388138
+Small MC VVT_higgsPt_4 integral = 4.683082004077733
+Small MC otherMC_higgsPt_4 integral = 6.829826288099866
+
+
+tdir  =   higgsPt_5
+Small MC STT_higgsPt_5 integral = 9.220131239388138
+Small MC VVT_higgsPt_5 integral = 4.683082004077733
+Small MC otherMC_higgsPt_5 integral = 6.829826288099866
+
+
+tdir  =   higgsPt_6
+Small MC STT_higgsPt_6 integral = 9.220131239388138
+Small MC VVT_higgsPt_6 integral = 4.683082004077733
+Small MC otherMC_higgsPt_6 integral = 6.829826288099866
+
+
+tdir  =   higgsPt_7
+Small MC STT_higgsPt_7 integral = 7.976841440889984
+Small MC VVT_higgsPt_7 integral = 4.607556370086968
+Small MC otherMC_higgsPt_7 integral = 6.438382812018972
+
+
+tdir  =   higgsPt_8
+Small MC STT_higgsPt_8 integral = 7.976841440889984
+Small MC VVT_higgsPt_8 integral = 4.607556370086968
+Small MC otherMC_higgsPt_8 integral = 6.438382812018972
+
+
+tdir  =   higgsPt_9
+Small MC STT_higgsPt_9 integral = 7.427358886692673
+Small MC VVT_higgsPt_9 integral = 4.656350965145975
+Small MC otherMC_higgsPt_9 integral = 6.265356862626504
+
+
+tdir  =   higgsPt_9_fr
+Small MC STT_higgsPt_9_fr integral = 0.225639327254612
+Small MC VVT_higgsPt_9_fr integral = 0.11731401262659347
+Small MC otherMC_higgsPt_9_fr integral = 0.2718564996830537
+Error in <TFile::cd>: Unknown directory mT_muMet_3
+Error in <TFile::cd>: Unknown directory mT_muMet_4
+Error in <TFile::cd>: Unknown directory mT_muMet_5
+Error in <TFile::cd>: Unknown directory mT_muMet_6
+Error in <TFile::cd>: Unknown directory mT_muMet_7
+Error in <TFile::cd>: Unknown directory mT_muMet_8
+running with full data
+histogram =  mT_muMet
+
+ mT_muMet_3_fr
+ checking mT_muMet_3_fr/data_obs_mT_muMet_3_fr
+mT_muMet_3_fr integral  data_obs 21.273145265877247
+integral  jetFakes 9.404270296916366
+
+ mT_muMet_4_fr
+ checking mT_muMet_4_fr/data_obs_mT_muMet_4_fr
+mT_muMet_4_fr integral  data_obs 21.273145265877247
+integral  jetFakes 13.942521879682317
+
+ mT_muMet_5_fr
+ checking mT_muMet_5_fr/data_obs_mT_muMet_5_fr
+mT_muMet_5_fr integral  data_obs 21.273145265877247
+integral  jetFakes 13.942521879682317
+
+ mT_muMet_6_fr
+ checking mT_muMet_6_fr/data_obs_mT_muMet_6_fr
+mT_muMet_6_fr integral  data_obs 21.273145265877247
+integral  jetFakes 13.942521879682317
+
+ mT_muMet_7_fr
+ checking mT_muMet_7_fr/data_obs_mT_muMet_7_fr
+mT_muMet_7_fr integral  data_obs 19.001325495541096
+integral  jetFakes 12.018692150944844
+
+ mT_muMet_8_fr
+ checking mT_muMet_8_fr/data_obs_mT_muMet_8_fr
+mT_muMet_8_fr integral  data_obs 19.001325495541096
+integral  jetFakes 12.018692150944844
+
+ mT_muMet_9_fr
+ checking mT_muMet_9_fr/data_obs_mT_muMet_9_fr
+mT_muMet_9_fr integral  data_obs 16.589365400373936
+integral  jetFakes 9.886247572256252
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 51, ' : ', 'mT_muMet')
+executing  |  echo running mT_muMet  ; bash remove_existingfiles.sh scaled_files mT_muMet ; python3 postAnalyzer.py --hist 51 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file mT_muMet ; hadd f_mT_muMet_initial.root sample/*mT_muMet.root ; python3 get_zll.py --hist mT_muMet ; python3 get_small_mc.py --hist mT_muMet ; python3 get_jetFakes.py --hist mT_muMet --blinded 0
+('Time for execution = ', 1.1, 'minutes')
+Total time for executing = 1.0 minutes 
+....Done.....
+running with full data
+histogram =  higgsPt
+
+ higgsPt_9_fr
+ checking higgsPt_9_fr/data_obs_higgsPt_9_fr
+higgsPt_9_fr integral  data_obs 16.806755766272545
+integral  jetFakes 9.690857681445777
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+('hist = ', 20, ' : ', 'higgsPt')
+executing  |  echo running higgsPt  ; bash remove_existingfiles.sh scaled_files higgsPt ; python3 postAnalyzer.py --hist 20 --idx 9 --blinded 0 ; bash remove_existingfiles.sh agg_file higgsPt ; hadd f_higgsPt_initial.root sample/*higgsPt.root ; python3 get_zll.py --hist higgsPt ; python3 get_small_mc.py --hist higgsPt ; python3 get_jetFakes.py --hist higgsPt --blinded 0
+('Time for execution = ', 1.2, 'minutes')
+Total time for executing = 1.0 minutes 
+....Done.....

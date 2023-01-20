@@ -1,0 +1,79 @@
+analyze_etau MET_EraE_0000_010 DATA
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init DATA
+sample ==========MET_EraE_0000_010
+.... DATA file ..... 
+Coming in: 
+nentries:1822
+Running over 1822 events.
+Finished entry 0/1821
+Finished entry 90/1821
+Finished entry 180/1821
+Finished entry 270/1821
+Finished entry 360/1821
+Finished entry 450/1821
+Finished entry 540/1821
+Finished entry 630/1821
+Finished entry 720/1821
+Finished entry 810/1821
+Finished entry 900/1821
+Finished entry 990/1821
+Finished entry 1080/1821
+Finished entry 1170/1821
+Finished entry 1260/1821
+Finished entry 1350/1821
+Finished entry 1440/1821
+Finished entry 1530/1821
+Finished entry 1620/1821
+Finished entry 1710/1821
+Finished entry 1800/1821
+Finished entry 1821/1821
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 1822.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 0.000000   % change= -nan
+     PassedBjetVeto 0.000000   % change= -nan
+       DeltaRPassed 0.000000   % change= -nan
+      Total change :100.000000
+*******************************************
+*******************************************
+Number of events inspected: 1822
+Number of events inspected (minus negative gen. weights): 1822.000000
+ Outpt written to MET_EraE_0000_010.root
+Real time 0:00:16, CP time 9.660
+1671972855 - 1671972823

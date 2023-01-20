@@ -1,0 +1,15 @@
+hadd Target file: MET_EraD_0001_08.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1793.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1794.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1795.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1796.root
+hadd Source file 5: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1797.root
+hadd Source file 6: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1798.root
+hadd Source file 7: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1799.root
+hadd Source file 8: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1800.root
+hadd Source file 9: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1801.root
+hadd Source file 10: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1802.root
+hadd Source file 11: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1803.root
+hadd Source file 12: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/MET_EraD_0001/Ntuple_data2017_MET_EraD_1804.root
+hadd Target path: MET_EraD_0001_08.root:/

@@ -1,0 +1,43 @@
+000 (3396272.306.000) 2022-12-25 06:11:15 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_3117_94ca>
+...
+040 (3396272.306.000) 2022-12-25 06:22:13 Entered queue to transfer input files
+	Transferring to host: <128.105.69.21:9618?addrs=128.105.69.21-9618+[2607-f388-2200-100-f60f-1bff-fedb-90b]-9618&alias=e343.chtc.wisc.edu&noUDP&sock=slot1_34_6521_6262_18751>
+...
+040 (3396272.306.000) 2022-12-25 06:51:29 Started transferring input files
+	Seconds spent in queue: 1756
+...
+040 (3396272.306.000) 2022-12-25 06:56:54 Finished transferring input files
+...
+001 (3396272.306.000) 2022-12-25 06:56:55 Job executing on host: <128.105.69.21:9618?addrs=128.105.69.21-9618+[2607-f388-2200-100-f60f-1bff-fedb-90b]-9618&alias=e343.chtc.wisc.edu&noUDP&sock=startd_6918_c045>
+...
+006 (3396272.306.000) 2022-12-25 06:57:03 Image size of job updated: 97856
+	63  -  MemoryUsage of job (MB)
+	64324  -  ResidentSetSize of job (KB)
+...
+006 (3396272.306.000) 2022-12-25 06:58:48 Image size of job updated: 1461064
+	64  -  MemoryUsage of job (MB)
+	64560  -  ResidentSetSize of job (KB)
+...
+040 (3396272.306.000) 2022-12-25 06:58:48 Started transferring output files
+	Seconds spent in queue: 2195
+...
+040 (3396272.306.000) 2022-12-25 06:58:48 Finished transferring output files
+...
+005 (3396272.306.000) 2022-12-25 06:58:49 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:08, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:08, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	150825  -  Run Bytes Sent By Job
+	328686848  -  Run Bytes Received By Job
+	150825  -  Total Bytes Sent By Job
+	328686848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.09        1         1 
+	   Disk (KB)            : 321198     2097152   2342599 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     64        2048      2048 
+
+	Job terminated of its own accord at 2022-12-25T12:58:48Z.
+...

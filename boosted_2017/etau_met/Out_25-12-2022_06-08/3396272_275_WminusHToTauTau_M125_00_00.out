@@ -1,0 +1,82 @@
+analyze_etau WminusHToTauTau_M125_00_00 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========WminusHToTauTau_M125_00_00
+.... MC file ..... 
+Coming in: 
+nentries:939988
+Running over 939988 events.
+Finished entry 0/939987
+Finished entry 40000/939987
+Finished entry 80000/939987
+Finished entry 120000/939987
+Finished entry 160000/939987
+Finished entry 200000/939987
+Finished entry 240000/939987
+Finished entry 280000/939987
+Finished entry 320000/939987
+Finished entry 360000/939987
+Finished entry 400000/939987
+Finished entry 440000/939987
+Finished entry 480000/939987
+Finished entry 520000/939987
+Finished entry 560000/939987
+Finished entry 600000/939987
+Finished entry 640000/939987
+Finished entry 680000/939987
+Finished entry 720000/939987
+Finished entry 760000/939987
+Finished entry 800000/939987
+Finished entry 840000/939987
+Finished entry 880000/939987
+Finished entry 920000/939987
+Finished entry 939987/939987
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 939988.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 4750.000000   % change= -inf
+     PassedBjetVeto 4750.000000   % change= 0.000000
+       DeltaRPassed 4750.000000   % change= 0.000000
+      Total change :99.494674
+*******************************************
+*******************************************
+Number of events inspected: 939988
+Number of events inspected (minus negative gen. weights): 902074.000000
+ Outpt written to WminusHToTauTau_M125_00_00.root
+Real time 0:15:27, CP time 337.560
+1671973672 - 1671972743

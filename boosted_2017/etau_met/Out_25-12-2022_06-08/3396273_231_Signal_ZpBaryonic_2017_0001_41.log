@@ -1,0 +1,67 @@
+000 (3396273.231.000) 2022-12-25 06:14:10 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_3117_94ca>
+...
+040 (3396273.231.000) 2022-12-25 06:36:24 Entered queue to transfer input files
+	Transferring to host: <128.105.244.20:9618?addrs=128.105.244.20-9618&alias=e3151.chtc.wisc.edu&noUDP&sock=slot1_7_29446_1ee6_12065>
+...
+040 (3396273.231.000) 2022-12-25 07:10:40 Started transferring input files
+	Seconds spent in queue: 2056
+...
+040 (3396273.231.000) 2022-12-25 07:24:31 Finished transferring input files
+...
+001 (3396273.231.000) 2022-12-25 07:24:32 Job executing on host: <128.105.244.20:9618?addrs=128.105.244.20-9618&alias=e3151.chtc.wisc.edu&noUDP&sock=startd_6607_6e51>
+...
+006 (3396273.231.000) 2022-12-25 07:24:40 Image size of job updated: 470484
+	361  -  MemoryUsage of job (MB)
+	368864  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:29:40 Image size of job updated: 1489420
+	552  -  MemoryUsage of job (MB)
+	565024  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:34:41 Image size of job updated: 1489420
+	567  -  MemoryUsage of job (MB)
+	579768  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:39:42 Image size of job updated: 1489420
+	572  -  MemoryUsage of job (MB)
+	584896  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:44:42 Image size of job updated: 1489420
+	573  -  MemoryUsage of job (MB)
+	585900  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:49:42 Image size of job updated: 1489420
+	573  -  MemoryUsage of job (MB)
+	585904  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 07:54:43 Image size of job updated: 1489420
+	573  -  MemoryUsage of job (MB)
+	585912  -  ResidentSetSize of job (KB)
+...
+006 (3396273.231.000) 2022-12-25 08:14:10 Image size of job updated: 1490628
+	573  -  MemoryUsage of job (MB)
+	585912  -  ResidentSetSize of job (KB)
+...
+040 (3396273.231.000) 2022-12-25 08:14:10 Started transferring output files
+	Seconds spent in queue: 5866
+...
+040 (3396273.231.000) 2022-12-25 08:14:10 Finished transferring output files
+...
+005 (3396273.231.000) 2022-12-25 08:14:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:26:37, Sys 0 00:02:09  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:26:37, Sys 0 00:02:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1743540  -  Run Bytes Sent By Job
+	328686848  -  Run Bytes Received By Job
+	1743540  -  Total Bytes Sent By Job
+	328686848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.56        1         1 
+	   Disk (KB)            : 322752     2097152   3184064 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    573        2048      2048 
+
+	Job terminated of its own accord at 2022-12-25T14:14:10Z.
+...

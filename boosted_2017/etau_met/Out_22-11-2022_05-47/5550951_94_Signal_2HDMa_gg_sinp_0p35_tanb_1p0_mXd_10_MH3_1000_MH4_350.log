@@ -1,0 +1,39 @@
+000 (5550951.094.000) 2022-11-22 05:48:07 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.094.000) 2022-11-22 06:33:45 Started transferring input files
+	Transferring to host: <128.105.68.228:9618?addrs=128.105.68.228-9618+[2607-f388-2200-100-1e6a-7aff-fe26-728b]-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=slot1_32_31836_1788_40606>
+...
+040 (5550951.094.000) 2022-11-22 06:38:11 Finished transferring input files
+...
+001 (5550951.094.000) 2022-11-22 06:38:12 Job executing on host: <128.105.68.228:9618?addrs=128.105.68.228-9618+[2607-f388-2200-100-1e6a-7aff-fe26-728b]-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=startd_7598_2cac>
+...
+006 (5550951.094.000) 2022-11-22 06:38:21 Image size of job updated: 844700
+	372  -  MemoryUsage of job (MB)
+	380548  -  ResidentSetSize of job (KB)
+...
+006 (5550951.094.000) 2022-11-22 06:39:09 Image size of job updated: 1338704
+	372  -  MemoryUsage of job (MB)
+	380568  -  ResidentSetSize of job (KB)
+...
+040 (5550951.094.000) 2022-11-22 06:39:09 Started transferring output files
+...
+040 (5550951.094.000) 2022-11-22 06:39:10 Finished transferring output files
+...
+005 (5550951.094.000) 2022-11-22 06:39:10 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:20, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1286353  -  Run Bytes Sent By Job
+	328686816  -  Run Bytes Received By Job
+	1286353  -  Total Bytes Sent By Job
+	328686816  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.91        1         1 
+	   Disk (KB)            : 322307     2097152   2397451 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    372        2048      2048 
+
+	Job terminated of its own accord at 2022-11-22T12:39:09Z.
+...

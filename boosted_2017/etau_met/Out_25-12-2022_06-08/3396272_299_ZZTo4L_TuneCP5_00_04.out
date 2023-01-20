@@ -1,0 +1,83 @@
+analyze_etau ZZTo4L_TuneCP5_00_04 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ZZTo4L_TuneCP5_00_04
+.... MC file ..... 
+Coming in: 
+nentries:968490
+Running over 968490 events.
+Finished entry 0/968489
+Finished entry 40000/968489
+Finished entry 80000/968489
+Finished entry 120000/968489
+Finished entry 160000/968489
+Finished entry 200000/968489
+Finished entry 240000/968489
+Finished entry 280000/968489
+Finished entry 320000/968489
+Finished entry 360000/968489
+Finished entry 400000/968489
+Finished entry 440000/968489
+Finished entry 480000/968489
+Finished entry 520000/968489
+Finished entry 560000/968489
+Finished entry 600000/968489
+Finished entry 640000/968489
+Finished entry 680000/968489
+Finished entry 720000/968489
+Finished entry 760000/968489
+Finished entry 800000/968489
+Finished entry 840000/968489
+Finished entry 880000/968489
+Finished entry 920000/968489
+Finished entry 960000/968489
+Finished entry 968489/968489
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 968490.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 1216.000000   % change= -inf
+     PassedBjetVeto 1216.000000   % change= 0.000000
+       DeltaRPassed 1216.000000   % change= 0.000000
+      Total change :99.874444
+*******************************************
+*******************************************
+Number of events inspected: 968490
+Number of events inspected (minus negative gen. weights): 633576.000000
+ Outpt written to ZZTo4L_TuneCP5_00_04.root
+Real time 0:09:35, CP time 241.420
+1671974082 - 1671973505

@@ -1,0 +1,6 @@
+hadd Target file: DYJetsToLL_M-50_TuneCP5_ext1_v1_05_01.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_ext1_v1_05/DYJetsToLL_M-50_TuneCP5_ext1_v1_05_97.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_ext1_v1_05/DYJetsToLL_M-50_TuneCP5_ext1_v1_05_98.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/DYJetsToLL_M-50_TuneCP5_ext1_v1_05/DYJetsToLL_M-50_TuneCP5_ext1_v1_05_99.root
+hadd Target path: DYJetsToLL_M-50_TuneCP5_ext1_v1_05_01.root:/

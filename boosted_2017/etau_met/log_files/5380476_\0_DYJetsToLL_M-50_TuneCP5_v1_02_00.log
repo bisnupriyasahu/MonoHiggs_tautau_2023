@@ -1,0 +1,40 @@
+000 (5380476.000.000) 2022-10-28 12:13:37 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5380476.000.000) 2022-10-28 13:40:32 Started transferring input files
+	Transferring to host: <144.92.180.122:9618?addrs=144.92.180.122-9618+[2607-f388-101c-1000--294]-9618&alias=g26n20.hep.wisc.edu&noUDP&sock=slot1_8_3561_cbea_16539>
+...
+040 (5380476.000.000) 2022-10-28 13:40:32 Finished transferring input files
+...
+001 (5380476.000.000) 2022-10-28 13:40:33 Job executing on host: <144.92.180.122:9618?addrs=144.92.180.122-9618+[2607-f388-101c-1000--294]-9618&alias=g26n20.hep.wisc.edu&noUDP&sock=startd_3035_5606>
+...
+006 (5380476.000.000) 2022-10-28 13:40:41 Image size of job updated: 203620
+	90  -  MemoryUsage of job (MB)
+	91684  -  ResidentSetSize of job (KB)
+...
+006 (5380476.000.000) 2022-10-28 13:49:18 Image size of job updated: 525936
+	90  -  MemoryUsage of job (MB)
+	91684  -  ResidentSetSize of job (KB)
+...
+040 (5380476.000.000) 2022-10-28 13:49:24 Entered queue to transfer output files
+...
+040 (5380476.000.000) 2022-10-28 13:49:43 Started transferring output files
+...
+040 (5380476.000.000) 2022-10-28 13:49:43 Finished transferring output files
+...
+005 (5380476.000.000) 2022-10-28 13:49:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:05, Sys 0 00:00:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:05, Sys 0 00:00:48  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	16585  -  Run Bytes Sent By Job
+	26639  -  Run Bytes Received By Job
+	16585  -  Total Bytes Sent By Job
+	26639  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.10        1         1 
+	   Disk (KB)            : 146215     8388608  18347456 
+	   Memory (MB)          :     90       25600     26000 
+
+	Job terminated of its own accord at 2022-10-28T18:49:18Z.
+...

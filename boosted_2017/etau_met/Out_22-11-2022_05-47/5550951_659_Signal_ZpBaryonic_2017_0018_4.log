@@ -1,0 +1,46 @@
+000 (5550951.659.000) 2022-11-22 05:48:11 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.659.000) 2022-11-22 07:58:14 Started transferring input files
+	Transferring to host: <144.92.180.201:9618?addrs=144.92.180.201-9618+[2607-f388-101c-1000--271]-9618&alias=g24n09.hep.wisc.edu&noUDP&sock=slot1_5_3134_efb9_63422>
+...
+040 (5550951.659.000) 2022-11-22 07:58:24 Finished transferring input files
+...
+001 (5550951.659.000) 2022-11-22 07:58:25 Job executing on host: <144.92.180.201:9618?addrs=144.92.180.201-9618+[2607-f388-101c-1000--271]-9618&alias=g24n09.hep.wisc.edu&noUDP&sock=startd_2581_ee07>
+...
+006 (5550951.659.000) 2022-11-22 07:58:33 Image size of job updated: 1038640
+	360  -  MemoryUsage of job (MB)
+	367780  -  ResidentSetSize of job (KB)
+...
+006 (5550951.659.000) 2022-11-22 08:18:33 Image size of job updated: 1473072
+	547  -  MemoryUsage of job (MB)
+	559248  -  ResidentSetSize of job (KB)
+...
+006 (5550951.659.000) 2022-11-22 08:38:33 Image size of job updated: 1473072
+	549  -  MemoryUsage of job (MB)
+	561444  -  ResidentSetSize of job (KB)
+...
+006 (5550951.659.000) 2022-11-22 08:39:51 Image size of job updated: 1474232
+	549  -  MemoryUsage of job (MB)
+	561444  -  ResidentSetSize of job (KB)
+...
+040 (5550951.659.000) 2022-11-22 08:39:51 Started transferring output files
+...
+040 (5550951.659.000) 2022-11-22 08:39:51 Finished transferring output files
+...
+005 (5550951.659.000) 2022-11-22 08:39:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:18:35, Sys 0 00:01:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:18:35, Sys 0 00:01:22  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1674868  -  Run Bytes Sent By Job
+	328686816  -  Run Bytes Received By Job
+	1674868  -  Total Bytes Sent By Job
+	328686816  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.40        1         1 
+	   Disk (KB)            : 322685     2097152  18508433 
+	   Memory (MB)          :    549        2048      2500 
+
+	Job terminated of its own accord at 2022-11-22T14:39:51Z.
+...

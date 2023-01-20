@@ -1,0 +1,47 @@
+000 (3396273.452.000) 2022-12-25 06:14:12 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_3117_94ca>
+...
+040 (3396273.452.000) 2022-12-25 06:46:00 Entered queue to transfer input files
+	Transferring to host: <128.104.58.157:9618?addrs=128.104.58.157-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7582]-9618&alias=e1009.chtc.wisc.edu&noUDP&sock=slot1_30_367_55a8_19736>
+...
+040 (3396273.452.000) 2022-12-25 07:21:26 Started transferring input files
+	Seconds spent in queue: 2126
+...
+040 (3396273.452.000) 2022-12-25 07:34:04 Finished transferring input files
+...
+001 (3396273.452.000) 2022-12-25 07:34:05 Job executing on host: <128.104.58.157:9618?addrs=128.104.58.157-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7582]-9618&alias=e1009.chtc.wisc.edu&noUDP&sock=startd_10086_bc4d>
+...
+006 (3396273.452.000) 2022-12-25 07:34:14 Image size of job updated: 464380
+	358  -  MemoryUsage of job (MB)
+	365940  -  ResidentSetSize of job (KB)
+...
+006 (3396273.452.000) 2022-12-25 07:39:14 Image size of job updated: 1478464
+	536  -  MemoryUsage of job (MB)
+	548456  -  ResidentSetSize of job (KB)
+...
+006 (3396273.452.000) 2022-12-25 07:44:14 Image size of job updated: 1478464
+	537  -  MemoryUsage of job (MB)
+	549500  -  ResidentSetSize of job (KB)
+...
+040 (3396273.452.000) 2022-12-25 07:45:12 Started transferring output files
+	Seconds spent in queue: 3552
+...
+040 (3396273.452.000) 2022-12-25 07:45:12 Finished transferring output files
+...
+005 (3396273.452.000) 2022-12-25 07:45:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:55, Sys 0 00:00:28  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:55, Sys 0 00:00:28  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1711793  -  Run Bytes Sent By Job
+	328686848  -  Run Bytes Received By Job
+	1711793  -  Total Bytes Sent By Job
+	328686848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.69        1         1 
+	   Disk (KB)            : 322722     2097152   2379081 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    537        2048      2048 
+
+	Job terminated of its own accord at 2022-12-25T13:45:11Z.
+...

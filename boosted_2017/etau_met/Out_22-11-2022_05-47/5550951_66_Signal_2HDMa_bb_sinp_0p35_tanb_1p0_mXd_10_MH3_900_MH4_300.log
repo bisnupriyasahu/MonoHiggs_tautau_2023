@@ -1,0 +1,39 @@
+000 (5550951.066.000) 2022-11-22 05:48:07 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.066.000) 2022-11-22 06:32:33 Started transferring input files
+	Transferring to host: <128.105.68.228:9618?addrs=128.105.68.228-9618+[2607-f388-2200-100-1e6a-7aff-fe26-728b]-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=slot1_32_31836_1788_40581>
+...
+040 (5550951.066.000) 2022-11-22 06:33:12 Finished transferring input files
+...
+001 (5550951.066.000) 2022-11-22 06:33:13 Job executing on host: <128.105.68.228:9618?addrs=128.105.68.228-9618+[2607-f388-2200-100-1e6a-7aff-fe26-728b]-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=startd_7598_2cac>
+...
+006 (5550951.066.000) 2022-11-22 06:33:22 Image size of job updated: 1202908
+	386  -  MemoryUsage of job (MB)
+	394700  -  ResidentSetSize of job (KB)
+...
+006 (5550951.066.000) 2022-11-22 06:33:43 Image size of job updated: 1341508
+	387  -  MemoryUsage of job (MB)
+	395588  -  ResidentSetSize of job (KB)
+...
+040 (5550951.066.000) 2022-11-22 06:33:43 Started transferring output files
+...
+040 (5550951.066.000) 2022-11-22 06:33:43 Finished transferring output files
+...
+005 (5550951.066.000) 2022-11-22 06:33:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:12, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:12, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	563955  -  Run Bytes Sent By Job
+	328686816  -  Run Bytes Received By Job
+	563955  -  Total Bytes Sent By Job
+	328686816  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      1.01        1         1 
+	   Disk (KB)            : 321602     2097152   2397451 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    387        2048      2048 
+
+	Job terminated of its own accord at 2022-11-22T12:33:43Z.
+...

@@ -1,0 +1,48 @@
+000 (5550951.682.000) 2022-11-22 05:48:11 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.682.000) 2022-11-22 08:00:50 Started transferring input files
+	Transferring to host: <128.105.69.39:9618?addrs=128.105.69.39-9618+[2607-f388-2200-100-1e6a-7aff-fe21-a6d5]-9618&alias=e2361.chtc.wisc.edu&noUDP&sock=slot1_6_36601_7729_43320>
+...
+040 (5550951.682.000) 2022-11-22 08:01:32 Finished transferring input files
+...
+001 (5550951.682.000) 2022-11-22 08:01:33 Job executing on host: <128.105.69.39:9618?addrs=128.105.69.39-9618+[2607-f388-2200-100-1e6a-7aff-fe21-a6d5]-9618&alias=e2361.chtc.wisc.edu&noUDP&sock=startd_7247_6aee>
+...
+006 (5550951.682.000) 2022-11-22 08:01:42 Image size of job updated: 244312
+	77  -  MemoryUsage of job (MB)
+	77992  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:06:43 Image size of job updated: 1479668
+	543  -  MemoryUsage of job (MB)
+	555608  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:11:43 Image size of job updated: 1479668
+	545  -  MemoryUsage of job (MB)
+	558056  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:16:44 Image size of job updated: 1479668
+	565  -  MemoryUsage of job (MB)
+	577636  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:21:45 Image size of job updated: 1479668
+	568  -  MemoryUsage of job (MB)
+	580628  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:26:45 Image size of job updated: 1479668
+	573  -  MemoryUsage of job (MB)
+	585912  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:31:47 Image size of job updated: 1479668
+	573  -  MemoryUsage of job (MB)
+	586408  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:36:47 Image size of job updated: 1479668
+	574  -  MemoryUsage of job (MB)
+	586876  -  ResidentSetSize of job (KB)
+...
+006 (5550951.682.000) 2022-11-22 08:41:47 Image size of job updated: 1479668
+	574  -  MemoryUsage of job (MB)
+	587200  -  ResidentSetSize of job (KB)
+...
+009 (5550951.682.000) 2022-12-07 21:47:26 Job was aborted.
+	via condor_rm (by user condor)
+...

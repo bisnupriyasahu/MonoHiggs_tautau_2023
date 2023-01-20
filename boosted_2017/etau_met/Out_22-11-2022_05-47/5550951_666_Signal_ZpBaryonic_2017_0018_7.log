@@ -1,0 +1,46 @@
+000 (5550951.666.000) 2022-11-22 05:48:11 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.666.000) 2022-11-22 07:58:52 Started transferring input files
+	Transferring to host: <144.92.180.89:9618?addrs=144.92.180.89-9618+[2607-f388-101c-1000--255]-9618&alias=g23n09.hep.wisc.edu&noUDP&sock=slot1_4_2914_ed30_20346>
+...
+040 (5550951.666.000) 2022-11-22 07:59:04 Finished transferring input files
+...
+001 (5550951.666.000) 2022-11-22 07:59:05 Job executing on host: <144.92.180.89:9618?addrs=144.92.180.89-9618+[2607-f388-101c-1000--255]-9618&alias=g23n09.hep.wisc.edu&noUDP&sock=startd_2541_7e3d>
+...
+006 (5550951.666.000) 2022-11-22 07:59:14 Image size of job updated: 267984
+	29  -  MemoryUsage of job (MB)
+	29548  -  ResidentSetSize of job (KB)
+...
+006 (5550951.666.000) 2022-11-22 08:19:16 Image size of job updated: 1473496
+	572  -  MemoryUsage of job (MB)
+	585332  -  ResidentSetSize of job (KB)
+...
+006 (5550951.666.000) 2022-11-22 08:39:16 Image size of job updated: 1473656
+	576  -  MemoryUsage of job (MB)
+	589820  -  ResidentSetSize of job (KB)
+...
+006 (5550951.666.000) 2022-11-22 08:54:06 Image size of job updated: 1476232
+	576  -  MemoryUsage of job (MB)
+	589820  -  ResidentSetSize of job (KB)
+...
+040 (5550951.666.000) 2022-11-22 08:54:06 Started transferring output files
+...
+040 (5550951.666.000) 2022-11-22 08:54:07 Finished transferring output files
+...
+005 (5550951.666.000) 2022-11-22 08:54:07 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:40:49, Sys 0 00:02:25  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:40:49, Sys 0 00:02:25  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1790547  -  Run Bytes Sent By Job
+	328686816  -  Run Bytes Received By Job
+	1790547  -  Total Bytes Sent By Job
+	328686816  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.78        1         1 
+	   Disk (KB)            : 322798     2097152   2373560 
+	   Memory (MB)          :    576        2048      2048 
+
+	Job terminated of its own accord at 2022-11-22T14:54:06Z.
+...

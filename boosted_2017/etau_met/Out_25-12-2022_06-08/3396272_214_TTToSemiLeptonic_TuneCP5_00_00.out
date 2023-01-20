@@ -1,0 +1,80 @@
+analyze_etau TTToSemiLeptonic_TuneCP5_00_00 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+sample ==========TTToSemiLeptonic_TuneCP5_00_00
+.... MC file ..... 
+Coming in: 
+nentries:1450733
+Running over 1450733 events.
+Finished entry 0/1450732
+Finished entry 70000/1450732
+Finished entry 140000/1450732
+Finished entry 210000/1450732
+Finished entry 280000/1450732
+Finished entry 350000/1450732
+Finished entry 420000/1450732
+Finished entry 490000/1450732
+Finished entry 560000/1450732
+Finished entry 630000/1450732
+Finished entry 700000/1450732
+Finished entry 770000/1450732
+Finished entry 840000/1450732
+Finished entry 910000/1450732
+Finished entry 980000/1450732
+Finished entry 1050000/1450732
+Finished entry 1120000/1450732
+Finished entry 1190000/1450732
+Finished entry 1260000/1450732
+Finished entry 1330000/1450732
+Finished entry 1400000/1450732
+Finished entry 1450732/1450732
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 1450733.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 418.000000   % change= -inf
+     PassedBjetVeto 418.000000   % change= 0.000000
+       DeltaRPassed 418.000000   % change= 0.000000
+      Total change :99.971187
+*******************************************
+*******************************************
+Number of events inspected: 1450733
+Number of events inspected (minus negative gen. weights): 1439399.000000
+ Outpt written to TTToSemiLeptonic_TuneCP5_00_00.root
+Real time 0:52:41, CP time 1370.000
+1671975648 - 1671972481

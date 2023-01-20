@@ -1,0 +1,82 @@
+analyze_etau ST_t-channel_top_4f_inclusiveDecays_TuneCP5_00_01 MC
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ST_t-channel_top_4f_inclusiveDecays_TuneCP5_00_01
+.... MC file ..... 
+Coming in: 
+nentries:47983
+Running over 47983 events.
+Finished entry 0/47982
+Finished entry 2000/47982
+Finished entry 4000/47982
+Finished entry 6000/47982
+Finished entry 8000/47982
+Finished entry 10000/47982
+Finished entry 12000/47982
+Finished entry 14000/47982
+Finished entry 16000/47982
+Finished entry 18000/47982
+Finished entry 20000/47982
+Finished entry 22000/47982
+Finished entry 24000/47982
+Finished entry 26000/47982
+Finished entry 28000/47982
+Finished entry 30000/47982
+Finished entry 32000/47982
+Finished entry 34000/47982
+Finished entry 36000/47982
+Finished entry 38000/47982
+Finished entry 40000/47982
+Finished entry 42000/47982
+Finished entry 44000/47982
+Finished entry 46000/47982
+Finished entry 47982/47982
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 47983.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 0.000000   % change= -nan
+     PassedBjetVeto 0.000000   % change= -nan
+       DeltaRPassed 0.000000   % change= -nan
+      Total change :100.000000
+*******************************************
+*******************************************
+Number of events inspected: 47983
+Number of events inspected (minus negative gen. weights): 47983.000000
+ Outpt written to ST_t-channel_top_4f_inclusiveDecays_TuneCP5_00_01.root
+Real time 0:01:05, CP time 24.360
+1671972402 - 1671972335

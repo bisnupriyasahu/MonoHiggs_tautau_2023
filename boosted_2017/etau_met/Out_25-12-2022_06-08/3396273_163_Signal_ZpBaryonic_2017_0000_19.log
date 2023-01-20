@@ -1,0 +1,91 @@
+000 (3396273.163.000) 2022-12-25 06:14:10 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_3117_94ca>
+...
+040 (3396273.163.000) 2022-12-25 06:33:39 Entered queue to transfer input files
+	Transferring to host: <128.104.58.194:9618?addrs=128.104.58.194-9618+[2607-f388-1086-0-f24d-a2ff-fe40-ff19]-9618&alias=e1052.chtc.wisc.edu&noUDP&sock=slot1_1_16828_9925_22757>
+...
+040 (3396273.163.000) 2022-12-25 07:07:15 Started transferring input files
+	Seconds spent in queue: 2016
+...
+040 (3396273.163.000) 2022-12-25 07:15:01 Finished transferring input files
+...
+001 (3396273.163.000) 2022-12-25 07:15:02 Job executing on host: <128.104.58.194:9618?addrs=128.104.58.194-9618+[2607-f388-1086-0-f24d-a2ff-fe40-ff19]-9618&alias=e1052.chtc.wisc.edu&noUDP&sock=startd_10203_fce2>
+...
+006 (3396273.163.000) 2022-12-25 07:15:11 Image size of job updated: 836868
+	364  -  MemoryUsage of job (MB)
+	372536  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:20:12 Image size of job updated: 1495504
+	562  -  MemoryUsage of job (MB)
+	575308  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:25:12 Image size of job updated: 1495504
+	574  -  MemoryUsage of job (MB)
+	587616  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:30:12 Image size of job updated: 1495504
+	575  -  MemoryUsage of job (MB)
+	587916  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:35:13 Image size of job updated: 1495504
+	575  -  MemoryUsage of job (MB)
+	588796  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:40:14 Image size of job updated: 1495504
+	576  -  MemoryUsage of job (MB)
+	589056  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:45:14 Image size of job updated: 1495504
+	577  -  MemoryUsage of job (MB)
+	590120  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:50:14 Image size of job updated: 1495504
+	577  -  MemoryUsage of job (MB)
+	590132  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 07:55:15 Image size of job updated: 1495504
+	577  -  MemoryUsage of job (MB)
+	590136  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 08:00:17 Image size of job updated: 1497544
+	581  -  MemoryUsage of job (MB)
+	594408  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 08:05:17 Image size of job updated: 1498224
+	581  -  MemoryUsage of job (MB)
+	594416  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 08:10:17 Image size of job updated: 1498224
+	581  -  MemoryUsage of job (MB)
+	594424  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 08:15:18 Image size of job updated: 1498224
+	583  -  MemoryUsage of job (MB)
+	596268  -  ResidentSetSize of job (KB)
+...
+006 (3396273.163.000) 2022-12-25 08:24:44 Image size of job updated: 1499556
+	583  -  MemoryUsage of job (MB)
+	596268  -  ResidentSetSize of job (KB)
+...
+040 (3396273.163.000) 2022-12-25 08:24:44 Started transferring output files
+	Seconds spent in queue: 6665
+...
+040 (3396273.163.000) 2022-12-25 08:24:44 Finished transferring output files
+...
+005 (3396273.163.000) 2022-12-25 08:24:44 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:32:22, Sys 0 00:03:13  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:32:22, Sys 0 00:03:13  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1835980  -  Run Bytes Sent By Job
+	328686848  -  Run Bytes Received By Job
+	1835980  -  Total Bytes Sent By Job
+	328686848  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.85        1         1 
+	   Disk (KB)            : 322844     2097152   2300752 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    583        2048      2048 
+
+	Job terminated of its own accord at 2022-12-25T14:24:44Z.
+...

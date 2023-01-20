@@ -1,0 +1,97 @@
+Warning in <TStreamerInfo::BuildCheck>: 
+   The StreamerInfo of class RooBinningCategory read from file sf_files/htt_scalefactors_legacy_2017.root
+   has the same version (=1) as the active class but a different checksum.
+   You should update the version to ClassDef(RooBinningCategory,2).
+   Do not try to write objects with the current class definition,
+   the files will not be readable.
+
+Warning in <TStreamerInfo::CompareContent>: The following data member of
+the on-file layout version 1 of class 'RooBinningCategory' differs from 
+the in-memory layout version 1:
+   RooTemplateProxy<RooAbsReal> _inputVar; //
+vs
+   RooTemplateProxy<RooAbsRealLValue> _inputVar; //
+Error in <TClass::RegisterStreamerInfo>: Register StreamerInfo for RooBinningCategory on non-empty slot (1).
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 6 (Thread 0x2b352b317700 (LWP 30678) "analyze_etau"):
+#0  0x00002b350e9d8b3b in do_futex_wait.constprop () from /lib64/libpthread.so.0
+#1  0x00002b350e9d8bcf in __new_sem_wait_slow.constprop.0 () from /lib64/libpthread.so.0
+#2  0x00002b350e9d8c6b in sem_wait
+
+GLIBC_2.2.5 () from /lib64/libpthread.so.0
+#3  0x00002b3529bdc616 in XrdCl::JobManager::RunJobs() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#4  0x00002b3529bdc6d9 in RunRunnerThread () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#5  0x00002b350e9d2ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00002b350ece5b0d in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x2b352b518700 (LWP 30677) "analyze_etau"):
+#0  0x00002b350e9d8b3b in do_futex_wait.constprop () from /lib64/libpthread.so.0
+#1  0x00002b350e9d8bcf in __new_sem_wait_slow.constprop.0 () from /lib64/libpthread.so.0
+#2  0x00002b350e9d8c6b in sem_wait
+
+GLIBC_2.2.5 () from /lib64/libpthread.so.0
+#3  0x00002b3529bdc616 in XrdCl::JobManager::RunJobs() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#4  0x00002b3529bdc6d9 in RunRunnerThread () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#5  0x00002b350e9d2ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00002b350ece5b0d in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x2b352b719700 (LWP 30676) "analyze_etau"):
+#0  0x00002b350e9d8b3b in do_futex_wait.constprop () from /lib64/libpthread.so.0
+#1  0x00002b350e9d8bcf in __new_sem_wait_slow.constprop.0 () from /lib64/libpthread.so.0
+#2  0x00002b350e9d8c6b in sem_wait
+
+GLIBC_2.2.5 () from /lib64/libpthread.so.0
+#3  0x00002b3529bdc616 in XrdCl::JobManager::RunJobs() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#4  0x00002b3529bdc6d9 in RunRunnerThread () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#5  0x00002b350e9d2ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x00002b350ece5b0d in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x2b352b116700 (LWP 30675) "analyze_etau"):
+#0  0x00002b350e9d9e9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x00002b352992208f in XrdSysTimer::Wait(int) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdUtils.so.3
+#2  0x00002b3529b4bfa3 in XrdCl::TaskManager::RunTasks() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#3  0x00002b3529b4c0f9 in RunRunnerThread () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdCl.so.3
+#4  0x00002b350e9d2ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00002b350ece5b0d in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x2b352af15700 (LWP 30674) "analyze_etau"):
+#0  0x00002b350ece60e3 in epoll_wait () from /lib64/libc.so.6
+#1  0x00002b352991c4b2 in XrdSys::IOEvents::PollE::Begin(XrdSysSemaphore*, int&, char const**) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdUtils.so.3
+#2  0x00002b3529918c3d in XrdSys::IOEvents::BootStrap::Start(void*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdUtils.so.3
+#3  0x00002b3529921798 in XrdSysThread_Xeq () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libXrdUtils.so.3
+#4  0x00002b350e9d2ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x00002b350ece5b0d in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x2b3511f0cb00 (LWP 30603) "analyze_etau"):
+#0  0x00002b350ecac659 in waitpid () from /lib64/libc.so.6
+#1  0x00002b350ec29f62 in do_system () from /lib64/libc.so.6
+#2  0x00002b350ec2a311 in system () from /lib64/libc.so.6
+#3  0x00002b350c28c77b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#4  0x00002b350c289d25 in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#5  <signal handler called>
+#6  0x0000000000435e09 in etau_analyzer::etau_analyzer(char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char const*) ()
+#7  0x0000000000457abb in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x0000000000435e09 in etau_analyzer::etau_analyzer(char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, char const*) ()
+#7  0x0000000000457abb in main ()
+===========================================================
+
+

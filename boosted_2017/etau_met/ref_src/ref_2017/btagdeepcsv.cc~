@@ -1,0 +1,22 @@
+#include "btagdeepcsv.h"
+#include <iostream>
+#include <string>
+#include <algorithm>
+#include <iterator>
+#include <vector>
+
+
+btagdeepcsv::btagdeepcsv(const std::string& str) : fName(str)
+{
+  ifstream csvfile(fName);
+  if ( !csvfile.is_open() ) {
+    cout << "Unable to read " << fName << endl;
+    return;
+  }
+  else
+    cout << "File read " << fName << endl;
+   
+}
+btagdeepcsv::~btagdeepcsv()
+{
+}

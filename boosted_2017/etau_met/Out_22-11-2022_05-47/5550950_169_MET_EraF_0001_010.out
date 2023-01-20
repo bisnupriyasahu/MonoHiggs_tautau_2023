@@ -1,0 +1,85 @@
+analyze_etau MET_EraF_0001_010 DATA
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init DATA
+sample ==========MET_EraF_0001_010
+.... DATA file ..... 
+Coming in: 
+nentries:784
+Running over 784 events.
+Finished entry 0/783
+Finished entry 30/783
+Finished entry 60/783
+Finished entry 90/783
+Finished entry 120/783
+Finished entry 150/783
+Finished entry 180/783
+Finished entry 210/783
+Finished entry 240/783
+Finished entry 270/783
+Finished entry 300/783
+Finished entry 330/783
+Finished entry 360/783
+Finished entry 390/783
+Finished entry 420/783
+Finished entry 450/783
+Finished entry 480/783
+Finished entry 510/783
+Finished entry 540/783
+Finished entry 570/783
+Finished entry 600/783
+Finished entry 630/783
+Finished entry 660/783
+Finished entry 690/783
+Finished entry 720/783
+Finished entry 750/783
+Finished entry 780/783
+Finished entry 783/783
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 784.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 6.000000   % change= -inf
+     PassedBjetVeto 6.000000   % change= 0.000000
+       DeltaRPassed 6.000000   % change= 0.000000
+      Total change :99.234694
+*******************************************
+*******************************************
+Number of events inspected: 784
+Number of events inspected (minus negative gen. weights): 784.000000
+ Outpt written to MET_EraF_0001_010.root
+Real time 0:00:09, CP time 7.850
+1669118764 - 1669118752

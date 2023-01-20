@@ -1,0 +1,83 @@
+analyze_etau blinded_MET_EraE_0000_03 DATA
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init DATA
+sample ==========blinded_MET_EraE_0000_03
+.... DATA file ..... 
+Coming in: 
+nentries:7423
+Running over 7423 events.
+Finished entry 0/7422
+Finished entry 300/7422
+Finished entry 600/7422
+Finished entry 900/7422
+Finished entry 1200/7422
+Finished entry 1500/7422
+Finished entry 1800/7422
+Finished entry 2100/7422
+Finished entry 2400/7422
+Finished entry 2700/7422
+Finished entry 3000/7422
+Finished entry 3300/7422
+Finished entry 3600/7422
+Finished entry 3900/7422
+Finished entry 4200/7422
+Finished entry 4500/7422
+Finished entry 4800/7422
+Finished entry 5100/7422
+Finished entry 5400/7422
+Finished entry 5700/7422
+Finished entry 6000/7422
+Finished entry 6300/7422
+Finished entry 6600/7422
+Finished entry 6900/7422
+Finished entry 7200/7422
+Finished entry 7422/7422
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 7423.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 9.000000   % change= -inf
+     PassedBjetVeto 9.000000   % change= 0.000000
+       DeltaRPassed 9.000000   % change= 0.000000
+      Total change :99.878755
+*******************************************
+*******************************************
+Number of events inspected: 7423
+Number of events inspected (minus negative gen. weights): 7423.000000
+ Outpt written to blinded_MET_EraE_0000_03.root
+Real time 0:00:47, CP time 26.260
+1669120067 - 1669120017

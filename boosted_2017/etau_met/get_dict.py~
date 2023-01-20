@@ -1,0 +1,21 @@
+import os
+
+sample_list = open('sample_list', 'r')
+
+my_dict = {}
+
+lines = sample_list.readlines()
+for line in lines:
+    line = line.strip()
+    sample_name = line.split('/')[-4]
+    sample_name = sample_name.replace('crab_job_', '')
+    idx = line.split('/')[-2]
+    if 'MET' in sample_name:
+        idx = idx
+    else:
+        idx = idx[-2:]
+    print(line, sample_name+'_'+idx)
+
+
+
+sample_list.close()

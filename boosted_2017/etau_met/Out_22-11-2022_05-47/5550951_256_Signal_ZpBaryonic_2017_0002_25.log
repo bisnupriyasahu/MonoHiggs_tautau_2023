@@ -1,0 +1,39 @@
+000 (5550951.256.000) 2022-11-22 05:48:08 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5550951.256.000) 2022-11-22 06:52:45 Started transferring input files
+	Transferring to host: <128.105.69.45:9618?addrs=128.105.69.45-9618+[2607-f388-2200-100-1e6a-7aff-fe26-6cf7]-9618&alias=e2369.chtc.wisc.edu&noUDP&sock=slot1_14_17018_786d_39978>
+...
+040 (5550951.256.000) 2022-11-22 06:52:54 Finished transferring input files
+...
+001 (5550951.256.000) 2022-11-22 06:52:55 Job executing on host: <128.105.69.45:9618?addrs=128.105.69.45-9618+[2607-f388-2200-100-1e6a-7aff-fe26-6cf7]-9618&alias=e2369.chtc.wisc.edu&noUDP&sock=startd_7718_7c09>
+...
+006 (5550951.256.000) 2022-11-22 06:53:04 Image size of job updated: 549700
+	357  -  MemoryUsage of job (MB)
+	365232  -  ResidentSetSize of job (KB)
+...
+006 (5550951.256.000) 2022-11-22 06:58:04 Image size of job updated: 1451972
+	530  -  MemoryUsage of job (MB)
+	542212  -  ResidentSetSize of job (KB)
+...
+040 (5550951.256.000) 2022-11-22 07:01:12 Started transferring output files
+...
+040 (5550951.256.000) 2022-11-22 07:01:12 Finished transferring output files
+...
+005 (5550951.256.000) 2022-11-22 07:01:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:00, Sys 0 00:00:19  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:00, Sys 0 00:00:19  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1582254  -  Run Bytes Sent By Job
+	328686816  -  Run Bytes Received By Job
+	1582254  -  Total Bytes Sent By Job
+	328686816  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.49        1         1 
+	   Disk (KB)            : 322596     2097152   2352454 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    530        2048      2048 
+
+	Job terminated of its own accord at 2022-11-22T13:01:12Z.
+...

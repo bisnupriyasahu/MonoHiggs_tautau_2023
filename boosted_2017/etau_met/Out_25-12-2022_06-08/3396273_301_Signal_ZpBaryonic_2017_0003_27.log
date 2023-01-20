@@ -1,0 +1,51 @@
+000 (3396273.301.000) 2022-12-25 06:14:11 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_3117_94ca>
+...
+040 (3396273.301.000) 2022-12-25 06:40:07 Entered queue to transfer input files
+	Transferring to host: <128.104.101.115:9618?addrs=128.104.101.115-9618+[2607-f388-107c-501-22a-6aff-fedf-c721]-9618&alias=e0455.chtc.wisc.edu&noUDP&sock=slot1_16_39884_a2cf_18324>
+...
+040 (3396273.301.000) 2022-12-25 07:13:50 Started transferring input files
+	Seconds spent in queue: 2023
+...
+040 (3396273.301.000) 2022-12-25 07:27:37 Finished transferring input files
+...
+001 (3396273.301.000) 2022-12-25 07:27:38 Job executing on host: <128.104.101.115:9618?addrs=128.104.101.115-9618+[2607-f388-107c-501-22a-6aff-fedf-c721]-9618&alias=e0455.chtc.wisc.edu&noUDP&sock=startd_7703_321d>
+...
+006 (3396273.301.000) 2022-12-25 07:27:47 Image size of job updated: 474380
+	364  -  MemoryUsage of job (MB)
+	372184  -  ResidentSetSize of job (KB)
+...
+006 (3396273.301.000) 2022-12-25 07:32:48 Image size of job updated: 1487724
+	556  -  MemoryUsage of job (MB)
+	569252  -  ResidentSetSize of job (KB)
+...
+006 (3396273.301.000) 2022-12-25 07:37:49 Image size of job updated: 1489240
+	567  -  MemoryUsage of job (MB)
+	579812  -  ResidentSetSize of job (KB)
+...
+006 (3396273.301.000) 2022-12-25 07:39:55 Image size of job updated: 1489240
+	567  -  MemoryUsage of job (MB)
+	579824  -  ResidentSetSize of job (KB)
+...
+040 (3396273.301.000) 2022-12-25 07:39:55 Started transferring output files
+	Seconds spent in queue: 3588
+...
+040 (3396273.301.000) 2022-12-25 07:39:55 Finished transferring output files
+...
+005 (3396273.301.000) 2022-12-25 07:39:55 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:04:27, Sys 0 00:00:35  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:04:27, Sys 0 00:00:35  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1599026  -  Run Bytes Sent By Job
+	328686848  -  Run Bytes Received By Job
+	1599026  -  Total Bytes Sent By Job
+	328686848  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   322613  2097152   2332685 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      567     2048      2048 
+
+	Job terminated of its own accord at 2022-12-25T13:39:55Z.
+...
