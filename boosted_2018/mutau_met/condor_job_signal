@@ -1,0 +1,23 @@
+x509userproxy = /tmp/x509up_u10044
+universe = vanilla
+Executable = job_queue_signal.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = ( TARGET.HAS_CMS_HDFS && OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+#Requirements = ( OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 2G
+request_disk         = 2G
+
+#OutputDestination = 
+#Initialdir = Out_         
+arguments = $(my_executable) $(sample) $(year)
+Transfer_Input_Files = /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/samples.txt , /nfs_scratch/bsahu/2HDM_amodel/monoH_tautau/CMSSW_10_2_18/src/sf_files , /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/$(my_executable)
+
+output               = Out_29-12-2022_02-26/$(Cluster)_$(Process)_$(sample).out
+error                = Out_29-12-2022_02-26/$(Cluster)_$(Process)_$(sample).err
+Log                  = Out_29-12-2022_02-26/$(Cluster)_$(Process)_$(sample).log
+Queue my_executable,sample,year from samples_signal.txt 

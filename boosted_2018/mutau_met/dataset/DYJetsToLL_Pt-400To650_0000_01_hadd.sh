@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd DYJetsToLL_Pt-400To650_0000_01.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_72.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_73.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_74.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_75.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_76.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_8.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau/DYJetsToLL_Pt-400To650_0000/Ntuple_mc_9.root
+mv DYJetsToLL_Pt-400To650_0000_01.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/mutau_hadd/ 
