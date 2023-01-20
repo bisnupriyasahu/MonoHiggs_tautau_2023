@@ -1,0 +1,244 @@
+11-May-2020 03:30:17 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:19 CDT pre-events
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:20 CDT pre-events
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root?tried=.
+%MSG
+11-May-2020 03:30:20 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:30:21 CDT pre-events
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:30:24 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root?source=glow
+Begin processing the 1st record. Run 1, Event 6596807, LumiSection 2929 on stream 0 at 11-May-2020 03:30:26.995 CDT
+11-May-2020 03:30:31 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/695CBB56-B218-D344-9659-F47F7B3C79B8.root?source=glow
+11-May-2020 03:30:31 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:32 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:33 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root?tried=.
+%MSG
+11-May-2020 03:30:33 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:30:34 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:30:34 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root?source=glow
+Begin processing the 100001st record. Run 1, Event 343487691, LumiSection 152458 on stream 0 at 11-May-2020 03:30:39.551 CDT
+11-May-2020 03:30:41 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/880A5A45-B0F5-664A-BDE5-0A651477B22E.root?source=glow
+11-May-2020 03:30:41 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:42 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:42 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root?tried=.
+%MSG
+11-May-2020 03:30:42 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:30:43 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:30:43 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root?source=glow
+11-May-2020 03:30:49 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/F2047487-2080-A349-BC20-193DE43D2187.root?source=glow
+11-May-2020 03:30:49 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:50 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:50 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root?tried=.
+%MSG
+11-May-2020 03:30:50 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:30:51 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:30:52 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root?source=glow
+Begin processing the 200001st record. Run 1, Event 522051636, LumiSection 231714 on stream 0 at 11-May-2020 03:30:55.416 CDT
+11-May-2020 03:30:58 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/6095754D-D114-3F48-971E-3A9FDC01A34F.root?source=glow
+11-May-2020 03:30:58 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:59 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:30:59 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root?tried=.
+%MSG
+11-May-2020 03:30:59 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:00 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:00 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root?source=glow
+Begin processing the 300001st record. Run 1, Event 526730011, LumiSection 233791 on stream 0 at 11-May-2020 03:31:07.010 CDT
+11-May-2020 03:31:08 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/C384DD47-C697-B243-B0D2-CD2482FC4B2B.root?source=glow
+11-May-2020 03:31:08 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:09 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:09 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root?tried=.
+%MSG
+11-May-2020 03:31:09 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:10 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:10 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root?source=glow
+11-May-2020 03:31:18 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/0ACFF25A-EF97-4F4B-8705-FF67DCFEF6B6.root?source=glow
+11-May-2020 03:31:18 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:20 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:20 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root?tried=.
+%MSG
+11-May-2020 03:31:20 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:21 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:21 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root?source=glow
+Begin processing the 400001st record. Run 1, Event 3972522, LumiSection 1764 on stream 0 at 11-May-2020 03:31:24.167 CDT
+11-May-2020 03:31:30 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/796EE83E-6808-1144-AC3E-C394FCCC89D5.root?source=glow
+11-May-2020 03:31:30 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:32 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:32 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root?tried=.
+%MSG
+11-May-2020 03:31:32 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:33 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:33 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root?source=glow
+Begin processing the 500001st record. Run 1, Event 436944751, LumiSection 193940 on stream 0 at 11-May-2020 03:31:36.863 CDT
+11-May-2020 03:31:40 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/2FDEEECD-8069-A746-9C11-ECBFCB09195A.root?source=glow
+11-May-2020 03:31:40 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:42 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:42 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root?tried=.
+%MSG
+11-May-2020 03:31:42 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:43 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:43 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root?source=glow
+Begin processing the 600001st record. Run 1, Event 8922566, LumiSection 3961 on stream 0 at 11-May-2020 03:31:49.703 CDT
+11-May-2020 03:31:53 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/23ACA01F-1285-9046-87F4-756FF2FA6330.root?source=glow
+11-May-2020 03:31:53 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:54 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:31:54 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root?tried=.
+%MSG
+11-May-2020 03:31:54 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:31:55 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:31:55 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root?source=glow
+Begin processing the 700001st record. Run 1, Event 631562682, LumiSection 280321 on stream 0 at 11-May-2020 03:32:01.591 CDT
+11-May-2020 03:32:03 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/61DBAF51-BF20-4E42-A9CF-586F13ED4140.root?source=glow
+11-May-2020 03:32:03 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:04 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:04 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root?tried=.
+%MSG
+11-May-2020 03:32:04 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:32:06 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:32:06 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root?source=glow
+11-May-2020 03:32:13 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/CC6394C0-9035-A940-B2BE-7ED9EE5F2263.root?source=glow
+11-May-2020 03:32:13 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:14 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:14 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root?tried=.
+%MSG
+11-May-2020 03:32:14 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:32:15 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:32:15 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root?source=glow
+Begin processing the 800001st record. Run 1, Event 459302606, LumiSection 203863 on stream 0 at 11-May-2020 03:32:18.125 CDT
+11-May-2020 03:32:24 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/19491223-6057-B847-BF73-0DDD97B20364.root?source=glow
+11-May-2020 03:32:24 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:25 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:25 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root?tried=.
+%MSG
+11-May-2020 03:32:25 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:32:26 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:32:26 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root?source=glow
+Begin processing the 900001st record. Run 1, Event 661824616, LumiSection 293753 on stream 0 at 11-May-2020 03:32:29.742 CDT
+11-May-2020 03:32:33 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/A590399C-A4DC-1942-A287-FFE5C7181E35.root?source=glow
+11-May-2020 03:32:33 CDT  Initiating request to open file root://cmsxrootd.hep.wisc.edu//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:34 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root.
+%MSG
+%MSG-w XrdAdaptorInternal:  file_open 11-May-2020 03:32:34 CDT PostProcessEvent
+Failed to open file at URL root://cmsxrootd.hep.wisc.edu:1094//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root?tried=.
+%MSG
+11-May-2020 03:32:34 CDT  Fallback request to file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root?source=glow
+%MSG-w XrdAdaptor:  file_open 11-May-2020 03:32:35 CDT PostProcessEvent
+Data is served from [2620 instead of original site T1_US_FNAL
+%MSG
+11-May-2020 03:32:35 CDT  Successfully opened file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root?source=glow
+      0.000000      0.000000      0.000000             0
+      0.000000      0.000000      0.000000             1
+ 
+11-May-2020 03:32:41 CDT  Closed file root://cmsxrootd.fnal.gov//store/mc/RunIIAutumn18MiniAOD/WJetsToLNu_2J_TuneCP5_13TeV-amcatnloFXFX-pythia8/MINIAODSIM/102X_upgrade2018_realistic_v15-v1/20000/51E41229-D943-714B-AF07-2FBC48713944.root?source=glow
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		0.000e+00 +/- 0.000e+00		191	137	54	1282	773	509	0.000e+00 +/- 0.000e+00		31.4 +/- 5.3	14.9 +/- 1.0
+1		0.000e+00 +/- 0.000e+00		149	97	52	971	575	396	0.000e+00 +/- 0.000e+00		25.1 +/- 6.5	15.3 +/- 1.2
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		0.000e+00 +/- 0.000e+00		1000321	654228	346093	7252407	4359494	2892913	0.000e+00 +/- 0.000e+00		21.0 +/- 0.1	13.8 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 0.000e+00 +- 0.000e+00 pb
+After matching: total cross section = 0.000e+00 +- 0.000e+00 pb
+Matching efficiency = 0.1 +/- 0.0   [TO BE USED IN MCM]
+Filter efficiency (taking into account weights)= (2.5004e+10) / (2.5004e+10) = 1.000e+00 +- 0.000e+00
+Filter efficiency (event-level)= (1.00032e+06) / (1.00032e+06) = 1.000e+00 +- 0.000e+00    [TO BE USED IN MCM]
+
+After filter: final cross section = 0.000e+00 +- 0.000e+00 pb
+After filter: final fraction of events with negative weights = 3.460e-01 +- 9.739e-05
+After filter: final equivalent lumi for 1M events (1/fb) = 0.000e+00 +- 0.000e+00
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 GenXSecAnalyzer      -w GenXSecAnalyzer:                      16       16
+    2 XrdAdaptor           -w file_open                             14       14
+    3 XrdAdaptorInternal   -w file_open                             28       28
+    4 fileAction           -s file_close                            14       14
+    5 fileAction           -s file_open                             42       42
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 GenXSecAnalyzer      PostGlobalEndRun PostGlobalEndRun PostGlobalEndRun
+    2 XrdAdaptor           pre-events       PostProcessEvent PostProcessEvent
+    3 XrdAdaptorInternal   pre-events       pre-events       PostProcessEvent
+    4 fileAction           PostProcessEvent PostProcessEvent PostGlobalEndRun
+    5 fileAction           pre-events       pre-events       PostProcessEvent
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+Warning                58                  58
+System                 56                  56
+
+dropped waiting message count 0

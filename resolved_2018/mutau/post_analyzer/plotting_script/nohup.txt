@@ -1,0 +1,1627 @@
+nohup: ignoring input
+running tot_TMass_new
+sample exists
+Take action sample is not Empty .... removing existing files .....
+ls: cannot access sample/*tot_TMass_new*.root: No such file or directory
+55 9b False
+DY1JetsToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DY1JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY1JetsToLL  checking sampleZTT1jet  weight = 0.6982963411354202
+DY1JetsToLL_final.root histograms in file 10234
+Searching for  tot_TMass_new_9b
+Done......................
+DY2JetsToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DY2JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY2JetsToLL  checking sampleZTT2jet  weight = 0.790004685426304
+DY2JetsToLL_final.root histograms in file 11673
+Searching for  tot_TMass_new_9b
+Done......................
+DY3JetsToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DY3JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY3JetsToLL  checking sampleZTT3jet  weight = 0.977788910390329
+DY3JetsToLL_final.root histograms in file 11671
+Searching for  tot_TMass_new_9b
+Done......................
+DY4JetsToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DY4JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY4JetsToLL  checking sampleZTT4jet  weight = 0.8201568693067423
+DY4JetsToLL_final.root histograms in file 10237
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_0J_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_0J_Incl
+DYJetsToLL_0J_Incl NOT FOUND !!!!!!
+
+ for DYJetsToLL_0J_Incl  checking sampleDYJetsToLL_0J_Incl  weight = 0.0
+DYJetsToLL_0J_Incl_final.root histograms in file 7321
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_2J_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_2J_Incl
+DYJetsToLL_2J_Incl NOT FOUND !!!!!!
+
+ for DYJetsToLL_2J_Incl  checking sampleDYJetsToLL_2J_Incl  weight = 0.0
+DYJetsToLL_2J_Incl_final.root histograms in file 11679
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT100-200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT100-200
+DYJetsToLL_HT100-200 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT100-200  checking sampleDYJetsToLL_HT100-200  weight = 0.0
+DYJetsToLL_HT100-200_final.root histograms in file 8735
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT1200-2500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT1200-2500
+DYJetsToLL_HT1200-2500 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT1200-2500  checking sampleDYJetsToLL_HT1200-2500  weight = 0.0
+DYJetsToLL_HT1200-2500_final.root histograms in file 10233
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT200-400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT200-400
+DYJetsToLL_HT200-400 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT200-400  checking sampleDYJetsToLL_HT200-400  weight = 0.0
+DYJetsToLL_HT200-400_final.root histograms in file 11677
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT2500-Inf_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT2500-Inf
+DYJetsToLL_HT2500-Inf NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT2500-Inf  checking sampleDYJetsToLL_HT2500-Inf  weight = 0.0
+DYJetsToLL_HT2500-Inf_final.root histograms in file 11667
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT400-600_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT400-600
+DYJetsToLL_HT400-600 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT400-600  checking sampleDYJetsToLL_HT400-600  weight = 0.0
+DYJetsToLL_HT400-600_final.root histograms in file 11673
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT600-800_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT600-800
+DYJetsToLL_HT600-800 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT600-800  checking sampleDYJetsToLL_HT600-800  weight = 0.0
+DYJetsToLL_HT600-800_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT70-100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT70-100
+DYJetsToLL_HT70-100 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT70-100  checking sampleDYJetsToLL_HT70-100  weight = 0.0
+DYJetsToLL_HT70-100_final.root histograms in file 8953
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_HT800-1200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_HT800-1200
+DYJetsToLL_HT800-1200 NOT FOUND !!!!!!
+
+ for DYJetsToLL_HT800-1200  checking sampleDYJetsToLL_HT800-1200  weight = 0.0
+DYJetsToLL_HT800-1200_final.root histograms in file 11673
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_Incl_HT_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_Incl_HT
+DYJetsToLL_Incl_HT NOT FOUND !!!!!!
+
+ for DYJetsToLL_Incl_HT  checking sampleDYJetsToLL_Incl_HT  weight = 0.0
+DYJetsToLL_Incl_HT_final.root histograms in file 10233
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_M10to50_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL_M10to50
+
+ for DYJetsToLL_M10to50  checking sampleDYJetsToLL_M10to50  weight = 0.0
+DYJetsToLL_M10to50_final.root histograms in file 2713
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= DYJetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DYJetsToLL  checking sampleZTTjet_inc  weight = 3.6210537693648166
+DYJetsToLL_final.root histograms in file 11673
+Searching for  tot_TMass_new_9b
+Done......................
+EWKWMinus2Jets_WToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= EWKWMinus2Jets_WToLNu
+
+ for EWKWMinus2Jets_WToLNu  checking sampleEWKWMinus2Jets  weight = 0.3133872425009035
+EWKWMinus2Jets_WToLNu_final.root histograms in file 11669
+Searching for  tot_TMass_new_9b
+Done......................
+EWKWPlus2Jets_WToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= EWKWPlus2Jets_WToLNu
+
+ for EWKWPlus2Jets_WToLNu  checking sampleEWKWPlus2Jets  weight = 0.40405375114364134
+EWKWPlus2Jets_WToLNu_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+EWKZ2Jets_ZToLL_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= EWKZ2Jets_ZToLL
+
+ for EWKZ2Jets_ZToLL  checking sampleEWKZ2Jets_ZToLL  weight = 0.27797812499999996
+EWKZ2Jets_ZToLL_final.root histograms in file 10233
+Searching for  tot_TMass_new_9b
+Done......................
+EWKZ2Jets_ZToNuNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= EWKZ2Jets_ZToNuNu
+
+ for EWKZ2Jets_ZToNuNu  checking sampleEWKZ2Jets_ZToNuNu  weight = 0.216758174386921
+EWKZ2Jets_ZToNuNu_final.root histograms in file 5
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+GluGluHToTauTau_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= GluGluHToTauTau
+
+ for GluGluHToTauTau  checking sampleGluGluHToTauTau  weight = 0.014460769001988071
+GluGluHToTauTau_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+GluGluZH_HToWW_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= GluGluZH_HToWW
+
+ for GluGluZH_HToWW  checking sampleGluGluZH_HToWW  weight = 0.003286022210177354
+GluGluZH_HToWW_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+HWminusJ_HToWW_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= HWminusJ_HToWW
+
+ for HWminusJ_HToWW  checking sampleHWminusJ_HToWW  weight = 0.007026429898823044
+HWminusJ_HToWW_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+HWplusJ_HToWW_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= HWplusJ_HToWW
+
+ for HWplusJ_HToWW  checking sampleHWplusJ_HToWW  weight = 0.010876518218623482
+HWplusJ_HToWW_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+HZJ_HToWW_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= HZJ_HToWW
+
+ for HZJ_HToWW  checking sampleHZJ_HToWW  weight = 0.009731168118176828
+HZJ_HToWW_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ST_t-channel_antitop_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ST_t-channel_antitop
+
+ for ST_t-channel_antitop  checking sampleST_t-channel_antitop  weight = 0.06110337738396881
+ST_t-channel_antitop_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ST_t-channel_top_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ST_t-channel_top
+
+ for ST_t-channel_top  checking sampleST_t-channel_top  weight = 0.05262472387617708
+ST_t-channel_top_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ST_tW_antitop_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ST_tW_antitop
+
+ for ST_tW_antitop  checking sampleST_tW_antitop  weight = 0.2807615112160567
+ST_tW_antitop_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ST_tW_top_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ST_tW_top
+
+ for ST_tW_top  checking sampleST_tW_top  weight = 0.22298864346738903
+ST_tW_top_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350
+Signal_2HDMa_bb_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_bb_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_bb_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_bb_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_bb_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1600_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_100
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_100_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_200_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_100
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_100_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_300_MH4_150_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_100
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_100_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_200
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_400_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_200
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_300_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_300
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_500_MH4_300_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_100
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_100_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_300_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_300
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_300_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_400
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_400_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_500
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_500_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_300_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_300
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_300_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_400
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_700_MH4_400_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_300_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_300
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_300_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_500
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_500_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_300_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_300
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_300_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_350_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_350
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_350_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500
+Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_1p5_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_20p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_2p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_4p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_50p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150
+Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_150_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250
+Signal_2HDMa_gg_sinp_0p35_tanb_8p0_mXd_10_MH3_600_MH4_250_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p3_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p4_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p5_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p5_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p5_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p6_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p7_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p8_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_2HDMa_gg_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_2HDMa_gg_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200
+Signal_2HDMa_gg_sinp_0p9_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_10_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_10
+Signal_ZpBaryonic2017_10_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_11_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_11
+Signal_ZpBaryonic2017_11_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_12_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_12
+Signal_ZpBaryonic2017_12_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_13_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_13
+Signal_ZpBaryonic2017_13_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_14_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_14
+Signal_ZpBaryonic2017_14_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_15_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_15
+Signal_ZpBaryonic2017_15_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_16_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_16
+Signal_ZpBaryonic2017_16_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_17_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_17
+Signal_ZpBaryonic2017_17_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_18_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_18
+Signal_ZpBaryonic2017_18_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_19_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_19
+Signal_ZpBaryonic2017_19_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_1_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_1
+Signal_ZpBaryonic2017_1_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_20_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_20
+Signal_ZpBaryonic2017_20_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_21_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_21
+Signal_ZpBaryonic2017_21_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_22_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_22
+Signal_ZpBaryonic2017_22_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_23_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_23
+Signal_ZpBaryonic2017_23_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_24_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_24
+Signal_ZpBaryonic2017_24_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_25_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_25
+Signal_ZpBaryonic2017_25_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_26_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_26
+Signal_ZpBaryonic2017_26_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_27_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_27
+Signal_ZpBaryonic2017_27_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_28_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_28
+Signal_ZpBaryonic2017_28_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_29_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_29
+Signal_ZpBaryonic2017_29_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_2_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_2
+Signal_ZpBaryonic2017_2_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_30_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_30
+Signal_ZpBaryonic2017_30_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_31_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_31
+Signal_ZpBaryonic2017_31_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_32_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_32
+Signal_ZpBaryonic2017_32_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_33_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_33
+Signal_ZpBaryonic2017_33_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_34_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_34
+Signal_ZpBaryonic2017_34_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_35_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_35
+Signal_ZpBaryonic2017_35_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_36_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_36
+Signal_ZpBaryonic2017_36_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_37_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_37
+Signal_ZpBaryonic2017_37_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_38_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_38
+Signal_ZpBaryonic2017_38_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_39_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_39
+Signal_ZpBaryonic2017_39_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_3_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_3
+Signal_ZpBaryonic2017_3_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_40_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_40
+Signal_ZpBaryonic2017_40_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_41_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_41
+Signal_ZpBaryonic2017_41_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_42_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_42
+Signal_ZpBaryonic2017_42_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_43_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_43
+Signal_ZpBaryonic2017_43_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_4_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_4
+Signal_ZpBaryonic2017_4_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_5_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_5
+Signal_ZpBaryonic2017_5_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_6_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_6
+Signal_ZpBaryonic2017_6_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_7_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_7
+Signal_ZpBaryonic2017_7_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_8_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_8
+Signal_ZpBaryonic2017_8_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_9_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= Signal_ZpBaryonic2017_9
+Signal_ZpBaryonic2017_9_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonA_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonA
+
+ for SingleMuonA  checking sampledata_obs  weight = 1.0
+SingleMuonA_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonA_full_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonA_full
+SingleMuonA_full_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonB_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonB
+
+ for SingleMuonB  checking sampledata_obs  weight = 1.0
+SingleMuonB_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonB_full_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonB_full
+SingleMuonB_full_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonC_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonC
+
+ for SingleMuonC  checking sampledata_obs  weight = 1.0
+SingleMuonC_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonC_full_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonC_full
+SingleMuonC_full_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+SingleMuonD_PromptReco_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= SingleMuonD_PromptReco
+
+ for SingleMuonD_PromptReco  checking sampledata_obs  weight = 1.0
+SingleMuonD_PromptReco_final.root histograms in file 3237
+Searching for  tot_TMass_new_9b
+Done......................
+TTTo2L2Nu_powheg_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= TTTo2L2Nu_powheg
+
+ for TTTo2L2Nu_powheg  checking sampleTTTo2L2Nu  weight = 0.08196101694915255
+TTTo2L2Nu_powheg_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+TTToHadronic_powheg_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= TTToHadronic_powheg
+
+ for TTToHadronic_powheg  checking sampleTTToHadronic  weight = 0.16863126270477102
+TTToHadronic_powheg_final.root histograms in file 8781
+Searching for  tot_TMass_new_9b
+Done......................
+TTToSemiLeptonic_powheg_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= TTToSemiLeptonic_powheg
+
+ for TTToSemiLeptonic_powheg  checking sampleTTToSemiLeptonic  weight = 0.2147847858197932
+TTToSemiLeptonic_powheg_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+VBFHToTauTau_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= VBFHToTauTau
+
+ for VBFHToTauTau  checking sampleVBFHToTauTau  weight = 0.00471891486
+VBFHToTauTau_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+VBFHToWWTo2L2Nu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= VBFHToWWTo2L2Nu
+
+ for VBFHToWWTo2L2Nu  checking sampleVBFHToWWTo2L2Nu  weight = 0.00535509
+VBFHToWWTo2L2Nu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+VVTo2L2Nu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= VVTo2L2Nu
+
+ for VVTo2L2Nu  checking sampleVVTo2L2Nu  weight = 0.5184128778776298
+VVTo2L2Nu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+W1JetsToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= W1JetsToLNu
+
+ for W1JetsToLNu  checking sampleW1Jet  weight = 10.93401571
+W1JetsToLNu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+W2JetsToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= W2JetsToLNu
+
+ for W2JetsToLNu  checking sampleW2Jet  weight = 8.317497757
+W2JetsToLNu_final.root histograms in file 11679
+Searching for  tot_TMass_new_9b
+Done......................
+W3JetsToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= W3JetsToLNu
+
+ for W3JetsToLNu  checking sampleW3Jet  weight = 4.417448717
+W3JetsToLNu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+W4JetsToLNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= W4JetsToLNu
+
+ for W4JetsToLNu  checking sampleW4Jet  weight = 3.311191492
+W4JetsToLNu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WGToLNuG_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WGToLNuG
+
+ for WGToLNuG  checking sampleWGToLNuG  weight = 4.53893840167932
+WGToLNuG_final.root histograms in file 11665
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_0J_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_0J_Incl
+WJetsToLNu_0J_Incl NOT FOUND !!!!!!
+
+ for WJetsToLNu_0J_Incl  checking sampleWJetsToLNu_0J_Incl  weight = 0.0
+WJetsToLNu_0J_Incl_final.root histograms in file 11661
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_1J_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_1J_Incl
+WJetsToLNu_1J_Incl NOT FOUND !!!!!!
+
+ for WJetsToLNu_1J_Incl  checking sampleWJetsToLNu_1J_Incl  weight = 0.0
+WJetsToLNu_1J_Incl_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_2J_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_2J_Incl
+WJetsToLNu_2J_Incl NOT FOUND !!!!!!
+
+ for WJetsToLNu_2J_Incl  checking sampleWJetsToLNu_2J_Incl  weight = 0.0
+WJetsToLNu_2J_Incl_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT100-200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT100-200
+
+ for WJetsToLNu_HT100-200  checking sampleWJetsToLNu_HT100-200  weight = 3.3217630964407854
+WJetsToLNu_HT100-200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT1200-2500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT1200-2500
+
+ for WJetsToLNu_HT1200-2500  checking sampleWJetsToLNu_HT1200-2500  weight = 0.01270229448156649
+WJetsToLNu_HT1200-2500_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT200-400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT200-400
+
+ for WJetsToLNu_HT200-400  checking sampleWJetsToLNu_HT200-400  weight = 1.0296970298322952
+WJetsToLNu_HT200-400_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT2500-Inf_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT2500-Inf
+
+ for WJetsToLNu_HT2500-Inf  checking sampleWJetsToLNu_HT2500-Inf  weight = 0.0007170668405430186
+WJetsToLNu_HT2500-Inf_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT400-600_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT400-600
+
+ for WJetsToLNu_HT400-600  checking sampleWJetsToLNu_HT400-600  weight = 0.6010699163007446
+WJetsToLNu_HT400-600_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT600-800_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT600-800
+
+ for WJetsToLNu_HT600-800  checking sampleWJetsToLNu_HT600-800  weight = 0.044398794960817334
+WJetsToLNu_HT600-800_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT70-100_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT70-100
+WJetsToLNu_HT70-100 NOT FOUND !!!!!!
+
+ for WJetsToLNu_HT70-100  checking sampleWJetsToLNu_HT70-100  weight = 0.0
+WJetsToLNu_HT70-100_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_HT800-1200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_HT800-1200
+
+ for WJetsToLNu_HT800-1200  checking sampleWJetsToLNu_HT800-1200  weight = 0.047896158412885206
+WJetsToLNu_HT800-1200_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_Incl_HT_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_Incl_HT
+WJetsToLNu_Incl_HT NOT FOUND !!!!!!
+
+ for WJetsToLNu_Incl_HT  checking sampleWJetsToLNu_Incl_HT  weight = 0.0
+WJetsToLNu_Incl_HT_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WJetsToLNu_Incl
+
+ for WJetsToLNu_Incl  checking sampleWJets_inc  weight = 52.01898249
+WJetsToLNu_Incl_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WWTo1L1Nu2Q
+
+ for WWTo1L1Nu2Q  checking sampleWWTo1L1Nu2Q  weight = 0.1365296672998606
+WWTo1L1Nu2Q_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WWToLNuQQ_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WWToLNuQQ
+
+ for WWToLNuQQ  checking sampleWWToLNuQQ  weight = 0.033302967326593436
+WWToLNuQQ_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WWW_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WWW
+
+ for WWW  checking sampleWWW  weight = 0.05188925
+WWW_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WWZ_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WWZ
+
+ for WWZ  checking sampleWWZ  weight = 0.039425879999999996
+WWZ_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+WZTo3LNu_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WZTo3LNu
+
+ for WZTo3LNu  checking sampleWZTo3LNu  weight = 0.024603626534976473
+WZTo3LNu_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WZZ_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WZZ
+
+ for WZZ  checking sampleWZZ  weight = 0.01328922
+WZZ_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+WminusHToTauTau_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WminusHToTauTau
+
+ for WminusHToTauTau  checking sampleWminusHToTauTau  weight = 0.0026241732000000005
+WminusHToTauTau_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+WplusHToTauTau_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= WplusHToTauTau
+
+ for WplusHToTauTau  checking sampleWplusHToTauTau  weight = 0.0008308089626380595
+WplusHToTauTau_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ZHToTauTau_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZHToTauTau
+
+ for ZHToTauTau  checking sampleZHToTauTau  weight = 0.0005983676871109021
+ZHToTauTau_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT100-200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT100-200
+
+ for ZJetsToNuNu_HT100-200  checking sampleZJetsToNuNu_HT100-200  weight = 4.756238212864675
+ZJetsToNuNu_HT100-200_final.root histograms in file 5
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT1200-2500_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT1200-2500
+
+ for ZJetsToNuNu_HT1200-2500  checking sampleZJetsToNuNu_HT1200-2500  weight = 0.04999382280782522
+ZJetsToNuNu_HT1200-2500_final.root histograms in file 5
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT200-400_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT200-400
+
+ for ZJetsToNuNu_HT200-400  checking sampleZJetsToNuNu_HT200-400  weight = 0.19913385023008767
+ZJetsToNuNu_HT200-400_final.root histograms in file 1029
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT2500-Inf_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT2500-Inf
+
+ for ZJetsToNuNu_HT2500-Inf  checking sampleZJetsToNuNu_HT2500-Inf  weight = 0.0011508765734528235
+ZJetsToNuNu_HT2500-Inf_final.root histograms in file 5
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT400-600_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT400-600
+
+ for ZJetsToNuNu_HT400-600  checking sampleZJetsToNuNu_HT400-600  weight = 0.06698054904269747
+ZJetsToNuNu_HT400-600_final.root histograms in file 3013
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT800-1200_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZJetsToNuNu_HT800-1200
+
+ for ZJetsToNuNu_HT800-1200  checking sampleZJetsToNuNu_HT800-1200  weight = 0.034021060597116896
+ZJetsToNuNu_HT800-1200_final.root histograms in file 5
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZZTo2L2Q_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZZTo2L2Q
+
+ for ZZTo2L2Q  checking sampleZZTo2L2Q  weight = 0.006889991458925244
+ZZTo2L2Q_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ZZTo4L_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZZTo4L
+
+ for ZZTo4L  checking sampleZZTo4L  weight = 0.01081576705182439
+ZZTo4L_final.root histograms in file 11685
+Searching for  tot_TMass_new_9b
+Done......................
+ZZZ_final.root
+Making root files for tot_TMass_new
+get_lumiweight , sampleName= ZZZ
+
+ for ZZZ  checking sampleZZZ  weight = 0.003338424
+ZZZ_final.root histograms in file 11681
+Searching for  tot_TMass_new_9b
+Done......................
+ls: cannot access *tot_TMass_new*.root: No such file or directory
+hadd Target file: f_tot_TMass_new_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/*tot_TMass_new.root
+Error in <TFile::TFile>: file /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/resolved_2018/mutau/post_analyzer/plotting_script/sample/*tot_TMass_new.root does not exist
+Error in <TFileMerger::AddFile>: cannot open file sample/*tot_TMass_new.root
+hadd exiting due to error in sample/*tot_TMass_new.root
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ ##  hist tot_TMass_new  : 55
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017 --blinded 0 
+('hist = ', 55, ' : ', 'tot_TMass_new')
+executing  |  echo running tot_TMass_new  ; bash remove_existingfiles.sh scaled_files tot_TMass_new ; python3 postAnalyzer.py --hist 55 --idx 9b --blinded 0 ; bash remove_existingfiles.sh agg_file tot_TMass_new ; hadd f_tot_TMass_new_initial.root sample/*tot_TMass_new.root ; hadd f_tot_TMass_new_up.root sample/*tot_TMass_new_up.root ; hadd f_tot_TMass_new_down.root sample/*tot_TMass_new_down.root ; python3 get_zll.py --hist tot_TMass_new ; python3 get_small_mc.py --hist tot_TMass_new ; python3 get_jetFakes.py --hist tot_TMass_new --blinded 0 ; python3 get_jetFakes_unc.py --hist tot_TMass_new --blinded 0
+Traceback (most recent call last):
+  File "main.py", line 143, in <module>
+    main(int(hist), idx, channel, args.blinded)
+  File "main.py", line 94, in main
+    subprocess.check_call( cmd , shell=True)
+  File "/usr/lib64/python2.7/subprocess.py", line 542, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command 'hadd f_tot_TMass_new_initial.root sample/*tot_TMass_new.root' returned non-zero exit status 1
