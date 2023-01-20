@@ -1,0 +1,19 @@
+
+outDir="Out_$(date +"%d-%m-%Y_%H-%M")" 
+mkdir $outDir 
+
+###########################   MC  #########################
+
+
+./rootcom etau_analyzer analyze_etau
+
+for i in {1..43}
+do
+    
+    ./MakeCondorFiles_zpb.csh analyze_etau root://cmsxrootd.hep.wisc.edu//store/user/jmadhusu/2018_skimmed/zprimeBaryonic/Zpbaryonic_00.root Zpbaryonic_00_${i}.root -1 1000 2018 MC Zpbaryonic_00_${i} $i $outDir
+    ./MakeCondorFiles_zpb.csh analyze_etau root://cmsxrootd.hep.wisc.edu//store/user/jmadhusu/2018_skimmed/zprimeBaryonic/Zpbaryonic_01.root Zpbaryonic_01_${i}.root -1 1000 2018 MC Zpbaryonic_01_${i} $i $outDir
+
+done
+
+
+

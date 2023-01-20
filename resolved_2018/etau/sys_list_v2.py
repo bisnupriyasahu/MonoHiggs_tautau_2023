@@ -1,0 +1,71 @@
+
+
+######### shapes 
+shape_list = {
+ 'CMS_JER' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ 'CMS_JES' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ 'CMS_htt_boson_reso_met_Jet_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ 'CMS_htt_boson_scale_met_Jet_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ 'CMS_scale_met_unclustered_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+
+ # 'CMS_FF_closure_OSSS_mvis_et_qcd_2018' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_et_qcd' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_et_tt' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_et_w' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_xtrg_et_qcd_2018' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_xtrg_et_tt_2018' : ['jetFakes'] , 
+ # 'CMS_FF_closure_lpt_xtrg_et_w_2018' : ['jetFakes'] , 
+ # 'CMS_FF_closure_mt_et_w_unc1_2018' : ['jetFakes'] , 
+ # 'CMS_FF_closure_mt_et_w_unc2_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_qcd_unc1_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_qcd_unc2_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_tt_unc1_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_tt_unc2_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_w_unc1_2018' : ['jetFakes'] , 
+ # 'CMS_rawFF_et_w_unc2_2018' : ['jetFakes'] , 
+
+ # 'CMS_eletautrg_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_htt_dyShape' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_htt_ttbarShape' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_e_Scale_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_efaket_1prong1pizero_barrel_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_efaket_1prong1pizero_endcap_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_efaket_1prong_barrel_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_efaket_1prong_endcap_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_t_1prong1pizero_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_t_1prong_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_t_3prong1pizero_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_t_3prong_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_tautrg_1prong1pizero_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_tautrg_1prong_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_tautrg_3prong1pizero_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_scale_tautrg_3prong_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_singleeletrg_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_tauideff_pt30to35_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_tauideff_pt35to40_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+ # 'CMS_tauideff_ptgt40_2018' : ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT'] , 
+
+}
+
+######### scale 
+norm_list = {
+  'CMS_eFakeTau_2018' : [1.15, 'ZL', 1.15, 'VVL', 1.15, 'STL', 1.15, 'TTL'] , 
+  'CMS_eff_e_2018' : [1.02, 'VVT', 1.02, 'STT', 1.02, 'TTT', 1.02, 'ZL', 1.02, 'VVL', 1.02, 'STL', 1.02, 'TTL', 1.01, 'embedded'] , 
+  'CMS_eff_e_embedded_2018' : [1.01732, 'embedded'] , 
+  'CMS_eff_t_againstemu_et_2018' : [1.01, 'VVT', 1.01, 'STT', 1.01, 'TTT'] , 
+  'CMS_htt_doublemutrg_2018' : [1.04, 'embedded'] , 
+  'CMS_htt_eff_b_2018' : [1.005, 'VVT', 1.005, 'ZL', 1.005, 'VVL'] , 
+  'CMS_htt_eff_b_TT_2018' : [1.05, 'STT', 1.05, 'TTT', 1.05, 'STL', 1.05, 'TTL'] , 
+  'CMS_htt_stXsec' : [1.05, 'STT', 1.05, 'STL'] , 
+  'CMS_htt_tjXsec' : [1.042, 'TTT', 1.042, 'TTL'] , 
+  'CMS_htt_vvXsec' : [1.05, 'VVT', 1.05, 'VVL'] , 
+  'CMS_htt_zjXsec' : [1.02, 'ZL'] , 
+  'CMS_jetFakesNorm_0jetlow_et_2018' : [1.05, 'jetFakes'] , 
+  'lumi_Run2018' : [1.02, 'VVT', 1.02, 'STT', 1.02, 'TTT', 1.02, 'ZL', 1.02, 'VVL', 1.02, 'STL', 1.02, 'TTL'] , 
+  'lumi_XYfactorization' : [1.008, 'VVT', 1.008, 'STT', 1.008, 'TTT', 1.008, 'ZL', 1.008, 'VVL', 1.008, 'STL', 1.008, 'TTL'] , 
+  'lumi_beamBeamDeflection' : [1.004, 'VVT', 1.004, 'STT', 1.004, 'TTT', 1.004, 'ZL', 1.004, 'VVL', 1.004, 'STL', 1.004, 'TTL'] , 
+  'lumi_beamCurrentCalibration' : [1.003, 'VVT', 1.003, 'STT', 1.003, 'TTT', 1.003, 'ZL', 1.003, 'VVL', 1.003, 'STL', 1.003, 'TTL'] , 
+  'lumi_dynamicBeta' : [1.005, 'VVT', 1.005, 'STT', 1.005, 'TTT', 1.005, 'ZL', 1.005, 'VVL', 1.005, 'STL', 1.005, 'TTL'] , 
+  'lumi_ghostsAndSatellites' : [1.001, 'VVT', 1.001, 'STT', 1.001, 'TTT', 1.001, 'ZL', 1.001, 'VVL', 1.001, 'STL', 1.001, 'TTL'] , 
+  'lumi_lengthScale' : [1.003, 'VVT', 1.003, 'STT', 1.003, 'TTT', 1.003, 'ZL', 1.003, 'VVL', 1.003, 'STL', 1.003, 'TTL'] 
+}
