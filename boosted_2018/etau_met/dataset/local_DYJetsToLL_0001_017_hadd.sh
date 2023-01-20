@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd DYJetsToLL_0001_017.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1717.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1718.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1719.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1720.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1721.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1722.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1723.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/DYJetsToLL_0001/Ntuple_mc_1724.root
+mv DYJetsToLL_0001_017.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/ 

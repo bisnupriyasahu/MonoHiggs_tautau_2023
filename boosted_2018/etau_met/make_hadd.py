@@ -1,0 +1,113 @@
+import os
+import ROOT as R
+
+
+def isvalid(file_name):
+    try:
+        fin = R.TFile(file_name)
+        return True
+    except:
+        return False
+
+def isvalid_v2(file_name):
+    try:
+        fin = R.TFile(file_name)
+        fin.Close()
+        return True
+    except:
+        return False
+
+
+#path = '/hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/'
+samples = sorted(os.listdir('dataset'))
+
+my_dict = {}
+path2 = '/hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/'
+#files_exist = [ x.replace('.root', '') for x in os.listdir(path2)]
+files_exist = []
+fout_failed = []
+initial_nfiles = 0
+final_nfiles = 0
+for sample in samples:
+    if '.txt' not in sample: 
+        continue
+    sample = sample.replace('.txt', '')
+    # if sample in files_exist:
+    #     continue
+    if 'DYJetsToLL_Pt-' in sample:
+        continue
+    if 'WJetsToLNu_HT' in sample:
+        continue
+    if 'blinded' in sample:
+        continue
+    print(sample)
+    my_dict[sample] = []
+    with open('dataset/'+sample+'.txt') as fin:
+        lines = fin.readlines()
+        for line in lines:
+            initial_nfiles += 1
+            line = '/hdfs'+line.strip()
+            if isvalid(line):
+                final_nfiles += 1
+                my_dict[sample].append(line)
+
+            
+initial_script="""#!/bin/sh
+source /cvmfs/cms.cern.ch/cmsset_default.sh 
+cd /cvmfs/cms.cern.ch/slc7_amd64_gcc630/cms/cmssw/CMSSW_9_4_13/
+eval export CMSSW_RELEASE_BASE="/cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5";
+export PATH="/cvmfs/cms.cern.ch/share/overrides/bin:/nfs_scratch/jmadhusu/CMSSW_12_3_5/bin/slc7_amd64_gcc10:/nfs_scratch/jmadhusu/CMSSW_12_3_5/external/slc7_amd64_gcc10/bin:/cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/bin/slc7_amd64_gcc10:/cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/bin:/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/llvm/12.0.1-98ba1be77003441f04b47ab03db13dc0/bin:/cvmfs/cms.cern.ch/slc7_amd64_gcc10/external/gcc/10.3.0-84898dea653199466402e67d73657f10/bin:/cvmfs/cms.cern.ch/common:/cvmfs/cms.cern.ch/common:/usr/local/bin/smb:/usr/local/bin/raid:/usr/lib64/qt-3.3/bin:/usr/local/etc:/usr/local/bin/hadoop:/usr/local/bin/firstboot:/usr/local/bin/defaultcls:/usr/condabin:/usr/local/bin/cephdir:/usr/local/bin/afs:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/puppetlabs/bin:/afs/hep.wisc.edu/home/ms/bin";
+cd ${_CONDOR_SCRATCH_DIR}
+
+"""
+f_submit = open('run_all_hadd.sh', 'w')
+
+condor_submit_script="""x509userproxy = /tmp/x509up_u4548
+universe = vanilla
+Executable = dataset/{sample}_hadd.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (TARGET.HAS_CMS_HDFS && OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 25G
+request_disk         = 8G
+
+#OutputDestination = dataset/ 
+#Initialdir = Out_         
+#Transfer_Input_Files =  
+
+output               = log_files/\$(Cluster)_\$(Process)_{sample}.out
+error                = log_files/\$(Cluster)_\$(Process)_{sample}.err
+Log                  = log_files/\$(Cluster)_\$(Process)_{sample}.log
+Queue 
+
+"""
+
+for k , v in my_dict.items():
+    # print "hadd "+k+".root "+' '.join(v)
+    # print(k, v)
+    #f_submit.write('./MakeCondorFiles_hadd.sh '+k+' \n')
+    f_submit.write('condor_submit dataset/condor_submit_'+k+' \n ')
+    fout = open('dataset/'+k+'_hadd.sh', 'w')
+    
+    fout.write(initial_script)
+    fout.write('\n')
+    #v = [ x.replace('/hdfs', 'root://cmsxrootd.hep.wisc.edu:1094/') for x in v ]
+    fout.write("hadd "+k+".root "+' '.join(v)+ '\n')
+    #fout.write('xrdcp '+k+'.root root://cmsxrootd.hep.wisc.edu:1094//store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/ \n')
+    fout.write('mv '+k+'.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/ \n')
+    #fout.write('rm '+k+".root ")
+    fout.close()
+    fout_condor_submit = open('dataset/condor_submit_'+k, 'w')
+    fout_condor_submit.write(condor_submit_script.format(sample = k))
+    
+
+f_submit = open('check_all.sh', 'w')
+for k, v in my_dict.items():    
+    f_submit.write('du -sh /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/'+k+'.root \n')
+
+print(fout_failed)
+

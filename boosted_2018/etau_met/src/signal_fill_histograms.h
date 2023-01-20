@@ -1,0 +1,139 @@
+void signal_analyzer::fillHist( string histNumber , int eleIndex, int tauIndex, bool isFakeBkg, float event_weight){
+  string hNumber = histNumber;
+    
+  //plotFill("elePt_"+hNumber,  my_eleP4.Pt() , 38 , 24 , 100,  event_weight);
+  plotFill("elePt_"+hNumber,  my_eleP4.Pt() , 10 , 0 , 100,  event_weight);  /// binning same as 2016 AN
+  plotFill("eleEta_"+hNumber, my_eleP4.Eta(), 25, -2.5, 2.5,  event_weight);
+  plotFill("elePhi_"+hNumber, my_eleP4.Phi(), 30, -3.14, 3.14,  event_weight);
+  plotFill("eleDz_"+hNumber,  eleDz->at(eleIndex), 20, -0.2, 0.2,  event_weight);
+  plotFill("eleD0_"+hNumber,  eleD0->at(eleIndex), 20, -0.05, 0.05,  event_weight);
+  plotFill("electronID_"+hNumber, eleIDbit->at(eleIndex)>>8&1, 4, -2, 2,  event_weight); // electronID
+  float relEleIso = ( elePFChIso->at(eleIndex) + max( elePFNeuIso->at(eleIndex) + elePFPhoIso->at(eleIndex) - 0.5 *elePFPUIso->at(eleIndex) , 0.0 )) / (my_eleP4.Pt());
+  plotFill("relEleIso_"+hNumber, relEleIso, 15, 0, 0.3,  event_weight);
+  plotFill("eleCharge_"+hNumber, eleCharge->at(eleIndex), 8, -2, 2 ,  event_weight);
+  
+  //plotFill("tauPt_"+hNumber,  my_tauP4.Pt() , 25 , 30 , 80,  event_weight);
+  plotFill("tauPt_"+hNumber,  my_tauP4.Pt() , 10 , 30 , 80,  event_weight);  /// binning same as 2016 AN
+  plotFill("tauEta_"+hNumber, my_tauP4.Eta(), 25, -2.5, 2.5,  event_weight);
+  plotFill("tauPhi_"+hNumber, my_tauP4.Phi(), 30, -3.14, 3.14,  event_weight);
+  plotFill("tauIso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tauIndex), 4, -2, 2,  event_weight);
+  plotFill("tauDecayMode_"+hNumber, tau_DecayMode->at(tauIndex) , 12, 0, 12,  event_weight);
+  plotFill("tauCharge_"+hNumber, tau_Charge->at(tauIndex), 8, -2, 2 ,  event_weight);
+  plotFill("tauAntiEle_"+hNumber, tau_byTightDeepTau2017v2p1VSe->at(tauIndex), 8, -2, 2,  event_weight );
+  plotFill("tauAntiMu_"+hNumber,  tau_byVLooseDeepTau2017v2p1VSmu->at(tauIndex), 8, -2, 2 ,  event_weight);
+  double deltaR = my_eleP4.DeltaR(my_tauP4);
+  plotFill("deltaR_"+hNumber, deltaR , 30, 0, 3,  event_weight);
+  double deltaPhi = DeltaPhi(elePhi->at(eleIndex), tau_Phi->at(tauIndex));
+  double deltaEta = fabs(eleEta->at(eleIndex) - tau_Eta->at(tauIndex));
+  plotFill("deltaPhi_"+hNumber, deltaPhi , 30, -3.14, 3.14,  event_weight);
+  plotFill("deltaEta_"+hNumber, deltaEta ,  25, -2.5, 2.5,  event_weight);
+
+  int id_tauplus, id_tauminus;
+  id_tauplus = id_tauminus = 0;
+  for(int i=0; i<nMC; i++)
+    {
+      // tau minus
+      if(mcPID->at(i)==  15 && mcPt->at(i) > 30 && abs(mcEta->at(i)) < 2.3 && abs(mcMotherPID->at(i))==25)
+	id_tauplus = i;
+      
+      // taus minus
+      if(mcPID->at(i)== -15 && mcPt->at(i) > 30 && abs(mcEta->at(i)) < 2.3 && abs(mcMotherPID->at(i))==25)
+        id_tauminus = i;
+    }
+
+  //cout<<"FOUND  id_tauplus = "<<id_tauplus<< "   and id_tauminus = "<<id_tauminus<<endl;
+  TLorentzVector tau_plusP4, tau_minusP4;
+  tau_plusP4.SetPtEtaPhiE(mcPt->at(id_tauplus),  mcEta->at(id_tauplus), mcPhi->at(id_tauplus), mcE->at(id_tauplus));
+  tau_minusP4.SetPtEtaPhiE(mcPt->at(id_tauminus),  mcEta->at(id_tauminus), mcPhi->at(id_tauminus), mcE->at(id_tauminus));
+  double signal_deltaR = tau_plusP4.DeltaR(tau_minusP4);
+  //cout<<"deltaR = "<< deltaR <<endl;
+  //plotFill("deltaR_signal_"+hNumber, signal_deltaR , 20, 0, 5,  event_weight);
+
+  
+}
+void signal_analyzer::fillHist_nominal(string histNumber, float event_weight){
+  string hNumber = histNumber;
+  TLorentzVector tauP4, eleP4, MET_P4;
+  int eleIndex, tauIndex;
+  int genmatch1, genmatch2, njets;
+  ////cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  if (stage=="5_dyll")
+    {
+      eleP4  = my_eleP4_nom_5dyll;
+      tauP4 = my_tauP4_nom_5dyll;
+      MET_P4 = my_metP4_nom_5dyll;
+      eleIndex = EleIndex_nomdyll;
+      tauIndex = TauIndex_nomdyll;
+      genmatch1 = l1_genmatching_nomdyll;
+      genmatch2 = l2_genmataching_nomdyll;
+      njets= my_njets_nom_5dyll;
+    }
+  if (stage=="9_dyll")
+    {
+      eleP4  = my_eleP4_nom_9dyll;
+      tauP4 = my_tauP4_nom_9dyll;
+      MET_P4 = my_metP4_nom_9dyll;
+      eleIndex = EleIndex_nomdyll;
+      tauIndex = TauIndex_nomdyll;
+      genmatch1 = l1_genmatching_nomdyll;
+      genmatch2 = l2_genmataching_nomdyll;
+      njets= my_njets_nom_9dyll;
+    }
+  if (stage=="5")
+    {
+      eleP4  = my_eleP4_nom_5;
+      tauP4 = my_tauP4_nom_5;
+      MET_P4 = my_metP4_nom_5;
+      eleIndex = EleIndex_nom;
+      tauIndex = TauIndex_nom;
+      genmatch1 = l1_genmatching_nom;
+      genmatch2 = l2_genmataching_nom;
+      njets= my_njets_nom_5;
+    }
+  if (stage=="9")
+    {
+      eleP4  = my_eleP4_nom_9;
+      tauP4 = my_tauP4_nom_9;
+      MET_P4 = my_metP4_nom_9;
+      eleIndex = EleIndex_nom;
+      tauIndex = TauIndex_nom;
+      genmatch1 = l1_genmatching_nom;
+      genmatch2 = l2_genmataching_nom;
+      njets= my_njets_nom_9;
+    }
+  eleIndex = EleIndex; tauIndex=TauIndex;
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  //plotFill("elePt_"+hNumber,  eleP4.Pt() , 38 , 24 , 100,  event_weight);
+  plotFill("elePt_"+hNumber,  eleP4.Pt() , 10 , 0 , 100,  event_weight);  /// binning same as 2016 AN
+  plotFill("eleEta_"+hNumber, eleP4.Eta(), 25, -2.5, 2.5,  event_weight);
+  plotFill("elePhi_"+hNumber, eleP4.Phi(), 30, -3.14, 3.14,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  plotFill("eleDz_"+hNumber,  eleDz->at(eleIndex), 20, -0.2, 0.2,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  plotFill("eleD0_"+hNumber,  eleD0->at(eleIndex), 20, -0.05, 0.05,  event_weight);
+  plotFill("electronID_"+hNumber, eleIDbit->at(eleIndex)>>8&1, 4, -2, 2,  event_weight); // electronID
+  float relEleIso = ( elePFChIso->at(eleIndex) + max( elePFNeuIso->at(eleIndex) + elePFPhoIso->at(eleIndex) - 0.5 *elePFPUIso->at(eleIndex) , 0.0 )) / (eleP4.Pt());
+  plotFill("relEleIso_"+hNumber, relEleIso, 15, 0, 0.3,  event_weight);
+  plotFill("eleCharge_"+hNumber, eleCharge->at(eleIndex), 8, -2, 2 ,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;  
+  //plotFill("tauPt_"+hNumber,  tauP4.Pt() , 25 , 30 , 80,  event_weight);
+  plotFill("tauPt_"+hNumber,  tauP4.Pt() , 10 , 30 , 80,  event_weight);  /// binning same as 2016 AN
+  plotFill("tauEta_"+hNumber, tauP4.Eta(), 25, -2.5, 2.5,  event_weight);
+  plotFill("tauPhi_"+hNumber, tauP4.Phi(), 30, -3.14, 3.14,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  plotFill("tauIso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tauIndex), 4, -2, 2,  event_weight);
+  plotFill("tauDecayMode_"+hNumber, tau_DecayMode->at(tauIndex) , 12, 0, 12,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  plotFill("tauCharge_"+hNumber, tau_Charge->at(tauIndex), 8, -2, 2 ,  event_weight);
+  plotFill("tauAntiEle_"+hNumber, tau_byTightDeepTau2017v2p1VSe->at(tauIndex), 8, -2, 2,  event_weight );
+  plotFill("tauAntiMu_"+hNumber,  tau_byVLooseDeepTau2017v2p1VSmu->at(tauIndex), 8, -2, 2 ,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+  double deltaR = eleP4.DeltaR(tauP4);
+  plotFill("deltaR_"+hNumber, deltaR , 30, 0, 3,  event_weight);
+  double deltaPhi = DeltaPhi(elePhi->at(eleIndex), tau_Phi->at(tauIndex));
+  double deltaEta = fabs(eleEta->at(eleIndex) - tau_Eta->at(tauIndex));
+  plotFill("deltaPhi_"+hNumber, deltaPhi , 30, -3.14, 3.14,  event_weight);
+  plotFill("deltaEta_"+hNumber, deltaEta ,  25, -2.5, 2.5,  event_weight);
+  //cout<<__LINE__<<"  fillHist_nominal  "<<endl;
+
+}

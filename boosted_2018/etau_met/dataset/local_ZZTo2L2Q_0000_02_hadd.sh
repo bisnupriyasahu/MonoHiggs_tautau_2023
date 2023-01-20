@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd ZZTo2L2Q_0000_02.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_92.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_93.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_94.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_95.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_96.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_97.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_98.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/ZZTo2L2Q_0000/Ntuple_mc_99.root
+mv ZZTo2L2Q_0000_02.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/ 

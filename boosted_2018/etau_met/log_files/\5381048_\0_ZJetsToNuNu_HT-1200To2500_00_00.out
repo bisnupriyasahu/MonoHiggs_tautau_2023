@@ -1,0 +1,10 @@
+hadd Target file: ZJetsToNuNu_HT-1200To2500_00_00.root
+hadd compression setting for all output: 1
+hadd Source file 1: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_1.root
+hadd Source file 2: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_2.root
+hadd Source file 3: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_3.root
+hadd Source file 4: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_4.root
+hadd Source file 5: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_5.root
+hadd Source file 6: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_6.root
+hadd Source file 7: /hdfs/store/user/jmadhusu/with_boostedtau/2017_skimmed/with_boostedtaus/etau/ZJetsToNuNu_HT-1200To2500_00/ZJetsToNuNu_HT-1200To2500_00_7.root
+hadd Target path: ZJetsToNuNu_HT-1200To2500_00_00.root:/

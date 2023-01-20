@@ -1,0 +1,40 @@
+000 (5380985.000.000) 2022-10-28 12:19:28 Job submitted from host: <144.92.180.28:9618?addrs=144.92.180.28-9618+[2607-f388-101c-1000--370]-9618&alias=login04.hep.wisc.edu&noUDP&sock=schedd_3631_2478>
+...
+040 (5380985.000.000) 2022-10-28 15:19:38 Started transferring input files
+	Transferring to host: <144.92.180.117:9618?addrs=144.92.180.117-9618+[2607-f388-101c-1000--289]-9618&alias=g26n15.hep.wisc.edu&noUDP&sock=slot1_4_3521_9ce8_15570>
+...
+040 (5380985.000.000) 2022-10-28 15:19:39 Finished transferring input files
+...
+001 (5380985.000.000) 2022-10-28 15:19:40 Job executing on host: <144.92.180.117:9618?addrs=144.92.180.117-9618+[2607-f388-101c-1000--289]-9618&alias=g26n15.hep.wisc.edu&noUDP&sock=startd_3103_fa77>
+...
+006 (5380985.000.000) 2022-10-28 15:19:48 Image size of job updated: 257004
+	89  -  MemoryUsage of job (MB)
+	90684  -  ResidentSetSize of job (KB)
+...
+006 (5380985.000.000) 2022-10-28 15:23:22 Image size of job updated: 518988
+	89  -  MemoryUsage of job (MB)
+	90684  -  ResidentSetSize of job (KB)
+...
+040 (5380985.000.000) 2022-10-28 15:23:27 Entered queue to transfer output files
+...
+040 (5380985.000.000) 2022-10-28 15:23:32 Started transferring output files
+...
+040 (5380985.000.000) 2022-10-28 15:23:33 Finished transferring output files
+...
+005 (5380985.000.000) 2022-10-28 15:23:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:02, Sys 0 00:00:20  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:02, Sys 0 00:00:20  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5745  -  Run Bytes Sent By Job
+	17080  -  Run Bytes Received By Job
+	5745  -  Total Bytes Sent By Job
+	17080  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   319318  8388608  18354222 
+	   Memory (MB)          :       89    25600     26000 
+
+	Job terminated of its own accord at 2022-10-28T20:23:22Z.
+...

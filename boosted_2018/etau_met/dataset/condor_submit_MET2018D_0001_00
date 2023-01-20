@@ -1,0 +1,22 @@
+x509userproxy = /tmp/x509up_u4548
+universe = vanilla
+Executable = dataset/MET2018D_0001_00_hadd.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (TARGET.HAS_CMS_HDFS && OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 8G
+request_disk         = 8G
+
+#OutputDestination = dataset/ 
+#Initialdir = Out_         
+#Transfer_Input_Files =  
+
+output               = log_files/\$(Cluster)_\$(Process)_MET2018D_0001_00.out
+error                = log_files/\$(Cluster)_\$(Process)_MET2018D_0001_00.err
+Log                  = log_files/\$(Cluster)_\$(Process)_MET2018D_0001_00.log
+Queue 
+ 

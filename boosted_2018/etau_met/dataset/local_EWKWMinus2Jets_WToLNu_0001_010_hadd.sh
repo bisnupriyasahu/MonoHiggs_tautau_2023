@@ -1,0 +1,5 @@
+#!/bin/sh
+
+
+hadd EWKWMinus2Jets_WToLNu_0001_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1992.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1993.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1994.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1995.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1996.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1997.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1998.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau/EWKWMinus2Jets_WToLNu_0001/Ntuple_mc_1999.root
+mv EWKWMinus2Jets_WToLNu_0001_010.root /hdfs/store/user/jmadhusu/with_boostedtau/2018_skimmed/with_boostedtaus/etau_hadd/ 
