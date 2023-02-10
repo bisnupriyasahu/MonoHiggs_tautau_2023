@@ -1,0 +1,350 @@
+argc = 9
+sp = 10
+arg 0 ./analyze_signal
+arg 1 /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+arg 2 Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_10.root
+arg 3 50
+arg 4 1000
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 10
+********** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0000
+__________found_ZprimeBaryonic________
+1062 zprimeBaryonic_signal = 10
+.... MC file ..... 
+Coming in: 
+nentries:277000
+Running over 50 events.
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 1
+zprimeBaryonic_signal 10  
+Finished entry 0/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 2
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 3
+zprimeBaryonic_signal 10  
+Finished entry 2/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 4
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 5
+zprimeBaryonic_signal 10  
+Finished entry 4/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 6
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 7
+zprimeBaryonic_signal 10  
+Finished entry 6/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 8
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 9
+zprimeBaryonic_signal 10  
+Finished entry 8/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 10
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 11
+zprimeBaryonic_signal 10  
+Finished entry 10/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 12
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 13
+zprimeBaryonic_signal 10  
+Finished entry 12/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 14
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 15
+zprimeBaryonic_signal 10  
+Finished entry 14/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 16
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 17
+zprimeBaryonic_signal 10  
+Finished entry 16/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 18
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 19
+zprimeBaryonic_signal 10  
+Finished entry 18/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 20
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 21
+zprimeBaryonic_signal 10  
+Finished entry 20/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 22
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 23
+zprimeBaryonic_signal 10  
+Finished entry 22/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 24
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 25
+zprimeBaryonic_signal 10  
+Finished entry 24/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 26
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 27
+zprimeBaryonic_signal 10  
+Finished entry 26/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 28
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 29
+zprimeBaryonic_signal 10  
+Finished entry 28/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 30
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 31
+zprimeBaryonic_signal 10  
+Finished entry 30/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 32
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 33
+zprimeBaryonic_signal 10  
+Finished entry 32/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 34
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 35
+zprimeBaryonic_signal 10  
+Finished entry 34/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 36
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 37
+zprimeBaryonic_signal 10  
+Finished entry 36/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 38
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 39
+zprimeBaryonic_signal 10  
+Finished entry 38/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 40
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 41
+zprimeBaryonic_signal 10  
+Finished entry 40/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 42
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 43
+zprimeBaryonic_signal 10  
+Finished entry 42/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 44
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 45
+zprimeBaryonic_signal 10  
+Finished entry 44/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 46
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 47
+zprimeBaryonic_signal 10  
+Finished entry 46/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 48
+zprimeBaryonic_signal 10  
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 49
+zprimeBaryonic_signal 10  
+Finished entry 48/49
+mymap name nEvents_ZpB
+x is 10
+ weight is 1
+nZpB bincontent at x 10 is : 0
+nZpB bincontent x+1 11 is : 50
+zprimeBaryonic_signal 10  
+nPassedSkimmed = 34
+nEvents = 50
+Real time 0:00:04, CP time 2.010

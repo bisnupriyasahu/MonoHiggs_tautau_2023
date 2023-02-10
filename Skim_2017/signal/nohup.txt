@@ -1,0 +1,73 @@
+nohup: ignoring input
+argc = 9
+sp = 7
+arg 0 ./analyze_signal
+arg 1 /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_7.root
+arg 2 Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_7.root
+arg 3 -1
+arg 4 10000
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 7
+************** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0__________found_ZprimeBaryonic________
+1062 zprimeBaryonic_signal = 7
+Error.... MC file ..... 
+Coming in: 
+nentries:277000
+Running over 277000 events.
+Finished entry 10000/276999
+Finished entry 20000/276999
+Finished entry 30000/276999
+Finished entry 40000/276999
+Finished entry 50000/276999
+Finished entry 60000/276999
+Finished entry 70000/276999
+Finished entry 80000/276999
+Finished entry 90000/276999
+Finished entry 100000/276999
+Finished entry 110000/276999
+Finished entry 120000/276999
+Finished entry 130000/276999
+Finished entry 140000/276999
+Finished entry 150000/276999
+Finished entry 160000/276999
+Finished entry 170000/276999
+Finished entry 180000/276999
+Finished entry 190000/276999
+Finished entry 200000/276999
+Finished entry 210000/276999
+Finished entry 220000/276999
+Finished entry 230000/276999
+Finished entry 240000/276999
+Finished entry 250000/276999
+Finished entry 260000/276999
+Finished entry 270000/276999
+nPassedSkimmed = 155117
+nEvents = 277000
+Real time 0:07:27, CP time 246.200
+MSSW_12_3_5/external/slc7_amd64_gcc10/lib/libCore.so
+#4  <signal handler called>
+#5  0x00007f14de3e5ad7 in TTree::CloneTree(long long, char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libTree.so
+#6  0x0000000000416c1f in skimm_signal_2017::Loop(long long, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000416832 in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum https://root.cern.ch/forum
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at https://root.cern.ch/bugs Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#5  0x00007f14de3e5ad7 in TTree::CloneTree(long long, char const*) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc10/cms/cmssw/CMSSW_12_3_5/external/slc7_amd64_gcc10/lib/libTree.so
+#6  0x0000000000416c1f in skimm_signal_2017::Loop(long long, int, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000416832 in main ()
+===========================================================
+
+
