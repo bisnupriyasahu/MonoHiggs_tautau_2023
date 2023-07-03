@@ -20,7 +20,7 @@ for j in filelistDATA :
         inputDrDATA = inputDrDATA.replace('/hdfs' , "root://cmsxrootd.hep.wisc.edu/")
         outname = j.split('_')
         outname = outname[0] + '_full_' + outname[1]
-        outFile.write("./MakeCondorFiles.csh analyze_etau "+inputDrDATA+j+" "+outname+" -1 1000 2018 DATA "+j[:-5]+" $outDir"+"\n")
+        outFile.write("./MakeCondorFiles.csh analyze_mutau "+inputDrDATA+j+" "+outname+" -1 1000 2018 DATA "+j[:-5]+" $outDir"+"\n")
                 
 print("""
 check submit_fulldata.sh

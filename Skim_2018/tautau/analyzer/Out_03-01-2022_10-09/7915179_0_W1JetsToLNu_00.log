@@ -1,0 +1,39 @@
+000 (7915179.000.000) 2022-01-03 10:11:26 Job submitted from host: <144.92.181.245:9618?addrs=144.92.181.245-9618+[2607-f388-101c-1000--372]-9618&alias=login06.hep.wisc.edu&noUDP&sock=schedd_913429_e58e>
+...
+040 (7915179.000.000) 2022-01-03 10:11:38 Entered queue to transfer input files
+	Transferring to host: <128.104.103.8:9618?addrs=128.104.103.8-9618+[2607-f388-107c-501-862b-2bff-fe64-8672]-9618&alias=e004.chtc.wisc.edu&noUDP&sock=slot1_6_6229_a4d6_10000>
+...
+040 (7915179.000.000) 2022-01-03 10:13:04 Started transferring input files
+	Seconds spent in queue: 86
+...
+040 (7915179.000.000) 2022-01-03 10:15:38 Finished transferring input files
+...
+001 (7915179.000.000) 2022-01-03 10:15:39 Job executing on host: <128.104.103.8:9618?addrs=128.104.103.8-9618+[2607-f388-107c-501-862b-2bff-fe64-8672]-9618&alias=e004.chtc.wisc.edu&noUDP&sock=startd_5300_f009>
+...
+006 (7915179.000.000) 2022-01-03 10:15:48 Image size of job updated: 752856
+	438  -  MemoryUsage of job (MB)
+	447972  -  ResidentSetSize of job (KB)
+...
+040 (7915179.000.000) 2022-01-03 10:15:56 Started transferring output files
+	Seconds spent in queue: 258
+...
+040 (7915179.000.000) 2022-01-03 10:15:56 Finished transferring output files
+...
+005 (7915179.000.000) 2022-01-03 10:15:56 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:06, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	130545  -  Run Bytes Sent By Job
+	315491744  -  Run Bytes Received By Job
+	130545  -  Total Bytes Sent By Job
+	315491744  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.03        1         1 
+	   Disk (KB)            : 308285     2048000   2705297 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    438        1992      2048 
+
+	Job terminated of its own accord at 2022-01-03T16:15:55Z.
+...

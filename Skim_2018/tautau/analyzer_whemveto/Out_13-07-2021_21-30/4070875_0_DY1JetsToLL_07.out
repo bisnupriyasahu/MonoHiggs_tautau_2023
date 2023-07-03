@@ -1,0 +1,51 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:14101
+Running over 14101 events.
+Finished entry 0/14100
+Finished entry 700/14100
+Finished entry 1400/14100
+Finished entry 2100/14100
+Finished entry 2800/14100
+Finished entry 3500/14100
+Finished entry 4200/14100
+Finished entry 4900/14100
+Finished entry 5600/14100
+Finished entry 6300/14100
+Finished entry 7000/14100
+Finished entry 7700/14100
+Finished entry 8400/14100
+Finished entry 9100/14100
+Finished entry 9800/14100
+Finished entry 10500/14100
+Finished entry 11200/14100
+Finished entry 11900/14100
+Finished entry 12600/14100
+Finished entry 13300/14100
+Finished entry 14000/14100
+Finished entry 14100/14100
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 14101.000000
+   Passing smikking 0.000000
+Inspected genWeightd 14101.000000   % change= 0.000000
+   METFiltersPassed 13591.717521   % change= 3.611676
+    SingleTrgPassed 3564.406370   % change= 73.775159
+     GoodMuonPassed 2581.295448   % change= 27.581337
+      GoodTauPassed 1076.335477   % change= 58.302507
+         opp charge 1076.335477   % change= 0.000000
+ PassedThirdLepVeto 816.850940   % change= 24.108147
+     PassedBjetVeto 793.797223   % change= 2.822267
+       DeltaRPassed 792.978241   % change= 0.103173
+      Total change :94.376440
+*******************************************
+*******************************************
+Number of events inspected: 14101
+Number of events inspected (minus negative gen. weights): 14101.000000
+ Outpt written to DY1JetsToLL_07.root
+Real time 0:00:24, CP time 20.120

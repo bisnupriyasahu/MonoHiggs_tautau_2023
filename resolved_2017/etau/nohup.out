@@ -1,0 +1,369 @@
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:261:1: warning: control reaches end of non-void function [-Wreturn-type]
+  261 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int, int)':
+src/object_functions.h:294:1: warning: control reaches end of non-void function [-Wreturn-type]
+  294 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::mVetoZTTp001dxyz(int, int)':
+src/object_functions.h:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+  547 | }
+      | ^
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'int etau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1665:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1665 | }
+      | ^
+In file included from src/etau_analyzer.C:57:
+src/get_met_systenatics.h: In member function 'TLorentzVector etau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
+Submitting job(s).
+1 job(s) submitted to cluster 7384461.
+Submitting job(s).
+1 job(s) submitted to cluster 7384462.
+Submitting job(s).
+1 job(s) submitted to cluster 7384463.
+Submitting job(s).
+1 job(s) submitted to cluster 7384464.
+Submitting job(s).
+1 job(s) submitted to cluster 7384465.
+Submitting job(s).
+1 job(s) submitted to cluster 7384466.
+Submitting job(s).
+1 job(s) submitted to cluster 7384467.
+Submitting job(s).
+1 job(s) submitted to cluster 7384468.
+Submitting job(s).
+1 job(s) submitted to cluster 7384469.
+Submitting job(s).
+1 job(s) submitted to cluster 7384470.
+Submitting job(s).
+1 job(s) submitted to cluster 7384471.
+Submitting job(s).
+1 job(s) submitted to cluster 7384472.
+Submitting job(s).
+1 job(s) submitted to cluster 7384473.
+Submitting job(s).
+1 job(s) submitted to cluster 7384474.
+Submitting job(s).
+1 job(s) submitted to cluster 7384475.
+Submitting job(s).
+1 job(s) submitted to cluster 7384476.
+Submitting job(s).
+1 job(s) submitted to cluster 7384477.
+Submitting job(s).
+1 job(s) submitted to cluster 7384478.
+Submitting job(s).
+1 job(s) submitted to cluster 7384479.
+Submitting job(s).
+1 job(s) submitted to cluster 7384480.
+Submitting job(s).
+1 job(s) submitted to cluster 7384481.
+Submitting job(s).
+1 job(s) submitted to cluster 7384482.
+Submitting job(s).
+1 job(s) submitted to cluster 7384483.
+Submitting job(s).
+1 job(s) submitted to cluster 7384484.
+Submitting job(s).
+1 job(s) submitted to cluster 7384485.
+Submitting job(s).
+1 job(s) submitted to cluster 7384486.
+Submitting job(s).
+1 job(s) submitted to cluster 7384487.
+Submitting job(s).
+1 job(s) submitted to cluster 7384488.
+Submitting job(s).
+1 job(s) submitted to cluster 7384489.
+Submitting job(s).
+1 job(s) submitted to cluster 7384490.
+Submitting job(s).
+1 job(s) submitted to cluster 7384491.
+Submitting job(s).
+1 job(s) submitted to cluster 7384492.
+Submitting job(s).
+1 job(s) submitted to cluster 7384493.
+Submitting job(s).
+1 job(s) submitted to cluster 7384494.
+Submitting job(s).
+1 job(s) submitted to cluster 7384495.
+Submitting job(s).
+1 job(s) submitted to cluster 7384496.
+Submitting job(s).
+1 job(s) submitted to cluster 7384497.
+Submitting job(s).
+1 job(s) submitted to cluster 7384498.
+Submitting job(s).
+1 job(s) submitted to cluster 7384499.
+Submitting job(s).
+1 job(s) submitted to cluster 7384500.
+Submitting job(s).
+1 job(s) submitted to cluster 7384501.
+Submitting job(s).
+1 job(s) submitted to cluster 7384502.
+Submitting job(s).
+1 job(s) submitted to cluster 7384503.
+Submitting job(s).
+1 job(s) submitted to cluster 7384504.
+Submitting job(s).
+1 job(s) submitted to cluster 7384505.
+Submitting job(s).
+1 job(s) submitted to cluster 7384506.
+Submitting job(s).
+1 job(s) submitted to cluster 7384507.
+Submitting job(s).
+1 job(s) submitted to cluster 7384508.
+Submitting job(s).
+1 job(s) submitted to cluster 7384509.
+Submitting job(s).
+1 job(s) submitted to cluster 7384510.
+Submitting job(s).
+1 job(s) submitted to cluster 7384511.
+Submitting job(s).
+1 job(s) submitted to cluster 7384512.
+Submitting job(s).
+1 job(s) submitted to cluster 7384513.
+Submitting job(s).
+1 job(s) submitted to cluster 7384514.
+Submitting job(s).
+1 job(s) submitted to cluster 7384515.
+Submitting job(s).
+1 job(s) submitted to cluster 7384516.
+Submitting job(s).
+1 job(s) submitted to cluster 7384517.
+Submitting job(s).
+1 job(s) submitted to cluster 7384518.
+Submitting job(s).
+1 job(s) submitted to cluster 7384519.
+Submitting job(s).
+1 job(s) submitted to cluster 7384520.
+Submitting job(s).
+1 job(s) submitted to cluster 7384521.
+Submitting job(s).
+1 job(s) submitted to cluster 7384522.
+Submitting job(s).
+1 job(s) submitted to cluster 7384523.
+Submitting job(s).
+1 job(s) submitted to cluster 7384524.
+Submitting job(s).
+1 job(s) submitted to cluster 7384525.
+Submitting job(s).
+1 job(s) submitted to cluster 7384526.
+Submitting job(s).
+1 job(s) submitted to cluster 7384527.
+Submitting job(s).
+1 job(s) submitted to cluster 7384528.
+Submitting job(s).
+1 job(s) submitted to cluster 7384529.
+Submitting job(s).
+1 job(s) submitted to cluster 7384530.
+Submitting job(s).
+1 job(s) submitted to cluster 7384531.
+Submitting job(s).
+1 job(s) submitted to cluster 7384532.
+Submitting job(s).
+1 job(s) submitted to cluster 7384533.
+Submitting job(s).
+1 job(s) submitted to cluster 7384534.
+Submitting job(s).
+1 job(s) submitted to cluster 7384535.
+Submitting job(s).
+1 job(s) submitted to cluster 7384536.
+Submitting job(s).
+1 job(s) submitted to cluster 7384537.
+Submitting job(s).
+1 job(s) submitted to cluster 7384538.
+Submitting job(s).
+1 job(s) submitted to cluster 7384539.
+Submitting job(s).
+1 job(s) submitted to cluster 7384540.
+Submitting job(s).
+1 job(s) submitted to cluster 7384541.
+Submitting job(s).
+1 job(s) submitted to cluster 7384542.
+Submitting job(s).
+1 job(s) submitted to cluster 7384543.
+Submitting job(s).
+1 job(s) submitted to cluster 7384544.
+Submitting job(s).
+1 job(s) submitted to cluster 7384545.
+Submitting job(s).
+1 job(s) submitted to cluster 7384546.
+Submitting job(s).
+1 job(s) submitted to cluster 7384547.
+Submitting job(s).
+1 job(s) submitted to cluster 7384548.
+Submitting job(s).
+1 job(s) submitted to cluster 7384549.
+Submitting job(s).
+1 job(s) submitted to cluster 7384550.
+Submitting job(s).
+1 job(s) submitted to cluster 7384551.
+Submitting job(s).
+1 job(s) submitted to cluster 7384552.
+Submitting job(s).
+1 job(s) submitted to cluster 7384553.
+Submitting job(s).
+1 job(s) submitted to cluster 7384554.
+Submitting job(s).
+1 job(s) submitted to cluster 7384555.
+Submitting job(s).
+1 job(s) submitted to cluster 7384556.
+Submitting job(s).
+1 job(s) submitted to cluster 7384557.
+Submitting job(s).
+1 job(s) submitted to cluster 7384558.
+Submitting job(s).
+1 job(s) submitted to cluster 7384559.
+Submitting job(s).
+1 job(s) submitted to cluster 7384560.
+Submitting job(s).
+1 job(s) submitted to cluster 7384561.
+Submitting job(s).
+1 job(s) submitted to cluster 7384562.
+Submitting job(s).
+1 job(s) submitted to cluster 7384563.
+Submitting job(s).
+1 job(s) submitted to cluster 7384564.
+Submitting job(s).
+1 job(s) submitted to cluster 7384565.
+Submitting job(s).
+1 job(s) submitted to cluster 7384566.
+Submitting job(s).
+1 job(s) submitted to cluster 7384567.
+Submitting job(s).
+1 job(s) submitted to cluster 7384568.
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:261:1: warning: control reaches end of non-void function [-Wreturn-type]
+  261 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int, int)':
+src/object_functions.h:294:1: warning: control reaches end of non-void function [-Wreturn-type]
+  294 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::mVetoZTTp001dxyz(int, int)':
+src/object_functions.h:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+  547 | }
+      | ^
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'int etau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1665:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1665 | }
+      | ^
+In file included from src/etau_analyzer.C:57:
+src/get_met_systenatics.h: In member function 'TLorentzVector etau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
+Submitting job(s).
+1 job(s) submitted to cluster 7384569.
+Submitting job(s).
+1 job(s) submitted to cluster 7384570.
+Submitting job(s).
+1 job(s) submitted to cluster 7384571.
+Submitting job(s).
+1 job(s) submitted to cluster 7384572.
+Submitting job(s).
+1 job(s) submitted to cluster 7384573.
+Submitting job(s).
+1 job(s) submitted to cluster 7384574.
+Submitting job(s).
+1 job(s) submitted to cluster 7384575.
+Submitting job(s).
+1 job(s) submitted to cluster 7384576.
+Submitting job(s).
+1 job(s) submitted to cluster 7384577.
+Submitting job(s).
+1 job(s) submitted to cluster 7384578.
+Submitting job(s).
+1 job(s) submitted to cluster 7384579.
+Submitting job(s).
+1 job(s) submitted to cluster 7384580.
+Submitting job(s).
+1 job(s) submitted to cluster 7384581.
+Submitting job(s).
+1 job(s) submitted to cluster 7384582.
+Submitting job(s).
+1 job(s) submitted to cluster 7384583.
+Submitting job(s).
+1 job(s) submitted to cluster 7384584.
+Submitting job(s).
+1 job(s) submitted to cluster 7384585.
+Submitting job(s).
+1 job(s) submitted to cluster 7384586.
+Submitting job(s).
+1 job(s) submitted to cluster 7384587.
+Submitting job(s).
+1 job(s) submitted to cluster 7384588.
+Submitting job(s).
+1 job(s) submitted to cluster 7384589.
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:261:1: warning: control reaches end of non-void function [-Wreturn-type]
+  261 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::thirdLeptonVeto(int, int, int)':
+src/object_functions.h:294:1: warning: control reaches end of non-void function [-Wreturn-type]
+  294 | }
+      | ^
+src/object_functions.h: In member function 'bool etau_analyzer::mVetoZTTp001dxyz(int, int)':
+src/object_functions.h:547:1: warning: control reaches end of non-void function [-Wreturn-type]
+  547 | }
+      | ^
+In file included from src/etau_analyzer.C:54:
+src/object_functions.h: In member function 'int etau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1665:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1665 | }
+      | ^
+In file included from src/etau_analyzer.C:57:
+src/get_met_systenatics.h: In member function 'TLorentzVector etau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
+Submitting job(s).
+1 job(s) submitted to cluster 7384590.
+Submitting job(s).
+1 job(s) submitted to cluster 7384591.
+Submitting job(s).
+1 job(s) submitted to cluster 7384592.
+Submitting job(s).
+1 job(s) submitted to cluster 7384593.
+Submitting job(s).
+1 job(s) submitted to cluster 7384594.
+Submitting job(s).
+1 job(s) submitted to cluster 7384595.
+Submitting job(s).
+1 job(s) submitted to cluster 7384596.
+Submitting job(s).
+1 job(s) submitted to cluster 7384597.
+Submitting job(s).
+1 job(s) submitted to cluster 7384598.
+Submitting job(s).
+1 job(s) submitted to cluster 7384599.
+Submitting job(s).
+1 job(s) submitted to cluster 7384600.
+Submitting job(s).
+1 job(s) submitted to cluster 7384601.
+Submitting job(s).
+1 job(s) submitted to cluster 7384602.
+Submitting job(s).
+1 job(s) submitted to cluster 7384603.
+Submitting job(s).
+1 job(s) submitted to cluster 7384604.
+Submitting job(s).
+1 job(s) submitted to cluster 7384605.
+Submitting job(s).
+1 job(s) submitted to cluster 7384606.
+Submitting job(s).
+1 job(s) submitted to cluster 7384607.
+Submitting job(s).
+1 job(s) submitted to cluster 7384608.
+Submitting job(s).
+1 job(s) submitted to cluster 7384609.
+Submitting job(s).
+1 job(s) submitted to cluster 7384610.

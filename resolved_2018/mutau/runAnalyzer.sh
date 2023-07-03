@@ -29,7 +29,7 @@ echo "dy sample analysis....."
 ./analyze_mutau /hdfs/store/user/jmadhusu/2018_skimmed/mutau/DYJetsToLL_02.root DYJetsToLL_02_test.root $nEvents 1000 2018 MC DYJetsToLL_02 
 # outFile="study_mutau_wj.root"
 # echo "wjets sample analysis....."
-./analyze_mutau /hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/Zpbaryonic_00.root Zpbaryonic2018_test_2.root $nEvents 1000 2018 MC Zpbaryonic2018 41
+#./analyze_mutau /hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/Zpbaryonic_00.root Zpbaryonic2018_test_2.root $nEvents 1000 2018 MC Zpbaryonic2018 41
 
 
 

@@ -1,0 +1,78 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+sample ==========TTToSemiLeptonic_TuneCP5_03
+.... MC file ..... 
+Coming in: 
+nentries:847520
+Running over 847520 events.
+Finished entry 0/847519
+Finished entry 40000/847519
+Finished entry 80000/847519
+Finished entry 120000/847519
+Finished entry 160000/847519
+Finished entry 200000/847519
+Finished entry 240000/847519
+Finished entry 280000/847519
+Finished entry 320000/847519
+Finished entry 360000/847519
+Finished entry 400000/847519
+Finished entry 440000/847519
+Finished entry 480000/847519
+Finished entry 520000/847519
+Finished entry 560000/847519
+Finished entry 640000/847519
+Finished entry 680000/847519
+Finished entry 720000/847519
+Finished entry 760000/847519
+Finished entry 800000/847519
+Finished entry 840000/847519
+Finished entry 847519/847519
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 847520.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 11818408.010010   % change= -2664.507282
+      GoodTauPassed 255808.083108   % change= 97.835511
+         opp charge 194684.879096   % change= 23.894164
+ PassedThirdLepVeto 104553.646521   % change= 46.295959
+     PassedBjetVeto 18230.301383   % change= 82.563687
+       DeltaRPassed 18128.129462   % change= 0.560451
+      Total change :97.861038
+*******************************************
+*******************************************
+Number of events inspected: 847520
+Number of events inspected (minus negative gen. weights): 841496.000000
+ Outpt written to TTToSemiLeptonic_TuneCP5_03.root
+Real time 1:38:47, CP time 4883.380

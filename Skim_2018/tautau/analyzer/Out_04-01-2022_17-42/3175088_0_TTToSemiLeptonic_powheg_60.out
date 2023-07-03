@@ -1,0 +1,64 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:33771
+Running over 33771 events.
+Finished entry 0/33770
+Finished entry 1000/33770
+Finished entry 2000/33770
+Finished entry 3000/33770
+Finished entry 4000/33770
+Finished entry 5000/33770
+Finished entry 6000/33770
+Finished entry 7000/33770
+Finished entry 8000/33770
+Finished entry 9000/33770
+Finished entry 10000/33770
+Finished entry 11000/33770
+Finished entry 12000/33770
+Finished entry 13000/33770
+Finished entry 14000/33770
+Finished entry 15000/33770
+Finished entry 16000/33770
+Finished entry 17000/33770
+Finished entry 18000/33770
+Finished entry 19000/33770
+Finished entry 20000/33770
+Finished entry 21000/33770
+Finished entry 22000/33770
+Finished entry 23000/33770
+Finished entry 24000/33770
+Finished entry 25000/33770
+Finished entry 26000/33770
+Finished entry 27000/33770
+Finished entry 28000/33770
+Finished entry 29000/33770
+Finished entry 30000/33770
+Finished entry 31000/33770
+Finished entry 32000/33770
+Finished entry 33000/33770
+Finished entry 33770/33770
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 33771.000000
+   Passing smikking 0.000000
+Inspected genWeightd 33447.000000   % change= 0.959403
+   METFiltersPassed 32675.677620   % change= 2.306103
+    SingleTrgPassed 32675.677620   % change= 0.000000
+     GoodMuonPassed 14113.864218   % change= 56.806208
+      GoodTauPassed 592.816159   % change= 95.799760
+         opp charge 592.816159   % change= 0.000000
+ PassedThirdLepVeto 497.034391   % change= 16.157078
+     PassedBjetVeto 101.266150   % change= 79.625927
+       DeltaRPassed 100.908443   % change= 0.353235
+      Total change :99.701198
+*******************************************
+*******************************************
+Number of events inspected: 33771
+Number of events inspected (minus negative gen. weights): 33447.000000
+ Outpt written to TTToSemiLeptonic_powheg_60.root
+Real time 0:02:36, CP time 139.440

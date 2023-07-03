@@ -1,0 +1,68 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** wjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:3760
+Running over 3760 events.
+Finished entry 0/3759
+Finished entry 100/3759
+Finished entry 200/3759
+Finished entry 300/3759
+Finished entry 400/3759
+Finished entry 500/3759
+Finished entry 600/3759
+Finished entry 700/3759
+Finished entry 800/3759
+Finished entry 900/3759
+Finished entry 1000/3759
+Finished entry 1100/3759
+Finished entry 1200/3759
+Finished entry 1300/3759
+Finished entry 1400/3759
+Finished entry 1500/3759
+Finished entry 1600/3759
+Finished entry 1700/3759
+Finished entry 1800/3759
+Finished entry 1900/3759
+Finished entry 2000/3759
+Finished entry 2100/3759
+Finished entry 2200/3759
+Finished entry 2300/3759
+Finished entry 2400/3759
+Finished entry 2500/3759
+Finished entry 2600/3759
+Finished entry 2700/3759
+Finished entry 2800/3759
+Finished entry 2900/3759
+Finished entry 3000/3759
+Finished entry 3100/3759
+Finished entry 3200/3759
+Finished entry 3300/3759
+Finished entry 3400/3759
+Finished entry 3500/3759
+Finished entry 3600/3759
+Finished entry 3700/3759
+Finished entry 3759/3759
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 3760.000000
+   Passing smikking 0.000000
+Inspected genWeightd 3760.000000   % change= 0.000000
+   METFiltersPassed 3568.018103   % change= 5.105902
+    SingleTrgPassed 825.346504   % change= 76.868209
+     GoodMuonPassed 606.402755   % change= 26.527495
+      GoodTauPassed 109.351697   % change= 81.967150
+         opp charge 90.669324   % change= 17.084666
+ PassedThirdLepVeto 60.805440   % change= 32.937143
+     PassedBjetVeto 60.805440   % change= 0.000000
+       DeltaRPassed 60.805440   % change= 0.000000
+      Total change :98.382834
+*******************************************
+*******************************************
+Number of events inspected: 3760
+Number of events inspected (minus negative gen. weights): 3760.000000
+ Outpt written to W2JetsToLNu_TuneCP5_00.root
+Real time 0:00:08, CP time 6.790

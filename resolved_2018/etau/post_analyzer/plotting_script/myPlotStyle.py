@@ -11,9 +11,9 @@ def add_lumi(year, channel_, isBlinded=False, blindingRatio=1):
   lumi.SetTextColor(    1 )
   lumi.SetTextSize(0.05)
   lumi.SetTextFont (   42 )
-  lumiProcessed = round(41.52 / blindingRatio, 3)
+  lumiProcessed = 41.52 / blindingRatio
   if year=="2018":
-    lumiProcessed= round(59.7 / blindingRatio, 3)
+    lumiProcessed= 59.7 / blindingRatio
   if channel_=="combined":
     lumi.AddText("4 channels combined "+year+" , "+str(lumiProcessed)+" fb^{-1} (13 TeV)")
   if channel_=="mutau":
@@ -54,9 +54,10 @@ def add_Preliminary():
     return lumi
 
 def add_text(text=[""]):
-    lowX=0.5 
-    lowY=0.5
-    lumi  = ROOT.TPaveText(lowX, lowY, lowX+0.25, lowY+0.2, "NDC")
+    #lowX=0.55,lowY=0.55 
+    lowX=0.55
+    lowY=0.55
+    lumi  = ROOT.TPaveText(lowX, lowY, lowX+0.25, lowY+0.18, "NDC")
     lumi.SetTextFont(61)
     lumi.SetTextFont (   40 )
     lumi.SetTextSize(0.04)
@@ -91,7 +92,7 @@ color_ggh="#12cadd"
 color_vv="#990099"
 color_wjets="#cc6666" 
 color_jetfake="#f1cde1"
-
+color_otherMC="#4496c8"
 
 errorStyle=3002
 

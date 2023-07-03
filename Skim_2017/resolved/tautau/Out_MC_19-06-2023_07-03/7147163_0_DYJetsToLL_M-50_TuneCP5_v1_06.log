@@ -1,0 +1,68 @@
+000 (7147163.000.000) 2023-06-19 07:05:29 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7147163.000.000) 2023-06-19 07:08:10 Started transferring input files
+	Transferring to host: <128.105.69.25:9618?addrs=128.105.69.25-9618&alias=e347.chtc.wisc.edu&noUDP&sock=slot1_24_29301_f481_9881>
+...
+040 (7147163.000.000) 2023-06-19 07:08:10 Finished transferring input files
+...
+001 (7147163.000.000) 2023-06-19 07:08:11 Job executing on host: <128.105.69.25:9618?addrs=128.105.69.25-9618&alias=e347.chtc.wisc.edu&noUDP&sock=startd_7833_5d6d>
+...
+006 (7147163.000.000) 2023-06-19 07:08:19 Image size of job updated: 34904
+	34  -  MemoryUsage of job (MB)
+	34804  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-19 07:13:19 Image size of job updated: 153100
+	150  -  MemoryUsage of job (MB)
+	152924  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:25:08 Image size of job updated: 289516
+	277  -  MemoryUsage of job (MB)
+	283468  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:30:08 Image size of job updated: 355248
+	306  -  MemoryUsage of job (MB)
+	312516  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:35:09 Image size of job updated: 355248
+	316  -  MemoryUsage of job (MB)
+	322628  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:40:09 Image size of job updated: 355248
+	325  -  MemoryUsage of job (MB)
+	332192  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:45:09 Image size of job updated: 355248
+	332  -  MemoryUsage of job (MB)
+	339784  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:50:10 Image size of job updated: 355248
+	335  -  MemoryUsage of job (MB)
+	342648  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 01:55:11 Image size of job updated: 357352
+	349  -  MemoryUsage of job (MB)
+	357232  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 02:00:11 Image size of job updated: 365652
+	357  -  MemoryUsage of job (MB)
+	365352  -  ResidentSetSize of job (KB)
+...
+006 (7147163.000.000) 2023-06-20 02:00:16 Image size of job updated: 367044
+	359  -  MemoryUsage of job (MB)
+	366736  -  ResidentSetSize of job (KB)
+...
+004 (7147163.000.000) 2023-06-20 02:00:16 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	205543  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.50        1         1 
+	   Disk (KB)            : 17304     3145728   3634771 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :   359        2048      2048 
+...
+009 (7147163.000.000) 2023-06-20 02:00:16 Job was aborted.
+	via condor_rm (by user bsahu)
+...

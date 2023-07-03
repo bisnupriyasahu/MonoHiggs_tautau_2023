@@ -16,7 +16,7 @@ ROOT.gStyle.SetLineWidth(2)
 ROOT.gStyle.SetOptStat(0)
 #mc_samples = ['ZTTjet', 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH', 'HWminusJ', 'HWplusJ', 'HZJ', 'ST_t', 'TT', 'VBFH', 'WGToLNuG', 'VV', 'VVV', 'WplusH', 'ZH', 'ZJetsToNuNu']
 mc_samples = ['ZTTjet', 'TT', 'otherMC', 'STT', 'VVT']
-
+#mc_samples = ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT']
         
 def checkHistogram(f, histogram):
     isthere=  f.GetListOfKeys().Contains(histogram)
@@ -38,9 +38,9 @@ def getHistList(inFile, isblinded=False):
         if "CMS_htt_boson" in tdir : continue
         print("\n "+tdir)
 
-        data_dir  = tdir+'/'+'fullLumi_data_obs_'+tdir
+        data_dir  = tdir+'/'+'data_obs_'+tdir
         if isblinded:
-            data_dir  = tdir+'/data_obs_'+tdir
+            data_dir  = tdir+'/blinded_data_obs_'+tdir
         print(" checking "+data_dir)
         if not inFile.Get(data_dir):
             print("################## No histogram for {} ".format(data_dir))
@@ -56,9 +56,9 @@ def getHistList(inFile, isblinded=False):
             except:
                 pass
         print('integral  jetFakes', jetFakes.Integral())
-        for ibin in range(1, jetFakes.GetNbinsX()+1):
-            if jetFakes.GetBinContent(ibin) < 0:
-                jetFakes.SetBinContent(ibin, 0)
+        #for ibin in range(1, jetFakes.GetNbinsX()+1):
+        #     if jetFakes.GetBinContent(ibin) < 0:
+        #        jetFakes.SetBinContent(ibin, 0)
         tdir = tdir.replace('_fr', '')
         inFile.cd(tdir)
         jetFakes.SetName("jetFakes_"+tdir)

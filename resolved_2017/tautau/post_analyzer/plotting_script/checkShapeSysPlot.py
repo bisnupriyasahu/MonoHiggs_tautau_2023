@@ -78,16 +78,16 @@ def get_syst(xaxis_label="" , sampleName = None):
             sysName = histoname+'_'+key
         if sampleName not in value:
             continue
-        print 'Chosen one : ', key
+        print ('Chosen one : ', key)
         ZTT_hist      = inFile_n.Get(histoname+"/"+sampleName+"_"+histoname)
         ZTT_hist_up   = inFile_u.Get(sysName+"_up"+"/"+sampleName+"_"+sysName+"_up")
         ZTT_hist_dn   = inFile_d.Get(sysName+"_down"+"/"+sampleName+"_"+sysName+"_down")
         
         if not found_histogram(ZTT_hist, ZTT_hist_up, ZTT_hist_dn ):
-            print "*"*20 , '  check this   '
-            print "*", histoname+"/"+sampleName+"_"+histoname
-            print "*", sysName+"_up"+"/"+sampleName+"_"+sysName+"_up"
-            print "*", sysName+"_down"+"/"+sampleName+"_"+sysName+"_down" , '\n\n'
+            print ("*"*20 , '  check this   ')
+            print ("*", histoname+"/"+sampleName+"_"+histoname)
+            print ("*", sysName+"_up"+"/"+sampleName+"_"+sysName+"_up")
+            print ("*", sysName+"_down"+"/"+sampleName+"_"+sysName+"_down" , '\n\n')
             continue
         norm_hist = ZTT_hist
         up = ZTT_hist_up.Clone("up")
@@ -124,5 +124,5 @@ def get_syst(xaxis_label="" , sampleName = None):
 if __name__=="__main__":
     sampleSyslist = [ 'ZTTjet', 'ZLLjet', 'TT', 'jetFakes', 'STT', 'VVT', 'otherMC']
     for ss in sampleSyslist:
-        get_syst('elePt' , ss)
+        get_syst('' , ss)
     c.Close()

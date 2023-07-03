@@ -1,0 +1,59 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:584554
+Running over 584554 events.
+Finished entry 0/584553
+Finished entry 20000/584553
+Finished entry 40000/584553
+Finished entry 60000/584553
+Finished entry 80000/584553
+Finished entry 100000/584553
+Finished entry 120000/584553
+Finished entry 140000/584553
+Finished entry 160000/584553
+Finished entry 180000/584553
+Finished entry 200000/584553
+Finished entry 220000/584553
+Finished entry 240000/584553
+Finished entry 260000/584553
+Finished entry 280000/584553
+Finished entry 300000/584553
+Finished entry 320000/584553
+Finished entry 340000/584553
+Finished entry 360000/584553
+Finished entry 380000/584553
+Finished entry 400000/584553
+Finished entry 420000/584553
+Finished entry 440000/584553
+Finished entry 460000/584553
+Finished entry 480000/584553
+Finished entry 500000/584553
+Finished entry 520000/584553
+Finished entry 540000/584553
+Finished entry 560000/584553
+Finished entry 580000/584553
+Finished entry 584553/584553
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 584554.000000
+   Passing smikking 0.000000
+Inspected genWeightd 584554.000000   % change= 0.000000
+   METFiltersPassed 583255.000000   % change= 0.222221
+    SingleTrgPassed 551742.000000   % change= 5.402954
+     GoodMuonPassed 136314.000000   % change= 75.293887
+      GoodTauPassed 11458.000000   % change= 91.594407
+         opp charge 7358.000000   % change= 35.782859
+ PassedThirdLepVeto 7307.000000   % change= 0.693123
+     PassedBjetVeto 7307.000000   % change= 0.000000
+       DeltaRPassed 7221.000000   % change= 1.176954
+      Total change :98.764699
+*******************************************
+*******************************************
+Number of events inspected: 584554
+Number of events inspected (minus negative gen. weights): 584554.000000
+ Outpt written to Tau_EraF_02.root
+Real time 0:02:10, CP time 101.010

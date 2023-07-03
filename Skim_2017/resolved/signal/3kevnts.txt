@@ -1,0 +1,83 @@
+./analyze_signal /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_10.root 3000 1000 2017 MC Signal_ZpBaryonic_2017_0000 10
+argc = 9
+sp = 10
+arg 0 ./analyze_signal
+arg 1 /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+arg 2 Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_10.root
+arg 3 3000
+arg 4 1000
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 10
+path :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+file name :::::/hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+********** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0000
+__________found_ZprimeBaryonic________
+1070 zprimeBaryonic_signal = 10
+.... MC file ..... 
+Coming in: 
+nentries:277000
+Running over 3000 events.
+##################################################################################################################      size of param beginning:  0
+signal param ele : 16 type of param :d
+zprimeBaryonic_signal 10  
+signal param ele : 16 type of param :d
+signal param ele : 40 type of param :d
+zprimeBaryonic_signal 10  
+signal param ele : 16 type of param :d
+signal param ele : 40 type of param :d
+signal param ele : 39 type of param :d
+zprimeBaryonic_signal 10  
+############################################################################################            size of param at end:  3
+Finished entry 2999/2999
+nPassedSkimmed = 0
+nEvents = 3000
+param is = -1640847608
+findlopparam is = 32736
+Real time 0:00:05, CP time 2.550./analyze_signal /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_10.root 3000 1000 2017 MC Signal_ZpBaryonic_2017_0000 10
+argc = 9
+sp = 10
+arg 0 ./analyze_signal
+arg 1 /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+arg 2 Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_10.root
+arg 3 3000
+arg 4 1000
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 10
+path :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+file name :::::/hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+********** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0000
+__________found_ZprimeBaryonic________
+1070 zprimeBaryonic_signal = 10
+.... MC file ..... 
+Coming in: 
+nentries:277000
+Running over 3000 events.
+##################################################################################################################      size of param beginning:  0
+signal param ele : 16 type of param :d
+zprimeBaryonic_signal 10  
+signal param ele : 16 type of param :d
+signal param ele : 40 type of param :d
+zprimeBaryonic_signal 10  
+signal param ele : 16 type of param :d
+signal param ele : 40 type of param :d
+signal param ele : 39 type of param :d
+zprimeBaryonic_signal 10  
+############################################################################################            size of param at end:  3
+Finished entry 2999/2999
+nPassedSkimmed = 0
+nEvents = 3000
+param is = -1640847608
+findlopparam is = 32736
+Real time 0:00:05, CP time 2.550

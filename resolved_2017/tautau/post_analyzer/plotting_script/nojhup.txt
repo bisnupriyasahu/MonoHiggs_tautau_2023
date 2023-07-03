@@ -1,0 +1,75 @@
+tautau.root
+######################background ##################
+56.2192567 
+827.0716798 
+6.8586373 
+21.3739203 
+42.2416440 
+###################### UP ##################
+57.0124247 
+929.8212435 
+6.9661679 
+21.5432630 
+46.5491905 
+###################### Down ##################
+54.9043548 
+730.0253925 
+6.6448735 
+21.4644716 
+38.5515638 
+###################### avg ##################
+0.0187486 
+0.1207851 
+0.0234226 
+0.0018432 
+0.0946652 
+tautau.root
+######################background ##################
+Name: TT_CMS_scale_met_unclustered_2017Up Title: tot_TMass_new_9_CMS_scale_met_unclustered_2017_up NbinsX: 12
+Name: ZTTjet_CMS_scale_met_unclustered_2017Up Title: tot_TMass_new_9_CMS_scale_met_unclustered_2017_up NbinsX: 12
+Name: STT_CMS_scale_met_unclustered_2017Up Title: tot_TMass_new_9_CMS_scale_met_unclustered_2017_up NbinsX: 12
+Name: VVT_CMS_scale_met_unclustered_2017Up Title: tot_TMass_new_9_CMS_scale_met_unclustered_2017_up NbinsX: 12
+Name: otherMC_CMS_scale_met_unclustered_2017Up Title: tot_TMass_new_9_CMS_scale_met_unclustered_2017_up NbinsX: 12
+###################### UP ##################
+61.3712499 
+900.4913230 
+7.1656905 
+22.3567468 
+45.7822125 
+###################### Down ##################
+52.6386227 
+752.3568065 
+6.3905203 
+20.5175236 
+39.7172732 
+###################### avg ##################
+0.0776658 
+0.0895536 
+0.0565105 
+0.0430249 
+0.0717886 
+tautau.root
+######################background ##################
+Name: TT_CMS_htt_boson_reso_met_Jet_2017Up Title: tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up NbinsX: 12
+Name: ZTTjet_CMS_htt_boson_reso_met_Jet_2017Up Title: tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up NbinsX: 12
+Name: STT_CMS_htt_boson_reso_met_Jet_2017Up Title: tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up NbinsX: 12
+Name: VVT_CMS_htt_boson_reso_met_Jet_2017Up Title: tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up NbinsX: 12
+Name: otherMC_CMS_htt_boson_reso_met_Jet_2017Up Title: tot_TMass_new_9_CMS_htt_boson_reso_met_Jet_2017_up NbinsX: 12
+###################### UP ##################
+55.5400964 
+853.2404859 
+6.8279886 
+21.4720994 
+43.3542024 
+###################### Down ##################
+55.9261473 
+799.5598215 
+6.9670754 
+21.5747207 
+41.5163164 
+###################### avg ##################
+-0.0034334 
+0.0324522 
+-0.0101395 
+-0.0024006 
+0.0217544 

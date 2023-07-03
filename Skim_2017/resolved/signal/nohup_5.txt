@@ -1,0 +1,46 @@
+nohup: ignoring input
+argc = 9
+sp = 5
+arg 0 ./analyze_signal
+arg 1 /hdfs/store/user/jmadhusu/Signal_Zpbaryonic2017_31Aug2022_v2/MonoHToTauTau_ZpBaryonic_TuneCP2_13TeV_madgraph-pythia8/crab_job_MonoHToTauTau_ZpBaryonic_2017/220831_205151/0000/Ntuple_mc_12.root
+arg 2 Jithi_Signal_ZpBaryonic_2017_0000_Ntuple_mc_12_5.root
+arg 3 -1
+arg 4 1000
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 5
+********** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0000
+__________found_ZprimeBaryonic________
+1062 zprimeBaryonic_signal = 5
+.... MC file ..... 
+Coming in: 
+nentries:277000
+Running over 277000 events.
+Finished entry 80000/276999
+Finished entry 90000/276999
+Finished entry 100000/276999
+Finished entry 110000/276999
+Finished entry 120000/276999
+Finished entry 130000/276999
+Finished entry 140000/276999
+Finished entry 150000/276999
+Finished entry 160000/276999
+Finished entry 170000/276999
+Finished entry 180000/276999
+Finished entry 190000/276999
+Finished entry 200000/276999
+Finished entry 210000/276999
+Finished entry 220000/276999
+Finished entry 230000/276999
+Finished entry 240000/276999
+Finished entry 250000/276999
+Finished entry 260000/276999
+Finished entry 270000/276999
+nPassedSkimmed = 117110
+nEvents = 277000
+Real time 0:04:30, CP time 197.910

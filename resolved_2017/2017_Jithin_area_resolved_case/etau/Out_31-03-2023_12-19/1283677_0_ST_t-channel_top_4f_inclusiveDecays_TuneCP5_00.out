@@ -1,0 +1,80 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ST_t-channel_top_4f_inclusiveDecays_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:118264
+Running over 118264 events.
+Finished entry 0/118263
+Finished entry 5000/118263
+Finished entry 10000/118263
+Finished entry 15000/118263
+Finished entry 20000/118263
+Finished entry 25000/118263
+Finished entry 30000/118263
+Finished entry 35000/118263
+Finished entry 40000/118263
+Finished entry 45000/118263
+Finished entry 50000/118263
+Finished entry 55000/118263
+Finished entry 60000/118263
+Finished entry 65000/118263
+Finished entry 70000/118263
+Finished entry 75000/118263
+Finished entry 80000/118263
+Finished entry 85000/118263
+Finished entry 90000/118263
+Finished entry 95000/118263
+Finished entry 100000/118263
+Finished entry 105000/118263
+Finished entry 110000/118263
+Finished entry 115000/118263
+Finished entry 118263/118263
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 118264.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 987428.866792   % change= -2642.034358
+      GoodTauPassed 15187.460618   % change= 98.461919
+         opp charge 10789.160295   % change= 28.960077
+ PassedThirdLepVeto 5419.388471   % change= 49.770063
+     PassedBjetVeto 2419.971953   % change= 55.346033
+       DeltaRPassed 2419.971953   % change= 0.000000
+      Total change :97.953754
+*******************************************
+*******************************************
+Number of events inspected: 118264
+Number of events inspected (minus negative gen. weights): 118264.000000
+ Outpt written to ST_t-channel_top_4f_inclusiveDecays_TuneCP5_00.root
+Real time 0:05:10, CP time 249.620

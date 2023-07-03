@@ -49,12 +49,16 @@ def getHistList(inFile):
     tmpList= []
     for tdir in keyList:
         if "_dyll" not in tdir: continue
-        
+        print("tdir is ", tdir)
         try:
+            print("tdir is in try ", tdir)
+            hidir = tdir+'/'+'ZTTjet_'+tdir
             ZLL = inFile.Get(tdir+'/'+'ZTTjet_'+tdir)
+            print( "the directory is : ",hidir)
             print('integral  ZLL', ZLL.Integral())
             #path = path.replace("_dyll", "")
             tdir = tdir.replace("_dyll", "")
+            print("tdir is replaced to ",tdir)
             inFile.cd(tdir)
             ZLL.SetName("ZLLjet_"+tdir)
             ZLL.Write()

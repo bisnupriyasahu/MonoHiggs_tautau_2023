@@ -1,0 +1,24 @@
+x509userproxy = /tmp/x509up_u10044
+universe = vanilla
+Executable = job_queue_hdfs.sh
+#Executable = job_queue.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+#Requirements = ( OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+Requirements = ( TARGET.HAS_CMS_HDFS && OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)   
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 2G
+request_disk         = 2G
+
+#OutputDestination = 
+#Initialdir = Out_         
+arguments = analyze_mutau $(hdfs_path) $(sample) $(file_name) $(isData)
+Transfer_Input_Files = /nfs_scratch/bsahu/MonoHiggs_Nov2022/CMSSW_12_3_5/src/Skim_2018/met_samples_MET2018C_0001.txt , /nfs_scratch/bsahu/MonoHiggs_Nov2022/CMSSW_12_3_5/src/Skim_2018/analyze_mutau
+
+output               = Out_08-11-2022_23-40/$(Cluster)_$(Process)_$(sample).out
+error                = Out_08-11-2022_23-40/$(Cluster)_$(Process)_$(sample).err
+Log                  = Out_08-11-2022_23-40/$(Cluster)_$(Process)_$(sample).log
+Queue hdfs_path,sample,file_name,isData from met_samples_MET2018C_0001.txt

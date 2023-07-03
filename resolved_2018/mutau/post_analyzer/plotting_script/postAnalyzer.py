@@ -110,9 +110,9 @@ if __name__=="__main__":
     parser.add_argument("--idx",
                     help="index of selection to be plotted,  example -idx 9, 9b")
     parser.add_argument("--blinded",
-                    help="is this for blinded case,   Default= 1",
+                    help="is this for blinded case,   Default= 0",
                     choices=('0', '1'),
-                    default='1'
+                    default='0'
                     )
     args =  parser.parse_args()
     if args.idx is None or args.hist is None:

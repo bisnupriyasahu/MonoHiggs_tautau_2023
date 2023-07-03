@@ -1,6 +1,8 @@
 import os
 
-inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/"
+#inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/"
+inputDrMC="/hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_skimmed/signal/hadd_postAN_inp/"
+#inputDrMC="/hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_/signal/hadd_postAN_inp/"
 filelistMC=os.listdir(inputDrMC)
 filelistMC=sorted(filelistMC)
 
@@ -14,25 +16,17 @@ mkdir $outDir
 
 ./rootcom etau_analyzer analyze_etau
 
-for i in {1..43}
-do
-
 """)
 
 
 for j in filelistMC :
-    if j.find('Zpbaryonic') != 0:
-        continue
+    print(j)
+    #if j.find('ZpBaryonic') != 0:
+    #    continue
     inputDrMC = inputDrMC.replace('/hdfs', 'root://cmsxrootd.hep.wisc.edu/')
     filename = j.replace('.root', '')
-    outFile.write("./MakeCondorFiles.csh analyze_etau "+inputDrMC+j+" "+filename+"_${i}.root -1 1000 2018 MC "+filename+"_${i} $i $outDir"+"\n")
+    outFile.write("./MakeCondorFiles.csh analyze_etau "+inputDrMC+j+" "+filename+".root -1 1000 2018 MC "+filename+"  $outDir"+"\n")
                 
-outFile.write("""
-done
-
-
-
-""")
 print("""
 check submit_signal.sh
 do 

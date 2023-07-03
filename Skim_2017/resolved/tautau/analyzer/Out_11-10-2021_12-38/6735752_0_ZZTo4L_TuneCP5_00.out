@@ -1,0 +1,63 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:33371
+Running over 33371 events.
+Finished entry 0/33370
+Finished entry 1000/33370
+Finished entry 2000/33370
+Finished entry 3000/33370
+Finished entry 4000/33370
+Finished entry 5000/33370
+Finished entry 6000/33370
+Finished entry 7000/33370
+Finished entry 8000/33370
+Finished entry 9000/33370
+Finished entry 10000/33370
+Finished entry 11000/33370
+Finished entry 12000/33370
+Finished entry 13000/33370
+Finished entry 14000/33370
+Finished entry 15000/33370
+Finished entry 16000/33370
+Finished entry 17000/33370
+Finished entry 18000/33370
+Finished entry 19000/33370
+Finished entry 20000/33370
+Finished entry 21000/33370
+Finished entry 22000/33370
+Finished entry 23000/33370
+Finished entry 24000/33370
+Finished entry 25000/33370
+Finished entry 26000/33370
+Finished entry 27000/33370
+Finished entry 28000/33370
+Finished entry 29000/33370
+Finished entry 30000/33370
+Finished entry 31000/33370
+Finished entry 32000/33370
+Finished entry 33000/33370
+Finished entry 33370/33370
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 33371.000000
+   Passing smikking 0.000000
+Inspected genWeightd 18943.000000   % change= 43.235144
+   METFiltersPassed 31965.236506   % change= -68.744320
+    SingleTrgPassed 18289.924685   % change= 42.781826
+     GoodMuonPassed 16083.100390   % change= 12.065792
+      GoodTauPassed 8911.692557   % change= 44.589710
+         opp charge 6468.717017   % change= 27.413149
+ PassedThirdLepVeto 4339.706908   % change= 32.912401
+     PassedBjetVeto 4339.706908   % change= 0.000000
+       DeltaRPassed 4262.596570   % change= 1.776856
+      Total change :87.226644
+*******************************************
+*******************************************
+Number of events inspected: 33371
+Number of events inspected (minus negative gen. weights): 18943.000000
+ Outpt written to ZZTo4L_TuneCP5_00.root
+Real time 0:01:20, CP time 72.380

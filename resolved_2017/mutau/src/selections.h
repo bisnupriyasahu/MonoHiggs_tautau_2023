@@ -21,13 +21,13 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
     
   if (uncObject == "tauES"){
     /// apply +sigma shift to tau pt, everything else default
-    muCand = getMuCand(20,2.1, 0 );
+    muCand = getMuCand(26,2.4, 0 );
     tauCand = getTauCand(30.0, 2.3, shift );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);    
   }
   else if (uncObject == "JES"){
     /// apply +sigma shift to Jet, pfMET_T1JESUp , everything else default
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
     if(unc_shift=="up")
@@ -43,7 +43,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   }
   else if (uncObject == "JER"){
     /// apply +sigma shift to Jet, pfMET_T1JERUp, everything else default
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
     if(unc_shift=="up")
@@ -63,7 +63,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   }
   else if (uncObject == "metresponse"){
     /// apply +sigma shift to met, everything else default
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
     /* if (muCand.size()>0 && tauCand.size()>0){ */
@@ -74,7 +74,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   }
   else if (uncObject == "metresolution"){
     /// apply +sigma shift to met, everything else default
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
     /* if(muCand.size()>0 && tauCand.size()>0) */
@@ -86,7 +86,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   }
   else if (uncObject == "metunclustered"){
     /// apply +sigma shift to met, everything else default
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
     /* if (muCand.size()>0 && tauCand.size()>0){ */
@@ -97,7 +97,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   }
   else{
     //Setting nominal values
-    muCand = getMuCand(20,2.1, 0);  ///// ele selected
+    muCand = getMuCand(26,2.4, 0);  ///// ele selected
     tauCand = getTauCand(30.0, 2.3, 0 );
     metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
   }
@@ -105,7 +105,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   event_mu = muCand;
   event_tau = tauCand;
   event_met_p4 = metP4;
-  //muCand = getMuCand(20,2.1, shift);
+  //muCand = getMuCand(26,2.4, shift);
   if( muCand.size() >0 ) 
     { 
       nGoodMuonPassed_dyll+=event_weight;
@@ -171,7 +171,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_muP4+my_tauP4).M();
 				      double higgsPt = (my_muP4 + my_tauP4).Pt();
-				      double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
 				      if(higgsPt > 65)
 						{
 						if (shift ==0 ) fillHist("7_dyll", MuIndex, TauIndex, false, event_weight);
@@ -236,22 +236,23 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
   metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
   event_met_p4 = metP4 ;
   //muCand.clear();  tauCand.clear();
-  //muCand = getMuCand(20,2.4, shift);  ///// muons selected 
+  //muCand = getMuCand(26,2.4, shift);  ///// muons selected 
   if( muCand.size() >0 ) 
     { 
       nGoodMuonPassed+=event_weight;
       //tauCand = getTauCand(30,2.3, shift);
       if( tauCand.size()>0 ) 
 	{
-	  //nGoodTauPassed+=event_weight;
+	  nGoodTauPassed+=event_weight;
 	  setMyEleTau(muCand[0], tauCand[0], metP4, shift);
-		       
+	  nnominalpassed+=event_weight;
 	  if ( TriggerSelection(my_muP4, my_tauP4) )
 	    {
-	      nGoodTauPassed+=event_weight;
+	      ndatapassedselection+=event_weight;
 	      //if(Ztt_selector) 
-	      if(pass3rdLeptonVeto)
+	      //  if(pass3rdLeptonVeto)
 		{
+		  //njetfakesuppassed+=event_weight;	  		
 		  if ( muCharge->at(MuIndex) * tau_Charge->at(TauIndex) < 0  
 		       &&  (if_DY_Genmatching(MuIndex, TauIndex)==1 || if_DY_Genmatching(MuIndex, TauIndex)==3)  )
 		    {
@@ -260,7 +261,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 		      
 		      if ( MatchTriggerFilter(MuIndex, TauIndex) )
 			{
-			  
+
 			  //my_muP4 = my_muP4*muRC_sf;
 			  applySf=1.0;
 			  if(is_MC)
@@ -273,8 +274,6 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 						       false  /// this is set to true for fake bakground
 						       );
 			  event_weight = event_weight * applySf;
-			  
-			  
 			  if( thirdLeptonVeto(MuIndex , TauIndex)  )
 			    {
 			      nPassedThirdLepVeto+=event_weight;
@@ -305,48 +304,51 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_muP4+my_tauP4).M();
 				      double higgsPt = (my_muP4 + my_tauP4).Pt();
-				      double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
 				      if(higgsPt > 65)
+					{
+					  nHiggsptPassed+=event_weight;
+					  if(shift ==0 ) fillHist("7", MuIndex, TauIndex, false, event_weight);
+					  if(mvis < 125)
+					    {
+					      nMVisssPassed+=event_weight;
+					      if(shift ==0 ) fillHist("8", MuIndex, TauIndex, false, event_weight);
+					      if(my_metP4.Pt() > 105)
 						{
-						if(shift ==0 ) fillHist("7", MuIndex, TauIndex, false, event_weight);
-						if(mvis < 125)
+						  nMETPassed+=event_weight;
+						  stage = "9";
+						  if (unc_shift == "nominal" ) save_nom();
+						  
+						  if(shift ==0 ) fillHist("9", MuIndex, TauIndex, false, event_weight);
+						  else fillUncPlots("9", MuIndex, TauIndex, false, event_weight, shift);
+						  if(deltaR <2.0 )
+						    {
+						      if(shift ==0 ) fillHist("9b", MuIndex, TauIndex, false, event_weight);
+						      else           fillUncPlots("9b", MuIndex, TauIndex, false, event_weight, shift);
+						      if(tot_tr_mass > 260)
 							{
-							if(shift ==0 ) fillHist("8", MuIndex, TauIndex, false, event_weight);
-							if(my_metP4.Pt() > 105)
-							{
-							stage = "9";
-							if (unc_shift == "nominal" ) save_nom();
-						
-							if(shift ==0 ) fillHist("9", MuIndex, TauIndex, false, event_weight);
-							else fillUncPlots("9", MuIndex, TauIndex, false, event_weight, shift);
-							if(deltaR <2.0 )
-								{
-								if(shift ==0 ) fillHist("9b", MuIndex, TauIndex, false, event_weight);
-								else           fillUncPlots("9b", MuIndex, TauIndex, false, event_weight, shift);
-								if(tot_tr_mass > 260)
-								{
-								if(shift ==0 ) fillHist("9d", MuIndex, TauIndex, false, event_weight);
-								else           fillUncPlots("9d", MuIndex, TauIndex, false, event_weight, shift);
-								}
-								}
+							  if(shift ==0 ) fillHist("9d", MuIndex, TauIndex, false, event_weight);
+							  else           fillUncPlots("9d", MuIndex, TauIndex, false, event_weight, shift);
 							}
-							}
+						    }
 						}
-						if(higgsPt < 65)
+					    }
+					}
+				      if(higgsPt < 65)
+					{
+					  if (shift ==0 ) fillHist("7r", MuIndex, TauIndex, false, event_weight);
+					  if(mvis < 125)
+					    {
+					      if (shift ==0 ) fillHist("8r", MuIndex, TauIndex, false, event_weight);
+					      if(my_metP4.Pt() < 105)
 						{
-						if (shift ==0 ) fillHist("7r", MuIndex, TauIndex, false, event_weight);
-						if(mvis < 125)
-							{
-							if (shift ==0 ) fillHist("8r", MuIndex, TauIndex, false, event_weight);
-							if(my_metP4.Pt() < 105)
-							{
-							stage = "9r";
-							if (unc_shift == "nominal" ) save_nom();
-							if (shift ==0 ) fillHist("9r", MuIndex, TauIndex, false, event_weight);
-							else fillUncPlots("9r", MuIndex, TauIndex, false, event_weight, shift);
-							}
-							}
+						  stage = "9r";
+						  if (unc_shift == "nominal" ) save_nom();
+						  if (shift ==0 ) fillHist("9r", MuIndex, TauIndex, false, event_weight);
+						  else fillUncPlots("9r", MuIndex, TauIndex, false, event_weight, shift);
 						}
+					    }
+					}
 				    }
 				}
 			    }
@@ -369,7 +371,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
     jetPt->at(i) = orginal_jetPt[i];
   
   //Setting nominal values
-  muCand = getMuCand(20,2.1, 0);  ///// ele selected
+  muCand = getMuCand(26,2.4, 0);  ///// ele selected
   tauCand = getAISRTauCand(30.0, 2.3, 0 );
   metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
   
@@ -396,8 +398,9 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 	      int category=eventCategory(MuIndex , TauIndex, higgsPt) ;
 	      getFractions(category, mvis, frac_qcd, frac_w, frac_tt); /// this assigns right values for qcd, w and tt fractions
 	      bool xtrg = false;
-	      if( passCrossTrigger && my_muP4.Pt()<=25.0) xtrg=true;
-	      else if ( my_muP4.Pt()>28.0) xtrg=false;
+	      //if( HLTTau>>0&1 == 1 && my_muP4.Pt()<=28.0) xtrg=true;
+	      if( HLTTau>>0&1 == 1 && my_muP4.Pt()<25.0 && my_muP4.Pt()>21.0) xtrg=true;
+	      else if ( my_muP4.Pt()>25.0) xtrg=false;
 	      double newFF = FF_weights_withlpt.get_ff( my_tauP4.Pt(), mt, mvis
 							, 0 , my_muP4.Pt(), my_metP4.Pt()
 							, my_njets, xtrg
@@ -463,7 +466,7 @@ void mutau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_muP4+my_tauP4).M();
 				      double higgsPt = (my_muP4 + my_tauP4).Pt();
-				      double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
 				      if(higgsPt > 65)
 					{
 					  if(shift ==0 ) fillHist("7_fr", MuIndex, TauIndex, true, event_weight);

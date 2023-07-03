@@ -1,0 +1,39 @@
+000 (1283870.000.000) 2023-03-31 12:33:58 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_2816_1ec8>
+...
+040 (1283870.000.000) 2023-03-31 12:34:30 Started transferring input files
+	Transferring to host: <128.105.68.216:9618?addrs=128.105.68.216-9618+[2607-f388-2200-100-22a-6aff-fedf-c6ff]-9618&alias=e303.chtc.wisc.edu&noUDP&sock=slot1_29_24367_8178_25196>
+...
+040 (1283870.000.000) 2023-03-31 12:36:34 Finished transferring input files
+...
+001 (1283870.000.000) 2023-03-31 12:36:35 Job executing on host: <128.105.68.216:9618?addrs=128.105.68.216-9618+[2607-f388-2200-100-22a-6aff-fedf-c6ff]-9618&alias=e303.chtc.wisc.edu&noUDP&sock=startd_7317_6e8f>
+...
+006 (1283870.000.000) 2023-03-31 12:36:44 Image size of job updated: 76248
+	75  -  MemoryUsage of job (MB)
+	76248  -  ResidentSetSize of job (KB)
+...
+006 (1283870.000.000) 2023-03-31 12:39:36 Image size of job updated: 1392436
+	75  -  MemoryUsage of job (MB)
+	76252  -  ResidentSetSize of job (KB)
+...
+040 (1283870.000.000) 2023-03-31 12:39:36 Started transferring output files
+...
+040 (1283870.000.000) 2023-03-31 12:39:38 Finished transferring output files
+...
+005 (1283870.000.000) 2023-03-31 12:39:38 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:58, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:58, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13316670  -  Run Bytes Sent By Job
+	315801312  -  Run Bytes Received By Job
+	13316670  -  Total Bytes Sent By Job
+	315801312  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.13        1         1 
+	   Disk (KB)            : 321472     2097152   2330109 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     75        2048      2048 
+
+	Job terminated of its own accord at 2023-03-31T17:39:36Z.
+...

@@ -1,7 +1,6 @@
 
 void etau_analyzer::selections(float weight, int shift, string uncObject)
 {
-
   // cout<<__LINE__<<endl;
   check_unc=false; // set true for printing unc pt, values
   make_met_plot = false;
@@ -125,24 +124,24 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
   // cout<<__LINE__<<endl;
   //eleCand = getEleCand(25.0,2.1, shift);  ///// ele selected
   if( eleCand.size() >0 ) 
-    { 
-      nGoodMuonPassed_dyll+=event_weight;
-      //tauCand = getTauCand(30,2.3, shift);
-      // cout<<__LINE__<<endl;
-      if( tauCand.size()>0  ) 
-	{
-	  nGoodTauPassed_dyll+=event_weight;
-
-	  setMyEleTau(eleCand[0], tauCand[0], metP4, shift); // from here we can use my_eleP4, my_tauP4, my_metP4, etc
+  { 
+    nGoodMuonPassed_dyll+=event_weight;
+    //tauCand = getTauCand(30,2.3, shift);
+    // cout<<__LINE__<<endl;
+    if( tauCand.size()>0  ) 
+      {
+	nGoodTauPassed_dyll+=event_weight;
+	setMyEleTau(eleCand[0], tauCand[0], metP4, shift); // from here we can use my_eleP4, my_tauP4, my_metP4, etc
 	  //cout<<"Line number "<<__LINE__<<endl;
 	  if ( TriggerSelection(my_eleP4, my_tauP4) )
 	    {
-	      if(Ztt_selector) 
+	      // if(Ztt_selector) 
 		{
-		  std::cout<<"value of ztt 1"<<Ztt_selector<<std::endl;
-		  if ( eleCharge->at(EleIndex) * tau_Charge->at(TauIndex) < 0  
-		       &&  (if_DY_Genmatching(EleIndex, TauIndex)==1 || if_DY_Genmatching(EleIndex, TauIndex)==2)  )
+		  //
+		  if ( eleCharge->at(EleIndex) * tau_Charge->at(TauIndex) < 0  &&  (if_DY_Genmatching(EleIndex, TauIndex)==1 || if_DY_Genmatching(EleIndex, TauIndex)==2)  )
+		  //if ( (eleCharge->at(EleIndex) * tau_Charge->at(TauIndex)) < 0   && (if_DY_Genmatching(EleIndex, TauIndex))==2)  
 		    {
+		      //if_DY_Genmatching == 1 if found DY is false 
 		      nGoodMuTauPassed_dyll+=event_weight;
 		      //makeTestPlot("e_dyll", 0,0,0,event_weight);
 		      
@@ -155,11 +154,12 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
-						       myGenMaching(TauIndex),
+						       //myGenMaching(TauIndex),
+						       my_genmatching_l2,
 						       false  /// this is set to true for fake bakground
 						       );
 				   
@@ -181,7 +181,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				  if(deltaR > 0.5 )
 				    {
 				      nDeltaRPassed_dyll+=event_weight;
-				      if(is_MC==false)event_weight=1.0;
+				      if(is_MC==false) event_weight=1.0;
 				      //makeTestPlot("i_dyll", 0,0,0,event_weight);
 				      if(debug)cout<<"this worked Line 374"<<endl;
 				      
@@ -192,7 +192,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      if (unc_shift == "nominal" ) save_nom();
 				      //cout<<"Line number "<<__LINE__<<endl;
 				      if (shift ==0 ) fillHist("5_dyll",  EleIndex, TauIndex, false, event_weight);
-				      else            fillUncPlots("5_dyll", EleIndex, TauIndex, false, event_weight, shift);
+				      // else            fillUncPlots("5_dyll", EleIndex, TauIndex, false, event_weight, shift);
 				      //cout<<"Line number "<<__LINE__<<endl;
 				      
 				      double mT_eleMet = TMass_F( my_eleP4.Pt(), my_eleP4.Phi(),
@@ -204,7 +204,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      //double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      if(higgsPt > 65)
 					{
 					  if(shift ==0 ) fillHist("7_dyll", EleIndex, TauIndex, false, event_weight);
@@ -241,8 +242,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 		}
 	    }
 	}
-    }
-  
+  }
+
   //cout<<"Line number "<<__LINE__<<endl;
   if(debug)cout<<"signal region -  isolated begin L523"<<endl;       
   
@@ -259,7 +260,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
   metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
   //eleCand = getEleCand(25.0,2.1, shift);  ///// ele selected 
   //cout<<"Line number "<<__LINE__<<endl;
-  if( eleCand.size() >0 ) 
+   if( eleCand.size() >0 ) 
     { 
       nGoodMuonPassed+=event_weight;
       if(debug)cout<<"this worked Line 526"<<endl;
@@ -277,8 +278,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 	  make_met_plot = true;
 	  setMyEleTau(eleCand[0], tauCand[0], metP4, shift);
 	  make_met_plot = false;
-
-	  make_met_corr_plot();
+	  nnominalpassed+=event_weight;
+	  //make_met_corr_plot();
 	  // make_met_shapes_plots("1", event_weight);
 	  ////////////
 	  /* stage = "1"; */
@@ -288,11 +289,11 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 	  ////////////
 	  if ( TriggerSelection(my_eleP4, my_tauP4) )
 	    {
-	      if(Ztt_selector) 
+	      // if(Ztt_selector) 
 		{
-		  std::cout<<"value of ztt 2"<<Ztt_selector<<std::endl;
+		  ndatapassedselection+=event_weight;
 		  // make_met_shapes_plots("2", event_weight);
-		  if (  eleCharge->at(EleIndex) * tau_Charge->at(TauIndex) < 0 
+		  if (  (eleCharge->at(EleIndex) * tau_Charge->at(TauIndex)) < 0 
 			&& (if_DY_Genmatching(EleIndex, TauIndex)==1 ||  if_DY_Genmatching(EleIndex, TauIndex)==3) ) 
 		    {
 		      nGoodMuTauPassed+=event_weight;
@@ -313,8 +314,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
 						       my_genmatching_l2,
@@ -375,15 +376,19 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      //double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      if(higgsPt > 65)
 					{
+					  nHiggsptPassed+=event_weight;
 					  if(shift ==0 ) fillHist("7", EleIndex, TauIndex, false, event_weight);
 					  if(mvis < 125)
 					    {
+					      nMVisssPassed+=event_weight;
 					      if(shift ==0 ) fillHist("8", EleIndex, TauIndex, false, event_weight);
 					      if(my_metP4.Pt() > 105)
 						{
+						  nMETPassed+=event_weight;
 						  ////printtabSeparated("check pts before ", my_eleP4.Pt(), my_tauP4.Pt(), my_metP4.Pt());
 						  /* if(selected_systematic == "nominal") */
 						  /*   make_met_plots("a9"); */
@@ -441,14 +446,14 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
     return;
   //cout<<"Line number "<<__LINE__<<endl;
   //eleCand = getEleCand(25.0,2.1, shift);  ///// ele selected 
-  if( eleCand.size() >0 ) 
+ if( eleCand.size() >0 ) 
     { 
       nGoodMuonPassed_fr+=event_weight;
       //makeTestPlot("c_fr", 0,0,0,event_weight);
       if(debug)cout<<"this worked Line 641"<<endl;
       //tauCand = getAISRTauCand(30,2.3, shift);
       if( tauCand.size()>0 ) 
-	{
+      {
 	  nGoodTauPassed_fr+=event_weight;
 	  //makeTestPlot("d_fr", 0,0,0,event_weight);
 
@@ -463,7 +468,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 	  getFractions(category, mvis, frac_qcd, frac_w, frac_tt); /// this assigns right values for qcd, w and tt fractions
 		      
 	  bool xtrg = false;
-	  if( passCrossTrigger && my_eleP4.Pt()<28.0) xtrg=true;
+	  //if( passCrossTrigger && my_eleP4.Pt()<28.0) xtrg=true;
+	  if( passCrossTrigger && my_eleP4.Pt()<28.0 && my_eleP4.Pt()>25 && my_tauP4.Pt()>35.0 && my_tauP4.Eta()>2.1 && my_eleP4.Eta()>2.1) xtrg=true;
 	  else if ( my_eleP4.Pt()>28.0) xtrg=false;
 	  double newFF = FF_weights_withlpt.get_ff( my_tauP4.Pt(), mt, mvis
 						    , 0 , my_eleP4.Pt(), my_metP4.Pt()
@@ -476,9 +482,9 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 		      
 	  if ( TriggerSelection(my_eleP4, my_tauP4) )
 	    {
-	      if(Ztt_selector) 
+	      // if(Ztt_selector) 
 		{
-		  std::cout<<"value of ztt 3"<<Ztt_selector<<std::endl;	      
+			      
 		  if (  eleCharge->at(EleIndex) * tau_Charge->at(TauIndex) < 0 ) 
 		    {
 		      nGoodMuTauPassed_fr+=event_weight;
@@ -490,8 +496,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
 						       my_genmatching_l2,
@@ -530,7 +536,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      //double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      if(higgsPt > 65)
 					{
 					  if(shift ==0 ) fillHist("7_fr", EleIndex, TauIndex, true, event_weight);

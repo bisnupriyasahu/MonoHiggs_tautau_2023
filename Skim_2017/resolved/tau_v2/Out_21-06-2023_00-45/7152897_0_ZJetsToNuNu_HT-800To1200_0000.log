@@ -1,0 +1,42 @@
+000 (7152897.000.000) 2023-06-21 00:45:58 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7152897.000.000) 2023-06-21 02:09:16 Started transferring input files
+	Transferring to host: <144.92.181.197:9618?addrs=144.92.181.197-9618+[2607-f388-101c-1000--456]-9618&alias=neil01.hep.wisc.edu&noUDP&sock=slot1_5_3930_ca59_78285>
+...
+040 (7152897.000.000) 2023-06-21 02:09:16 Finished transferring input files
+...
+001 (7152897.000.000) 2023-06-21 02:09:17 Job executing on host: <144.92.181.197:9618?addrs=144.92.181.197-9618+[2607-f388-101c-1000--456]-9618&alias=neil01.hep.wisc.edu&noUDP&sock=startd_3374_dca1>
+...
+006 (7152897.000.000) 2023-06-21 02:09:26 Image size of job updated: 113260
+	84  -  MemoryUsage of job (MB)
+	85408  -  ResidentSetSize of job (KB)
+...
+006 (7152897.000.000) 2023-06-21 02:29:28 Image size of job updated: 888872
+	274  -  MemoryUsage of job (MB)
+	279956  -  ResidentSetSize of job (KB)
+...
+006 (7152897.000.000) 2023-06-21 02:49:28 Image size of job updated: 888872
+	278  -  MemoryUsage of job (MB)
+	283752  -  ResidentSetSize of job (KB)
+...
+040 (7152897.000.000) 2023-06-21 02:52:49 Started transferring output files
+...
+040 (7152897.000.000) 2023-06-21 02:52:49 Finished transferring output files
+...
+005 (7152897.000.000) 2023-06-21 02:52:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:16:54, Sys 0 00:01:20  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:16:54, Sys 0 00:01:20  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	5422  -  Run Bytes Sent By Job
+	206786  -  Run Bytes Received By Job
+	5422  -  Total Bytes Sent By Job
+	206786  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.47        1         1 
+	   Disk (KB)            :  2879     2097152  18506101 
+	   Memory (MB)          :   278        2048      2500 
+
+	Job terminated of its own accord at 2023-06-21T07:52:49Z.
+...

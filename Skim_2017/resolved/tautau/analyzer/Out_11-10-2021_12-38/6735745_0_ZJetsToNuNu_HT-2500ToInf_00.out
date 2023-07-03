@@ -1,0 +1,33 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:5
+Running over 5 events.
+Finished entry 0/4
+Finished entry 1/4
+Finished entry 2/4
+Finished entry 3/4
+Finished entry 4/4
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 5.000000
+   Passing smikking 0.000000
+Inspected genWeightd 5.000000   % change= 0.000000
+   METFiltersPassed 3.865061   % change= 22.698789
+    SingleTrgPassed 1.521781   % change= 60.627241
+     GoodMuonPassed 0.000000   % change= 100.000000
+      GoodTauPassed 0.000000   % change= -nan
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 0.000000   % change= -nan
+     PassedBjetVeto 0.000000   % change= -nan
+       DeltaRPassed 0.000000   % change= -nan
+      Total change :100.000000
+*******************************************
+*******************************************
+Number of events inspected: 5
+Number of events inspected (minus negative gen. weights): 5.000000
+ Outpt written to ZJetsToNuNu_HT-2500ToInf_00.root
+Real time 0:00:05, CP time 3.730

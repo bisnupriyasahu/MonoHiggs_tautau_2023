@@ -1,0 +1,21 @@
+x509userproxy = /tmp/x509up_u4548
+universe = vanilla
+Executable = Out_03-01-2022_19-32/Job_ZJetsToNuNu_HT100-200_00.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 1992
+request_disk         = 2048000
+
+#OutputDestination = 
+#Initialdir = Out_ZJetsToNuNu_HT100-200_00         
+Transfer_Input_Files = /nfs_scratch/jmadhusu/CMSSW_10_2_10/src/2018_skim/tautauh/analyzer/analyze_tautau , /nfs_scratch/jmadhusu/CMSSW_10_2_10/src/sf_files
+
+output               = Out_03-01-2022_19-32/$(Cluster)_$(Process)_ZJetsToNuNu_HT100-200_00.out
+error                = Out_03-01-2022_19-32/$(Cluster)_$(Process)_ZJetsToNuNu_HT100-200_00.err
+Log                  = Out_03-01-2022_19-32/$(Cluster)_$(Process)_ZJetsToNuNu_HT100-200_00.log
+Queue

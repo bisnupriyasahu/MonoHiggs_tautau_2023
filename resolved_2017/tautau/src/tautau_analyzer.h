@@ -1,4 +1,4 @@
-//////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////
 // This class has been automatically generated on
 // Thu Jun 14 01:21:53 2018 by ROOT version 6.10/09
 // from TTree EventTree/Event data (tag V08_00_26_03)
@@ -72,8 +72,8 @@ public :
    TTree *tree = new TTree("myTree", "A ROOT tree");
    TH1F* h_nEvents ;
 
-   double nMETFiltersPassed_fr, nPassedSkimmed_fr , nSingleTrgPassed_fr, nGoodMuonPassed_fr, nGoodTauPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr;
-   double nMETFiltersPassed, nPassedSkimmed, nSingleTrgPassed, nGoodMuonPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed;
+   double nMETFiltersPassed_fr, nPassedSkimmed_fr , nSingleTrgPassed_fr, nGoodMuonPassed_fr, nGoodTauPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr,nHiggsptPassed_fr,nMVisssPassed_fr,nMETPassed_fr;
+   double nMETFiltersPassed, nPassedSkimmed, nSingleTrgPassed, nGoodMuonPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed, nMETPassed, ndatapassedselection, nnominalpassed,njetfakesuppassed,njetfakesdownpassed, nMETRecoilPassed, nGoodTau1Passed, nBeforeTauESPassed, nAfterTauESPassed;
 
    double nMETFiltersPassed_dyll_fr, nPassedSkimmed_dyll_fr , nSingleTrgPassed_dyll_fr, nGoodMuonPassed_dyll_fr, nGoodTauPassed_dyll_fr, nGoodMuTauPassed_dyll_fr, nPassedThirdLepVeto_dyll_fr, nPassedBjetVeto_dyll_fr, nDeltaRPassed_dyll_fr;
    double nMETFiltersPassed_dyll, nPassedSkimmed_dyll, nSingleTrgPassed_dyll, nGoodMuonPassed_dyll, nGoodTauPassed_dyll, nGoodMuTauPassed_dyll, nPassedThirdLepVeto_dyll, nPassedBjetVeto_dyll, nDeltaRPassed_dyll;
@@ -202,7 +202,7 @@ public :
   bool pass3rdLeptonVeto;
   float zprimeBaryonic_signal;
   bool found_ZprimeBaryonic;
-  
+  bool found_Signal;
   // Declaration of leaf types
   vector<double>  *signalParameters;
    Int_t           run;
@@ -997,6 +997,7 @@ public :
    // double dR(int mu_index, int tau_index);
    double delta_R(float phi1, float eta1, float phi2, float eta2);
    float TMass_F(float LepPt, float LepPhi ,float met, float metPhi);
+   float TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);
    float TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);   
    float VisMass_F(TLorentzVector a, TLorentzVector b);
    float pTvecsum_F(float pt1, float pt2, float phi1, float phi2);
@@ -1006,7 +1007,7 @@ public :
    bool passBjetVeto_medium(int eleIndex, int tauIndex);
    bool passBjetVeto_loose(int eleIndex, int tauIndex);
    bool passBjetVeto(int eleIndex, int tauIndex);
-   void fillHist( string histNumber, int muIndex, int tauIndex, bool isFakeBkg,float event_weight);
+   void fillHist( string histNumber, int muIndex, int tauIndex, TLorentzVector a, TLorentzVector b, bool isFakeBkg,float event_weight);
    void fillHist_nominal(string histNumber,float event_weight);
    void fillUncPlots( string histNumber, int eleIndex, int tauIndex, bool isFakeBkg,float event_weight, int shift);
    void jetFakeUnc( string histNumber , int eleIndex, int tauIndex, bool isFakeBkg, float event_weight);
@@ -1027,7 +1028,7 @@ public :
    double exponential( double pT) ;
    double getFR(int tauIndex);
    float EletriggerSF(float pt, float eta);
-   double getScaleFactors(  double elept, double taupt, double eleeta, double taueta, int taudm, int tauGenMatch, bool isFakebkg);
+   double getScaleFactors(  double elept, double taupt, double eleeta, double taueta, int taudm1, int taudm2, int tau1GenMatch, int tau2GenMatch, bool isFakebkg);
    bool MatchTriggerFilter(int eleIndex, int tauIndex);
    bool TriggerSelection(TLorentzVector eleP4, TLorentzVector tauP4);
    void makeTestPlot( string histNumber , int eleIndex, int ele2Index, int tauIndex, float event_weight);
@@ -1042,7 +1043,7 @@ public :
    TLorentzVector metClusteredUnc( TLorentzVector event_metP4 );
 
    int eventCategory(int eleIndex, int tauIndex,  double higgsPt);
-   void setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift);
+   void setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift, float weight);
    void save_nom( );
 
    int if_DY_Genmatching(int eleIndex, int tauIndex);
@@ -1140,8 +1141,8 @@ void tautau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
    // code, but the routine can be extended by the user if needed.
    // Init() will be called many times when running on PROOF
    // (once per file to be processed).
-  nMETFiltersPassed_fr = nPassedSkimmed_fr = nSingleTrgPassed_fr = nGoodMuonPassed_fr = nGoodTauPassed_fr = nGoodMuTauPassed_fr = nPassedThirdLepVeto_fr = nPassedBjetVeto_fr = nDeltaRPassed_fr=0;
-  nMETFiltersPassed= nPassedSkimmed= nSingleTrgPassed= nGoodMuonPassed= nGoodTauPassed= nGoodMuTauPassed= nPassedThirdLepVeto= nPassedBjetVeto= nDeltaRPassed=0;
+  nMETFiltersPassed_fr = nPassedSkimmed_fr = nSingleTrgPassed_fr = nGoodMuonPassed_fr = nGoodTauPassed_fr = nGoodMuTauPassed_fr = nPassedThirdLepVeto_fr = nPassedBjetVeto_fr = nDeltaRPassed_fr= nHiggsptPassed_fr = nMVisssPassed_fr = nMETPassed_fr =0;
+  nMETFiltersPassed= nPassedSkimmed= nSingleTrgPassed= nGoodMuonPassed= nGoodTauPassed= nGoodMuTauPassed= nPassedThirdLepVeto= nPassedBjetVeto= nDeltaRPassed= nHiggsptPassed = nMVisssPassed=nMETPassed= ndatapassedselection = nnominalpassed=njetfakesuppassed=njetfakesdownpassed = nMETRecoilPassed = nGoodTau1Passed = nBeforeTauESPassed =  nAfterTauESPassed = 0;
    
   nMETFiltersPassed_dyll_fr = nPassedSkimmed_dyll_fr = nSingleTrgPassed_dyll_fr = nGoodMuonPassed_dyll_fr = nGoodTauPassed_dyll_fr = nGoodMuTauPassed_dyll_fr = nPassedThirdLepVeto_dyll_fr = nPassedBjetVeto_dyll_fr = nDeltaRPassed_dyll_fr=0;
   nMETFiltersPassed_dyll= nPassedSkimmed_dyll= nSingleTrgPassed_dyll= nGoodMuonPassed_dyll= nGoodTauPassed_dyll= nGoodMuTauPassed_dyll= nPassedThirdLepVeto_dyll= nPassedBjetVeto_dyll= nDeltaRPassed_dyll=0;
@@ -1173,7 +1174,8 @@ void tautau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
        sample.Contains("W1JetsToLNu") ||
        sample.Contains("W2JetsToLNu") ||
        sample.Contains("W3JetsToLNu") ||
-       sample.Contains("W4JetsToLNu") 	) {
+       sample.Contains("W4JetsToLNu")
+       ) {
     found_Wjet_sample=true;
     cout<<"****************** wjet sample found"<<endl;
   }
@@ -1181,8 +1183,8 @@ void tautau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
        sample.Contains("DY1JetsToLL") ||
        sample.Contains("DY2JetsToLL") ||
        sample.Contains("DY3JetsToLL") ||
-       sample.Contains("DY4JetsToLL") || 
-       sample.Contains("EWKZ2Jets")
+       sample.Contains("DY4JetsToLL") 
+       // ||  sample.Contains("EWKZ2Jets")
        ) {
     found_DYjet_sample=true;
     cout<<"****************** dyjet sample found"<<endl;
@@ -1197,8 +1199,13 @@ void tautau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
   zprimeBaryonic_signal = 0.0;
   cout<<"sample =========="<<sample<<endl;
   found_ZprimeBaryonic = false;
-  if ( sample.Contains("Zpbaryonic"))
+  if ( sample.Contains("ZpBaryonic"))
     found_ZprimeBaryonic = true;
+
+  found_Signal = false;
+  // if ( sample.Contains("2HDMa"))
+  if ( sample.Contains("ZpBaryonic") || sample.Contains("2HDMa"))
+    found_Signal = true;
 
   tauDM_map.push_back({"1prong" , 0});
   tauDM_map.push_back({"1prong1pizero" , 1});
@@ -1926,7 +1933,9 @@ Int_t tautau_analyzer::Cut(Long64_t entry)
 // returns -1 otherwise.
    return 1;
 }
-void tautau_analyzer::setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift){
+void tautau_analyzer::setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift, float weight)
+{
+  double event_weight = weight;
   /// first select leading and subleading
   { Tau1Index=tau1Index; Tau2Index=tau2Index; }
   /* if (tau_Pt->at(tau1Index) > tau_Pt->at(tau2Index)) */
@@ -1955,44 +1964,53 @@ void tautau_analyzer::setMyEleTau(int tau1Index, int tau2Index, TLorentzVector m
   uncorrected_met =  metP4;
   uncorrectedMetPlusTau=uncorrected_met + tmp_tau1 + tmp_tau2;
   TLorentzVector raw_tau1  = applyTau1ESCorrections( tmp_tau1, Tau1Index , 0);
-  TLorentzVector raw_tau2  = applyTau1ESCorrections( tmp_tau2, Tau2Index , 0);
-  if(is_MC){
-    my_tau1P4 = applyTau1ESCorrections( tmp_tau1, Tau1Index , shift);
-    my_tau2P4 = applyTau2ESCorrections( tmp_tau2, Tau2Index , shift);
-  }
-  else{
-    my_tau1P4 = tmp_tau1;
-    my_tau2P4 = tmp_tau2;
-  }
-
+  //TLorentzVector raw_tau2  = applyTau1ESCorrections( tmp_tau2, Tau2Index , 0);
+  TLorentzVector raw_tau2  = applyTau2ESCorrections( tmp_tau2, Tau2Index , 0);
+  if (shift ==0 ) { nBeforeTauESPassed+=event_weight;}
+  if(is_MC)
+    {
+      my_tau1P4 = applyTau1ESCorrections( tmp_tau1, Tau1Index , shift);
+      my_tau2P4 = applyTau2ESCorrections( tmp_tau2, Tau2Index , shift);
+    }
+  else
+    {
+      my_tau1P4 = tmp_tau1;
+      my_tau2P4 = tmp_tau2;
+    }
+  if (shift ==0 ) { nAfterTauESPassed+=event_weight;}
   corrected_met = uncorrectedMetPlusTau - raw_tau1 - raw_tau2 ;
-   if(is_MC){ 
-     TLorentzVector corrected_met_v2; 
-     //corrected_met_v2.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET); 
-     corrected_met_v2 = MetRecoilCorrections(Tau1Index, Tau2Index, corrected_met); 
-     if (selected_systematic == "metresolution" && is_MC) 
-       my_metP4= metSysUnc("resolution", corrected_met_v2); 
-     else if (selected_systematic == "metresponse" && is_MC) 
-       my_metP4= metSysUnc("response", corrected_met_v2); 
-     else if (selected_systematic == "metunclustered" && is_MC) 
-       my_metP4= metClusteredUnc(corrected_met_v2); 
-     else if(is_MC) 
-       my_metP4= corrected_met_v2; 
-       //my_metP4=MetRecoilCorrections(EleIndex, TauIndex, corrected_met_v2); 
-   } 
-   else 
-     my_metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET); 
-
-  // if(is_MC)
-  //   my_metP4 = corrected_met;
-  // else
-  //   my_metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
-
+  if(is_MC)
+    { 
+      TLorentzVector corrected_met_v2; 
+      //corrected_met_v2.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET); 
+      if(found_DYjet_sample)
+	corrected_met_v2 = MetRecoilCorrections(Tau1Index, Tau2Index, corrected_met); 
+      else
+	corrected_met_v2 = corrected_met;
+      if (selected_systematic == "metresolution" && is_MC) 
+	my_metP4= metSysUnc("resolution", corrected_met_v2); 
+      else if (selected_systematic == "metresponse" && is_MC) 
+	my_metP4= metSysUnc("response", corrected_met_v2); 
+      else if (selected_systematic == "metunclustered" && is_MC) 
+	my_metP4= metClusteredUnc(corrected_met_v2); 
+      else if(is_MC) 
+	my_metP4= corrected_met_v2; 
+      //my_metP4=MetRecoilCorrections(EleIndex, TauIndex, corrected_met_v2); 
+    } 
+  else 
+    my_metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET); 
+  
+  if (shift ==0 ) { nMETRecoilPassed+=event_weight;}  
+  /* if(is_MC)
+    my_metP4 = corrected_met;
+  else
+    my_metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
+  */
   if(found_DYjet_sample)
     zptmass_weight = get_zptmass_weight();
 
-  pass_bjet_veto = true;
-  pass3rdLeptonVeto = ( eVetoZTTp001dxyz(Tau1Index, Tau2Index) && mVetoZTTp001dxyz(Tau1Index, Tau2Index) );
+  //pass_bjet_veto = true;
+  //pass3rdLeptonVeto = ( eVetoZTTp001dxyz(Tau1Index, Tau2Index) && mVetoZTTp001dxyz(Tau1Index, Tau2Index) );
   // btag_sf=btag_sf_weight(Tau1Index, Tau2Index);
   printP4values("setting p4");
 }

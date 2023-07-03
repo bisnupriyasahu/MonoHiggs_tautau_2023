@@ -1,0 +1,84 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350
+.... MC file ..... 
+Coming in: 
+nentries:55500
+Running over 55500 events.
+Finished entry 0/55499
+Finished entry 2000/55499
+Finished entry 4000/55499
+Finished entry 6000/55499
+Finished entry 8000/55499
+Finished entry 10000/55499
+Finished entry 12000/55499
+Finished entry 14000/55499
+Finished entry 16000/55499
+Finished entry 18000/55499
+Finished entry 20000/55499
+Finished entry 22000/55499
+Finished entry 24000/55499
+Finished entry 26000/55499
+Finished entry 28000/55499
+Finished entry 30000/55499
+Finished entry 32000/55499
+Finished entry 34000/55499
+Finished entry 36000/55499
+Finished entry 38000/55499
+Finished entry 40000/55499
+Finished entry 42000/55499
+Finished entry 44000/55499
+Finished entry 46000/55499
+Finished entry 48000/55499
+Finished entry 50000/55499
+Finished entry 52000/55499
+Finished entry 54000/55499
+Finished entry 55499/55499
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 55500.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 185091.354977   % change= -2639.905590
+      GoodTauPassed 37123.066788   % change= 79.943382
+         opp charge 36317.388585   % change= 2.170290
+ PassedThirdLepVeto 17037.606524   % change= 53.086917
+     PassedBjetVeto 16309.353921   % change= 4.274383
+       DeltaRPassed 16128.819146   % change= 1.106940
+      Total change :70.939065
+*******************************************
+*******************************************
+Number of events inspected: 55500
+Number of events inspected (minus negative gen. weights): 55488.000000
+ Outpt written to 2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_800_MH4_350.root
+Real time 0:01:33, CP time 75.560

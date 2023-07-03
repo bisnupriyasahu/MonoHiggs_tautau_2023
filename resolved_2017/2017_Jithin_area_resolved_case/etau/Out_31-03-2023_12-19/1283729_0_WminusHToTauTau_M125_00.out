@@ -1,0 +1,77 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========WminusHToTauTau_M125_00
+.... MC file ..... 
+Coming in: 
+nentries:603451
+Running over 603451 events.
+Finished entry 0/603450
+Finished entry 30000/603450
+Finished entry 60000/603450
+Finished entry 90000/603450
+Finished entry 120000/603450
+Finished entry 150000/603450
+Finished entry 180000/603450
+Finished entry 210000/603450
+Finished entry 240000/603450
+Finished entry 270000/603450
+Finished entry 300000/603450
+Finished entry 330000/603450
+Finished entry 360000/603450
+Finished entry 390000/603450
+Finished entry 420000/603450
+Finished entry 450000/603450
+Finished entry 480000/603450
+Finished entry 510000/603450
+Finished entry 540000/603450
+Finished entry 570000/603450
+Finished entry 600000/603450
+Finished entry 603450/603450
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 603451.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 6691440.440592   % change= -2585.372628
+      GoodTauPassed 2694356.935442   % change= 59.734276
+         opp charge 1773427.897607   % change= 34.179920
+ PassedThirdLepVeto 829423.907375   % change= 53.230469
+     PassedBjetVeto 774269.655722   % change= 6.649706
+       DeltaRPassed 770538.027018   % change= 0.481955
+      Total change :-27.688582
+*******************************************
+*******************************************
+Number of events inspected: 603451
+Number of events inspected (minus negative gen. weights): 579849.000000
+ Outpt written to WminusHToTauTau_M125_00.root
+Real time 1:00:54, CP time 3291.360

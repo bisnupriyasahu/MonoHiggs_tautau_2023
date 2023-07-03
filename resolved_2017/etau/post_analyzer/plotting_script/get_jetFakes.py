@@ -38,9 +38,9 @@ def getHistList(inFile, isblinded=False):
         if "CMS_htt_boson" in tdir : continue
         print("\n "+tdir)
 
-        data_dir  = tdir+'/fullLumi_data_obs_'+tdir
+        data_dir  = tdir+'/data_obs_'+tdir
         if isblinded:
-            data_dir  = tdir+'/data_obs_'+tdir
+            data_dir  = tdir+'/blinded_data_obs_'+tdir
         print(" checking "+data_dir)
         if not inFile.Get(data_dir):
             print("################## No histogram for {} ".format(data_dir))

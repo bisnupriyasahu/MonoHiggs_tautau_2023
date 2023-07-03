@@ -170,6 +170,7 @@ public :
   double btag_sf;
   bool found_Wjet_sample;
   bool found_DYjet_sample;
+  bool found_Signal;
   bool found_TTbar_sample;
   bool found_ZprimeBaryonic;
   int t_index, tbar_index;
@@ -972,6 +973,7 @@ public :
    // double dR(int mu_index, int tau_index);
    double delta_R(float phi1, float eta1, float phi2, float eta2);
    float TMass_F(float LepPt, float LepPhi ,float met, float metPhi);
+   float TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);
    float TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);   
    float VisMass_F(TLorentzVector a, TLorentzVector b);
    float pTvecsum_F(float pt1, float pt2, float phi1, float phi2);
@@ -1174,8 +1176,8 @@ void etau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
        sample.Contains("DY1JetsToLL") ||
        sample.Contains("DY2JetsToLL") ||
        sample.Contains("DY3JetsToLL") ||
-       sample.Contains("DY4JetsToLL") || 
-       sample.Contains("EWKZ2Jets")
+       sample.Contains("DY4JetsToLL")// || 
+       //sample.Contains("EWKZ2Jets")
        ) {
     found_DYjet_sample=true;
     cout<<"****************** dyjet sample found"<<endl;
@@ -1187,9 +1189,11 @@ void etau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
     found_TTbar_sample=true;
     cout<<"****************** ttbar sample found"<<endl;
   }
-  if ( sample.Contains("Zpbaryonic"))
+  if ( sample.Contains("ZpBaryonic"))
     found_ZprimeBaryonic = true;
-
+  found_Signal = false;
+  if ( sample.Contains("ZpBaryonic") || sample.Contains("2HDMa"))
+    found_Signal =true;
 
   ElectronIDIso.init_ScaleFactors("sf_files/LeptonEfficiencies/Electron/Run2018/Electron_Run2018_IdIso.root");
   CrossTriggerSF.init_ScaleFactors("sf_files/LeptonEfficiencies/Electron/Run2018/Electron_Run2018_Ele24.root");
@@ -2003,7 +2007,10 @@ void etau_analyzer::setMyEleTau(int eleIndex, int tauIndex, TLorentzVector event
   if(is_MC){
     TLorentzVector corrected_met_v2;
     //corrected_met_v2.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
-    corrected_met_v2 = MetRecoilCorrections(EleIndex, TauIndex, corrected_met);
+    if(found_DYjet_sample)
+      corrected_met_v2 = MetRecoilCorrections(EleIndex, TauIndex, corrected_met);
+    else
+      corrected_met_v2 = corrected_met;
     if (selected_systematic == "metresolution" && is_MC)
       my_metP4= metSysUnc("resolution", corrected_met_v2);
     else if (selected_systematic == "metresponse" && is_MC)
@@ -2025,11 +2032,12 @@ void etau_analyzer::setMyEleTau(int eleIndex, int tauIndex, TLorentzVector event
   pass_bjet_veto = (bJet_medium(EleIndex, TauIndex).size()==0) && (bJet_loose(EleIndex, TauIndex).size()<2 );
   btag_sf=btag_sf_weight(EleIndex , TauIndex);
   
-  if( passDiElectronVeto(EleIndex)==true 
-&& eVetoZTTp001dxyz(EleIndex, TauIndex)
-      && mVetoZTTp001dxyz(EleIndex, TauIndex)
-      ) Ztt_selector=true;
-  else Ztt_selector=false;
+//   if( passDiElectronVeto(EleIndex)==true 
+// && eVetoZTTp001dxyz(EleIndex, TauIndex)
+//       && mVetoZTTp001dxyz(EleIndex, TauIndex)
+//       ) Ztt_selector=true;
+//   else Ztt_selector=false;
+  Ztt_selector=true;
   if(found_DYjet_sample)
     zptmass_weight = get_zptmass_weight();
 

@@ -1,11 +1,14 @@
 set -e
 
 #declare -a plotList=("elePt") 
-#declare -a plotList=("elePt" "tauPt" "higgsPt" "nJet" "visMass" "metLongXaxis" "mT_eleMet" "deltaR") 
-declare -a plotList=("elePt" "tauPt" "higgsPt" ) # "nJet" "metLongXaxis" ) 
+declare -a plotList=("elePt" "eleEta"  "tauPt" "tauEta"  "higgsPt" "nJet" "visMass" "metLongXaxis" "deltaR" )
+#declare -a plotList=("elePt" "tauPt" "higgsPt"  )
+#declare -a plotList=("elePt" "tauPt" "higgsPt" "nJet" "metLongXaxis" "visMass" "tot_TMass_new") 
+#declare -a plotList=("tauPt" "elePt" "higgsPt") 
 #declare -a plotList=("tot_TMass_new") 
 
-declare -a indexList=("_9")
+declare -a indexList=("_5")
+#declare -a indexList=("_9")
 
 
 FILE=eventYield.csv
@@ -18,7 +21,8 @@ do
     for j in "${plotList[@]}"
     do 
 	hist=$j$i
-	python3 makeplot.py -name $hist -cat 0 -ch etau -xaxis $hist -year 2017 --blindingRatio 5 
+	#python3 makeplot.py -name $hist -cat 0 -ch etau -xaxis $hist -year 2017 --blindingRatio 5 ## unblinded  1/5th of data
+	python3 makeplot.py -name $hist -cat 0 -ch etau -xaxis $hist -year 2017 --blindingRatio 1 #blinded: full data set for limits, total transverse mass
     done
     wait
 done

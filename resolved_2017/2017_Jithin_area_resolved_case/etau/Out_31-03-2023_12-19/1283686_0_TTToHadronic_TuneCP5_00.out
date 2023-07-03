@@ -1,0 +1,79 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+sample ==========TTToHadronic_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:191869
+Running over 191869 events.
+Finished entry 0/191868
+Finished entry 9000/191868
+Finished entry 18000/191868
+Finished entry 27000/191868
+Finished entry 36000/191868
+Finished entry 45000/191868
+Finished entry 54000/191868
+Finished entry 63000/191868
+Finished entry 72000/191868
+Finished entry 81000/191868
+Finished entry 90000/191868
+Finished entry 99000/191868
+Finished entry 108000/191868
+Finished entry 117000/191868
+Finished entry 126000/191868
+Finished entry 135000/191868
+Finished entry 144000/191868
+Finished entry 153000/191868
+Finished entry 162000/191868
+Finished entry 171000/191868
+Finished entry 180000/191868
+Finished entry 189000/191868
+Finished entry 191868/191868
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 191869.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 17427.038708   % change= -1043.956293
+      GoodTauPassed 490.287281   % change= 97.186629
+         opp charge 211.640302   % change= 56.833410
+ PassedThirdLepVeto 73.366782   % change= 65.334210
+     PassedBjetVeto 24.964023   % change= 65.973671
+       DeltaRPassed 24.964023   % change= 0.000000
+      Total change :99.986989
+*******************************************
+*******************************************
+Number of events inspected: 191869
+Number of events inspected (minus negative gen. weights): 191869.000000
+ Outpt written to TTToHadronic_TuneCP5_00.root
+Real time 0:03:36, CP time 99.480

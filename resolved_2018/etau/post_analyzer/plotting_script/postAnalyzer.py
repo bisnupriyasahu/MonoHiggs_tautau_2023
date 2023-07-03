@@ -61,7 +61,7 @@ def getHistList(sampleName = "", hist_name="", idx=""):
     return hist_mapping
     
 
-def make_files(sampleName = "", hist_name="", idx="", isBlinded=True):
+def make_files(sampleName = "", hist_name="", idx="", isBlinded=False):
     inFile= ROOT.TFile("../files_initial/"+sampleName,"r")
     nEventsHisto = inFile.Get("nEvents")
     if not isinstance(nEventsHisto, ROOT.TH1F):
@@ -112,7 +112,7 @@ if __name__=="__main__":
     parser.add_argument("--blinded",
                     help="is this for blinded case,   Default= 0",
                     choices=('0', '1'),
-                    default='1'
+                    default='0'
                     )
     args =  parser.parse_args()
     if args.idx is None or args.hist is None:

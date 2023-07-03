@@ -1,0 +1,39 @@
+000 (7915569.000.000) 2022-01-03 14:51:54 Job submitted from host: <144.92.181.245:9618?addrs=144.92.181.245-9618+[2607-f388-101c-1000--372]-9618&alias=login06.hep.wisc.edu&noUDP&sock=schedd_913429_e58e>
+...
+040 (7915569.000.000) 2022-01-03 14:52:21 Started transferring input files
+	Transferring to host: <128.104.103.13:9618?addrs=128.104.103.13-9618+[2607-f388-107c-501-62eb-69ff-fe81-f36d]-9618&alias=e0033.chtc.wisc.edu&noUDP&sock=slot1_3_4520_7fb1_10454>
+...
+040 (7915569.000.000) 2022-01-03 14:54:02 Finished transferring input files
+...
+001 (7915569.000.000) 2022-01-03 14:54:03 Job executing on host: <128.104.103.13:9618?addrs=128.104.103.13-9618+[2607-f388-107c-501-62eb-69ff-fe81-f36d]-9618&alias=e0033.chtc.wisc.edu&noUDP&sock=startd_3989_b360>
+...
+006 (7915569.000.000) 2022-01-03 14:54:11 Image size of job updated: 146172
+	9  -  MemoryUsage of job (MB)
+	9020  -  ResidentSetSize of job (KB)
+...
+006 (7915569.000.000) 2022-01-03 14:55:01 Image size of job updated: 1172000
+	11  -  MemoryUsage of job (MB)
+	10604  -  ResidentSetSize of job (KB)
+...
+040 (7915569.000.000) 2022-01-03 14:55:01 Started transferring output files
+...
+040 (7915569.000.000) 2022-01-03 14:55:02 Finished transferring output files
+...
+005 (7915569.000.000) 2022-01-03 14:55:02 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:18, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:18, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	114111  -  Run Bytes Sent By Job
+	315491776  -  Run Bytes Received By Job
+	114111  -  Total Bytes Sent By Job
+	315491776  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.07        1         1 
+	   Disk (KB)            : 308269     2048000   2717359 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     11        1992      2048 
+
+	Job terminated of its own accord at 2022-01-03T20:55:00Z.
+...

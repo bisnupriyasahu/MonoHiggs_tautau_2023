@@ -1,826 +1,973 @@
 nohup: ignoring input
-In file included from src/mutau_analyzer.C:24:0:
-src/mutau_analyzer.h:38:25: fatal error: RooWorkspace.h: No such file or directory
- #include"RooWorkspace.h"
-                         ^
-compilation terminated.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7028612.
+1 job(s) submitted to cluster 7139167.
 Submitting job(s).
-1 job(s) submitted to cluster 7028613.
+1 job(s) submitted to cluster 7139168.
 Submitting job(s).
-1 job(s) submitted to cluster 7028614.
+1 job(s) submitted to cluster 7139169.
 Submitting job(s).
-1 job(s) submitted to cluster 7028615.
+1 job(s) submitted to cluster 7139170.
 Submitting job(s).
-1 job(s) submitted to cluster 7028616.
+1 job(s) submitted to cluster 7139171.
 Submitting job(s).
-1 job(s) submitted to cluster 7028617.
+1 job(s) submitted to cluster 7139172.
 Submitting job(s).
-1 job(s) submitted to cluster 7028618.
+1 job(s) submitted to cluster 7139173.
 Submitting job(s).
-1 job(s) submitted to cluster 7028619.
+1 job(s) submitted to cluster 7139174.
 Submitting job(s).
-1 job(s) submitted to cluster 7028620.
+1 job(s) submitted to cluster 7139175.
 Submitting job(s).
-1 job(s) submitted to cluster 7028621.
+1 job(s) submitted to cluster 7139176.
 Submitting job(s).
-1 job(s) submitted to cluster 7028622.
+1 job(s) submitted to cluster 7139177.
 Submitting job(s).
-1 job(s) submitted to cluster 7028623.
+1 job(s) submitted to cluster 7139178.
 Submitting job(s).
-1 job(s) submitted to cluster 7028624.
+1 job(s) submitted to cluster 7139179.
 Submitting job(s).
-1 job(s) submitted to cluster 7028625.
+1 job(s) submitted to cluster 7139180.
 Submitting job(s).
-1 job(s) submitted to cluster 7028626.
+1 job(s) submitted to cluster 7139181.
 Submitting job(s).
-1 job(s) submitted to cluster 7028627.
+1 job(s) submitted to cluster 7139182.
 Submitting job(s).
-1 job(s) submitted to cluster 7028628.
+1 job(s) submitted to cluster 7139183.
 Submitting job(s).
-1 job(s) submitted to cluster 7028629.
+1 job(s) submitted to cluster 7139184.
 Submitting job(s).
-1 job(s) submitted to cluster 7028630.
+1 job(s) submitted to cluster 7139185.
 Submitting job(s).
-1 job(s) submitted to cluster 7028631.
+1 job(s) submitted to cluster 7139186.
 Submitting job(s).
-1 job(s) submitted to cluster 7028632.
+1 job(s) submitted to cluster 7139187.
 Submitting job(s).
-1 job(s) submitted to cluster 7028633.
+1 job(s) submitted to cluster 7139188.
 Submitting job(s).
-1 job(s) submitted to cluster 7028634.
+1 job(s) submitted to cluster 7139189.
 Submitting job(s).
-1 job(s) submitted to cluster 7028635.
+1 job(s) submitted to cluster 7139190.
 Submitting job(s).
-1 job(s) submitted to cluster 7028636.
+1 job(s) submitted to cluster 7139191.
 Submitting job(s).
-1 job(s) submitted to cluster 7028637.
+1 job(s) submitted to cluster 7139192.
 Submitting job(s).
-1 job(s) submitted to cluster 7028638.
+1 job(s) submitted to cluster 7139193.
 Submitting job(s).
-1 job(s) submitted to cluster 7028639.
+1 job(s) submitted to cluster 7139194.
 Submitting job(s).
-1 job(s) submitted to cluster 7028640.
+1 job(s) submitted to cluster 7139195.
 Submitting job(s).
-1 job(s) submitted to cluster 7028641.
+1 job(s) submitted to cluster 7139196.
 Submitting job(s).
-1 job(s) submitted to cluster 7028642.
+1 job(s) submitted to cluster 7139197.
 Submitting job(s).
-1 job(s) submitted to cluster 7028643.
+1 job(s) submitted to cluster 7139198.
 Submitting job(s).
-1 job(s) submitted to cluster 7028644.
+1 job(s) submitted to cluster 7139199.
 Submitting job(s).
-1 job(s) submitted to cluster 7028645.
+1 job(s) submitted to cluster 7139200.
 Submitting job(s).
-1 job(s) submitted to cluster 7028646.
+1 job(s) submitted to cluster 7139201.
 Submitting job(s).
-1 job(s) submitted to cluster 7028647.
+1 job(s) submitted to cluster 7139202.
 Submitting job(s).
-1 job(s) submitted to cluster 7028648.
+1 job(s) submitted to cluster 7139203.
 Submitting job(s).
-1 job(s) submitted to cluster 7028649.
+1 job(s) submitted to cluster 7139204.
 Submitting job(s).
-1 job(s) submitted to cluster 7028650.
+1 job(s) submitted to cluster 7139205.
 Submitting job(s).
-1 job(s) submitted to cluster 7028651.
+1 job(s) submitted to cluster 7139206.
 Submitting job(s).
-1 job(s) submitted to cluster 7028652.
+1 job(s) submitted to cluster 7139207.
 Submitting job(s).
-1 job(s) submitted to cluster 7028653.
+1 job(s) submitted to cluster 7139208.
 Submitting job(s).
-1 job(s) submitted to cluster 7028654.
+1 job(s) submitted to cluster 7139209.
 Submitting job(s).
-1 job(s) submitted to cluster 7028655.
+1 job(s) submitted to cluster 7139210.
 Submitting job(s).
-1 job(s) submitted to cluster 7028656.
+1 job(s) submitted to cluster 7139211.
 Submitting job(s).
-1 job(s) submitted to cluster 7028657.
+1 job(s) submitted to cluster 7139212.
 Submitting job(s).
-1 job(s) submitted to cluster 7028658.
+1 job(s) submitted to cluster 7139213.
 Submitting job(s).
-1 job(s) submitted to cluster 7028659.
+1 job(s) submitted to cluster 7139214.
 Submitting job(s).
-1 job(s) submitted to cluster 7028660.
+1 job(s) submitted to cluster 7139215.
 Submitting job(s).
-1 job(s) submitted to cluster 7028661.
+1 job(s) submitted to cluster 7139216.
 Submitting job(s).
-1 job(s) submitted to cluster 7028662.
+1 job(s) submitted to cluster 7139217.
 Submitting job(s).
-1 job(s) submitted to cluster 7028663.
+1 job(s) submitted to cluster 7139218.
 Submitting job(s).
-1 job(s) submitted to cluster 7028664.
+1 job(s) submitted to cluster 7139219.
 Submitting job(s).
-1 job(s) submitted to cluster 7028665.
+1 job(s) submitted to cluster 7139220.
 Submitting job(s).
-1 job(s) submitted to cluster 7028667.
+1 job(s) submitted to cluster 7139221.
 Submitting job(s).
-1 job(s) submitted to cluster 7028668.
+1 job(s) submitted to cluster 7139222.
 Submitting job(s).
-1 job(s) submitted to cluster 7028669.
+1 job(s) submitted to cluster 7139223.
 Submitting job(s).
-1 job(s) submitted to cluster 7028670.
+1 job(s) submitted to cluster 7139224.
 Submitting job(s).
-1 job(s) submitted to cluster 7028672.
+1 job(s) submitted to cluster 7139225.
 Submitting job(s).
-1 job(s) submitted to cluster 7028673.
+1 job(s) submitted to cluster 7139226.
 Submitting job(s).
-1 job(s) submitted to cluster 7028674.
+1 job(s) submitted to cluster 7139227.
 Submitting job(s).
-1 job(s) submitted to cluster 7028675.
+1 job(s) submitted to cluster 7139228.
 Submitting job(s).
-1 job(s) submitted to cluster 7028677.
+1 job(s) submitted to cluster 7139229.
 Submitting job(s).
-1 job(s) submitted to cluster 7028678.
+1 job(s) submitted to cluster 7139230.
 Submitting job(s).
-1 job(s) submitted to cluster 7028679.
+1 job(s) submitted to cluster 7139231.
 Submitting job(s).
-1 job(s) submitted to cluster 7028680.
+1 job(s) submitted to cluster 7139232.
 Submitting job(s).
-1 job(s) submitted to cluster 7028682.
+1 job(s) submitted to cluster 7139233.
 Submitting job(s).
-1 job(s) submitted to cluster 7028683.
+1 job(s) submitted to cluster 7139234.
 Submitting job(s).
-1 job(s) submitted to cluster 7028684.
+1 job(s) submitted to cluster 7139235.
 Submitting job(s).
-1 job(s) submitted to cluster 7028685.
+1 job(s) submitted to cluster 7139236.
 Submitting job(s).
-1 job(s) submitted to cluster 7028688.
+1 job(s) submitted to cluster 7139237.
 Submitting job(s).
-1 job(s) submitted to cluster 7028690.
+1 job(s) submitted to cluster 7139238.
 Submitting job(s).
-1 job(s) submitted to cluster 7028691.
+1 job(s) submitted to cluster 7139239.
 Submitting job(s).
-1 job(s) submitted to cluster 7028693.
+1 job(s) submitted to cluster 7139240.
 Submitting job(s).
-1 job(s) submitted to cluster 7028694.
+1 job(s) submitted to cluster 7139241.
 Submitting job(s).
-1 job(s) submitted to cluster 7028695.
+1 job(s) submitted to cluster 7139242.
 Submitting job(s).
-1 job(s) submitted to cluster 7028696.
+1 job(s) submitted to cluster 7139243.
 Submitting job(s).
-1 job(s) submitted to cluster 7028698.
+1 job(s) submitted to cluster 7139244.
 Submitting job(s).
-1 job(s) submitted to cluster 7028699.
+1 job(s) submitted to cluster 7139245.
 Submitting job(s).
-1 job(s) submitted to cluster 7028700.
+1 job(s) submitted to cluster 7139246.
 Submitting job(s).
-1 job(s) submitted to cluster 7028701.
+1 job(s) submitted to cluster 7139247.
 Submitting job(s).
-1 job(s) submitted to cluster 7028703.
+1 job(s) submitted to cluster 7139248.
 Submitting job(s).
-1 job(s) submitted to cluster 7028704.
+1 job(s) submitted to cluster 7139249.
 Submitting job(s).
-1 job(s) submitted to cluster 7028705.
+1 job(s) submitted to cluster 7139250.
 Submitting job(s).
-1 job(s) submitted to cluster 7028707.
+1 job(s) submitted to cluster 7139251.
 Submitting job(s).
-1 job(s) submitted to cluster 7028709.
+1 job(s) submitted to cluster 7139252.
 Submitting job(s).
-1 job(s) submitted to cluster 7028711.
+1 job(s) submitted to cluster 7139253.
 Submitting job(s).
-1 job(s) submitted to cluster 7028713.
+1 job(s) submitted to cluster 7139254.
 Submitting job(s).
-1 job(s) submitted to cluster 7028715.
+1 job(s) submitted to cluster 7139255.
 Submitting job(s).
-1 job(s) submitted to cluster 7028717.
+1 job(s) submitted to cluster 7139256.
 Submitting job(s).
-1 job(s) submitted to cluster 7028718.
+1 job(s) submitted to cluster 7139257.
 Submitting job(s).
-1 job(s) submitted to cluster 7028720.
+1 job(s) submitted to cluster 7139258.
 Submitting job(s).
-1 job(s) submitted to cluster 7028722.
+1 job(s) submitted to cluster 7139259.
 Submitting job(s).
-1 job(s) submitted to cluster 7028723.
+1 job(s) submitted to cluster 7139260.
 Submitting job(s).
-1 job(s) submitted to cluster 7028725.
+1 job(s) submitted to cluster 7139261.
 Submitting job(s).
-1 job(s) submitted to cluster 7028727.
+1 job(s) submitted to cluster 7139262.
 Submitting job(s).
-1 job(s) submitted to cluster 7028728.
+1 job(s) submitted to cluster 7139263.
 Submitting job(s).
-1 job(s) submitted to cluster 7028730.
+1 job(s) submitted to cluster 7139264.
 Submitting job(s).
-1 job(s) submitted to cluster 7028732.
+1 job(s) submitted to cluster 7139265.
 Submitting job(s).
-1 job(s) submitted to cluster 7028733.
+1 job(s) submitted to cluster 7139266.
 Submitting job(s).
-1 job(s) submitted to cluster 7028735.
+1 job(s) submitted to cluster 7139267.
 Submitting job(s).
-1 job(s) submitted to cluster 7028737.
+1 job(s) submitted to cluster 7139268.
 Submitting job(s).
-1 job(s) submitted to cluster 7028738.
+1 job(s) submitted to cluster 7139269.
 Submitting job(s).
-1 job(s) submitted to cluster 7028740.
+1 job(s) submitted to cluster 7139270.
 Submitting job(s).
-1 job(s) submitted to cluster 7028742.
+1 job(s) submitted to cluster 7139271.
 Submitting job(s).
-1 job(s) submitted to cluster 7028744.
+1 job(s) submitted to cluster 7139272.
 Submitting job(s).
-1 job(s) submitted to cluster 7028746.
+1 job(s) submitted to cluster 7139273.
 Submitting job(s).
-1 job(s) submitted to cluster 7028748.
+1 job(s) submitted to cluster 7139274.
 Submitting job(s).
-1 job(s) submitted to cluster 7028750.
+1 job(s) submitted to cluster 7139275.
 Submitting job(s).
-1 job(s) submitted to cluster 7028752.
+1 job(s) submitted to cluster 7139276.
 Submitting job(s).
-1 job(s) submitted to cluster 7028755.
+1 job(s) submitted to cluster 7139277.
 Submitting job(s).
-1 job(s) submitted to cluster 7028757.
+1 job(s) submitted to cluster 7139278.
 Submitting job(s).
-1 job(s) submitted to cluster 7028759.
+1 job(s) submitted to cluster 7139279.
 Submitting job(s).
-1 job(s) submitted to cluster 7028761.
+1 job(s) submitted to cluster 7139280.
 Submitting job(s).
-1 job(s) submitted to cluster 7028763.
+1 job(s) submitted to cluster 7139281.
 Submitting job(s).
-1 job(s) submitted to cluster 7028765.
+1 job(s) submitted to cluster 7139282.
 Submitting job(s).
-1 job(s) submitted to cluster 7028767.
+1 job(s) submitted to cluster 7139283.
 Submitting job(s).
-1 job(s) submitted to cluster 7028770.
+1 job(s) submitted to cluster 7139284.
 Submitting job(s).
-1 job(s) submitted to cluster 7028772.
+1 job(s) submitted to cluster 7139285.
 Submitting job(s).
-1 job(s) submitted to cluster 7028774.
+1 job(s) submitted to cluster 7139286.
 Submitting job(s).
-1 job(s) submitted to cluster 7028776.
+1 job(s) submitted to cluster 7139287.
 Submitting job(s).
-1 job(s) submitted to cluster 7028778.
+1 job(s) submitted to cluster 7139288.
 Submitting job(s).
-1 job(s) submitted to cluster 7028780.
+1 job(s) submitted to cluster 7139289.
 Submitting job(s).
-1 job(s) submitted to cluster 7028783.
+1 job(s) submitted to cluster 7139290.
 Submitting job(s).
-1 job(s) submitted to cluster 7028785.
+1 job(s) submitted to cluster 7139291.
 Submitting job(s).
-1 job(s) submitted to cluster 7028787.
+1 job(s) submitted to cluster 7139292.
 Submitting job(s).
-1 job(s) submitted to cluster 7028789.
+1 job(s) submitted to cluster 7139293.
 Submitting job(s).
-1 job(s) submitted to cluster 7028791.
+1 job(s) submitted to cluster 7139294.
 Submitting job(s).
-1 job(s) submitted to cluster 7028793.
+1 job(s) submitted to cluster 7139295.
 Submitting job(s).
-1 job(s) submitted to cluster 7028795.
+1 job(s) submitted to cluster 7139296.
+Submitting job(s)
+ERROR: Failed submission for job 7139297.-1 - aborting entire submit
+
+ERROR: Failed to queue job.
 Submitting job(s).
-1 job(s) submitted to cluster 7028797.
+1 job(s) submitted to cluster 7139298.
 Submitting job(s).
-1 job(s) submitted to cluster 7028799.
+1 job(s) submitted to cluster 7139299.
 Submitting job(s).
-1 job(s) submitted to cluster 7028801.
+1 job(s) submitted to cluster 7139300.
 Submitting job(s).
-1 job(s) submitted to cluster 7028803.
+1 job(s) submitted to cluster 7139301.
 Submitting job(s).
-1 job(s) submitted to cluster 7028805.
+1 job(s) submitted to cluster 7139302.
 Submitting job(s).
-1 job(s) submitted to cluster 7028807.
+1 job(s) submitted to cluster 7139303.
 Submitting job(s).
-1 job(s) submitted to cluster 7028809.
+1 job(s) submitted to cluster 7139304.
 Submitting job(s).
-1 job(s) submitted to cluster 7028811.
+1 job(s) submitted to cluster 7139305.
 Submitting job(s).
-1 job(s) submitted to cluster 7028813.
+1 job(s) submitted to cluster 7139306.
 Submitting job(s).
-1 job(s) submitted to cluster 7028815.
+1 job(s) submitted to cluster 7139307.
 Submitting job(s).
-1 job(s) submitted to cluster 7028818.
+1 job(s) submitted to cluster 7139308.
 Submitting job(s).
-1 job(s) submitted to cluster 7028820.
+1 job(s) submitted to cluster 7139309.
 Submitting job(s).
-1 job(s) submitted to cluster 7028822.
+1 job(s) submitted to cluster 7139310.
 Submitting job(s).
-1 job(s) submitted to cluster 7028824.
+1 job(s) submitted to cluster 7139311.
 Submitting job(s).
-1 job(s) submitted to cluster 7028826.
+1 job(s) submitted to cluster 7139312.
 Submitting job(s).
-1 job(s) submitted to cluster 7028828.
+1 job(s) submitted to cluster 7139313.
 Submitting job(s).
-1 job(s) submitted to cluster 7028830.
+1 job(s) submitted to cluster 7139314.
 Submitting job(s).
-1 job(s) submitted to cluster 7028832.
+1 job(s) submitted to cluster 7139315.
 Submitting job(s).
-1 job(s) submitted to cluster 7028834.
+1 job(s) submitted to cluster 7139316.
 Submitting job(s).
-1 job(s) submitted to cluster 7028836.
+1 job(s) submitted to cluster 7139317.
 Submitting job(s).
-1 job(s) submitted to cluster 7028838.
+1 job(s) submitted to cluster 7139318.
 Submitting job(s).
-1 job(s) submitted to cluster 7028840.
+1 job(s) submitted to cluster 7139319.
 Submitting job(s).
-1 job(s) submitted to cluster 7028842.
+1 job(s) submitted to cluster 7139320.
 Submitting job(s).
-1 job(s) submitted to cluster 7028844.
+1 job(s) submitted to cluster 7139321.
 Submitting job(s).
-1 job(s) submitted to cluster 7028846.
+1 job(s) submitted to cluster 7139322.
 Submitting job(s).
-1 job(s) submitted to cluster 7028848.
+1 job(s) submitted to cluster 7139323.
 Submitting job(s).
-1 job(s) submitted to cluster 7028850.
+1 job(s) submitted to cluster 7139324.
 Submitting job(s).
-1 job(s) submitted to cluster 7028852.
+1 job(s) submitted to cluster 7139325.
 Submitting job(s).
-1 job(s) submitted to cluster 7028854.
+1 job(s) submitted to cluster 7139326.
 Submitting job(s).
-1 job(s) submitted to cluster 7028856.
+1 job(s) submitted to cluster 7139327.
 Submitting job(s).
-1 job(s) submitted to cluster 7028858.
+1 job(s) submitted to cluster 7139328.
 Submitting job(s).
-1 job(s) submitted to cluster 7028859.
+1 job(s) submitted to cluster 7139329.
 Submitting job(s).
-1 job(s) submitted to cluster 7028861.
+1 job(s) submitted to cluster 7139330.
 Submitting job(s).
-1 job(s) submitted to cluster 7028864.
+1 job(s) submitted to cluster 7139331.
 Submitting job(s).
-1 job(s) submitted to cluster 7028868.
+1 job(s) submitted to cluster 7139332.
 Submitting job(s).
-1 job(s) submitted to cluster 7028872.
+1 job(s) submitted to cluster 7139333.
 Submitting job(s).
-1 job(s) submitted to cluster 7028877.
+1 job(s) submitted to cluster 7139334.
 Submitting job(s).
-1 job(s) submitted to cluster 7028881.
+1 job(s) submitted to cluster 7139335.
 Submitting job(s).
-1 job(s) submitted to cluster 7028884.
+1 job(s) submitted to cluster 7139336.
 Submitting job(s).
-1 job(s) submitted to cluster 7028889.
+1 job(s) submitted to cluster 7139337.
 Submitting job(s).
-1 job(s) submitted to cluster 7028893.
+1 job(s) submitted to cluster 7139338.
 Submitting job(s).
-1 job(s) submitted to cluster 7028896.
+1 job(s) submitted to cluster 7139339.
 Submitting job(s).
-1 job(s) submitted to cluster 7028900.
+1 job(s) submitted to cluster 7139340.
 Submitting job(s).
-1 job(s) submitted to cluster 7028904.
+1 job(s) submitted to cluster 7139341.
 Submitting job(s).
-1 job(s) submitted to cluster 7028907.
+1 job(s) submitted to cluster 7139342.
 Submitting job(s).
-1 job(s) submitted to cluster 7028912.
+1 job(s) submitted to cluster 7139343.
 Submitting job(s).
-1 job(s) submitted to cluster 7028916.
+1 job(s) submitted to cluster 7139344.
 Submitting job(s).
-1 job(s) submitted to cluster 7028919.
+1 job(s) submitted to cluster 7139345.
 Submitting job(s).
-1 job(s) submitted to cluster 7028923.
+1 job(s) submitted to cluster 7139346.
 Submitting job(s).
-1 job(s) submitted to cluster 7028927.
+1 job(s) submitted to cluster 7139347.
 Submitting job(s).
-1 job(s) submitted to cluster 7028929.
+1 job(s) submitted to cluster 7139348.
 Submitting job(s).
-1 job(s) submitted to cluster 7028933.
+1 job(s) submitted to cluster 7139349.
 Submitting job(s).
-1 job(s) submitted to cluster 7028936.
+1 job(s) submitted to cluster 7139350.
 Submitting job(s).
-1 job(s) submitted to cluster 7028940.
+1 job(s) submitted to cluster 7139351.
 Submitting job(s).
-1 job(s) submitted to cluster 7028944.
+1 job(s) submitted to cluster 7139352.
 Submitting job(s).
-1 job(s) submitted to cluster 7028947.
+1 job(s) submitted to cluster 7139353.
 Submitting job(s).
-1 job(s) submitted to cluster 7028951.
+1 job(s) submitted to cluster 7139354.
 Submitting job(s).
-1 job(s) submitted to cluster 7028955.
+1 job(s) submitted to cluster 7139355.
 Submitting job(s).
-1 job(s) submitted to cluster 7028959.
+1 job(s) submitted to cluster 7139356.
 Submitting job(s).
-1 job(s) submitted to cluster 7028963.
+1 job(s) submitted to cluster 7139357.
 Submitting job(s).
-1 job(s) submitted to cluster 7028967.
+1 job(s) submitted to cluster 7139358.
 Submitting job(s).
-1 job(s) submitted to cluster 7028971.
+1 job(s) submitted to cluster 7139359.
 Submitting job(s).
-1 job(s) submitted to cluster 7028975.
+1 job(s) submitted to cluster 7139360.
 Submitting job(s).
-1 job(s) submitted to cluster 7028979.
+1 job(s) submitted to cluster 7139361.
 Submitting job(s).
-1 job(s) submitted to cluster 7028982.
+1 job(s) submitted to cluster 7139362.
 Submitting job(s).
-1 job(s) submitted to cluster 7028986.
+1 job(s) submitted to cluster 7139363.
 Submitting job(s).
-1 job(s) submitted to cluster 7028989.
+1 job(s) submitted to cluster 7139364.
 Submitting job(s).
-1 job(s) submitted to cluster 7028993.
+1 job(s) submitted to cluster 7139365.
 Submitting job(s).
-1 job(s) submitted to cluster 7028997.
+1 job(s) submitted to cluster 7139366.
 Submitting job(s).
-1 job(s) submitted to cluster 7029000.
+1 job(s) submitted to cluster 7139367.
 Submitting job(s).
-1 job(s) submitted to cluster 7029004.
+1 job(s) submitted to cluster 7139368.
 Submitting job(s).
-1 job(s) submitted to cluster 7029007.
+1 job(s) submitted to cluster 7139369.
 Submitting job(s).
-1 job(s) submitted to cluster 7029011.
+1 job(s) submitted to cluster 7139370.
 Submitting job(s).
-1 job(s) submitted to cluster 7029015.
+1 job(s) submitted to cluster 7139371.
 Submitting job(s).
-1 job(s) submitted to cluster 7029018.
+1 job(s) submitted to cluster 7139372.
 Submitting job(s).
-1 job(s) submitted to cluster 7029021.
+1 job(s) submitted to cluster 7139373.
 Submitting job(s).
-1 job(s) submitted to cluster 7029025.
+1 job(s) submitted to cluster 7139374.
 Submitting job(s).
-1 job(s) submitted to cluster 7029029.
+1 job(s) submitted to cluster 7139375.
 Submitting job(s).
-1 job(s) submitted to cluster 7029032.
+1 job(s) submitted to cluster 7139376.
 Submitting job(s).
-1 job(s) submitted to cluster 7029037.
+1 job(s) submitted to cluster 7139377.
 Submitting job(s).
-1 job(s) submitted to cluster 7029039.
+1 job(s) submitted to cluster 7139378.
 Submitting job(s).
-1 job(s) submitted to cluster 7029042.
+1 job(s) submitted to cluster 7139379.
 Submitting job(s).
-1 job(s) submitted to cluster 7029047.
+1 job(s) submitted to cluster 7139380.
 Submitting job(s).
-1 job(s) submitted to cluster 7029049.
+1 job(s) submitted to cluster 7139381.
 Submitting job(s).
-1 job(s) submitted to cluster 7029052.
+1 job(s) submitted to cluster 7139382.
 Submitting job(s).
-1 job(s) submitted to cluster 7029057.
+1 job(s) submitted to cluster 7139383.
 Submitting job(s).
-1 job(s) submitted to cluster 7029059.
+1 job(s) submitted to cluster 7139384.
 Submitting job(s).
-1 job(s) submitted to cluster 7029063.
+1 job(s) submitted to cluster 7139385.
 Submitting job(s).
-1 job(s) submitted to cluster 7029067.
+1 job(s) submitted to cluster 7139386.
 Submitting job(s).
-1 job(s) submitted to cluster 7029070.
+1 job(s) submitted to cluster 7139387.
 Submitting job(s).
-1 job(s) submitted to cluster 7029076.
+1 job(s) submitted to cluster 7139388.
 Submitting job(s).
-1 job(s) submitted to cluster 7029078.
+1 job(s) submitted to cluster 7139389.
 Submitting job(s).
-1 job(s) submitted to cluster 7029081.
+1 job(s) submitted to cluster 7139390.
 Submitting job(s).
-1 job(s) submitted to cluster 7029086.
+1 job(s) submitted to cluster 7139391.
 Submitting job(s).
-1 job(s) submitted to cluster 7029088.
+1 job(s) submitted to cluster 7139392.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7029092.
-In file included from src/mutau_analyzer.C:24:0:
-src/mutau_analyzer.h:38:25: fatal error: RooWorkspace.h: No such file or directory
- #include"RooWorkspace.h"
-                         ^
-compilation terminated.
+1 job(s) submitted to cluster 7139393.
 Submitting job(s).
-1 job(s) submitted to cluster 7029096.
+1 job(s) submitted to cluster 7139394.
 Submitting job(s).
-1 job(s) submitted to cluster 7029099.
+1 job(s) submitted to cluster 7139395.
 Submitting job(s).
-1 job(s) submitted to cluster 7029103.
+1 job(s) submitted to cluster 7139396.
 Submitting job(s).
-1 job(s) submitted to cluster 7029106.
+1 job(s) submitted to cluster 7139397.
 Submitting job(s).
-1 job(s) submitted to cluster 7029110.
+1 job(s) submitted to cluster 7139398.
 Submitting job(s).
-1 job(s) submitted to cluster 7029114.
+1 job(s) submitted to cluster 7139399.
 Submitting job(s).
-1 job(s) submitted to cluster 7029117.
+1 job(s) submitted to cluster 7139400.
 Submitting job(s).
-1 job(s) submitted to cluster 7029120.
+1 job(s) submitted to cluster 7139401.
 Submitting job(s).
-1 job(s) submitted to cluster 7029123.
+1 job(s) submitted to cluster 7139402.
 Submitting job(s).
-1 job(s) submitted to cluster 7029126.
+1 job(s) submitted to cluster 7139403.
 Submitting job(s).
-1 job(s) submitted to cluster 7029130.
+1 job(s) submitted to cluster 7139404.
 Submitting job(s).
-1 job(s) submitted to cluster 7029134.
+1 job(s) submitted to cluster 7139405.
 Submitting job(s).
-1 job(s) submitted to cluster 7029137.
+1 job(s) submitted to cluster 7139406.
 Submitting job(s).
-1 job(s) submitted to cluster 7029140.
+1 job(s) submitted to cluster 7139407.
 Submitting job(s).
-1 job(s) submitted to cluster 7029144.
+1 job(s) submitted to cluster 7139408.
 Submitting job(s).
-1 job(s) submitted to cluster 7029147.
+1 job(s) submitted to cluster 7139409.
 Submitting job(s).
-1 job(s) submitted to cluster 7029150.
+1 job(s) submitted to cluster 7139410.
 Submitting job(s).
-1 job(s) submitted to cluster 7029154.
+1 job(s) submitted to cluster 7139411.
 Submitting job(s).
-1 job(s) submitted to cluster 7029158.
+1 job(s) submitted to cluster 7139412.
 Submitting job(s).
-1 job(s) submitted to cluster 7029162.
+1 job(s) submitted to cluster 7139413.
 Submitting job(s).
-1 job(s) submitted to cluster 7029166.
+1 job(s) submitted to cluster 7139414.
 Submitting job(s).
-1 job(s) submitted to cluster 7029170.
+1 job(s) submitted to cluster 7139415.
 Submitting job(s).
-1 job(s) submitted to cluster 7029172.
+1 job(s) submitted to cluster 7139416.
 Submitting job(s).
-1 job(s) submitted to cluster 7029176.
+1 job(s) submitted to cluster 7139417.
 Submitting job(s).
-1 job(s) submitted to cluster 7029180.
+1 job(s) submitted to cluster 7139418.
 Submitting job(s).
-1 job(s) submitted to cluster 7029182.
+1 job(s) submitted to cluster 7139419.
 Submitting job(s).
-1 job(s) submitted to cluster 7029186.
+1 job(s) submitted to cluster 7139420.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7029190.
-In file included from src/mutau_analyzer.C:24:0:
-src/mutau_analyzer.h:38:25: fatal error: RooWorkspace.h: No such file or directory
- #include"RooWorkspace.h"
-                         ^
-compilation terminated.
+1 job(s) submitted to cluster 7139421.
 Submitting job(s).
-1 job(s) submitted to cluster 7029194.
+1 job(s) submitted to cluster 7139422.
 Submitting job(s).
-1 job(s) submitted to cluster 7029198.
+1 job(s) submitted to cluster 7139423.
 Submitting job(s).
-1 job(s) submitted to cluster 7029201.
+1 job(s) submitted to cluster 7139424.
 Submitting job(s).
-1 job(s) submitted to cluster 7029205.
+1 job(s) submitted to cluster 7139425.
 Submitting job(s).
-1 job(s) submitted to cluster 7029209.
+1 job(s) submitted to cluster 7139426.
 Submitting job(s).
-1 job(s) submitted to cluster 7029213.
+1 job(s) submitted to cluster 7139427.
 Submitting job(s).
-1 job(s) submitted to cluster 7029217.
+1 job(s) submitted to cluster 7139428.
 Submitting job(s).
-1 job(s) submitted to cluster 7029221.
+1 job(s) submitted to cluster 7139429.
 Submitting job(s).
-1 job(s) submitted to cluster 7029225.
+1 job(s) submitted to cluster 7139430.
 Submitting job(s).
-1 job(s) submitted to cluster 7029229.
+1 job(s) submitted to cluster 7139431.
 Submitting job(s).
-1 job(s) submitted to cluster 7029233.
+1 job(s) submitted to cluster 7139432.
 Submitting job(s).
-1 job(s) submitted to cluster 7029237.
+1 job(s) submitted to cluster 7139433.
 Submitting job(s).
-1 job(s) submitted to cluster 7029240.
+1 job(s) submitted to cluster 7139434.
 Submitting job(s).
-1 job(s) submitted to cluster 7029243.
+1 job(s) submitted to cluster 7139435.
 Submitting job(s).
-1 job(s) submitted to cluster 7029246.
+1 job(s) submitted to cluster 7139436.
 Submitting job(s).
-1 job(s) submitted to cluster 7029250.
+1 job(s) submitted to cluster 7139437.
 Submitting job(s).
-1 job(s) submitted to cluster 7029253.
+1 job(s) submitted to cluster 7139438.
 Submitting job(s).
-1 job(s) submitted to cluster 7029255.
+1 job(s) submitted to cluster 7139439.
 Submitting job(s).
-1 job(s) submitted to cluster 7029259.
+1 job(s) submitted to cluster 7139440.
 Submitting job(s).
-1 job(s) submitted to cluster 7029263.
+1 job(s) submitted to cluster 7139441.
 Submitting job(s).
-1 job(s) submitted to cluster 7029265.
+1 job(s) submitted to cluster 7139442.
 Submitting job(s).
-1 job(s) submitted to cluster 7029268.
+1 job(s) submitted to cluster 7139443.
 Submitting job(s).
-1 job(s) submitted to cluster 7029272.
+1 job(s) submitted to cluster 7139444.
 Submitting job(s).
-1 job(s) submitted to cluster 7029275.
+1 job(s) submitted to cluster 7139445.
 Submitting job(s).
-1 job(s) submitted to cluster 7029278.
+1 job(s) submitted to cluster 7139446.
 Submitting job(s).
-1 job(s) submitted to cluster 7029281.
+1 job(s) submitted to cluster 7139447.
 Submitting job(s).
-1 job(s) submitted to cluster 7029285.
+1 job(s) submitted to cluster 7139448.
 Submitting job(s).
-1 job(s) submitted to cluster 7029288.
+1 job(s) submitted to cluster 7139449.
 Submitting job(s).
-1 job(s) submitted to cluster 7029293.
+1 job(s) submitted to cluster 7139450.
 Submitting job(s).
-1 job(s) submitted to cluster 7029296.
+1 job(s) submitted to cluster 7139451.
 Submitting job(s).
-1 job(s) submitted to cluster 7029301.
+1 job(s) submitted to cluster 7139452.
 Submitting job(s).
-1 job(s) submitted to cluster 7029305.
-In file included from src/mutau_analyzer.C:24:0:
-src/mutau_analyzer.h:38:25: fatal error: RooWorkspace.h: No such file or directory
- #include"RooWorkspace.h"
-                         ^
-compilation terminated.
+1 job(s) submitted to cluster 7139453.
 Submitting job(s).
-1 job(s) submitted to cluster 7029310.
+1 job(s) submitted to cluster 7139454.
 Submitting job(s).
-1 job(s) submitted to cluster 7029314.
+1 job(s) submitted to cluster 7139455.
 Submitting job(s).
-1 job(s) submitted to cluster 7029318.
+1 job(s) submitted to cluster 7139456.
 Submitting job(s).
-1 job(s) submitted to cluster 7029322.
+1 job(s) submitted to cluster 7139457.
 Submitting job(s).
-1 job(s) submitted to cluster 7029325.
+1 job(s) submitted to cluster 7139458.
 Submitting job(s).
-1 job(s) submitted to cluster 7029329.
+1 job(s) submitted to cluster 7139459.
 Submitting job(s).
-1 job(s) submitted to cluster 7029333.
+1 job(s) submitted to cluster 7139460.
 Submitting job(s).
-1 job(s) submitted to cluster 7029337.
+1 job(s) submitted to cluster 7139461.
 Submitting job(s).
-1 job(s) submitted to cluster 7029342.
+1 job(s) submitted to cluster 7139462.
 Submitting job(s).
-1 job(s) submitted to cluster 7029345.
+1 job(s) submitted to cluster 7139463.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7029348.
+1 job(s) submitted to cluster 7139464.
 Submitting job(s).
-1 job(s) submitted to cluster 7029352.
+1 job(s) submitted to cluster 7139465.
 Submitting job(s).
-1 job(s) submitted to cluster 7029356.
+1 job(s) submitted to cluster 7139466.
 Submitting job(s).
-1 job(s) submitted to cluster 7029360.
+1 job(s) submitted to cluster 7139467.
 Submitting job(s).
-1 job(s) submitted to cluster 7029364.
+1 job(s) submitted to cluster 7139468.
 Submitting job(s).
-1 job(s) submitted to cluster 7029368.
+1 job(s) submitted to cluster 7139469.
 Submitting job(s).
-1 job(s) submitted to cluster 7029373.
+1 job(s) submitted to cluster 7139470.
 Submitting job(s).
-1 job(s) submitted to cluster 7029377.
+1 job(s) submitted to cluster 7139471.
 Submitting job(s).
-1 job(s) submitted to cluster 7029381.
+1 job(s) submitted to cluster 7139472.
 Submitting job(s).
-1 job(s) submitted to cluster 7029385.
+1 job(s) submitted to cluster 7139473.
 Submitting job(s).
-1 job(s) submitted to cluster 7029390.
+1 job(s) submitted to cluster 7139474.
 Submitting job(s).
-1 job(s) submitted to cluster 7029393.
+1 job(s) submitted to cluster 7139475.
 Submitting job(s).
-1 job(s) submitted to cluster 7029398.
+1 job(s) submitted to cluster 7139476.
 Submitting job(s).
-1 job(s) submitted to cluster 7029402.
+1 job(s) submitted to cluster 7139477.
 Submitting job(s).
-1 job(s) submitted to cluster 7029406.
+1 job(s) submitted to cluster 7139478.
 Submitting job(s).
-1 job(s) submitted to cluster 7029410.
+1 job(s) submitted to cluster 7139479.
 Submitting job(s).
-1 job(s) submitted to cluster 7029414.
+1 job(s) submitted to cluster 7139480.
 Submitting job(s).
-1 job(s) submitted to cluster 7029418.
+1 job(s) submitted to cluster 7139481.
 Submitting job(s).
-1 job(s) submitted to cluster 7029422.
+1 job(s) submitted to cluster 7139482.
 Submitting job(s).
-1 job(s) submitted to cluster 7029426.
+1 job(s) submitted to cluster 7139483.
 Submitting job(s).
-1 job(s) submitted to cluster 7029430.
+1 job(s) submitted to cluster 7139484.
 Submitting job(s).
-1 job(s) submitted to cluster 7029433.
+1 job(s) submitted to cluster 7139485.
 Submitting job(s).
-1 job(s) submitted to cluster 7029436.
+1 job(s) submitted to cluster 7139486.
 Submitting job(s).
-1 job(s) submitted to cluster 7029439.
+1 job(s) submitted to cluster 7139487.
 Submitting job(s).
-1 job(s) submitted to cluster 7029443.
+1 job(s) submitted to cluster 7139488.
 Submitting job(s).
-1 job(s) submitted to cluster 7029447.
+1 job(s) submitted to cluster 7139489.
 Submitting job(s).
-1 job(s) submitted to cluster 7029451.
+1 job(s) submitted to cluster 7139490.
 Submitting job(s).
-1 job(s) submitted to cluster 7029455.
+1 job(s) submitted to cluster 7139491.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7029459.
+1 job(s) submitted to cluster 7139492.
 Submitting job(s).
-1 job(s) submitted to cluster 7029461.
+1 job(s) submitted to cluster 7139493.
 Submitting job(s).
-1 job(s) submitted to cluster 7029464.
+1 job(s) submitted to cluster 7139494.
 Submitting job(s).
-1 job(s) submitted to cluster 7029467.
+1 job(s) submitted to cluster 7139495.
 Submitting job(s).
-1 job(s) submitted to cluster 7029470.
-In file included from src/mutau_analyzer.C:24:0:
-src/mutau_analyzer.h:38:25: fatal error: RooWorkspace.h: No such file or directory
- #include"RooWorkspace.h"
-                         ^
-compilation terminated.
+1 job(s) submitted to cluster 7139496.
 Submitting job(s).
-1 job(s) submitted to cluster 7029475.
+1 job(s) submitted to cluster 7139497.
 Submitting job(s).
-1 job(s) submitted to cluster 7029478.
+1 job(s) submitted to cluster 7139498.
 Submitting job(s).
-1 job(s) submitted to cluster 7029481.
+1 job(s) submitted to cluster 7139499.
 Submitting job(s).
-1 job(s) submitted to cluster 7029484.
+1 job(s) submitted to cluster 7139500.
 Submitting job(s).
-1 job(s) submitted to cluster 7029487.
+1 job(s) submitted to cluster 7139501.
 Submitting job(s).
-1 job(s) submitted to cluster 7029490.
+1 job(s) submitted to cluster 7139502.
 Submitting job(s).
-1 job(s) submitted to cluster 7029494.
+1 job(s) submitted to cluster 7139503.
 Submitting job(s).
-1 job(s) submitted to cluster 7029497.
+1 job(s) submitted to cluster 7139504.
 Submitting job(s).
-1 job(s) submitted to cluster 7029500.
+1 job(s) submitted to cluster 7139505.
 Submitting job(s).
-1 job(s) submitted to cluster 7029503.
+1 job(s) submitted to cluster 7139506.
 Submitting job(s).
-1 job(s) submitted to cluster 7029506.
+1 job(s) submitted to cluster 7139507.
 Submitting job(s).
-1 job(s) submitted to cluster 7029509.
+1 job(s) submitted to cluster 7139508.
 Submitting job(s).
-1 job(s) submitted to cluster 7029512.
+1 job(s) submitted to cluster 7139509.
 Submitting job(s).
-1 job(s) submitted to cluster 7029515.
+1 job(s) submitted to cluster 7139510.
 Submitting job(s).
-1 job(s) submitted to cluster 7029518.
+1 job(s) submitted to cluster 7139511.
 Submitting job(s).
-1 job(s) submitted to cluster 7029521.
+1 job(s) submitted to cluster 7139512.
 Submitting job(s).
-1 job(s) submitted to cluster 7029524.
+1 job(s) submitted to cluster 7139513.
 Submitting job(s).
-1 job(s) submitted to cluster 7029528.
+1 job(s) submitted to cluster 7139514.
 Submitting job(s).
-1 job(s) submitted to cluster 7029530.
+1 job(s) submitted to cluster 7139515.
 Submitting job(s).
-1 job(s) submitted to cluster 7029534.
+1 job(s) submitted to cluster 7139516.
 Submitting job(s).
-1 job(s) submitted to cluster 7029536.
+1 job(s) submitted to cluster 7139517.
 Submitting job(s).
-1 job(s) submitted to cluster 7029539.
+1 job(s) submitted to cluster 7139518.
 Submitting job(s).
-1 job(s) submitted to cluster 7029542.
+1 job(s) submitted to cluster 7139519.
 Submitting job(s).
-1 job(s) submitted to cluster 7029545.
+1 job(s) submitted to cluster 7139520.
 Submitting job(s).
-1 job(s) submitted to cluster 7029547.
+1 job(s) submitted to cluster 7139521.
 Submitting job(s).
-1 job(s) submitted to cluster 7029549.
+1 job(s) submitted to cluster 7139522.
 Submitting job(s).
-1 job(s) submitted to cluster 7029551.
+1 job(s) submitted to cluster 7139523.
 Submitting job(s).
-1 job(s) submitted to cluster 7029554.
+1 job(s) submitted to cluster 7139524.
 Submitting job(s).
-1 job(s) submitted to cluster 7029557.
+1 job(s) submitted to cluster 7139525.
 Submitting job(s).
-1 job(s) submitted to cluster 7029559.
+1 job(s) submitted to cluster 7139526.
 Submitting job(s).
-1 job(s) submitted to cluster 7029562.
+1 job(s) submitted to cluster 7139527.
 Submitting job(s).
-1 job(s) submitted to cluster 7029565.
+1 job(s) submitted to cluster 7139528.
 Submitting job(s).
-1 job(s) submitted to cluster 7029568.
+1 job(s) submitted to cluster 7139529.
 Submitting job(s).
-1 job(s) submitted to cluster 7029570.
+1 job(s) submitted to cluster 7139530.
 Submitting job(s).
-1 job(s) submitted to cluster 7029572.
+1 job(s) submitted to cluster 7139531.
 Submitting job(s).
-1 job(s) submitted to cluster 7029574.
+1 job(s) submitted to cluster 7139532.
 Submitting job(s).
-1 job(s) submitted to cluster 7029576.
+1 job(s) submitted to cluster 7139533.
 Submitting job(s).
-1 job(s) submitted to cluster 7029578.
+1 job(s) submitted to cluster 7139534.
 Submitting job(s).
-1 job(s) submitted to cluster 7029580.
+1 job(s) submitted to cluster 7139535.
 Submitting job(s).
-1 job(s) submitted to cluster 7029583.
+1 job(s) submitted to cluster 7139536.
 Submitting job(s).
-1 job(s) submitted to cluster 7029585.
+1 job(s) submitted to cluster 7139537.
 Submitting job(s).
-1 job(s) submitted to cluster 7029587.
+1 job(s) submitted to cluster 7139538.
 Submitting job(s).
-1 job(s) submitted to cluster 7029591.
+1 job(s) submitted to cluster 7139539.
 Submitting job(s).
-1 job(s) submitted to cluster 7029593.
+1 job(s) submitted to cluster 7139540.
 Submitting job(s).
-1 job(s) submitted to cluster 7029596.
+1 job(s) submitted to cluster 7139541.
 Submitting job(s).
-1 job(s) submitted to cluster 7029598.
+1 job(s) submitted to cluster 7139542.
 Submitting job(s).
-1 job(s) submitted to cluster 7029600.
+1 job(s) submitted to cluster 7139543.
 Submitting job(s).
-1 job(s) submitted to cluster 7029604.
+1 job(s) submitted to cluster 7139544.
 Submitting job(s).
-1 job(s) submitted to cluster 7029606.
+1 job(s) submitted to cluster 7139545.
 Submitting job(s).
-1 job(s) submitted to cluster 7029608.
+1 job(s) submitted to cluster 7139546.
 Submitting job(s).
-1 job(s) submitted to cluster 7029611.
+1 job(s) submitted to cluster 7139547.
 Submitting job(s).
-1 job(s) submitted to cluster 7029614.
+1 job(s) submitted to cluster 7139548.
 Submitting job(s).
-1 job(s) submitted to cluster 7029617.
+1 job(s) submitted to cluster 7139549.
 Submitting job(s).
-1 job(s) submitted to cluster 7029620.
+1 job(s) submitted to cluster 7139550.
 Submitting job(s).
-1 job(s) submitted to cluster 7029623.
+1 job(s) submitted to cluster 7139551.
 Submitting job(s).
-1 job(s) submitted to cluster 7029626.
+1 job(s) submitted to cluster 7139552.
 Submitting job(s).
-1 job(s) submitted to cluster 7029629.
+1 job(s) submitted to cluster 7139553.
 Submitting job(s).
-1 job(s) submitted to cluster 7029632.
+1 job(s) submitted to cluster 7139554.
 Submitting job(s).
-1 job(s) submitted to cluster 7029636.
+1 job(s) submitted to cluster 7139555.
 Submitting job(s).
-1 job(s) submitted to cluster 7029639.
+1 job(s) submitted to cluster 7139556.
 Submitting job(s).
-1 job(s) submitted to cluster 7029642.
+1 job(s) submitted to cluster 7139557.
 Submitting job(s).
-1 job(s) submitted to cluster 7029645.
+1 job(s) submitted to cluster 7139558.
 Submitting job(s).
-1 job(s) submitted to cluster 7029648.
+1 job(s) submitted to cluster 7139559.
 Submitting job(s).
-1 job(s) submitted to cluster 7029652.
+1 job(s) submitted to cluster 7139560.
 Submitting job(s).
-1 job(s) submitted to cluster 7029655.
+1 job(s) submitted to cluster 7139561.
 Submitting job(s).
-1 job(s) submitted to cluster 7029658.
+1 job(s) submitted to cluster 7139562.
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::thirdLeptonVeto(int, int)':
+src/object_functions.h:247:1: warning: control reaches end of non-void function [-Wreturn-type]
+  247 | }
+      | ^
+In file included from src/mutau_analyzer.C:51:
+src/object_functions.h: In member function 'bool mutau_analyzer::TriggerSelection(TLorentzVector, TLorentzVector)':
+src/object_functions.h:931:1: warning: control reaches end of non-void function [-Wreturn-type]
+  931 | }
+      | ^
+src/object_functions.h: In member function 'int mutau_analyzer::eventCategory(int, int, double)':
+src/object_functions.h:1607:1: warning: control reaches end of non-void function [-Wreturn-type]
+ 1607 | }
+      | ^
+In file included from src/mutau_analyzer.C:54:
+src/get_met_systenatics.h: In member function 'TLorentzVector mutau_analyzer::metSysUnc(std::string, TLorentzVector)':
+src/get_met_systenatics.h:122:1: warning: control reaches end of non-void function [-Wreturn-type]
+  122 | }
+      | ^
 Submitting job(s).
-1 job(s) submitted to cluster 7029661.
+1 job(s) submitted to cluster 7139563.
 Submitting job(s).
-1 job(s) submitted to cluster 7029664.
+1 job(s) submitted to cluster 7139564.
 Submitting job(s).
-1 job(s) submitted to cluster 7029667.
+1 job(s) submitted to cluster 7139565.
 Submitting job(s).
-1 job(s) submitted to cluster 7029670.
+1 job(s) submitted to cluster 7139566.
 Submitting job(s).
-1 job(s) submitted to cluster 7029673.
+1 job(s) submitted to cluster 7139567.
+Submitting job(s).
+1 job(s) submitted to cluster 7139568.
+Submitting job(s).
+1 job(s) submitted to cluster 7139569.
+Submitting job(s).
+1 job(s) submitted to cluster 7139570.
+Submitting job(s).
+1 job(s) submitted to cluster 7139571.
+Submitting job(s).
+1 job(s) submitted to cluster 7139572.
+Submitting job(s).
+1 job(s) submitted to cluster 7139573.
+Submitting job(s).
+1 job(s) submitted to cluster 7139574.
+Submitting job(s).
+1 job(s) submitted to cluster 7139575.
+Submitting job(s).
+1 job(s) submitted to cluster 7139576.
+Submitting job(s).
+1 job(s) submitted to cluster 7139577.
+Submitting job(s).
+1 job(s) submitted to cluster 7139578.
+Submitting job(s).
+1 job(s) submitted to cluster 7139579.
+Submitting job(s).
+1 job(s) submitted to cluster 7139580.
+Submitting job(s).
+1 job(s) submitted to cluster 7139581.
+Submitting job(s).
+1 job(s) submitted to cluster 7139582.
+Submitting job(s).
+1 job(s) submitted to cluster 7139583.
+Submitting job(s).
+1 job(s) submitted to cluster 7139584.
+Submitting job(s).
+1 job(s) submitted to cluster 7139585.
+Submitting job(s).
+1 job(s) submitted to cluster 7139586.
+Submitting job(s).
+1 job(s) submitted to cluster 7139587.
+Submitting job(s).
+1 job(s) submitted to cluster 7139588.
+Submitting job(s).
+1 job(s) submitted to cluster 7139589.
+Submitting job(s).
+1 job(s) submitted to cluster 7139590.
+Submitting job(s).
+1 job(s) submitted to cluster 7139591.
+Submitting job(s).
+1 job(s) submitted to cluster 7139592.
+Submitting job(s).
+1 job(s) submitted to cluster 7139593.
+Submitting job(s).
+1 job(s) submitted to cluster 7139594.

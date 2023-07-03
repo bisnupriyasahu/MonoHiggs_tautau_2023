@@ -1,0 +1,69 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:399151
+Running over 399151 events.
+Finished entry 0/399150
+Finished entry 10000/399150
+Finished entry 20000/399150
+Finished entry 30000/399150
+Finished entry 40000/399150
+Finished entry 50000/399150
+Finished entry 60000/399150
+Finished entry 70000/399150
+Finished entry 80000/399150
+Finished entry 90000/399150
+Finished entry 100000/399150
+Finished entry 110000/399150
+Finished entry 120000/399150
+Finished entry 130000/399150
+Finished entry 140000/399150
+Finished entry 150000/399150
+Finished entry 160000/399150
+Finished entry 170000/399150
+Finished entry 180000/399150
+Finished entry 190000/399150
+Finished entry 200000/399150
+Finished entry 210000/399150
+Finished entry 220000/399150
+Finished entry 230000/399150
+Finished entry 240000/399150
+Finished entry 250000/399150
+Finished entry 260000/399150
+Finished entry 270000/399150
+Finished entry 280000/399150
+Finished entry 290000/399150
+Finished entry 300000/399150
+Finished entry 310000/399150
+Finished entry 320000/399150
+Finished entry 330000/399150
+Finished entry 340000/399150
+Finished entry 350000/399150
+Finished entry 360000/399150
+Finished entry 370000/399150
+Finished entry 380000/399150
+Finished entry 390000/399150
+Finished entry 399150/399150
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 399151.000000
+   Passing smikking 0.000000
+Inspected genWeightd 399151.000000   % change= 0.000000
+   METFiltersPassed 398227.000000   % change= 0.231491
+    SingleTrgPassed 374358.000000   % change= 5.993818
+     GoodMuonPassed 101177.000000   % change= 72.973197
+      GoodTauPassed 9461.000000   % change= 90.649061
+         opp charge 6256.000000   % change= 33.875912
+ PassedThirdLepVeto 6206.000000   % change= 0.799233
+     PassedBjetVeto 6206.000000   % change= 0.000000
+       DeltaRPassed 6132.000000   % change= 1.192394
+      Total change :98.463739
+*******************************************
+*******************************************
+Number of events inspected: 399151
+Number of events inspected (minus negative gen. weights): 399151.000000
+ Outpt written to Tau_EraC_03.root
+Real time 0:01:27, CP time 69.390

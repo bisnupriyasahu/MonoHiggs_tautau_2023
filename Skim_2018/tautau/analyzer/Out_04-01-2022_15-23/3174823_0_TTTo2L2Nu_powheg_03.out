@@ -1,0 +1,63 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:32226
+Running over 32226 events.
+Finished entry 0/32225
+Finished entry 1000/32225
+Finished entry 2000/32225
+Finished entry 3000/32225
+Finished entry 4000/32225
+Finished entry 5000/32225
+Finished entry 6000/32225
+Finished entry 7000/32225
+Finished entry 8000/32225
+Finished entry 9000/32225
+Finished entry 10000/32225
+Finished entry 11000/32225
+Finished entry 12000/32225
+Finished entry 13000/32225
+Finished entry 14000/32225
+Finished entry 15000/32225
+Finished entry 16000/32225
+Finished entry 17000/32225
+Finished entry 18000/32225
+Finished entry 19000/32225
+Finished entry 20000/32225
+Finished entry 21000/32225
+Finished entry 22000/32225
+Finished entry 23000/32225
+Finished entry 24000/32225
+Finished entry 25000/32225
+Finished entry 26000/32225
+Finished entry 27000/32225
+Finished entry 28000/32225
+Finished entry 29000/32225
+Finished entry 30000/32225
+Finished entry 31000/32225
+Finished entry 32000/32225
+Finished entry 32225/32225
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 32226.000000
+   Passing smikking 0.000000
+Inspected genWeightd 31826.000000   % change= 1.241234
+   METFiltersPassed 31059.282440   % change= 2.409092
+    SingleTrgPassed 31059.282440   % change= 0.000000
+     GoodMuonPassed 20719.732279   % change= 33.289726
+      GoodTauPassed 5221.849099   % change= 74.797700
+         opp charge 5221.849099   % change= 0.000000
+ PassedThirdLepVeto 4326.174176   % change= 17.152447
+     PassedBjetVeto 913.354900   % change= 78.887699
+       DeltaRPassed 913.354900   % change= 0.000000
+      Total change :97.165783
+*******************************************
+*******************************************
+Number of events inspected: 32226
+Number of events inspected (minus negative gen. weights): 31826.000000
+ Outpt written to TTTo2L2Nu_powheg_03.root
+Real time 0:02:18, CP time 117.610

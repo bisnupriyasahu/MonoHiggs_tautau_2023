@@ -124,10 +124,10 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   Double_t  Pt_Bins_highPt[21]={100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 450, 500, 600, 800, 1000};
   
   TH1F* h_cutflow=new TH1F("cutflow", "cutflow", 10, 0, 10); h_cutflow->Sumw2();
-  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 7, 0, 7);h_cutflow_n->Sumw2();
-  TH1F* h_cutflow_n_fr=new TH1F("cutflow_n_fr", "cutflow_n_fr", 7, 0, 7);h_cutflow_n_fr->Sumw2();
-  TH1F* h_cutflow_n_dyll=new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 7, 0, 7);h_cutflow_n_dyll->Sumw2();
-  TH1F* h_cutflow_n_dyll_fr=new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 7, 0, 7);h_cutflow_n_dyll_fr->Sumw2();
+  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 16, 0, 16);h_cutflow_n->Sumw2();
+  TH1F* h_cutflow_n_fr=new TH1F("cutflow_n_fr", "cutflow_n_fr", 15, 0, 15);h_cutflow_n_fr->Sumw2();
+  TH1F* h_cutflow_n_dyll=new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 15, 0, 15);h_cutflow_n_dyll->Sumw2();
+  TH1F* h_cutflow_n_dyll_fr=new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 15, 0, 15);h_cutflow_n_dyll_fr->Sumw2();
   //TH1F* h_cutflow_Htt=new TH1F("cutflow_Htt", "cutflow_Htt", 11, 0, 11); h_cutflow_Htt->Sumw2();
   
   
@@ -150,13 +150,13 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
    
   for (Long64_t jentry=0; jentry<nentriesToCheck;jentry++)
     {
-      
       Long64_t ientry = LoadTree(jentry);
       if (ientry < 0) break;
       nb = fChain->GetEntry(jentry);   nbytes += nb;
       double inspected_event_weight = 1.0; 
       if(is_MC)	 fabs(genWeight) > 0.0 ? inspected_event_weight *= genWeight/fabs(genWeight) : inspected_event_weight = 0.0;
       nInspected_genWeighted += inspected_event_weight;  
+      //std::cout<<"initial event weight: "<<nInspected_genWeighted<<std::endl;
       nInspected += 1; 
       double event_weight=1.0;
       double weight=1.0;
@@ -168,6 +168,8 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       bool Ztt_selector=false;
 
       numberOfEvents+=weight;
+      
+      /////////////////////////////////////////////////////////////////////////////////////////
       if(is_MC) weight=inspected_event_weight;
       else weight=1.0;
       if(is_MC)
@@ -175,6 +177,11 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       weight = weight*pileup_sf;
       if(is_MC)
       	weight=weight*prefiringweight;
+      else 
+	weight=1.0;
+      /////////////////////////////////////////////////////////////////////////////////////////	    
+      
+
       if(isGoodVtx==false ) 
       	continue;
        
@@ -192,52 +199,64 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       // 6 : HLT_DoubleMediumChargedIsoPFTau40_Trk1_TightID_eta2p1_Reg_v
       // 7 : HLT_DoubleTightChargedIsoPFTau40_Trk1_eta2p1_Reg_v
       if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1  )
-	passTauTrigger=true;
+      	passTauTrigger=true;
       
       /////
       if(debug)cout<<"entry # : "<<jentry<<endl;
              
       if(debug)cout<<"signal region -  isolated begin L523"<<endl;       
-      
+      ////////////////////////////////////////////////
       if(is_MC)
-	event_weight=weight;
+      	event_weight=weight;
       else
 	event_weight=1.0;
+      ////////////////////////////////////////
       tauCand.clear();   tau2Cand.clear();
+      //std::cout<<"event weight before met and triggers: "<<event_weight<<std::endl;
       
       if(metFilters==0 && passTauTrigger)
-	{
+      	{
 	  eventNumber = jentry;
 	  nSingleTrgPassed+=event_weight;
+	  //std::cout<<"event weight after met and triggers: "<<nSingleTrgPassed<<std::endl;
+	  //std::cout<<"event weight after met and triggers: "<<nSingleTrgPassed<<std::endl;
 	  //if(check_unc)cout<<"Preparing NOMINAL"<<endl;
 	  t_index = get_t_Cand(); tbar_index = get_tbar_Cand();
 	  orginal_jetPt.clear();
 	  for (float pt : (*jetPt)) orginal_jetPt.push_back(pt);
-	  
+	  //std::cout<<"before selection: "<<event_weight<<std::endl;
 	  selections(event_weight, 0, "nominal"); // this is for nominal
-
+	  nnominalpassed+=event_weight;
 	  // jet-tau fakes
 	  selections(event_weight,  1, "jetFakes");
+	  njetfakesuppassed+=event_weight;
 	  selections(event_weight,  -1, "jetFakes");
+	  njetfakesdownpassed+=event_weight;
 	  if(is_MC){
-	    // // /// UP 
-	    string shape_names[9] = {"tau1ES", "tau2ES", 
+	    //string shape_names[14] = {//"tau1ES", "tau2ES", 
+	      string shape_names[3] = {//"tau1ES", "tau2ES", 
 				      //"JES","JER", 
-				      //"metresponse", "metresolution",  "metunclustered", 
-				      "tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc", 
-				      "prefiringUnc", 
-				      "dyShape", "ttbarShape"};
-	    for (int i = 0; i < 9 ; i++ ){
-	      // if (shape_names[i] != "metunclustered")
-	      // 	continue;     
-	      // cout<<"shape name = "<<shape_names[i]<<endl;
-	      selections(event_weight,  1, shape_names[i]);
-	      selections(event_weight,  -1, shape_names[i]);
-	    }
+				      "metresponse", 
+				      "metresolution",  
+				      "metunclustered"
+				      //"tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc", 
+				      //"prefiringUnc", 
+				      //"dyShape", "ttbarShape"
+	      };
+	      //for (int i = 0; i < 14 ; i++ )
+	      for (int i = 0; i < 3 ; i++ )
+	      {
+		// if (shape_names[i] != "metunclustered")
+		// 	continue;     
+		// cout<<"shape name = "<<shape_names[i]<<endl;
+		selections(event_weight,  1, shape_names[i]);
+		//njetfakesdownpassed+=event_weight;
+		selections(event_weight,  -1, shape_names[i]);
+	      }
 	    
-	  }
+	  } 
 	}
-
+      
       ////// fake rate anti isolated region end
       report_test = nentriesToCheck/20;
       while (report_test>10)
@@ -261,7 +280,7 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   // sw.Stop();
   std::cout<<"All events checked."<<std::endl;
   std::cout<<"*******************************************"<<std::endl;
-  std::cout<<"******************Jithin's original*************************"<<std::endl;
+  std::cout<<"******************Bisnupriya's original*************************"<<std::endl;
   std::cout<<std::setw(20) <<std::right <<"Initial entries "<<numberOfEvents<<std::endl;
   std::cout<<std::setw(20) <<std::right <<"Passing smikking "<<nPassedSkimmed<<std::endl;
   std::cout<<std::setw(20) <<std::right <<"Inspected genWeightd "<<nInspected_genWeighted<<std::setw(10) <<std::right << "   % change= "<<(numberOfEvents-nInspected_genWeighted)*100/numberOfEvents<<std::endl;
@@ -288,9 +307,13 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   std::cout<<std::setw(20) <<std::right <<"Number of events inspected: " << nInspected <<std::endl;
   std::cout<<std::setw(20) <<std::right << "Number of events inspected (minus negative gen. weights): " << nInspected_genWeighted << std::endl; 
    
-  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed};
-  vector<double> cutflow_n_fr={nInspected_genWeighted,nSingleTrgPassed_fr, nGoodTauPassed_fr,nGoodMuTauPassed_fr,nPassedThirdLepVeto_fr,nPassedBjetVeto_fr,nDeltaRPassed_fr};
+  //vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, ndatapassedselection, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed};
+  vector<double> cutflow = {nInspected_genWeighted, nSingleTrgPassed,nnominalpassed,njetfakesuppassed,njetfakesdownpassed};
+  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nBeforeTauESPassed, nAfterTauESPassed, nMETRecoilPassed, nGoodTau1Passed, nGoodMuonPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed, nMETPassed};
+  vector<double> cutflow_n_fr={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed_fr, nGoodMuonPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr, nHiggsptPassed_fr, nMVisssPassed_fr, nMETPassed_fr};
   vector<double>cutflow_n_dyll={nInspected_genWeighted,nSingleTrgPassed_dyll,nGoodTauPassed_dyll,nGoodMuTauPassed_dyll,nPassedThirdLepVeto_dyll,nPassedBjetVeto_dyll,nDeltaRPassed_dyll};
+  for(int i=0; i<cutflow.size(); i++)
+    h_cutflow->SetBinContent( i+1 , cutflow[i] );
   for(int i=0; i<cutflow_n.size(); i++)
     h_cutflow_n->SetBinContent( i+1 , cutflow_n[i] );
   for(int i=0; i<cutflow_n_fr.size(); i++)

@@ -155,8 +155,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
 						       myGenMaching(TauIndex),
@@ -204,7 +204,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      
 				      if(higgsPt > 65)
 					{
@@ -305,8 +305,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
 						       my_genmatching_l2,
@@ -353,7 +353,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      if(higgsPt > 65)
 					{
 					  if(shift ==0 ) fillHist("7", EleIndex, TauIndex, false, event_weight);
@@ -476,8 +476,8 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 			  if(is_MC)
 			    applySf=  getScaleFactors( my_eleP4.Pt(),
 						       my_tauP4.Pt(),
-						       eleSCEta->at(EleIndex),
-						       //my_eleP4.Eta(),
+						       //eleSCEta->at(EleIndex),
+						       my_eleP4.Eta(),
 						       my_tauP4.Eta(),
 						       tau_DecayMode->at(TauIndex),
 						       my_genmatching_l2,
@@ -516,7 +516,7 @@ void etau_analyzer::selections(float weight, int shift, string uncObject)
 				      //higgs pt > 65,  visible mass < 125, met > 105
 				      double mvis=(my_eleP4+my_tauP4).M();
 				      double higgsPt = (my_eleP4+my_tauP4).Pt();
-				      double tot_tr_mass = (my_eleP4 + my_tauP4 + my_metP4 ).M();
+				      double tot_tr_mass = TMasstaumet_F(my_eleP4 , my_tauP4 , my_metP4 );
 				      if(higgsPt > 65)
 					{
 					  if(shift ==0 ) fillHist("7_fr", EleIndex, TauIndex, true, event_weight);

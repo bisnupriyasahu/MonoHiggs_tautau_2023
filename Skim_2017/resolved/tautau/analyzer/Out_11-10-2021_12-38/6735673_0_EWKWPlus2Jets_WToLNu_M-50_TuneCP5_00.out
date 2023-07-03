@@ -1,0 +1,52 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:9158
+Running over 9158 events.
+Finished entry 0/9157
+Finished entry 400/9157
+Finished entry 800/9157
+Finished entry 1200/9157
+Finished entry 1600/9157
+Finished entry 2000/9157
+Finished entry 2400/9157
+Finished entry 2800/9157
+Finished entry 3200/9157
+Finished entry 3600/9157
+Finished entry 4000/9157
+Finished entry 4400/9157
+Finished entry 4800/9157
+Finished entry 5200/9157
+Finished entry 5600/9157
+Finished entry 6000/9157
+Finished entry 6400/9157
+Finished entry 6800/9157
+Finished entry 7200/9157
+Finished entry 7600/9157
+Finished entry 8000/9157
+Finished entry 8400/9157
+Finished entry 8800/9157
+Finished entry 9157/9157
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 9158.000000
+   Passing smikking 0.000000
+Inspected genWeightd 9156.000000   % change= 0.021839
+   METFiltersPassed 8617.718330   % change= 5.879005
+    SingleTrgPassed 2192.345168   % change= 74.560028
+     GoodMuonPassed 1480.341918   % change= 32.476786
+      GoodTauPassed 159.627868   % change= 89.216824
+         opp charge 108.298620   % change= 32.155568
+ PassedThirdLepVeto 71.273449   % change= 34.188036
+     PassedBjetVeto 71.273449   % change= 0.000000
+       DeltaRPassed 71.273449   % change= 0.000000
+      Total change :99.221736
+*******************************************
+*******************************************
+Number of events inspected: 9158
+Number of events inspected (minus negative gen. weights): 9156.000000
+ Outpt written to EWKWPlus2Jets_WToLNu_M-50_TuneCP5_00.root
+Real time 0:00:11, CP time 8.480

@@ -213,17 +213,18 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
       if( isGoodVtx==false ) continue;
       t_index = get_t_Cand(); tbar_index = get_tbar_Cand();
 
-      
-      if( (HLTEleMuX>>5&1==1)  //HLT_Ele35_WPTight_Gsf_v
-	  || (HLTEleMuX>>61&1==1)   //HLT_Ele32_WPTight_Gsf_v
-	  )
-	passSingleTriggerPaths=true;  //
-       
-      if( (HLTTau>>1&1==1 && is_MC==false ) // HLT_Ele24_eta2p1_WPTight_Gsf_LooseChargedIsoPFTau30_eta2p1_CrossL1, data only
-	  || (HLTTau>>16&1==1 ) //HLT_Ele24_eta2p1_WPTight_Gsf_LooseChargedIsoPFTauHPS30_eta2p1_TightID_CrossL1_v
-	  )
-	passCrossTrigger=true;
-      
+      //(HLTEleMuX>>5 ==> HLT_Ele35_WPTight_Gsf_v and HLTEleMuX>>61 ==>  HLT_Ele32_WPTight_Gsf_v
+      if( (HLTEleMuX>>5&1==1)  || (HLTEleMuX>>61&1==1) )
+	{
+	  passSingleTriggerPaths=true;  
+	}       
+      //if( (HLTTau>>1&1==1 && is_MC==false ) // Jithin had HLT_Ele24_eta2p1_WPTight_Gsf_LooseChargedIsoPFTau30_eta2p1_CrossL1, data only
+      //HLTTau>>15 ==>  HLT_Ele24_eta2p1_WPTight_Gsf_LooseChargedIsoPFTauHPS30_eta2p1_CrossL1_v, data only for run no: < 317509, but also with MC
+      //HLTTau>>16 ==> HLT Ele24 eta2p1 WPTightGsf LooseChargedIsoPFTauHPS30 eta2p1 TightID CrossL1 v, for both MC and data
+      if( (HLTTau>>1&1==1 ) || (HLTTau>>16&1==1 ) )
+	{
+	  passCrossTrigger=true;
+	}
       /////
       if(debug)cout<<"entry # : "<<jentry<<endl;
       eventNumber = jentry;
@@ -238,8 +239,8 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
       //cout<< "zprimeBaryonic_signal "<<zprimeBaryonic_signal<<"  "<<endl;
       // continue;
       // }
-      if (found_ZprimeBaryonic==true )
-	plotFill("nEvents_ZpB", zprimeBaryonic_signal, 50, 0, 50,  1.0);
+      //if (found_ZprimeBaryonic==true )
+      //plotFill("nEvents_ZpB", zprimeBaryonic_signal, 50, 0, 50,  1.0);
       //cout<< "zprimeBaryonic_signal "<<zprimeBaryonic_signal<<" filling "<<endl;
       //cout<<__LINE__<<endl;
       if(metFilters==0 && ( passSingleTriggerPaths || passCrossTrigger))

@@ -1,0 +1,78 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init DATA
+sample ==========SingleElectron_EraC_02
+.... DATA file ..... 
+Coming in: 
+nentries:130792
+Running over 130792 events.
+Finished entry 0/130791
+Finished entry 6000/130791
+Finished entry 12000/130791
+Finished entry 18000/130791
+Finished entry 24000/130791
+Finished entry 30000/130791
+Finished entry 36000/130791
+Finished entry 42000/130791
+Finished entry 48000/130791
+Finished entry 54000/130791
+Finished entry 60000/130791
+Finished entry 66000/130791
+Finished entry 72000/130791
+Finished entry 78000/130791
+Finished entry 84000/130791
+Finished entry 90000/130791
+Finished entry 96000/130791
+Finished entry 102000/130791
+Finished entry 108000/130791
+Finished entry 114000/130791
+Finished entry 120000/130791
+Finished entry 126000/130791
+Finished entry 130791/130791
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 130792.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 319533.000000   % change= -156.698372
+      GoodTauPassed 7584.000000   % change= 97.626536
+         opp charge 5577.000000   % change= 26.463608
+ PassedThirdLepVeto 5553.000000   % change= 0.430339
+     PassedBjetVeto 4659.000000   % change= 16.099406
+       DeltaRPassed 4653.000000   % change= 0.128783
+      Total change :96.442443
+*******************************************
+*******************************************
+Number of events inspected: 130792
+Number of events inspected (minus negative gen. weights): 130792.000000
+ Outpt written to SingleElectron_EraC_02.root
+Real time 0:01:12, CP time 59.140

@@ -1,0 +1,21 @@
+x509userproxy = /tmp/x509up_u4548
+universe = vanilla
+Executable = Out_04-01-2022_15-23/Job_TTToHadronic_powheg_17.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 1992
+request_disk         = 2048000
+
+#OutputDestination = 
+#Initialdir = Out_TTToHadronic_powheg_17         
+Transfer_Input_Files = /nfs_scratch/jmadhusu/CMSSW_10_2_10/src/2018_skim/tautauh/analyzer/analyze_tautau , /nfs_scratch/jmadhusu/CMSSW_10_2_10/src/sf_files
+
+output               = Out_04-01-2022_15-23/$(Cluster)_$(Process)_TTToHadronic_powheg_17.out
+error                = Out_04-01-2022_15-23/$(Cluster)_$(Process)_TTToHadronic_powheg_17.err
+Log                  = Out_04-01-2022_15-23/$(Cluster)_$(Process)_TTToHadronic_powheg_17.log
+Queue

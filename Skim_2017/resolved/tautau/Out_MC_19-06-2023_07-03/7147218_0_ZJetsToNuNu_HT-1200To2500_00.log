@@ -1,0 +1,52 @@
+000 (7147218.000.000) 2023-06-19 07:10:24 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7147218.000.000) 2023-06-19 07:10:40 Started transferring input files
+	Transferring to host: <128.105.68.228:9618?addrs=128.105.68.228-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=slot1_23_4549_ee92_25612>
+...
+040 (7147218.000.000) 2023-06-19 07:10:40 Finished transferring input files
+...
+001 (7147218.000.000) 2023-06-19 07:10:41 Job executing on host: <128.105.68.228:9618?addrs=128.105.68.228-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=startd_8328_e4ce>
+...
+006 (7147218.000.000) 2023-06-19 07:10:50 Image size of job updated: 90840
+	89  -  MemoryUsage of job (MB)
+	90248  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-19 07:15:50 Image size of job updated: 90840
+	89  -  MemoryUsage of job (MB)
+	90272  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-19 07:20:50 Image size of job updated: 90840
+	89  -  MemoryUsage of job (MB)
+	90292  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-19 07:25:51 Image size of job updated: 90840
+	89  -  MemoryUsage of job (MB)
+	90308  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-19 07:30:52 Image size of job updated: 90840
+	89  -  MemoryUsage of job (MB)
+	90328  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-20 01:27:47 Image size of job updated: 338248
+	331  -  MemoryUsage of job (MB)
+	337968  -  ResidentSetSize of job (KB)
+...
+006 (7147218.000.000) 2023-06-20 01:32:47 Image size of job updated: 341484
+	331  -  MemoryUsage of job (MB)
+	337968  -  ResidentSetSize of job (KB)
+...
+004 (7147218.000.000) 2023-06-20 02:00:23 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	205531  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.41        1         1 
+	   Disk (KB)            :  2895     3145728   3318361 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :   331        2048      2048 
+...
+009 (7147218.000.000) 2023-06-20 02:00:23 Job was aborted.
+	via condor_rm (by user bsahu)
+...

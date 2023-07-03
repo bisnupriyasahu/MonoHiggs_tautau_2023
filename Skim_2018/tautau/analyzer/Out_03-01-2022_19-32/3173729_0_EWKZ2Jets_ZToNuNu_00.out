@@ -1,0 +1,52 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:861
+Running over 861 events.
+Finished entry 0/860
+Finished entry 40/860
+Finished entry 80/860
+Finished entry 120/860
+Finished entry 160/860
+Finished entry 200/860
+Finished entry 240/860
+Finished entry 280/860
+Finished entry 320/860
+Finished entry 360/860
+Finished entry 400/860
+Finished entry 440/860
+Finished entry 480/860
+Finished entry 520/860
+Finished entry 560/860
+Finished entry 600/860
+Finished entry 640/860
+Finished entry 680/860
+Finished entry 720/860
+Finished entry 760/860
+Finished entry 800/860
+Finished entry 840/860
+Finished entry 860/860
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 861.000000
+   Passing smikking 0.000000
+Inspected genWeightd 859.000000   % change= 0.232288
+   METFiltersPassed 830.986435   % change= 3.261183
+    SingleTrgPassed 69.519433   % change= 91.634107
+     GoodMuonPassed 10.413283   % change= 85.021048
+      GoodTauPassed 0.000000   % change= 100.000000
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 0.000000   % change= -nan
+     PassedBjetVeto 0.000000   % change= -nan
+       DeltaRPassed 0.000000   % change= -nan
+      Total change :100.000000
+*******************************************
+*******************************************
+Number of events inspected: 861
+Number of events inspected (minus negative gen. weights): 859.000000
+ Outpt written to EWKZ2Jets_ZToNuNu_00.root
+Real time 0:00:08, CP time 4.030

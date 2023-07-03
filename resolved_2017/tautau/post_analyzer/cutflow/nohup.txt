@@ -1,0 +1,1336 @@
+nohup: ignoring input
+running tot_TMass_new
+sample exists
+Take action sample is not Empty .... removing existing files .....
+removing sample/*tot_TMass_new*.root  
+55 9b False
+DY1JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DY1JetsToLL_M-50_TuneCP5
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTT1jet adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DY1JetsToLL_M-50_TuneCP5
+checking sample ZTT1jet  weight = 0.8519627912027045
+DY1JetsToLL_M-50_TuneCP5_final.root histograms in file 9357
+Searching for  tot_TMass_new_9b
+Done......................
+DY2JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DY2JetsToLL_M-50_TuneCP5
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTT2jet adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DY2JetsToLL_M-50_TuneCP5
+checking sample ZTT2jet  weight = 2.295825241608824
+DY2JetsToLL_M-50_TuneCP5_final.root histograms in file 9327
+Searching for  tot_TMass_new_9b
+Done......................
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DY3JetsToLL_M-50_TuneCP5_ext1
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTT3jet adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DY3JetsToLL_M-50_TuneCP5_ext1
+checking sample ZTT3jet  weight = 0.5890723769103714
+DY3JetsToLL_M-50_TuneCP5_ext1_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+DY3JetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DY3JetsToLL_M-50_TuneCP5_v1
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTT3jet adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DY3JetsToLL_M-50_TuneCP5_v1
+checking sample ZTT3jet  weight = 0.5890723769103714
+DY3JetsToLL_M-50_TuneCP5_v1_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+DY4JetsToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DY4JetsToLL_M-50_TuneCP5
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTT4jet adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DY4JetsToLL_M-50_TuneCP5
+checking sample ZTT4jet  weight = 0.40473433596314345
+DY4JetsToLL_M-50_TuneCP5_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_M-10to50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DYJetsToLL_M-10to50_TuneCP5
+sample is : DYJetsToLL adnsample sampleName is :  ZTT  
+luminosity is :    41520.0
+
+ for DYJetsToLL_M-10to50_TuneCP5
+checking sample DYJetsToLL  weight = 6.056983660222668
+DYJetsToLL_M-10to50_TuneCP5_final.root histograms in file 3852
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DYJetsToLL_M-50_TuneCP5_ext1_v1
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTTjet_inc adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DYJetsToLL_M-50_TuneCP5_ext1_v1
+checking sample ZTTjet_inc  weight = 2.5799973300871204
+DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+DYJetsToLL_M-50_TuneCP5_v1_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  DYJetsToLL_M-50_TuneCP5_v1
+ZTTjet_inc 2.5799973300871204
+ZTT1jet 0.8519627912027045
+ZTT2jet 2.295825241608824
+ZTT3jet 0.5890723769103714
+ZTT4jet 0.40473433596314345
+sample is : ZTTjet_inc adnsample sampleName is :  ZTTjet  
+luminosity is :    41520.0
+
+ for DYJetsToLL_M-50_TuneCP5_v1
+checking sample ZTTjet_inc  weight = 2.5799973300871204
+DYJetsToLL_M-50_TuneCP5_v1_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+sample is : EWKWMinus2Jets adnsample sampleName is :  EWKWMinus  
+luminosity is :    41520.0
+
+ for EWKWMinus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWMinus2Jets  weight = 0.2168509706466528
+EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 9330
+Searching for  tot_TMass_new_9b
+Done......................
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+sample is : EWKWPlus2Jets adnsample sampleName is :  EWKWPlus  
+luminosity is :    41520.0
+
+ for EWKWPlus2Jets_WToLNu_M-50_TuneCP5
+checking sample EWKWPlus2Jets  weight = 0.27589786959975193
+EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root histograms in file 7656
+Searching for  tot_TMass_new_9b
+Done......................
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  EWKZ2Jets_ZToLL_M-50_TuneCP5
+sample is : EWKZ2Jets_ZToLL adnsample sampleName is :  EWKZ2Jets  
+luminosity is :    41520.0
+
+ for EWKZ2Jets_ZToLL_M-50_TuneCP5
+checking sample EWKZ2Jets_ZToLL  weight = 0.18799240519062466
+EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root histograms in file 9354
+Searching for  tot_TMass_new_9b
+Done......................
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  EWKZ2Jets_ZToNuNu_TuneCP5
+sample is : EWKZ2Jets_ZToNuNu adnsample sampleName is :  EWKZ2Jets  
+luminosity is :    41520.0
+
+ for EWKZ2Jets_ZToNuNu_TuneCP5
+checking sample EWKZ2Jets_ZToNuNu  weight = 0.1475344
+EWKZ2Jets_ZToNuNu_TuneCP5_final.root histograms in file 7578
+Searching for  tot_TMass_new_9b
+Done......................
+GluGluHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  GluGluHToTauTau_M125
+sample is : GluGluHToTauTau adnsample sampleName is :  GluGluH  
+luminosity is :    41520.0
+
+ for GluGluHToTauTau_M125
+checking sample GluGluHToTauTau  weight = 0.04329363761219781
+GluGluHToTauTau_M125_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+GluGluHToWWTo2L2Nu_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  GluGluHToWWTo2L2Nu_M125
+sample is : GluGluHToWWTo2L2Nu adnsample sampleName is :  GluGluH  
+luminosity is :    41520.0
+
+ for GluGluHToWWTo2L2Nu_M125
+checking sample GluGluHToWWTo2L2Nu  weight = 0.05024546979865771
+GluGluHToWWTo2L2Nu_M125_final.root histograms in file 2238
+Searching for  tot_TMass_new_9b
+Done......................
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+sample is : ST_t-channel_antitop adnsample sampleName is :  ST_t  
+luminosity is :    41520.0
+
+ for ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_antitop  weight = 0.8530590179162891
+ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root histograms in file 4374
+Searching for  tot_TMass_new_9b
+Done......................
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+sample is : ST_t-channel_top adnsample sampleName is :  ST_t  
+luminosity is :    41520.0
+
+ for ST_t-channel_top_4f_inclusiveDecays_TuneCP5
+checking sample ST_t-channel_top  weight = 0.9627805570353954
+ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root histograms in file 4374
+Searching for  tot_TMass_new_9b
+Done......................
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+sample is : ST_tW_antitop adnsample sampleName is :  ST_t  
+luminosity is :    41520.0
+
+ for ST_tW_antitop_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_antitop  weight = 0.19130148685172738
+ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root histograms in file 9351
+Searching for  tot_TMass_new_9b
+Done......................
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ST_tW_top_5f_inclusiveDecays_TuneCP5
+sample is : ST_tW_top adnsample sampleName is :  ST_t  
+luminosity is :    41520.0
+
+ for ST_tW_top_5f_inclusiveDecays_TuneCP5
+checking sample ST_tW_top  weight = 0.1963289131721647
+ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root histograms in file 9354
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_10_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_10
+sample is : Signal_ZpBaryonic2017_10 adnsample sampleName is :  Signal_MZp_1500_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_10 0.011846101694915255
+
+ for Signal_ZpBaryonic2017_10
+checking sample Signal_ZpBaryonic2017_10  weight = 0.0007107661016949152
+Signal_ZpBaryonic2017_10_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_11_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_11
+sample is : Signal_ZpBaryonic2017_11 adnsample sampleName is :  Signal_MZp_1500_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_11 0.011414559116022098
+
+ for Signal_ZpBaryonic2017_11
+checking sample Signal_ZpBaryonic2017_11  weight = 0.0006848735469613259
+Signal_ZpBaryonic2017_11_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_12_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_12
+sample is : Signal_ZpBaryonic2017_12 adnsample sampleName is :  Signal_MZp_1500_MChi_400  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_12 0.010138766480446927
+
+ for Signal_ZpBaryonic2017_12
+checking sample Signal_ZpBaryonic2017_12  weight = 0.0006083259888268156
+Signal_ZpBaryonic2017_12_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_13_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_13
+sample is : Signal_ZpBaryonic2017_13 adnsample sampleName is :  Signal_MZp_1500_MChi_600  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_13 0.005399718367346938
+
+ for Signal_ZpBaryonic2017_13
+checking sample Signal_ZpBaryonic2017_13  weight = 0.00032398310204081624
+Signal_ZpBaryonic2017_13_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_14_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_14
+sample is : Signal_ZpBaryonic2017_14 adnsample sampleName is :  Signal_MZp_1500_MChi_800  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_14 4.977515294117647e-05
+
+ for Signal_ZpBaryonic2017_14
+checking sample Signal_ZpBaryonic2017_14  weight = 2.986509176470588e-06
+Signal_ZpBaryonic2017_14_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_15_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_15
+sample is : Signal_ZpBaryonic2017_15 adnsample sampleName is :  Signal_MZp_2000_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_15 0.0035354155688622755
+
+ for Signal_ZpBaryonic2017_15
+checking sample Signal_ZpBaryonic2017_15  weight = 0.0002121249341317365
+Signal_ZpBaryonic2017_15_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_16_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_16
+sample is : Signal_ZpBaryonic2017_16 adnsample sampleName is :  Signal_MZp_2000_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_16 0.0035858181818181818
+
+ for Signal_ZpBaryonic2017_16
+checking sample Signal_ZpBaryonic2017_16  weight = 0.0002151490909090909
+Signal_ZpBaryonic2017_16_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_17_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_17
+sample is : Signal_ZpBaryonic2017_17 adnsample sampleName is :  Signal_MZp_2000_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_17 0.0035773024390243903
+
+ for Signal_ZpBaryonic2017_17
+checking sample Signal_ZpBaryonic2017_17  weight = 0.0002146381463414634
+Signal_ZpBaryonic2017_17_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_18_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_18
+sample is : Signal_ZpBaryonic2017_18 adnsample sampleName is :  Signal_MZp_2000_MChi_400  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_18 0.003205344
+
+ for Signal_ZpBaryonic2017_18
+checking sample Signal_ZpBaryonic2017_18  weight = 0.00019232064
+Signal_ZpBaryonic2017_18_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_19_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_19
+sample is : Signal_ZpBaryonic2017_19 adnsample sampleName is :  Signal_MZp_2000_MChi_600  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_19 0.0030709132075471698
+
+ for Signal_ZpBaryonic2017_19
+checking sample Signal_ZpBaryonic2017_19  weight = 0.00018425479245283018
+Signal_ZpBaryonic2017_19_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_1_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_1
+sample is : Signal_ZpBaryonic2017_1 adnsample sampleName is :  Signal_MZp_1000_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_1 0.044682404145077716
+
+ for Signal_ZpBaryonic2017_1
+checking sample Signal_ZpBaryonic2017_1  weight = 0.002680944248704663
+Signal_ZpBaryonic2017_1_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_20_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_20
+sample is : Signal_ZpBaryonic2017_20 adnsample sampleName is :  Signal_MZp_2000_MChi_800  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_20 0.0015456672463768117
+
+ for Signal_ZpBaryonic2017_20
+checking sample Signal_ZpBaryonic2017_20  weight = 9.27400347826087e-05
+Signal_ZpBaryonic2017_20_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_21_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_21
+sample is : Signal_ZpBaryonic2017_21 adnsample sampleName is :  Signal_MZp_200_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_21 0.11736890721649484
+
+ for Signal_ZpBaryonic2017_21
+checking sample Signal_ZpBaryonic2017_21  weight = 0.00704213443298969
+Signal_ZpBaryonic2017_21_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_22_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_22
+sample is : Signal_ZpBaryonic2017_22 adnsample sampleName is :  Signal_MZp_200_MChi_150  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_22 0.0007026461538461538
+
+ for Signal_ZpBaryonic2017_22
+checking sample Signal_ZpBaryonic2017_22  weight = 4.215876923076923e-05
+Signal_ZpBaryonic2017_22_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_23_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_23
+sample is : Signal_ZpBaryonic2017_23 adnsample sampleName is :  Signal_MZp_200_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_23 0.5515343283582089
+
+ for Signal_ZpBaryonic2017_23
+checking sample Signal_ZpBaryonic2017_23  weight = 0.03309205970149254
+Signal_ZpBaryonic2017_23_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_24_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_24
+sample is : Signal_ZpBaryonic2017_24 adnsample sampleName is :  Signal_MZp_200_MChi_50  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_24 0.5123145762711865
+
+ for Signal_ZpBaryonic2017_24
+checking sample Signal_ZpBaryonic2017_24  weight = 0.030738874576271186
+Signal_ZpBaryonic2017_24_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_25_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_25
+sample is : Signal_ZpBaryonic2017_25 adnsample sampleName is :  Signal_MZp_2500_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_25 0.0008681634285714286
+
+ for Signal_ZpBaryonic2017_25
+checking sample Signal_ZpBaryonic2017_25  weight = 5.208980571428571e-05
+Signal_ZpBaryonic2017_25_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_26_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_26
+sample is : Signal_ZpBaryonic2017_26 adnsample sampleName is :  Signal_MZp_2500_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_26 0.0009575823157894736
+
+ for Signal_ZpBaryonic2017_26
+checking sample Signal_ZpBaryonic2017_26  weight = 5.745493894736841e-05
+Signal_ZpBaryonic2017_26_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_27_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_27
+sample is : Signal_ZpBaryonic2017_27 adnsample sampleName is :  Signal_MZp_2500_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_27 0.0010815089820359282
+
+ for Signal_ZpBaryonic2017_27
+checking sample Signal_ZpBaryonic2017_27  weight = 6.489053892215569e-05
+Signal_ZpBaryonic2017_27_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_28_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_28
+sample is : Signal_ZpBaryonic2017_28 adnsample sampleName is :  Signal_MZp_2500_MChi_400  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_28 0.0009824870718232045
+
+ for Signal_ZpBaryonic2017_28
+checking sample Signal_ZpBaryonic2017_28  weight = 5.894922430939227e-05
+Signal_ZpBaryonic2017_28_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_29_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_29
+sample is : Signal_ZpBaryonic2017_29 adnsample sampleName is :  Signal_MZp_2500_MChi_600  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_29 0.000890692340425532
+
+ for Signal_ZpBaryonic2017_29
+checking sample Signal_ZpBaryonic2017_29  weight = 5.344154042553191e-05
+Signal_ZpBaryonic2017_29_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_2_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_2
+sample is : Signal_ZpBaryonic2017_2 adnsample sampleName is :  Signal_MZp_1000_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_2 0.04939936363636364
+
+ for Signal_ZpBaryonic2017_2
+checking sample Signal_ZpBaryonic2017_2  weight = 0.002963961818181818
+Signal_ZpBaryonic2017_2_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_30_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_30
+sample is : Signal_ZpBaryonic2017_30 adnsample sampleName is :  Signal_MZp_2500_MChi_800  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_30 0.0007683385263157895
+
+ for Signal_ZpBaryonic2017_30
+checking sample Signal_ZpBaryonic2017_30  weight = 4.6100311578947365e-05
+Signal_ZpBaryonic2017_30_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_31_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_31
+sample is : Signal_ZpBaryonic2017_31 adnsample sampleName is :  Signal_MZp_3000_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_31 0.0003147345077720207
+
+ for Signal_ZpBaryonic2017_31
+checking sample Signal_ZpBaryonic2017_31  weight = 1.8884070466321242e-05
+Signal_ZpBaryonic2017_31_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_32_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_32
+sample is : Signal_ZpBaryonic2017_32 adnsample sampleName is :  Signal_MZp_3000_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_32 0.0003220008510638298
+
+ for Signal_ZpBaryonic2017_32
+checking sample Signal_ZpBaryonic2017_32  weight = 1.9320051063829785e-05
+Signal_ZpBaryonic2017_32_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_33_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_33
+sample is : Signal_ZpBaryonic2017_33 adnsample sampleName is :  Signal_MZp_3000_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_33 0.0003022656
+
+ for Signal_ZpBaryonic2017_33
+checking sample Signal_ZpBaryonic2017_33  weight = 1.8135936e-05
+Signal_ZpBaryonic2017_33_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_34_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_34
+sample is : Signal_ZpBaryonic2017_34 adnsample sampleName is :  Signal_MZp_300_MChi_150  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_34 0.06406232195121953
+
+ for Signal_ZpBaryonic2017_34
+checking sample Signal_ZpBaryonic2017_34  weight = 0.003843739317073171
+Signal_ZpBaryonic2017_34_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_35_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_35
+sample is : Signal_ZpBaryonic2017_35 adnsample sampleName is :  Signal_MZp_3500_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_35 0.00011794839130434781
+
+ for Signal_ZpBaryonic2017_35
+checking sample Signal_ZpBaryonic2017_35  weight = 7.0769034782608684e-06
+Signal_ZpBaryonic2017_35_final.root histograms in file 9363
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_36_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_36
+sample is : Signal_ZpBaryonic2017_36 adnsample sampleName is :  Signal_MZp_3500_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_36 0.00011793924324324325
+
+ for Signal_ZpBaryonic2017_36
+checking sample Signal_ZpBaryonic2017_36  weight = 7.076354594594595e-06
+Signal_ZpBaryonic2017_36_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_37_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_37
+sample is : Signal_ZpBaryonic2017_37 adnsample sampleName is :  Signal_MZp_350_MChi_50  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_37 0.43339415730337083
+
+ for Signal_ZpBaryonic2017_37
+checking sample Signal_ZpBaryonic2017_37  weight = 0.02600364943820225
+Signal_ZpBaryonic2017_37_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_38_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_38
+sample is : Signal_ZpBaryonic2017_38 adnsample sampleName is :  Signal_MZp_500_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_38 0.24891990361445782
+
+ for Signal_ZpBaryonic2017_38
+checking sample Signal_ZpBaryonic2017_38  weight = 0.014935194216867469
+Signal_ZpBaryonic2017_38_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_39_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_39
+sample is : Signal_ZpBaryonic2017_39 adnsample sampleName is :  Signal_MZp_500_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_39 0.24890147368421053
+
+ for Signal_ZpBaryonic2017_39
+checking sample Signal_ZpBaryonic2017_39  weight = 0.014934088421052632
+Signal_ZpBaryonic2017_39_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_3_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_3
+sample is : Signal_ZpBaryonic2017_3 adnsample sampleName is :  Signal_MZp_1000_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_3 0.04322964705882353
+
+ for Signal_ZpBaryonic2017_3
+checking sample Signal_ZpBaryonic2017_3  weight = 0.002593778823529412
+Signal_ZpBaryonic2017_3_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_40_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_40
+sample is : Signal_ZpBaryonic2017_40 adnsample sampleName is :  Signal_MZp_500_MChi_200  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_40 0.08661931034482759
+
+ for Signal_ZpBaryonic2017_40
+checking sample Signal_ZpBaryonic2017_40  weight = 0.005197158620689655
+Signal_ZpBaryonic2017_40_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_41_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_41
+sample is : Signal_ZpBaryonic2017_41 adnsample sampleName is :  Signal_MZp_500_MChi_400  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_41 3.356423225806452e-05
+
+ for Signal_ZpBaryonic2017_41
+checking sample Signal_ZpBaryonic2017_41  weight = 2.013853935483871e-06
+Signal_ZpBaryonic2017_41_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_42_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_42
+sample is : Signal_ZpBaryonic2017_42 adnsample sampleName is :  Signal_MZp_650_MChi_50  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_42 0.14311288421052631
+
+ for Signal_ZpBaryonic2017_42
+checking sample Signal_ZpBaryonic2017_42  weight = 0.008586773052631579
+Signal_ZpBaryonic2017_42_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_43_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_43
+sample is : Signal_ZpBaryonic2017_43 adnsample sampleName is :  Signal_MZp_800_MChi_50  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_43 0.09498906976744187
+
+ for Signal_ZpBaryonic2017_43
+checking sample Signal_ZpBaryonic2017_43  weight = 0.005699344186046512
+Signal_ZpBaryonic2017_43_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_4_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_4
+sample is : Signal_ZpBaryonic2017_4 adnsample sampleName is :  Signal_MZp_1000_MChi_400  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_4 0.0191648693877551
+
+ for Signal_ZpBaryonic2017_4
+checking sample Signal_ZpBaryonic2017_4  weight = 0.001149892163265306
+Signal_ZpBaryonic2017_4_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_5
+sample is : Signal_ZpBaryonic2017_5 adnsample sampleName is :  Signal_MZp_1000_MChi_600  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_5 3.5876263473053894e-05
+
+ for Signal_ZpBaryonic2017_5
+checking sample Signal_ZpBaryonic2017_5  weight = 2.1525758083832336e-06
+Signal_ZpBaryonic2017_5_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_6_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_6
+sample is : Signal_ZpBaryonic2017_6 adnsample sampleName is :  Signal_MZp_1000_MChi_800  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_6 1.2260331034482758e-06
+
+ for Signal_ZpBaryonic2017_6
+checking sample Signal_ZpBaryonic2017_6  weight = 7.356198620689654e-08
+Signal_ZpBaryonic2017_6_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_7_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_7
+sample is : Signal_ZpBaryonic2017_7 adnsample sampleName is :  Signal_MZp_100_MChi_1  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_7 0.6599494736842105
+
+ for Signal_ZpBaryonic2017_7
+checking sample Signal_ZpBaryonic2017_7  weight = 0.039596968421052633
+Signal_ZpBaryonic2017_7_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_8_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_8
+sample is : Signal_ZpBaryonic2017_8 adnsample sampleName is :  Signal_MZp_100_MChi_50  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_8 0.18411270588235293
+
+ for Signal_ZpBaryonic2017_8
+checking sample Signal_ZpBaryonic2017_8  weight = 0.011046762352941174
+Signal_ZpBaryonic2017_8_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Signal_ZpBaryonic2017_9_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Signal_ZpBaryonic2017_9
+sample is : Signal_ZpBaryonic2017_9 adnsample sampleName is :  Signal_MZp_1500_MChi_100  
+luminosity is :    41520.0
+Signal_ZpBaryonic2017_9 0.01274789818181818
+
+ for Signal_ZpBaryonic2017_9
+checking sample Signal_ZpBaryonic2017_9  weight = 0.0007648738909090909
+Signal_ZpBaryonic2017_9_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+TTTo2L2Nu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  TTTo2L2Nu_TuneCP5
+sample is : TTTo2L2Nu adnsample sampleName is :  TT  
+luminosity is :    41520.0
+
+ for TTTo2L2Nu_TuneCP5
+checking sample TTTo2L2Nu  weight = 0.40731120000000004
+TTTo2L2Nu_TuneCP5_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+TTToHadronic_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  TTToHadronic_TuneCP5
+sample is : TTToHadronic adnsample sampleName is :  TT  
+luminosity is :    41520.0
+
+ for TTToHadronic_TuneCP5
+checking sample TTToHadronic  weight = 0.3760659031391028
+TTToHadronic_TuneCP5_final.root histograms in file 9294
+Searching for  tot_TMass_new_9b
+Done......................
+TTToSemiLeptonic_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  TTToSemiLeptonic_TuneCP5
+sample is : TTToSemiLeptonic adnsample sampleName is :  TT  
+luminosity is :    41520.0
+
+ for TTToSemiLeptonic_TuneCP5
+checking sample TTToSemiLeptonic  weight = 0.3468667475463528
+TTToSemiLeptonic_TuneCP5_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+Tau_EraB_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Tau_EraB
+sample is : blinded_data_obs adnsample sampleName is :  blinded_data_obs  
+luminosity is :    41520.0
+
+ for Tau_EraB
+checking sample blinded_data_obs  weight = 1.0
+Tau_EraB_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+Tau_EraC_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Tau_EraC
+sample is : blinded_data_obs adnsample sampleName is :  blinded_data_obs  
+luminosity is :    41520.0
+
+ for Tau_EraC
+checking sample blinded_data_obs  weight = 1.0
+Tau_EraC_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+Tau_EraD_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Tau_EraD
+sample is : blinded_data_obs adnsample sampleName is :  blinded_data_obs  
+luminosity is :    41520.0
+
+ for Tau_EraD
+checking sample blinded_data_obs  weight = 1.0
+Tau_EraD_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+Tau_EraE_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Tau_EraE
+sample is : blinded_data_obs adnsample sampleName is :  blinded_data_obs  
+luminosity is :    41520.0
+
+ for Tau_EraE
+checking sample blinded_data_obs  weight = 1.0
+Tau_EraE_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+Tau_EraF_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  Tau_EraF
+sample is : blinded_data_obs adnsample sampleName is :  blinded_data_obs  
+luminosity is :    41520.0
+
+ for Tau_EraF
+checking sample blinded_data_obs  weight = 1.0
+Tau_EraF_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+VBFHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  VBFHToTauTau_M125
+sample is : VBFHToTauTau adnsample sampleName is :  VBFH  
+luminosity is :    41520.0
+
+ for VBFHToTauTau_M125
+checking sample VBFHToTauTau  weight = 0.003307085337933703
+VBFHToTauTau_M125_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+VBFHToWWTo2L2Nu_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  VBFHToWWTo2L2Nu_M125
+sample is : VBFHToWWTo2L2Nu adnsample sampleName is :  VBFH  
+luminosity is :    41520.0
+
+ for VBFHToWWTo2L2Nu_M125
+checking sample VBFHToWWTo2L2Nu  weight = 0.007448688
+VBFHToWWTo2L2Nu_M125_final.root histograms in file 9210
+Searching for  tot_TMass_new_9b
+Done......................
+VVTo2L2Nu_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  VVTo2L2Nu
+sample is : VVTo2L2Nu adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for VVTo2L2Nu
+checking sample VVTo2L2Nu  weight = 0.060812200436283194
+VVTo2L2Nu_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+W1JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  W1JetsToLNu_TuneCP5
+sample is : W1Jet adnsample sampleName is :  WJets_jets  
+luminosity is :    41520.0
+
+ for W1JetsToLNu_TuneCP5
+checking sample W1Jet  weight = 7.715
+W1JetsToLNu_TuneCP5_final.root histograms in file 3936
+Searching for  tot_TMass_new_9b
+Done......................
+W2JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  W2JetsToLNu_TuneCP5
+sample is : W2Jet adnsample sampleName is :  WJets_jets  
+luminosity is :    41520.0
+
+ for W2JetsToLNu_TuneCP5
+checking sample W2Jet  weight = 17.0511
+W2JetsToLNu_TuneCP5_final.root histograms in file 7638
+Searching for  tot_TMass_new_9b
+Done......................
+W3JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  W3JetsToLNu_TuneCP5
+sample is : W3Jet adnsample sampleName is :  WJets_jets  
+luminosity is :    41520.0
+
+ for W3JetsToLNu_TuneCP5
+checking sample W3Jet  weight = 2.357
+W3JetsToLNu_TuneCP5_final.root histograms in file 7677
+Searching for  tot_TMass_new_9b
+Done......................
+W4JetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  W4JetsToLNu_TuneCP5
+sample is : W4Jet adnsample sampleName is :  WJets_jets  
+luminosity is :    41520.0
+
+ for W4JetsToLNu_TuneCP5
+checking sample W4Jet  weight = 2.1368
+W4JetsToLNu_TuneCP5_final.root histograms in file 9270
+Searching for  tot_TMass_new_9b
+Done......................
+WJetsToLNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WJetsToLNu_TuneCP5
+sample is : WJets_inc adnsample sampleName is :  WJets_jets  
+luminosity is :    41520.0
+
+ for WJetsToLNu_TuneCP5
+checking sample WJets_inc  weight = 57.29217
+WJetsToLNu_TuneCP5_final.root histograms in file 5997
+Searching for  tot_TMass_new_9b
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WWTo1L1Nu2Q
+sample is : WWTo1L1Nu2Q adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for WWTo1L1Nu2Q
+checking sample WWTo1L1Nu2Q  weight = 0.08798061684677123
+WWTo1L1Nu2Q_final.root histograms in file 9342
+Searching for  tot_TMass_new_9b
+Done......................
+WWToLNuQQ_NNPDF31_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WWToLNuQQ_NNPDF31_TuneCP5
+sample is : WWToLNuQQ adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for WWToLNuQQ_NNPDF31_TuneCP5
+checking sample WWToLNuQQ  weight = 0.05063227260952858
+WWToLNuQQ_NNPDF31_TuneCP5_final.root histograms in file 9294
+Searching for  tot_TMass_new_9b
+Done......................
+WWW_4F_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WWW_4F_TuneCP5
+sample is : WWW adnsample sampleName is :  VVV  
+luminosity is :    41520.0
+
+ for WWW_4F_TuneCP5
+checking sample WWW  weight = 0.03728399483426604
+WWW_4F_TuneCP5_final.root histograms in file 9312
+Searching for  tot_TMass_new_9b
+Done......................
+WWZ_4F_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WWZ_4F_TuneCP5
+sample is : WWZ adnsample sampleName is :  VVV  
+luminosity is :    41520.0
+
+ for WWZ_4F_TuneCP5
+checking sample WWZ  weight = 0.027419808
+WWZ_4F_TuneCP5_final.root histograms in file 9324
+Searching for  tot_TMass_new_9b
+Done......................
+WW_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WW_TuneCP5
+sample is : WW adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for WW_TuneCP5
+checking sample WW  weight = 0.6346295591403776
+WW_TuneCP5_final.root histograms in file 9306
+Searching for  tot_TMass_new_9b
+Done......................
+WZTo3LNu_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WZTo3LNu_TuneCP5
+sample is : WZTo3LNu adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for WZTo3LNu_TuneCP5
+checking sample WZTo3LNu  weight = 0.01673998667052432
+WZTo3LNu_TuneCP5_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+WZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WZZ_TuneCP5
+sample is : WZZ adnsample sampleName is :  VVV  
+luminosity is :    41520.0
+
+ for WZZ_TuneCP5
+checking sample WZZ  weight = 0.009242351999999999
+WZZ_TuneCP5_final.root histograms in file 9306
+Searching for  tot_TMass_new_9b
+Done......................
+WZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WZ_TuneCP5
+sample is : WZ adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for WZ_TuneCP5
+checking sample WZ  weight = 0.2913754667657682
+WZ_TuneCP5_final.root histograms in file 9360
+Searching for  tot_TMass_new_9b
+Done......................
+WminusHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WminusHToTauTau_M125
+sample is : WminusHToTauTau adnsample sampleName is :  WminusH  
+luminosity is :    41520.0
+
+ for WminusHToTauTau_M125
+checking sample WminusHToTauTau  weight = 0.00035925572544233544
+WminusHToTauTau_M125_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+WplusHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  WplusHToTauTau_M125
+sample is : WplusHToTauTau adnsample sampleName is :  WplusH  
+luminosity is :    41520.0
+
+ for WplusHToTauTau_M125
+checking sample WplusHToTauTau  weight = 0.00054669384
+WplusHToTauTau_M125_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+ZHToTauTau_M125_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZHToTauTau_M125
+sample is : ZHToTauTau adnsample sampleName is :  ZH  
+luminosity is :    41520.0
+
+ for ZHToTauTau_M125
+checking sample ZHToTauTau  weight = 0.00040112201350949253
+ZHToTauTau_M125_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT-100To200_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-100To200
+sample is : ZJetsToNuNu_HT100-200 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-100To200
+checking sample ZJetsToNuNu_HT100-200  weight = 0.5151335642876954
+ZJetsToNuNu_HT-100To200_final.root histograms in file 4362
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT-1200To2500_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-1200To2500
+sample is : ZJetsToNuNu_HT1200-2500 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-1200To2500
+checking sample ZJetsToNuNu_HT1200-2500  weight = 0.0352055418530276
+ZJetsToNuNu_HT-1200To2500_final.root histograms in file 6
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-200To400_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-200To400
+sample is : ZJetsToNuNu_HT200-400 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-200To400
+checking sample ZJetsToNuNu_HT200-400  weight = 0.14871864238632407
+ZJetsToNuNu_HT-200To400_final.root histograms in file 9234
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT-2500ToInf_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-2500ToInf
+sample is : ZJetsToNuNu_HT2500-Inf adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-2500ToInf
+checking sample ZJetsToNuNu_HT2500-Inf  weight = 0.042746979506979504
+ZJetsToNuNu_HT-2500ToInf_final.root histograms in file 6
+Searching for  tot_TMass_new_9b
+
+requested histogram name not in file....................
+Done......................
+ZJetsToNuNu_HT-400To600_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-400To600
+sample is : ZJetsToNuNu_HT400-600 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-400To600
+checking sample ZJetsToNuNu_HT400-600  weight = 0.04850603232714262
+ZJetsToNuNu_HT-400To600_final.root histograms in file 2646
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT-600To800_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-600To800
+sample is : ZJetsToNuNu_HT600-800 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-600To800
+checking sample ZJetsToNuNu_HT600-800  weight = 0.018663469527663783
+ZJetsToNuNu_HT-600To800_final.root histograms in file 5886
+Searching for  tot_TMass_new_9b
+Done......................
+ZJetsToNuNu_HT-800To1200_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZJetsToNuNu_HT-800To1200
+sample is : ZJetsToNuNu_HT800-1200 adnsample sampleName is :  ZJetsToNuNu  
+luminosity is :    41520.0
+
+ for ZJetsToNuNu_HT-800To1200
+checking sample ZJetsToNuNu_HT800-1200  weight = 0.023761140132269105
+ZJetsToNuNu_HT-800To1200_final.root histograms in file 2550
+Searching for  tot_TMass_new_9b
+Done......................
+ZZTo2L2Q_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZZTo2L2Q
+sample is : ZZTo2L2Q adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for ZZTo2L2Q
+checking sample ZZTo2L2Q  weight = 0.005040695856365082
+ZZTo2L2Q_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+ZZTo4L_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZZTo4L_TuneCP5
+sample is : ZZTo4L adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for ZZTo4L_TuneCP5
+checking sample ZZTo4L  weight = 0.0019854454105740437
+ZZTo4L_TuneCP5_final.root histograms in file 9366
+Searching for  tot_TMass_new_9b
+Done......................
+ZZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZZZ_TuneCP5
+sample is : ZZZ adnsample sampleName is :  VVV  
+luminosity is :    41520.0
+
+ for ZZZ_TuneCP5
+checking sample ZZZ  weight = 0.0023217983999999996
+ZZZ_TuneCP5_final.root histograms in file 9294
+Searching for  tot_TMass_new_9b
+Done......................
+ZZ_TuneCP5_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  ZZ_TuneCP5
+sample is : ZZ adnsample sampleName is :  VV  
+luminosity is :    41520.0
+
+ for ZZ_TuneCP5
+checking sample ZZ  weight = 0.26171903354793086
+ZZ_TuneCP5_final.root histograms in file 9354
+Searching for  tot_TMass_new_9b
+Done......................
+fullLumi_Tau_EraB_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  fullLumi_Tau_EraB
+sample is : data_obs adnsample sampleName is :  data_obs  
+luminosity is :    41520.0
+
+ for fullLumi_Tau_EraB
+checking sample data_obs  weight = 1.0
+fullLumi_Tau_EraB_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+fullLumi_Tau_EraC_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  fullLumi_Tau_EraC
+sample is : data_obs adnsample sampleName is :  data_obs  
+luminosity is :    41520.0
+
+ for fullLumi_Tau_EraC
+checking sample data_obs  weight = 1.0
+fullLumi_Tau_EraC_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+fullLumi_Tau_EraD_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  fullLumi_Tau_EraD
+sample is : data_obs adnsample sampleName is :  data_obs  
+luminosity is :    41520.0
+
+ for fullLumi_Tau_EraD
+checking sample data_obs  weight = 1.0
+fullLumi_Tau_EraD_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+fullLumi_Tau_EraE_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  fullLumi_Tau_EraE
+sample is : data_obs adnsample sampleName is :  data_obs  
+luminosity is :    41520.0
+
+ for fullLumi_Tau_EraE
+checking sample data_obs  weight = 1.0
+fullLumi_Tau_EraE_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................
+fullLumi_Tau_EraF_final.root
+Making root files for tot_TMass_new
+luminosity is in the lumiweight:  41520.0
+incoming  fullLumi_Tau_EraF
+sample is : data_obs adnsample sampleName is :  data_obs  
+luminosity is :    41520.0
+
+ for fullLumi_Tau_EraF
+checking sample data_obs  weight = 1.0
+fullLumi_Tau_EraF_final.root histograms in file 1266
+Searching for  tot_TMass_new_9b
+Done......................

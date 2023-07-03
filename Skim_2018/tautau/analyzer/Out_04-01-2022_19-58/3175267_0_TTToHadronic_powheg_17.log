@@ -1,0 +1,43 @@
+000 (3175267.000.000) 2022-01-04 20:00:26 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_2326_0560>
+...
+040 (3175267.000.000) 2022-01-04 20:01:20 Entered queue to transfer input files
+	Transferring to host: <128.105.245.192:9618?addrs=128.105.245.192-9618&alias=e2392.chtc.wisc.edu&noUDP&sock=slot1_26_11368_88c7_16680>
+...
+040 (3175267.000.000) 2022-01-04 20:02:17 Started transferring input files
+	Seconds spent in queue: 57
+...
+040 (3175267.000.000) 2022-01-04 20:08:24 Finished transferring input files
+...
+001 (3175267.000.000) 2022-01-04 20:08:25 Job executing on host: <128.105.245.192:9618?addrs=128.105.245.192-9618&alias=e2392.chtc.wisc.edu&noUDP&sock=startd_2988_1912>
+...
+006 (3175267.000.000) 2022-01-04 20:08:33 Image size of job updated: 1000348
+	398  -  MemoryUsage of job (MB)
+	407348  -  ResidentSetSize of job (KB)
+...
+006 (3175267.000.000) 2022-01-04 20:09:00 Image size of job updated: 1172208
+	398  -  MemoryUsage of job (MB)
+	407348  -  ResidentSetSize of job (KB)
+...
+040 (3175267.000.000) 2022-01-04 20:09:00 Started transferring output files
+	Seconds spent in queue: 460
+...
+040 (3175267.000.000) 2022-01-04 20:09:00 Finished transferring output files
+...
+005 (3175267.000.000) 2022-01-04 20:09:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:10, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:10, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	82928  -  Run Bytes Sent By Job
+	315491808  -  Run Bytes Received By Job
+	82928  -  Total Bytes Sent By Job
+	315491808  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   308239  2048000   2351072 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      398     1992      2048 
+
+	Job terminated of its own accord at 2022-01-05T02:09:00Z.
+...

@@ -1,0 +1,50 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:6118
+Running over 6118 events.
+Finished entry 0/6117
+Finished entry 300/6117
+Finished entry 600/6117
+Finished entry 900/6117
+Finished entry 1200/6117
+Finished entry 1500/6117
+Finished entry 1800/6117
+Finished entry 2100/6117
+Finished entry 2400/6117
+Finished entry 2700/6117
+Finished entry 3000/6117
+Finished entry 3300/6117
+Finished entry 3600/6117
+Finished entry 3900/6117
+Finished entry 4200/6117
+Finished entry 4500/6117
+Finished entry 4800/6117
+Finished entry 5100/6117
+Finished entry 5400/6117
+Finished entry 5700/6117
+Finished entry 6000/6117
+Finished entry 6117/6117
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 6118.000000
+   Passing smikking 0.000000
+Inspected genWeightd 5444.000000   % change= 11.016672
+   METFiltersPassed 5273.637147   % change= 3.129369
+    SingleTrgPassed 5273.637147   % change= 0.000000
+     GoodMuonPassed 1217.183043   % change= 76.919477
+      GoodTauPassed 29.920857   % change= 97.541795
+         opp charge 29.920857   % change= 0.000000
+ PassedThirdLepVeto 28.018645   % change= 6.357478
+     PassedBjetVeto 17.187843   % change= 38.655697
+       DeltaRPassed 17.187843   % change= 0.000000
+      Total change :99.719061
+*******************************************
+*******************************************
+Number of events inspected: 6118
+Number of events inspected (minus negative gen. weights): 5444.000000
+ Outpt written to ST_t-channel_top_18.root
+Real time 0:00:56, CP time 17.550

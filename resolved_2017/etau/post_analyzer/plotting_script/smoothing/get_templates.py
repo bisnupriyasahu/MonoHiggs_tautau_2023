@@ -210,7 +210,7 @@ def GetKeyNames( self, dir = "" ):
 ROOT.TFile.GetKeyNames = GetKeyNames
 
 
-def get_syst(filename, channel = "tautau"):
+def get_syst(filename, channel = "etau"):
     
     # filename = '~/monoHiggs_signal_sample/combinetutorial/CMSSW_10_2_13/src/CombineHarvester/CombineTools/bin/aux/2017/etau.root'
     # inFile=ROOT.TFile(filename, "r")

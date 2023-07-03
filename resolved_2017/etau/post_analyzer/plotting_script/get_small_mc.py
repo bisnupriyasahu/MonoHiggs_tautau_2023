@@ -20,7 +20,8 @@ mc_dict = {'STT': ['ST_t'] ,
            'otherMC' : [ 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH' , 'VBFH', 'WplusH', 'WminusH', 'ZH', 'ZJetsToNuNu' ]
        }
 final_mc_list=['ZTTjet', 'ZLLjet', 'TT']
-        
+#final_mc_list=['ZTTjet', 'ZLLjet', 'TT', 'ZJet']
+
 def checkHistogram(f, histogram):
     isthere=  f.GetListOfKeys().Contains(histogram)
     #print(isthere)

@@ -9,7 +9,7 @@ std::vector<int> mutau_analyzer::getMuCand(double muPtCut, double muEtaCut, int 
        bool muonIso =  false;
        bool trigger = false;
        bool filter = false;
-       if( muPt->at(iMu) > muPtCut  && fabs(muEta->at(iMu))< muEtaCut  && fabs(muDz->at(iMu)) < 0.2 && fabs(muD0->at(iMu))<0.045 ) kinematic = true;
+       if( muPt->at(iMu) > muPtCut  && fabs(muEta->at(iMu))< muEtaCut  && fabs(muDz->at(iMu)) < 0.2 && fabs(muD0->at(iMu))<0.45 ) kinematic = true;
        if( muIDbit->at(iMu)>>1&1==1 ) muonID = true;//|| muIDbit->at(iMu)>>8&1==1 || muIDbit->at(iMu)>>17&1==1  ) muonID = true;
        float relMuIso = ( muPFChIso->at(iMu) + max( muPFNeuIso->at(iMu) + muPFPhoIso->at(iMu) - 0.5 *muPFPUIso->at(iMu) , 0.0 )) / (muPt->at(iMu));
        if( relMuIso < 0.15 ) muonIso = true;
@@ -33,8 +33,8 @@ std::vector<int> mutau_analyzer::getTauCand(double tauPtCut, double tauEtaCut, i
       dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau2 = applyTauESCorrections(dau2, iTau, shift);
+      //      if(is_MC)
+      //dau2 = applyTauESCorrections(dau2, iTau, shift);
       
       bool kinematic = false;
       bool trigger = false;
@@ -75,8 +75,8 @@ std::vector<int> mutau_analyzer::getAISRTauCand(double tauPtCut, double tauEtaCu
       dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau2 = applyTauESCorrections(dau2, iTau, shift);
+      //if(is_MC)
+      //	dau2 = applyTauESCorrections(dau2, iTau, shift);
 
       bool kinematic = false;
       bool trigger = false;
@@ -194,12 +194,12 @@ int mutau_analyzer::thirdLeptonVeto(){
       bool kinematic = false;
       if( (*elePt)[iEle] > 10.0  
 	  && fabs((*eleEta)[iEle])< 2.5 
-	  && (*eleD0)[iEle] < 0.045 
+	  && (*eleD0)[iEle] < 0.45 
 	  && (*eleDz)[iEle] < 0.2 
 	  && eleMissHits->at(iEle) <= 1 && eleConvVeto->at(iEle)==1
 	  ) kinematic = true;
       bool electronId =false;
-      if( eleIDbit->at(iEle)>>8&1==1) electronId =true;
+      if( eleIDbit->at(iEle)>>8&1==1) electronId =true;   //mvaEleID-Fall17-noIso-V2-wp90
       bool relative_iso = false;
       float relEleIso = ( elePFChIso->at(iEle) + max( elePFNeuIso->at(iEle) + elePFPhoIso->at(iEle) - 0.5 *elePFPUIso->at(iEle) , 0.0 )) / (elePt->at(iEle));
       if( relEleIso < 0.3 ) relative_iso = true;
@@ -220,7 +220,7 @@ bool mutau_analyzer::thirdLeptonVeto(int muIndex, int tauIndex){
       bool kinematic = false;
       if( (*elePt)[iEle] > 10.0  
 	  && fabs((*eleEta)[iEle])< 2.5 
-	  && (*eleD0)[iEle] < 0.045 
+	  && (*eleD0)[iEle] < 0.45 
 	  && (*eleDz)[iEle] < 0.2 
 	  && eleMissHits->at(iEle) <= 1 && eleConvVeto->at(iEle)==1
 	  ) kinematic = true;
@@ -272,6 +272,20 @@ double mutau_analyzer::DeltaPhi(double phi1, double phi2)
 float mutau_analyzer::TMass_F(float LepPt, float LepPhi , float met, float metPhi) {
   return  sqrt(2.0*LepPt*met*(1.0-cos(DeltaPhi(LepPhi, metPhi))));
   //return sqrt(pow(LepPt + met, 2) - pow(LepPt* cos(LepPhi) + met * cos(metPhi), 2) - pow(LepPt * sin(LepPhi) + met * sin(metPhi), 2));
+}
+
+float mutau_analyzer::TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
+  float aPt=a.Pt(); float aPhi=a.Phi();
+  float aPx=aPt*cos(aPhi); float aPy=aPt*sin(aPhi);
+
+  float bPt=b.Pt(); float bPhi=b.Phi();
+  float bPx=bPt*cos(bPhi); float bPy=bPt*sin(bPhi);
+
+  float metPt=met.Pt(); float metPhi=met.Phi();
+  float metPx=metPt*cos(metPhi); float metPy=metPt*sin(metPhi);
+
+  float totalTMass = sqrt((( aPt + bPt + metPt )*(aPt + bPt + metPt)) - ((aPx + bPx + metPx )*(aPx + bPx + metPx)) - ((aPy + bPy + metPy)*(aPy + bPy + metPy)));
+  return totalTMass;
 }
 
 float mutau_analyzer::TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
@@ -399,7 +413,7 @@ bool mutau_analyzer::passDiMuonVeto(int muIndex)
       bool kinematic = false;
       if( muPt->at(iMu) > 15
 	  && fabs(muEta->at(iMu))< 2.4
-	  && fabs(muD0->at(iMu)) < 0.045
+	  && fabs(muD0->at(iMu)) < 0.45
 	  && fabs(muDz->at(iMu)) < 0.2
        	  ) kinematic = true;
       bool muonId =false;
@@ -438,7 +452,7 @@ bool mutau_analyzer::eVetoZTTp001dxyz(int muIndex, int tauIndex){
       bool kinematic = false;
       if( elePt->at(iEle) > 10
 	  && fabs(eleEta->at(iEle))< 2.5
-	  && fabs(eleD0->at(iEle)) < 0.045
+	  && fabs(eleD0->at(iEle)) < 0.45
 	  && fabs(eleDz->at(iEle)) < 0.2
 	  && eleConvVeto->at(iEle)==1 && eleConvVeto->at(iEle)==1
        	  ) kinematic = true;
@@ -476,7 +490,7 @@ bool mutau_analyzer::mVetoZTTp001dxyz(int muIndex, int tauIndex){
     {
       //if (iMu==muIndex)continue;
       bool kinematic = false;
-      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.045 && (*muDz)[iMu] < 0.2 ) kinematic = true;
+      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.45 && (*muDz)[iMu] < 0.2 ) kinematic = true;
       bool muonId =false;
       if( muIDbit->at(iMu)>>8&1==1) muonId =true;
       bool relative_iso = false;
@@ -834,6 +848,8 @@ double mutau_analyzer::getScaleFactors(  double mupt, double taupt, double mueta
   /* if(found_DYjet_sample) */
   /*   zptmass_weight= get_zptmass_weight(); */
   //if(zptmass_weight>1) zptmass_weight = 1.0;
+  if(isFakebkg)
+    zptmass_weight = 1.0; // zpt weight for jet-tau
 
   double top_pt_weight=1.0;
   if(found_TTbar_sample){
@@ -849,9 +865,15 @@ double mutau_analyzer::getScaleFactors(  double mupt, double taupt, double mueta
   if ( mupt<25.0 ) { mu_singletrg=1.0; }
   else  { mu_crosstrg=1.0; tau_crossttrg = 1.0; sf_tauTrg = 1.0; tau_crossttrg=1.0; }
 
-  double sf_htt_workspace=  m_tracking * m_IDiso *  mu_singletrg * mu_crosstrg * tau_crossttrg * t_deepid;// * zptmass_weight;
+  //  double sf_htt_workspace=  m_tracking * m_IDiso *  mu_singletrg * mu_crosstrg * tau_crossttrg * t_deepid * zptmass_weight; // added zpt_weight
+  double sf_htt_workspace = 1.0;
+  if(found_DYjet_sample==true)
+    double sf_htt_workspace =   m_tracking * m_IDiso *  mu_singletrg * mu_crosstrg * tau_crossttrg * t_deepid * zptmass_weight; // added zpt_weight
+  else 
+    double sf_htt_workspace =    m_tracking * m_IDiso *  mu_singletrg * mu_crosstrg * tau_crossttrg * t_deepid;
 
-  rv_sf = sf_tauidSF_m * sf_tauTrg * sf_fakeMu * sf_htt_workspace * top_pt_weight * higgPt_weight ;
+  //remove higgs pt reweighting and taupt reweightin
+  rv_sf = sf_tauidSF_m * sf_tauTrg * sf_fakeMu * sf_htt_workspace;
   rv_sf = rv_sf * MuonIDIso.get_ScaleFactor(my_muP4.Pt(), my_muP4.Eta());
   if (  my_muP4.Pt()<25.0 )
     {
@@ -860,10 +882,14 @@ double mutau_analyzer::getScaleFactors(  double mupt, double taupt, double mueta
     }
   else 
     rv_sf = rv_sf*IsoMu24or27SF.get_ScaleFactor(my_muP4.Pt(), my_muP4.Eta());
-  // if(isFakebkg)
-  //   rv_sf = rv_sf * sf_tauidSF_vvvl;
+
+  if(isFakebkg)
+    rv_sf = rv_sf * sf_tauidSF_vvvl;
   //cout<<" "<< MuonIDIso.get_ScaleFactor(my_muP4.Pt(), my_muP4.Eta()) <<" \t" <<  IsoMu24or27SF.get_ScaleFactor(my_muP4.Pt(), my_muP4.Eta()) <<endl;  
 
+  if(found_Signal)
+    rv_sf = 1.0;
+  
   return rv_sf;
 }
 

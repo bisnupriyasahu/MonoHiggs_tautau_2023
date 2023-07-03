@@ -1,6 +1,7 @@
 import os
 
-inputDrMC="/hdfs/store/user/jmadhusu/2017_skimmed/signal_gg/"
+#inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/"
+inputDrMC="/hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2017_skimmed/signal/hadd_postAN_inp/"
 filelistMC=os.listdir(inputDrMC)
 filelistMC=sorted(filelistMC)
 
@@ -9,20 +10,27 @@ outFile.write("""
 outDir="Out_$(date +"%d-%m-%Y_%H-%M")" 
 mkdir $outDir 
 
+###########################   MC  #########################
+
+
+./rootcom tautau_analyzer analyze_tautau
+
 """)
 
 
-outFile.write('###########################   MC  #########################'+'\n\n')
-outFile.write('./rootcom etau_analyzer analyze_etau  '+'\n\n\n')
 for j in filelistMC :
-    outFile.write("./MakeCondorFiles.csh analyze_etau "+inputDrMC+j+" "+j+" -1 1000 2017 MC "+j[:-5]+" $outDir"+"\n")
-
+    print(j)
+    #if j.find('ZpBaryonic') != 0:
+    #    continue
+    inputDrMC = inputDrMC.replace('/hdfs', 'root://cmsxrootd.hep.wisc.edu/')
+    filename = j.replace('.root', '')
+    outFile.write("./MakeCondorFiles.csh analyze_tautau "+inputDrMC+j+" "+filename+".root -1 1000 2017 MC "+filename+"  $outDir"+"\n")
                 
 print("""
-check submit.sh
+check submit_signal.sh
 do 
 
- bash submit.sh
+ bash submit_signal.sh
 
 
 """)

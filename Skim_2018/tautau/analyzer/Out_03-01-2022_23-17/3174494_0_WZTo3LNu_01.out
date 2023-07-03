@@ -1,0 +1,67 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:3796
+Running over 3796 events.
+Finished entry 0/3795
+Finished entry 100/3795
+Finished entry 200/3795
+Finished entry 300/3795
+Finished entry 400/3795
+Finished entry 500/3795
+Finished entry 600/3795
+Finished entry 700/3795
+Finished entry 800/3795
+Finished entry 900/3795
+Finished entry 1000/3795
+Finished entry 1100/3795
+Finished entry 1200/3795
+Finished entry 1300/3795
+Finished entry 1400/3795
+Finished entry 1500/3795
+Finished entry 1600/3795
+Finished entry 1700/3795
+Finished entry 1800/3795
+Finished entry 1900/3795
+Finished entry 2000/3795
+Finished entry 2100/3795
+Finished entry 2200/3795
+Finished entry 2300/3795
+Finished entry 2400/3795
+Finished entry 2500/3795
+Finished entry 2600/3795
+Finished entry 2700/3795
+Finished entry 2800/3795
+Finished entry 2900/3795
+Finished entry 3000/3795
+Finished entry 3100/3795
+Finished entry 3200/3795
+Finished entry 3300/3795
+Finished entry 3400/3795
+Finished entry 3500/3795
+Finished entry 3600/3795
+Finished entry 3700/3795
+Finished entry 3795/3795
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 3796.000000
+   Passing smikking 0.000000
+Inspected genWeightd 1892.000000   % change= 50.158061
+   METFiltersPassed 1811.584228   % change= 4.250305
+    SingleTrgPassed 866.718141   % change= 52.156895
+     GoodMuonPassed 761.573573   % change= 12.131345
+      GoodTauPassed 306.279641   % change= 59.783316
+         opp charge 306.279641   % change= 0.000000
+ PassedThirdLepVeto 296.147753   % change= 3.308051
+     PassedBjetVeto 271.995903   % change= 8.155338
+       DeltaRPassed 271.700396   % change= 0.108644
+      Total change :92.842455
+*******************************************
+*******************************************
+Number of events inspected: 3796
+Number of events inspected (minus negative gen. weights): 1892.000000
+ Outpt written to WZTo3LNu_01.root
+Real time 0:00:17, CP time 15.270

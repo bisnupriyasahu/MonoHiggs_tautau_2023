@@ -1,0 +1,94 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+sample ==========DYJetsToLL_M-50_TuneCP5_ext1_v1_02
+.... MC file ..... 
+Coming in: 
+nentries:386513
+Running over 386513 events.
+Finished entry 0/386512
+Finished entry 10000/386512
+Finished entry 20000/386512
+Finished entry 30000/386512
+Finished entry 40000/386512
+Finished entry 50000/386512
+Finished entry 60000/386512
+Finished entry 70000/386512
+Finished entry 80000/386512
+Finished entry 90000/386512
+Finished entry 110000/386512
+Finished entry 120000/386512
+Finished entry 130000/386512
+Finished entry 140000/386512
+Finished entry 150000/386512
+Finished entry 160000/386512
+Finished entry 170000/386512
+Finished entry 180000/386512
+Finished entry 190000/386512
+Finished entry 200000/386512
+Finished entry 210000/386512
+Finished entry 220000/386512
+Finished entry 230000/386512
+Finished entry 240000/386512
+Finished entry 250000/386512
+Finished entry 270000/386512
+Finished entry 280000/386512
+Finished entry 290000/386512
+Finished entry 300000/386512
+Finished entry 310000/386512
+Finished entry 320000/386512
+Finished entry 330000/386512
+Finished entry 340000/386512
+Finished entry 350000/386512
+Finished entry 360000/386512
+Finished entry 370000/386512
+Finished entry 380000/386512
+Finished entry 386512/386512
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 386513.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 6725319.200078   % change= -2667.352622
+      GoodTauPassed 158084.685179   % change= 97.649410
+         opp charge 118847.379411   % change= 24.820435
+ PassedThirdLepVeto 42901.539764   % change= 63.901989
+     PassedBjetVeto 41450.889093   % change= 3.381349
+       DeltaRPassed 41321.624430   % change= 0.311850
+      Total change :89.309124
+*******************************************
+*******************************************
+Number of events inspected: 386513
+Number of events inspected (minus negative gen. weights): 386499.000000
+ Outpt written to DYJetsToLL_M-50_TuneCP5_ext1_v1_02.root
+Real time 0:21:59, CP time 1160.230

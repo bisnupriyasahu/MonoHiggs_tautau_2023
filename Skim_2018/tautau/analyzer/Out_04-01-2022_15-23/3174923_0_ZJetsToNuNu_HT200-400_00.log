@@ -1,0 +1,41 @@
+000 (3174923.000.000) 2022-01-04 15:28:36 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_2326_0560>
+...
+040 (3174923.000.000) 2022-01-04 15:28:54 Entered queue to transfer input files
+	Transferring to host: <128.105.245.142:9618?addrs=128.105.245.142-9618&alias=e342.chtc.wisc.edu&noUDP&sock=slot1_5_20209_d18f_16695>
+...
+040 (3174923.000.000) 2022-01-04 15:29:57 Started transferring input files
+	Seconds spent in queue: 63
+...
+040 (3174923.000.000) 2022-01-04 15:30:50 Finished transferring input files
+...
+001 (3174923.000.000) 2022-01-04 15:30:51 Job executing on host: <128.105.245.142:9618?addrs=128.105.245.142-9618&alias=e342.chtc.wisc.edu&noUDP&sock=startd_2402_2693>
+...
+006 (3174923.000.000) 2022-01-04 15:30:59 Image size of job updated: 755704
+	476  -  MemoryUsage of job (MB)
+	487388  -  ResidentSetSize of job (KB)
+...
+040 (3174923.000.000) 2022-01-04 15:31:09 Entered queue to transfer output files
+...
+040 (3174923.000.000) 2022-01-04 15:31:11 Started transferring output files
+	Seconds spent in queue: 137
+...
+040 (3174923.000.000) 2022-01-04 15:31:11 Finished transferring output files
+...
+005 (3174923.000.000) 2022-01-04 15:31:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:08, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:08, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	132398  -  Run Bytes Sent By Job
+	315491808  -  Run Bytes Received By Job
+	132398  -  Total Bytes Sent By Job
+	315491808  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   308287  2048000   2336992 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      476     1992      2048 
+
+	Job terminated of its own accord at 2022-01-04T21:31:04Z.
+...

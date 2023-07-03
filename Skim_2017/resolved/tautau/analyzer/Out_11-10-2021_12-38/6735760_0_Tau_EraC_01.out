@@ -1,0 +1,56 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:529410
+Running over 529410 events.
+Finished entry 0/529409
+Finished entry 20000/529409
+Finished entry 40000/529409
+Finished entry 60000/529409
+Finished entry 80000/529409
+Finished entry 100000/529409
+Finished entry 120000/529409
+Finished entry 140000/529409
+Finished entry 160000/529409
+Finished entry 180000/529409
+Finished entry 200000/529409
+Finished entry 220000/529409
+Finished entry 240000/529409
+Finished entry 260000/529409
+Finished entry 280000/529409
+Finished entry 300000/529409
+Finished entry 320000/529409
+Finished entry 340000/529409
+Finished entry 360000/529409
+Finished entry 380000/529409
+Finished entry 400000/529409
+Finished entry 420000/529409
+Finished entry 440000/529409
+Finished entry 460000/529409
+Finished entry 480000/529409
+Finished entry 500000/529409
+Finished entry 520000/529409
+Finished entry 529409/529409
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 529410.000000
+   Passing smikking 0.000000
+Inspected genWeightd 529410.000000   % change= 0.000000
+   METFiltersPassed 528114.000000   % change= 0.244801
+    SingleTrgPassed 497881.000000   % change= 5.724711
+     GoodMuonPassed 134210.000000   % change= 73.043759
+      GoodTauPassed 12776.000000   % change= 90.480590
+         opp charge 8377.000000   % change= 34.431747
+ PassedThirdLepVeto 8312.000000   % change= 0.775934
+     PassedBjetVeto 8312.000000   % change= 0.000000
+       DeltaRPassed 8228.000000   % change= 1.010587
+      Total change :98.445817
+*******************************************
+*******************************************
+Number of events inspected: 529410
+Number of events inspected (minus negative gen. weights): 529410.000000
+ Outpt written to Tau_EraC_01.root
+Real time 0:01:53, CP time 88.140

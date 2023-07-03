@@ -1,0 +1,59 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:5691
+Running over 5691 events.
+Finished entry 0/5690
+Finished entry 200/5690
+Finished entry 400/5690
+Finished entry 600/5690
+Finished entry 800/5690
+Finished entry 1000/5690
+Finished entry 1200/5690
+Finished entry 1400/5690
+Finished entry 1600/5690
+Finished entry 1800/5690
+Finished entry 2000/5690
+Finished entry 2200/5690
+Finished entry 2400/5690
+Finished entry 2600/5690
+Finished entry 2800/5690
+Finished entry 3000/5690
+Finished entry 3200/5690
+Finished entry 3400/5690
+Finished entry 3600/5690
+Finished entry 3800/5690
+Finished entry 4000/5690
+Finished entry 4200/5690
+Finished entry 4400/5690
+Finished entry 4600/5690
+Finished entry 4800/5690
+Finished entry 5000/5690
+Finished entry 5200/5690
+Finished entry 5400/5690
+Finished entry 5600/5690
+Finished entry 5690/5690
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 5691.000000
+   Passing smikking 0.000000
+Inspected genWeightd 5641.000000   % change= 0.878580
+   METFiltersPassed 5418.350521   % change= 3.946986
+    SingleTrgPassed 2018.417615   % change= 62.748486
+     GoodMuonPassed 1592.468919   % change= 21.103100
+      GoodTauPassed 643.079659   % change= 59.617444
+         opp charge 614.334312   % change= 4.469951
+ PassedThirdLepVeto 421.081635   % change= 31.457249
+     PassedBjetVeto 421.081635   % change= 0.000000
+       DeltaRPassed 417.118162   % change= 0.941260
+      Total change :92.670565
+*******************************************
+*******************************************
+Number of events inspected: 5691
+Number of events inspected (minus negative gen. weights): 5641.000000
+ Outpt written to TTTo2L2Nu_TuneCP5_01.root
+Real time 0:00:12, CP time 10.670

@@ -56,7 +56,7 @@ def fix_binning_v2(inFile, channelName, year):
 def main():
     channel = 'etau'
     inputFile =  ROOT.TFile(channel+'.root',"UPDATE")
-    fix_binning_v2(inputFile, channel, '2018')
+    fix_binning_v2(inputFile, channel, '2017')
     inputFile.Close()
 
 

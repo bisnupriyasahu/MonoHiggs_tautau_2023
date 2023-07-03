@@ -1,0 +1,81 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========WW_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:243901
+Running over 243901 events.
+Finished entry 0/243900
+Finished entry 10000/243900
+Finished entry 20000/243900
+Finished entry 30000/243900
+Finished entry 40000/243900
+Finished entry 50000/243900
+Finished entry 60000/243900
+Finished entry 70000/243900
+Finished entry 80000/243900
+Finished entry 90000/243900
+Finished entry 100000/243900
+Finished entry 110000/243900
+Finished entry 120000/243900
+Finished entry 130000/243900
+Finished entry 140000/243900
+Finished entry 150000/243900
+Finished entry 160000/243900
+Finished entry 170000/243900
+Finished entry 180000/243900
+Finished entry 190000/243900
+Finished entry 200000/243900
+Finished entry 210000/243900
+Finished entry 220000/243900
+Finished entry 230000/243900
+Finished entry 240000/243900
+Finished entry 243900/243900
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 243901.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 3252215.093756   % change= -2565.662337
+      GoodTauPassed 238885.803289   % change= 92.654674
+         opp charge 222657.936274   % change= 6.793148
+ PassedThirdLepVeto 126756.567108   % change= 43.071166
+     PassedBjetVeto 124252.238161   % change= 1.975700
+       DeltaRPassed 124057.644587   % change= 0.156612
+      Total change :49.136066
+*******************************************
+*******************************************
+Number of events inspected: 243901
+Number of events inspected (minus negative gen. weights): 243901.000000
+ Outpt written to WW_TuneCP5_00.root
+Real time 0:09:25, CP time 510.630

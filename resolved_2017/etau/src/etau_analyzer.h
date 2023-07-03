@@ -70,7 +70,7 @@ public :
    TH1F* h_nEvents ;
 
    double nMETFiltersPassed_fr, nPassedSkimmed_fr , nSingleTrgPassed_fr, nGoodMuonPassed_fr, nGoodTauPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr;
-   double nMETFiltersPassed, nPassedSkimmed, nSingleTrgPassed, nGoodMuonPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed;
+   double nMETFiltersPassed, nPassedSkimmed, nSingleTrgPassed, nGoodMuonPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed,nHiggsptPassed,nMVisssPassed, nMETPassed, ndatapassedselection, nnominalpassed,njetfakesuppassed,njetfakesdownpassed;
 
    double nMETFiltersPassed_dyll_fr, nPassedSkimmed_dyll_fr , nSingleTrgPassed_dyll_fr, nGoodMuonPassed_dyll_fr, nGoodTauPassed_dyll_fr, nGoodMuTauPassed_dyll_fr, nPassedThirdLepVeto_dyll_fr, nPassedBjetVeto_dyll_fr, nDeltaRPassed_dyll_fr;
    double nMETFiltersPassed_dyll, nPassedSkimmed_dyll, nSingleTrgPassed_dyll, nGoodMuonPassed_dyll, nGoodTauPassed_dyll, nGoodMuTauPassed_dyll, nPassedThirdLepVeto_dyll, nPassedBjetVeto_dyll, nDeltaRPassed_dyll;
@@ -166,7 +166,7 @@ public :
   BTagCSV* btag_csv =  new BTagCSV("sf_files/RootFiles/btag/DeepCSV_94XSF_WP_V4_B_F.csv");
   
   TH1F* h_cutflow=new TH1F("cutflow", "cutflow", 10, 0, 10); 
-  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 8, 0, 8);
+  //TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 13, 0, 13);
   TH1F* h_cutflow_n_fr=new TH1F("cutflow_n_fr", "cutflow_n_fr", 8, 0, 8);
   TH1F* h_cutflow_n_dyll=new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 8, 0, 8);
   TH1F* h_cutflow_n_dyll_fr=new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 8, 0, 8);
@@ -195,6 +195,7 @@ public :
   double btag_sf;
   bool found_Wjet_sample;
   bool found_DYjet_sample;
+  bool found_Signal;
   bool found_TTbar_sample;
   int t_index, tbar_index;
   bool pass_bjet_veto;
@@ -999,6 +1000,7 @@ public :
    // double dR(int mu_index, int tau_index);
    double delta_R(float phi1, float eta1, float phi2, float eta2);
    float TMass_F(float LepPt, float LepPhi ,float met, float metPhi);
+   float TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);
    float TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met);   
    float VisMass_F(TLorentzVector a, TLorentzVector b);
    float pTvecsum_F(float pt1, float pt2, float phi1, float phi2);
@@ -1152,13 +1154,13 @@ void etau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
    // Init() will be called many times when running on PROOF
    // (once per file to be processed).
   nMETFiltersPassed_fr = nPassedSkimmed_fr = nSingleTrgPassed_fr = nGoodMuonPassed_fr = nGoodTauPassed_fr = nGoodMuTauPassed_fr = nPassedThirdLepVeto_fr = nPassedBjetVeto_fr = nDeltaRPassed_fr=0;
-  nMETFiltersPassed= nPassedSkimmed= nSingleTrgPassed= nGoodMuonPassed= nGoodTauPassed= nGoodMuTauPassed= nPassedThirdLepVeto= nPassedBjetVeto= nDeltaRPassed=0;
+  nMETFiltersPassed= nPassedSkimmed= nSingleTrgPassed= nGoodMuonPassed= nGoodTauPassed= nGoodMuTauPassed= nPassedThirdLepVeto= nPassedBjetVeto= nDeltaRPassed=  nHiggsptPassed = nMVisssPassed=nMETPassed= ndatapassedselection = nnominalpassed=njetfakesuppassed=njetfakesdownpassed= 0;
    
   nMETFiltersPassed_dyll_fr = nPassedSkimmed_dyll_fr = nSingleTrgPassed_dyll_fr = nGoodMuonPassed_dyll_fr = nGoodTauPassed_dyll_fr = nGoodMuTauPassed_dyll_fr = nPassedThirdLepVeto_dyll_fr = nPassedBjetVeto_dyll_fr = nDeltaRPassed_dyll_fr=0;
   nMETFiltersPassed_dyll= nPassedSkimmed_dyll= nSingleTrgPassed_dyll= nGoodMuonPassed_dyll= nGoodTauPassed_dyll= nGoodMuTauPassed_dyll= nPassedThirdLepVeto_dyll= nPassedBjetVeto_dyll= nDeltaRPassed_dyll=0;
    
   h_cutflow->Sumw2();
-  h_cutflow_n->Sumw2();
+  // h_cutflow_n->Sumw2();
   h_cutflow_n_fr->Sumw2();
   h_cutflow_n_dyll->Sumw2();
   h_cutflow_n_dyll_fr->Sumw2();
@@ -1197,8 +1199,8 @@ void etau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
        sample.Contains("DY1JetsToLL") ||
        sample.Contains("DY2JetsToLL") ||
        sample.Contains("DY3JetsToLL") ||
-       sample.Contains("DY4JetsToLL") || 
-       sample.Contains("EWKZ2Jets")
+       sample.Contains("DY4JetsToLL") //|| 
+       //       sample.Contains("EWKZ2Jets")
        ) {
     found_DYjet_sample=true;
     cout<<"****************** dyjet sample found"<<endl;
@@ -1213,9 +1215,11 @@ void etau_analyzer::Init(TChain *tree, string _isMC_ , string sampleName)
   zprimeBaryonic_signal = 0.0;
   cout<<"sample =========="<<sample<<endl;
   found_ZprimeBaryonic = false;
-  if ( sample.Contains("Zpbaryonic"))
+  if ( sample.Contains("ZpBaryonic"))
     found_ZprimeBaryonic = true;
-
+  found_Signal = false;
+  if ( sample.Contains("ZpBaryonic") || sample.Contains("2HDMa"))
+    found_Signal = true;
   ElectronIDIso.init_ScaleFactors("sf_files/LeptonEfficiencies/Electron/Run2017/Electron_Run2017_IdIso.root");
   //cout<<__LINE__<<endl;
   CrossTriggerSF.init_ScaleFactors("sf_files/LeptonEfficiencies/Electron/Run2017/Electron_EleTau_Ele24.root");
@@ -1976,15 +1980,21 @@ void etau_analyzer::setMyEleTau(int eleIndex, int tauIndex, TLorentzVector event
     my_eleP4 = applyEleESCorrections(my_eleP4, EleIndex, shift);
     my_tauP4 = applyTauESCorrections(my_tauP4, TauIndex, shift);
   }
+  //Uncorrected MET + Uncorrected tau = Corrected MET + Corrected tau
   corrected_met = uncorrectedMetPlusTau - raw_tau;
   /* if(is_MC) */
   /*   my_metP4=MetRecoilCorrections(eleIndex, tauIndex, corrected_met); */
   /* else */
   /*   my_metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET); */
   if(is_MC){
+
     TLorentzVector corrected_met_v2;
     //corrected_met_v2.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
-    corrected_met_v2 = MetRecoilCorrections(EleIndex, TauIndex, corrected_met);
+    //    corrected_met_v2 = MetRecoilCorrections(EleIndex, TauIndex, corrected_met);
+    if(found_DYjet_sample)
+      corrected_met_v2 = MetRecoilCorrections(EleIndex, TauIndex, corrected_met);
+    else
+      corrected_met_v2 = corrected_met;
     if (selected_systematic == "metresolution" && is_MC)
       my_metP4= metSysUnc("resolution", corrected_met_v2);
     else if (selected_systematic == "metresponse" && is_MC)
@@ -2006,12 +2016,12 @@ void etau_analyzer::setMyEleTau(int eleIndex, int tauIndex, TLorentzVector event
   pass_bjet_veto = (bJet_medium(EleIndex, TauIndex).size()==0) && (bJet_loose(EleIndex, TauIndex).size()<2);
   btag_sf=btag_sf_weight(EleIndex , TauIndex);
   
-  if( passDiElectronVeto(EleIndex)==true 
-&& eVetoZTTp001dxyz(EleIndex, TauIndex)
-      && mVetoZTTp001dxyz(EleIndex, TauIndex)
-      ) Ztt_selector=true;
-  else Ztt_selector=false;
-  //Ztt_selector=true; //////////////////////////////////////
+//   if( passDiElectronVeto(EleIndex)==true 
+// && eVetoZTTp001dxyz(EleIndex, TauIndex)
+//       && mVetoZTTp001dxyz(EleIndex, TauIndex)
+//       ) Ztt_selector=true;
+//   else Ztt_selector=false;
+  Ztt_selector=true; //////////////////////////////////////
   if(found_DYjet_sample)
     zptmass_weight = get_zptmass_weight();
 

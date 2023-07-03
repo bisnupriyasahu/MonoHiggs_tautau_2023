@@ -158,11 +158,13 @@ public:
     else if (njets==1)
       {
 	//ff_qcd= get_BinContent(ff_qcd_1jet_tt, pt);
-	ff_qcd= get_raw_FF(pt, ff_qcd_2jet);
+	//	ff_qcd= get_raw_FF(pt, ff_qcd_2jet);
+	ff_qcd= get_raw_FF(pt, ff_qcd_1jet);
 	float err = get_BinError(ff_qcd_1jet_tt, pt);
         if (shift=="ff_up") err = ff_qcd + err ;
         else if (shift=="ff_down") err = ff_qcd - err ;
       }
+    // else if (njets==2)    
     else if (njets>=2)
       {
 	//ff_qcd= get_BinContent(ff_qcd_2jet_tt, pt);
@@ -221,8 +223,7 @@ public:
           else                             ff_qcd = ff_qcd * corr;
         }
       }
-    if (ff_qcd<0)
-      ff_qcd = -1*ff_qcd;
+
       //cout<<__LINE__<<"     ff_qcd = "<<ff_qcd<<endl;
     
     double visCorr = 1.0;
@@ -249,7 +250,8 @@ public:
     if (shift=="njet_up") ff_qcd = ff_qcd * 1.05;
     else if (shift=="njet_down") ff_qcd = ff_qcd * 0.95;
 
-    
+    if (ff_qcd<0)
+      ff_qcd = -1*ff_qcd;    
     return ff_qcd;
   }
   

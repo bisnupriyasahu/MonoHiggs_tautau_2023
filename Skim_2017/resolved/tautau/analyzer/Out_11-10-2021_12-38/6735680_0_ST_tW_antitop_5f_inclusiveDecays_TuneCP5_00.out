@@ -1,0 +1,58 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:28880
+Running over 28880 events.
+Finished entry 0/28879
+Finished entry 1000/28879
+Finished entry 2000/28879
+Finished entry 3000/28879
+Finished entry 4000/28879
+Finished entry 5000/28879
+Finished entry 6000/28879
+Finished entry 7000/28879
+Finished entry 8000/28879
+Finished entry 9000/28879
+Finished entry 10000/28879
+Finished entry 11000/28879
+Finished entry 12000/28879
+Finished entry 13000/28879
+Finished entry 14000/28879
+Finished entry 15000/28879
+Finished entry 16000/28879
+Finished entry 17000/28879
+Finished entry 18000/28879
+Finished entry 19000/28879
+Finished entry 20000/28879
+Finished entry 21000/28879
+Finished entry 22000/28879
+Finished entry 23000/28879
+Finished entry 24000/28879
+Finished entry 25000/28879
+Finished entry 26000/28879
+Finished entry 27000/28879
+Finished entry 28000/28879
+Finished entry 28879/28879
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 28880.000000
+   Passing smikking 0.000000
+Inspected genWeightd 28586.000000   % change= 1.018006
+   METFiltersPassed 27242.332796   % change= 4.700438
+    SingleTrgPassed 6480.609077   % change= 76.211255
+     GoodMuonPassed 3861.573187   % change= 40.413422
+      GoodTauPassed 910.145401   % change= 76.430710
+         opp charge 846.438866   % change= 6.999600
+ PassedThirdLepVeto 577.403638   % change= 31.784366
+     PassedBjetVeto 577.403638   % change= 0.000000
+       DeltaRPassed 573.735709   % change= 0.635245
+      Total change :98.013381
+*******************************************
+*******************************************
+Number of events inspected: 28880
+Number of events inspected (minus negative gen. weights): 28586.000000
+ Outpt written to ST_tW_antitop_5f_inclusiveDecays_TuneCP5_00.root
+Real time 0:00:30, CP time 22.480

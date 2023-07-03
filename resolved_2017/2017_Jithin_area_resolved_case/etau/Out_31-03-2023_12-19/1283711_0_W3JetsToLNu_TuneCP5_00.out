@@ -1,0 +1,91 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** wjet sample found
+sample ==========W3JetsToLNu_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:336381
+Running over 336381 events.
+Finished entry 0/336380
+Finished entry 10000/336380
+Finished entry 20000/336380
+Finished entry 30000/336380
+Finished entry 40000/336380
+Finished entry 50000/336380
+Finished entry 60000/336380
+Finished entry 70000/336380
+Finished entry 80000/336380
+Finished entry 90000/336380
+Finished entry 100000/336380
+Finished entry 110000/336380
+Finished entry 120000/336380
+Finished entry 130000/336380
+Finished entry 140000/336380
+Finished entry 150000/336380
+Finished entry 160000/336380
+Finished entry 170000/336380
+Finished entry 180000/336380
+Finished entry 190000/336380
+Finished entry 200000/336380
+Finished entry 210000/336380
+Finished entry 220000/336380
+Finished entry 230000/336380
+Finished entry 240000/336380
+Finished entry 250000/336380
+Finished entry 260000/336380
+Finished entry 270000/336380
+Finished entry 280000/336380
+Finished entry 290000/336380
+Finished entry 300000/336380
+Finished entry 310000/336380
+Finished entry 320000/336380
+Finished entry 330000/336380
+Finished entry 336380/336380
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 336381.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 4883562.709155   % change= -2540.256455
+      GoodTauPassed 103275.783070   % change= 97.885237
+         opp charge 81634.944797   % change= 20.954417
+ PassedThirdLepVeto 45296.379846   % change= 44.513492
+     PassedBjetVeto 43853.635019   % change= 3.185122
+       DeltaRPassed 43695.780613   % change= 0.359957
+      Total change :87.010033
+*******************************************
+*******************************************
+Number of events inspected: 336381
+Number of events inspected (minus negative gen. weights): 336305.000000
+ Outpt written to W3JetsToLNu_TuneCP5_00.root
+Real time 0:21:26, CP time 1025.980

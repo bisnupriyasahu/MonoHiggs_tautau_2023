@@ -1,0 +1,80 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** wjet sample found
+sample ==========W2JetsToLNu_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:176301
+Running over 176301 events.
+Finished entry 0/176300
+Finished entry 8000/176300
+Finished entry 16000/176300
+Finished entry 24000/176300
+Finished entry 32000/176300
+Finished entry 40000/176300
+Finished entry 48000/176300
+Finished entry 56000/176300
+Finished entry 64000/176300
+Finished entry 72000/176300
+Finished entry 80000/176300
+Finished entry 88000/176300
+Finished entry 96000/176300
+Finished entry 104000/176300
+Finished entry 112000/176300
+Finished entry 120000/176300
+Finished entry 128000/176300
+Finished entry 136000/176300
+Finished entry 144000/176300
+Finished entry 152000/176300
+Finished entry 160000/176300
+Finished entry 168000/176300
+Finished entry 176000/176300
+Finished entry 176300/176300
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 176301.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 2632440.743819   % change= -2554.045753
+      GoodTauPassed 55046.065890   % change= 97.908934
+         opp charge 44911.283275   % change= 18.411457
+ PassedThirdLepVeto 23892.094581   % change= 46.801577
+     PassedBjetVeto 23479.353089   % change= 1.727523
+       DeltaRPassed 23438.177999   % change= 0.175367
+      Total change :86.705590
+*******************************************
+*******************************************
+Number of events inspected: 176301
+Number of events inspected (minus negative gen. weights): 176295.000000
+ Outpt written to W2JetsToLNu_TuneCP5_00.root
+Real time 0:08:17, CP time 419.160

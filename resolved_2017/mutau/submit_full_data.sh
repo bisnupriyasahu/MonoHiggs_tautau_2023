@@ -1,4 +1,4 @@
-
+65;6800;1c
 outDir="Out_$(date +"%d-%m-%Y_%H-%M")" 
 mkdir $outDir 
 

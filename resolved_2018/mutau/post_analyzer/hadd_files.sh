@@ -40,11 +40,8 @@ hadd files_initial/ST_t-channel_top_final.root ../output/ST_t-channel_top_00.roo
 hadd files_initial/ST_tW_antitop_final.root ../output/ST_tW_antitop_00.root 
 hadd files_initial/ST_tW_top_final.root ../output/ST_tW_top_00.root 
 hadd files_initial/SingleMuonA_final.root ../output/SingleMuonA_00.root ../output/SingleMuonA_01.root ../output/SingleMuonA_02.root ../output/SingleMuonA_03.root ../output/SingleMuonA_04.root ../output/SingleMuonA_05.root ../output/SingleMuonA_06.root 
-hadd files_initial/SingleMuonA_full_final.root ../output/SingleMuonA_full_00.root ../output/SingleMuonA_full_01.root ../output/SingleMuonA_full_02.root ../output/SingleMuonA_full_03.root ../output/SingleMuonA_full_04.root ../output/SingleMuonA_full_05.root ../output/SingleMuonA_full_06.root 
 hadd files_initial/SingleMuonB_final.root ../output/SingleMuonB_00.root ../output/SingleMuonB_01.root ../output/SingleMuonB_02.root ../output/SingleMuonB_03.root ../output/SingleMuonB_04.root 
-hadd files_initial/SingleMuonB_full_final.root ../output/SingleMuonB_full_00.root ../output/SingleMuonB_full_01.root ../output/SingleMuonB_full_02.root ../output/SingleMuonB_full_03.root ../output/SingleMuonB_full_04.root 
 hadd files_initial/SingleMuonC_final.root ../output/SingleMuonC_00.root ../output/SingleMuonC_01.root ../output/SingleMuonC_02.root ../output/SingleMuonC_03.root 
-hadd files_initial/SingleMuonC_full_final.root ../output/SingleMuonC_full_00.root ../output/SingleMuonC_full_01.root ../output/SingleMuonC_full_02.root ../output/SingleMuonC_full_03.root 
 hadd files_initial/SingleMuonD_PromptReco_final.root ../output/SingleMuonD_PromptReco_00.root ../output/SingleMuonD_PromptReco_01.root ../output/SingleMuonD_PromptReco_02.root ../output/SingleMuonD_PromptReco_03.root ../output/SingleMuonD_PromptReco_04.root ../output/SingleMuonD_PromptReco_05.root ../output/SingleMuonD_PromptReco_06.root ../output/SingleMuonD_PromptReco_07.root ../output/SingleMuonD_PromptReco_08.root ../output/SingleMuonD_PromptReco_09.root ../output/SingleMuonD_PromptReco_10.root ../output/SingleMuonD_PromptReco_11.root 
 hadd files_initial/TTTo2L2Nu_powheg_final.root ../output/TTTo2L2Nu_powheg_00.root ../output/TTTo2L2Nu_powheg_01.root ../output/TTTo2L2Nu_powheg_02.root ../output/TTTo2L2Nu_powheg_03.root ../output/TTTo2L2Nu_powheg_04.root ../output/TTTo2L2Nu_powheg_05.root ../output/TTTo2L2Nu_powheg_06.root 
 hadd files_initial/TTToHadronic_powheg_final.root ../output/TTToHadronic_powheg_00.root ../output/TTToHadronic_powheg_01.root ../output/TTToHadronic_powheg_02.root ../output/TTToHadronic_powheg_03.root ../output/TTToHadronic_powheg_04.root ../output/TTToHadronic_powheg_05.root ../output/TTToHadronic_powheg_06.root ../output/TTToHadronic_powheg_07.root ../output/TTToHadronic_powheg_08.root ../output/TTToHadronic_powheg_09.root ../output/TTToHadronic_powheg_10.root ../output/TTToHadronic_powheg_11.root ../output/TTToHadronic_powheg_12.root ../output/TTToHadronic_powheg_13.root ../output/TTToHadronic_powheg_14.root 
@@ -53,7 +50,7 @@ hadd files_initial/VBFHToTauTau_final.root ../output/VBFHToTauTau_00.root
 hadd files_initial/VBFHToWWTo2L2Nu_final.root ../output/VBFHToWWTo2L2Nu_00.root 
 hadd files_initial/VVTo2L2Nu_final.root ../output/VVTo2L2Nu_00.root 
 hadd files_initial/W1JetsToLNu_final.root ../output/W1JetsToLNu_00.root ../output/W1JetsToLNu_01.root ../output/W1JetsToLNu_02.root ../output/W1JetsToLNu_03.root ../output/W1JetsToLNu_04.root ../output/W1JetsToLNu_05.root 
-hadd files_initial/W2JetsToLNu_final.root ../output/W2JetsToLNu_00.root ../output/W2JetsToLNu_01.root ../output/W2JetsToLNu_02.root 
+hadd files_initial/W2JetsToLNu_final.root ../output/W2JetsToLNu_00.root ../output/W2JetsToLNu_02.root 
 hadd files_initial/W3JetsToLNu_final.root ../output/W3JetsToLNu_00.root ../output/W3JetsToLNu_01.root 
 hadd files_initial/W4JetsToLNu_final.root ../output/W4JetsToLNu_00.root ../output/W4JetsToLNu_01.root 
 hadd files_initial/WGToLNuG_final.root ../output/WGToLNuG_00.root 
@@ -88,49 +85,53 @@ hadd files_initial/ZJetsToNuNu_HT800-1200_final.root ../output/ZJetsToNuNu_HT800
 hadd files_initial/ZZTo2L2Q_final.root ../output/ZZTo2L2Q_00.root ../output/ZZTo2L2Q_01.root ../output/ZZTo2L2Q_02.root 
 hadd files_initial/ZZTo4L_final.root ../output/ZZTo4L_00.root 
 hadd files_initial/ZZZ_final.root ../output/ZZZ_00.root 
-hadd files_initial/Signal_ZpBaryonic2017_1_final.root ../output/Zpbaryonic2018_1.root 
-hadd files_initial/Signal_ZpBaryonic2017_10_final.root ../output/Zpbaryonic2018_10.root 
-hadd files_initial/Signal_ZpBaryonic2017_11_final.root ../output/Zpbaryonic2018_11.root 
-hadd files_initial/Signal_ZpBaryonic2017_12_final.root ../output/Zpbaryonic2018_12.root 
-hadd files_initial/Signal_ZpBaryonic2017_13_final.root ../output/Zpbaryonic2018_13.root 
-hadd files_initial/Signal_ZpBaryonic2017_14_final.root ../output/Zpbaryonic2018_14.root 
-hadd files_initial/Signal_ZpBaryonic2017_15_final.root ../output/Zpbaryonic2018_15.root 
-hadd files_initial/Signal_ZpBaryonic2017_16_final.root ../output/Zpbaryonic2018_16.root 
-hadd files_initial/Signal_ZpBaryonic2017_17_final.root ../output/Zpbaryonic2018_17.root 
-hadd files_initial/Signal_ZpBaryonic2017_18_final.root ../output/Zpbaryonic2018_18.root 
-hadd files_initial/Signal_ZpBaryonic2017_19_final.root ../output/Zpbaryonic2018_19.root 
-hadd files_initial/Signal_ZpBaryonic2017_2_final.root ../output/Zpbaryonic2018_2.root 
-hadd files_initial/Signal_ZpBaryonic2017_20_final.root ../output/Zpbaryonic2018_20.root 
-hadd files_initial/Signal_ZpBaryonic2017_21_final.root ../output/Zpbaryonic2018_21.root 
-hadd files_initial/Signal_ZpBaryonic2017_22_final.root ../output/Zpbaryonic2018_22.root 
-hadd files_initial/Signal_ZpBaryonic2017_23_final.root ../output/Zpbaryonic2018_23.root 
-hadd files_initial/Signal_ZpBaryonic2017_24_final.root ../output/Zpbaryonic2018_24.root 
-hadd files_initial/Signal_ZpBaryonic2017_25_final.root ../output/Zpbaryonic2018_25.root 
-hadd files_initial/Signal_ZpBaryonic2017_26_final.root ../output/Zpbaryonic2018_26.root 
-hadd files_initial/Signal_ZpBaryonic2017_27_final.root ../output/Zpbaryonic2018_27.root 
-hadd files_initial/Signal_ZpBaryonic2017_28_final.root ../output/Zpbaryonic2018_28.root 
-hadd files_initial/Signal_ZpBaryonic2017_29_final.root ../output/Zpbaryonic2018_29.root 
-hadd files_initial/Signal_ZpBaryonic2017_3_final.root ../output/Zpbaryonic2018_3.root 
-hadd files_initial/Signal_ZpBaryonic2017_30_final.root ../output/Zpbaryonic2018_30.root 
-hadd files_initial/Signal_ZpBaryonic2017_31_final.root ../output/Zpbaryonic2018_31.root 
-hadd files_initial/Signal_ZpBaryonic2017_32_final.root ../output/Zpbaryonic2018_32.root 
-hadd files_initial/Signal_ZpBaryonic2017_33_final.root ../output/Zpbaryonic2018_33.root 
-hadd files_initial/Signal_ZpBaryonic2017_34_final.root ../output/Zpbaryonic2018_34.root 
-hadd files_initial/Signal_ZpBaryonic2017_35_final.root ../output/Zpbaryonic2018_35.root 
-hadd files_initial/Signal_ZpBaryonic2017_36_final.root ../output/Zpbaryonic2018_36.root 
-hadd files_initial/Signal_ZpBaryonic2017_37_final.root ../output/Zpbaryonic2018_37.root 
-hadd files_initial/Signal_ZpBaryonic2017_38_final.root ../output/Zpbaryonic2018_38.root 
-hadd files_initial/Signal_ZpBaryonic2017_39_final.root ../output/Zpbaryonic2018_39.root 
-hadd files_initial/Signal_ZpBaryonic2017_4_final.root ../output/Zpbaryonic2018_4.root 
-hadd files_initial/Signal_ZpBaryonic2017_40_final.root ../output/Zpbaryonic2018_40.root 
-hadd files_initial/Signal_ZpBaryonic2017_41_final.root ../output/Zpbaryonic2018_41.root 
-hadd files_initial/Signal_ZpBaryonic2017_42_final.root ../output/Zpbaryonic2018_42.root 
-hadd files_initial/Signal_ZpBaryonic2017_43_final.root ../output/Zpbaryonic2018_43.root 
-hadd files_initial/Signal_ZpBaryonic2017_5_final.root ../output/Zpbaryonic2018_5.root 
-hadd files_initial/Signal_ZpBaryonic2017_6_final.root ../output/Zpbaryonic2018_6.root 
-hadd files_initial/Signal_ZpBaryonic2017_7_final.root ../output/Zpbaryonic2018_7.root 
-hadd files_initial/Signal_ZpBaryonic2017_8_final.root ../output/Zpbaryonic2018_8.root 
-hadd files_initial/Signal_ZpBaryonic2017_9_final.root ../output/Zpbaryonic2018_9.root 
+hadd files_initial/fullLumi_SingleMuonA_final.root ../output/fullLumi_SingleMuonA_00.root ../output/fullLumi_SingleMuonA_01.root ../output/fullLumi_SingleMuonA_02.root ../output/fullLumi_SingleMuonA_03.root ../output/fullLumi_SingleMuonA_04.root ../output/fullLumi_SingleMuonA_05.root ../output/fullLumi_SingleMuonA_06.root 
+hadd files_initial/fullLumi_SingleMuonB_final.root ../output/fullLumi_SingleMuonB_00.root ../output/fullLumi_SingleMuonB_01.root ../output/fullLumi_SingleMuonB_02.root ../output/fullLumi_SingleMuonB_03.root ../output/fullLumi_SingleMuonB_04.root 
+hadd files_initial/fullLumi_SingleMuonC_final.root ../output/fullLumi_SingleMuonC_00.root ../output/fullLumi_SingleMuonC_01.root ../output/fullLumi_SingleMuonC_02.root ../output/fullLumi_SingleMuonC_03.root 
+hadd files_initial/fullLumi_SingleMuonD_PromptReco_final.root ../output/fullLumi_SingleMuonD_PromptReco_00.root ../output/fullLumi_SingleMuonD_PromptReco_01.root ../output/fullLumi_SingleMuonD_PromptReco_02.root ../output/fullLumi_SingleMuonD_PromptReco_03.root ../output/fullLumi_SingleMuonD_PromptReco_04.root ../output/fullLumi_SingleMuonD_PromptReco_05.root ../output/fullLumi_SingleMuonD_PromptReco_06.root ../output/fullLumi_SingleMuonD_PromptReco_07.root ../output/fullLumi_SingleMuonD_PromptReco_08.root ../output/fullLumi_SingleMuonD_PromptReco_09.root ../output/fullLumi_SingleMuonD_PromptReco_10.root ../output/fullLumi_SingleMuonD_PromptReco_11.root 
+hadd files_initial/Signal_ZpBaryonic2018_1_final.root ../output/Signal_ZpBaryonic_2017_1.root 
+hadd files_initial/Signal_ZpBaryonic2018_10_final.root ../output/Signal_ZpBaryonic_2017_10.root 
+hadd files_initial/Signal_ZpBaryonic2018_11_final.root ../output/Signal_ZpBaryonic_2017_11.root 
+hadd files_initial/Signal_ZpBaryonic2018_12_final.root ../output/Signal_ZpBaryonic_2017_12.root 
+hadd files_initial/Signal_ZpBaryonic2018_13_final.root ../output/Signal_ZpBaryonic_2017_13.root 
+hadd files_initial/Signal_ZpBaryonic2018_14_final.root ../output/Signal_ZpBaryonic_2017_14.root 
+hadd files_initial/Signal_ZpBaryonic2018_15_final.root ../output/Signal_ZpBaryonic_2017_15.root 
+hadd files_initial/Signal_ZpBaryonic2018_16_final.root ../output/Signal_ZpBaryonic_2017_16.root 
+hadd files_initial/Signal_ZpBaryonic2018_17_final.root ../output/Signal_ZpBaryonic_2017_17.root 
+hadd files_initial/Signal_ZpBaryonic2018_18_final.root ../output/Signal_ZpBaryonic_2017_18.root 
+hadd files_initial/Signal_ZpBaryonic2018_19_final.root ../output/Signal_ZpBaryonic_2017_19.root 
+hadd files_initial/Signal_ZpBaryonic2018_2_final.root ../output/Signal_ZpBaryonic_2017_2.root 
+hadd files_initial/Signal_ZpBaryonic2018_20_final.root ../output/Signal_ZpBaryonic_2017_20.root 
+hadd files_initial/Signal_ZpBaryonic2018_21_final.root ../output/Signal_ZpBaryonic_2017_21.root 
+hadd files_initial/Signal_ZpBaryonic2018_22_final.root ../output/Signal_ZpBaryonic_2017_22.root 
+hadd files_initial/Signal_ZpBaryonic2018_23_final.root ../output/Signal_ZpBaryonic_2017_23.root 
+hadd files_initial/Signal_ZpBaryonic2018_24_final.root ../output/Signal_ZpBaryonic_2017_24.root 
+hadd files_initial/Signal_ZpBaryonic2018_25_final.root ../output/Signal_ZpBaryonic_2017_25.root 
+hadd files_initial/Signal_ZpBaryonic2018_26_final.root ../output/Signal_ZpBaryonic_2017_26.root 
+hadd files_initial/Signal_ZpBaryonic2018_27_final.root ../output/Signal_ZpBaryonic_2017_27.root 
+hadd files_initial/Signal_ZpBaryonic2018_28_final.root ../output/Signal_ZpBaryonic_2017_28.root 
+hadd files_initial/Signal_ZpBaryonic2018_29_final.root ../output/Signal_ZpBaryonic_2017_29.root 
+hadd files_initial/Signal_ZpBaryonic2018_3_final.root ../output/Signal_ZpBaryonic_2017_3.root 
+hadd files_initial/Signal_ZpBaryonic2018_30_final.root ../output/Signal_ZpBaryonic_2017_30.root 
+hadd files_initial/Signal_ZpBaryonic2018_31_final.root ../output/Signal_ZpBaryonic_2017_31.root 
+hadd files_initial/Signal_ZpBaryonic2018_32_final.root ../output/Signal_ZpBaryonic_2017_32.root 
+hadd files_initial/Signal_ZpBaryonic2018_33_final.root ../output/Signal_ZpBaryonic_2017_33.root 
+hadd files_initial/Signal_ZpBaryonic2018_34_final.root ../output/Signal_ZpBaryonic_2017_34.root 
+hadd files_initial/Signal_ZpBaryonic2018_35_final.root ../output/Signal_ZpBaryonic_2017_35.root 
+hadd files_initial/Signal_ZpBaryonic2018_36_final.root ../output/Signal_ZpBaryonic_2017_36.root 
+hadd files_initial/Signal_ZpBaryonic2018_37_final.root ../output/Signal_ZpBaryonic_2017_37.root 
+hadd files_initial/Signal_ZpBaryonic2018_38_final.root ../output/Signal_ZpBaryonic_2017_38.root 
+hadd files_initial/Signal_ZpBaryonic2018_39_final.root ../output/Signal_ZpBaryonic_2017_39.root 
+hadd files_initial/Signal_ZpBaryonic2018_4_final.root ../output/Signal_ZpBaryonic_2017_4.root 
+hadd files_initial/Signal_ZpBaryonic2018_40_final.root ../output/Signal_ZpBaryonic_2017_40.root 
+hadd files_initial/Signal_ZpBaryonic2018_41_final.root ../output/Signal_ZpBaryonic_2017_41.root 
+hadd files_initial/Signal_ZpBaryonic2018_42_final.root ../output/Signal_ZpBaryonic_2017_42.root 
+hadd files_initial/Signal_ZpBaryonic2018_43_final.root ../output/Signal_ZpBaryonic_2017_43.root 
+hadd files_initial/Signal_ZpBaryonic2018_5_final.root ../output/Signal_ZpBaryonic_2017_5.root 
+hadd files_initial/Signal_ZpBaryonic2018_6_final.root ../output/Signal_ZpBaryonic_2017_6.root 
+hadd files_initial/Signal_ZpBaryonic2018_7_final.root ../output/Signal_ZpBaryonic_2017_7.root 
+hadd files_initial/Signal_ZpBaryonic2018_8_final.root ../output/Signal_ZpBaryonic_2017_8.root 
+hadd files_initial/Signal_ZpBaryonic2018_9_final.root ../output/Signal_ZpBaryonic_2017_9.root 
 hadd files_initial/Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root ../output/2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200.root 
 hadd files_initial/Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200_final.root ../output/2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200.root 
 hadd files_initial/Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150_final.root ../output/2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_150.root 

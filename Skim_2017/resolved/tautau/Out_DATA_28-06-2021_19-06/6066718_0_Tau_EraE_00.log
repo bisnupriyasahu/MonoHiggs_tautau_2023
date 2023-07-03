@@ -1,0 +1,51 @@
+000 (6066718.000.000) 06/28 19:07:02 Job submitted from host: <144.92.181.244:9618?addrs=144.92.181.244-9618+[2607-f388-101c-1000--371]-9618&noUDP&sock=2237_f972_3>
+...
+001 (6066718.000.000) 06/28 23:36:37 Job executing on host: <144.92.180.108:9618?addrs=144.92.180.108-9618+[2607-f388-101c-1000--629]-9618&noUDP&sock=2492_e219_3>
+...
+006 (6066718.000.000) 06/28 23:36:46 Image size of job updated: 357000
+	105  -  MemoryUsage of job (MB)
+	106716  -  ResidentSetSize of job (KB)
+...
+006 (6066718.000.000) 06/28 23:56:47 Image size of job updated: 788452
+	463  -  MemoryUsage of job (MB)
+	473444  -  ResidentSetSize of job (KB)
+...
+006 (6066718.000.000) 06/29 00:16:48 Image size of job updated: 788452
+	463  -  MemoryUsage of job (MB)
+	473576  -  ResidentSetSize of job (KB)
+...
+006 (6066718.000.000) 06/29 00:36:49 Image size of job updated: 788452
+	463  -  MemoryUsage of job (MB)
+	473708  -  ResidentSetSize of job (KB)
+...
+006 (6066718.000.000) 06/29 01:16:49 Image size of job updated: 788452
+	463  -  MemoryUsage of job (MB)
+	473972  -  ResidentSetSize of job (KB)
+...
+006 (6066718.000.000) 06/29 01:56:51 Image size of job updated: 788452
+	463  -  MemoryUsage of job (MB)
+	474084  -  ResidentSetSize of job (KB)
+...
+022 (6066718.000.000) 06/29 02:00:24 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot1_9@g26n06.hep.wisc.edu <144.92.180.108:9618?addrs=144.92.180.108-9618+[2607-f388-101c-1000--629]-9618&noUDP&sock=2492_e219_3>
+...
+023 (6066718.000.000) 06/29 02:00:24 Job reconnected to slot1_9@g26n06.hep.wisc.edu
+    startd address: <144.92.180.108:9618?addrs=144.92.180.108-9618+[2607-f388-101c-1000--629]-9618&noUDP&sock=2492_e219_3>
+    starter address: <144.92.180.108:9618?addrs=144.92.180.108-9618+[2607-f388-101c-1000--629]-9618&noUDP&sock=13938_54f0_5637>
+...
+005 (6066718.000.000) 06/29 02:01:13 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:36:09, Sys 0 00:02:07  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:36:09, Sys 0 00:02:07  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	1586926336  -  Run Bytes Sent By Job
+	218181  -  Run Bytes Received By Job
+	1586926336  -  Total Bytes Sent By Job
+	218181  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.02        1         1 
+	   Disk (KB)            : 1550009     2048000  18353864 
+	   Memory (MB)          :     463        1992      2048 
+...

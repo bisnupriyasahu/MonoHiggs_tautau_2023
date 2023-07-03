@@ -1,0 +1,59 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:580275
+Running over 580275 events.
+Finished entry 0/580274
+Finished entry 20000/580274
+Finished entry 40000/580274
+Finished entry 60000/580274
+Finished entry 80000/580274
+Finished entry 100000/580274
+Finished entry 120000/580274
+Finished entry 140000/580274
+Finished entry 160000/580274
+Finished entry 180000/580274
+Finished entry 200000/580274
+Finished entry 220000/580274
+Finished entry 240000/580274
+Finished entry 260000/580274
+Finished entry 280000/580274
+Finished entry 300000/580274
+Finished entry 320000/580274
+Finished entry 340000/580274
+Finished entry 360000/580274
+Finished entry 380000/580274
+Finished entry 400000/580274
+Finished entry 420000/580274
+Finished entry 440000/580274
+Finished entry 460000/580274
+Finished entry 480000/580274
+Finished entry 500000/580274
+Finished entry 520000/580274
+Finished entry 540000/580274
+Finished entry 560000/580274
+Finished entry 580000/580274
+Finished entry 580274/580274
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 580275.000000
+   Passing smikking 0.000000
+Inspected genWeightd 580275.000000   % change= 0.000000
+   METFiltersPassed 578924.000000   % change= 0.232821
+    SingleTrgPassed 562347.000000   % change= 2.863416
+     GoodMuonPassed 149416.000000   % change= 73.429928
+      GoodTauPassed 9039.000000   % change= 93.950447
+         opp charge 9039.000000   % change= 0.000000
+ PassedThirdLepVeto 8973.000000   % change= 0.730169
+     PassedBjetVeto 8521.000000   % change= 5.037334
+       DeltaRPassed 8518.000000   % change= 0.035207
+      Total change :98.532075
+*******************************************
+*******************************************
+Number of events inspected: 580275
+Number of events inspected (minus negative gen. weights): 580275.000000
+ Outpt written to TauA_01.root
+Real time 0:02:53, CP time 106.190

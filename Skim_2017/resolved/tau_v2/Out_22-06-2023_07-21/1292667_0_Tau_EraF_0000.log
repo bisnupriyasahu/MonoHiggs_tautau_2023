@@ -1,0 +1,42 @@
+000 (1292667.000.000) 2023-06-22 07:21:39 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_3107_b8d8>
+...
+040 (1292667.000.000) 2023-06-22 14:42:19 Started transferring input files
+	Transferring to host: <144.92.180.119:9618?addrs=144.92.180.119-9618+[2607-f388-101c-1000--291]-9618&alias=g26n17.hep.wisc.edu&noUDP&sock=slot1_10_4155_52c2_70850>
+...
+040 (1292667.000.000) 2023-06-22 14:42:19 Finished transferring input files
+...
+001 (1292667.000.000) 2023-06-22 14:42:20 Job executing on host: <144.92.180.119:9618?addrs=144.92.180.119-9618+[2607-f388-101c-1000--291]-9618&alias=g26n17.hep.wisc.edu&noUDP&sock=startd_3626_b67f>
+...
+006 (1292667.000.000) 2023-06-22 14:42:29 Image size of job updated: 92800
+	85  -  MemoryUsage of job (MB)
+	86332  -  ResidentSetSize of job (KB)
+...
+006 (1292667.000.000) 2023-06-22 15:02:30 Image size of job updated: 960224
+	437  -  MemoryUsage of job (MB)
+	447272  -  ResidentSetSize of job (KB)
+...
+006 (1292667.000.000) 2023-06-22 17:22:33 Image size of job updated: 960224
+	437  -  MemoryUsage of job (MB)
+	447404  -  ResidentSetSize of job (KB)
+...
+040 (1292667.000.000) 2023-06-22 18:05:06 Started transferring output files
+...
+040 (1292667.000.000) 2023-06-22 18:05:06 Finished transferring output files
+...
+005 (1292667.000.000) 2023-06-22 18:05:06 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 01:14:40, Sys 0 00:03:53  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 01:14:40, Sys 0 00:03:53  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	102222  -  Run Bytes Sent By Job
+	206716  -  Run Bytes Received By Job
+	102222  -  Total Bytes Sent By Job
+	206716  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.07        1         1 
+	   Disk (KB)            : 2542506     2097152  18360017 
+	   Memory (MB)          :     437        2048      2500 
+
+	Job terminated of its own accord at 2023-06-22T23:05:06Z.
+...

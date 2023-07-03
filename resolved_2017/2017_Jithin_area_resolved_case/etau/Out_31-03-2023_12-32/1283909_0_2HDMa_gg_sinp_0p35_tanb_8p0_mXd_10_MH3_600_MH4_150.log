@@ -1,0 +1,38 @@
+000 (1283909.000.000) 2023-03-31 12:36:29 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_2816_1ec8>
+...
+040 (1283909.000.000) 2023-03-31 12:36:58 Started transferring input files
+	Transferring to host: <144.92.180.122:9618?addrs=144.92.180.122-9618+[2607-f388-101c-1000--294]-9618&alias=g26n20.hep.wisc.edu&noUDP&sock=slot1_26_3561_cbea_540874>
+...
+040 (1283909.000.000) 2023-03-31 12:37:48 Finished transferring input files
+...
+001 (1283909.000.000) 2023-03-31 12:37:49 Job executing on host: <144.92.180.122:9618?addrs=144.92.180.122-9618+[2607-f388-101c-1000--294]-9618&alias=g26n20.hep.wisc.edu&noUDP&sock=startd_3035_5606>
+...
+006 (1283909.000.000) 2023-03-31 12:37:57 Image size of job updated: 1001980
+	371  -  MemoryUsage of job (MB)
+	379236  -  ResidentSetSize of job (KB)
+...
+006 (1283909.000.000) 2023-03-31 12:39:42 Image size of job updated: 1390472
+	371  -  MemoryUsage of job (MB)
+	379236  -  ResidentSetSize of job (KB)
+...
+040 (1283909.000.000) 2023-03-31 12:39:42 Started transferring output files
+...
+040 (1283909.000.000) 2023-03-31 12:39:42 Finished transferring output files
+...
+005 (1283909.000.000) 2023-03-31 12:39:43 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:15, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:15, Sys 0 00:00:03  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13566632  -  Run Bytes Sent By Job
+	315801312  -  Run Bytes Received By Job
+	13566632  -  Total Bytes Sent By Job
+	315801312  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.74        1         1 
+	   Disk (KB)            : 321714     2097152  18347456 
+	   Memory (MB)          :    371        2048      2500 
+
+	Job terminated of its own accord at 2023-03-31T17:39:42Z.
+...

@@ -41,9 +41,11 @@ def get_DYJets_weight():
     final_weights = {}
     for sample, lumi in lumi_map.items():
         denominator = lumi + lumi_map['ZTTjet_inc']
+        #denominator = lumi
         if sample=='ZTTjet_inc':
             denominator = lumi 
-        final_weights[sample] = LO_to_NNLO_correction_factor * luminosity * 1000 / denominator
+        #final_weights[sample] = LO_to_NNLO_correction_factor * luminosity * 1000 / denominator
+        final_weights[sample] =  luminosity * 1000 / denominator
         
     for s in final_weights:
         print(s, final_weights[s])

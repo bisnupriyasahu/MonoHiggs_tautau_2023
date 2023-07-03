@@ -24,7 +24,8 @@ public:
   {
     //std::cout<<"triggerSF_ditau constructed"<<endl;
     //std::cout<<"isolation = "<<isolation<< "  isVBF="<<isVBF<<endl;
-    tauTriggerEff_2018 = TFile::Open("sf_files/TauTriggerSFs/data/2018_tauTriggerEff_DeepTau2017v2p1.root");
+    //tauTriggerEff_2018 = TFile::Open("sf_files/TauTriggerSFs/data/2018_tauTriggerEff_DeepTau2017v2p1.root");
+    tauTriggerEff_2018 = TFile::Open("sf_files/TauTriggerSFs/data/2017_tauTriggerEff_DeepTau2017v2p1.root");
     vbf="";
     if(isVBF){
       vbf="vbf";

@@ -1,0 +1,39 @@
+000 (1283886.000.000) 2023-03-31 12:35:07 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_2816_1ec8>
+...
+040 (1283886.000.000) 2023-03-31 12:35:44 Started transferring input files
+	Transferring to host: <128.105.68.142:9618?addrs=128.105.68.142-9618+[2607-f388-2200-100-fac2-88ff-fe67-8439]-9618&alias=e2420.chtc.wisc.edu&noUDP&sock=slot1_14_29952_a4bb_31208>
+...
+040 (1283886.000.000) 2023-03-31 12:37:25 Finished transferring input files
+...
+001 (1283886.000.000) 2023-03-31 12:37:26 Job executing on host: <128.105.68.142:9618?addrs=128.105.68.142-9618+[2607-f388-2200-100-fac2-88ff-fe67-8439]-9618&alias=e2420.chtc.wisc.edu&noUDP&sock=startd_7760_4b03>
+...
+006 (1283886.000.000) 2023-03-31 12:37:34 Image size of job updated: 196464
+	44  -  MemoryUsage of job (MB)
+	44064  -  ResidentSetSize of job (KB)
+...
+006 (1283886.000.000) 2023-03-31 12:42:20 Image size of job updated: 1402392
+	44  -  MemoryUsage of job (MB)
+	44064  -  ResidentSetSize of job (KB)
+...
+040 (1283886.000.000) 2023-03-31 12:42:20 Started transferring output files
+...
+040 (1283886.000.000) 2023-03-31 12:42:20 Finished transferring output files
+...
+005 (1283886.000.000) 2023-03-31 12:42:21 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:03:01, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:03:01, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	13642260  -  Run Bytes Sent By Job
+	315801312  -  Run Bytes Received By Job
+	13642260  -  Total Bytes Sent By Job
+	315801312  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.07        1         1 
+	   Disk (KB)            : 321790     2097152   2343129 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :     44        2048      2048 
+
+	Job terminated of its own accord at 2023-03-31T17:42:20Z.
+...

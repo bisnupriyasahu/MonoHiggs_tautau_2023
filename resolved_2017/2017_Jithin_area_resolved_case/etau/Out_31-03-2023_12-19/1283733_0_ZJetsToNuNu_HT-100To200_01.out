@@ -1,0 +1,77 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========ZJetsToNuNu_HT-100To200_01
+.... MC file ..... 
+Coming in: 
+nentries:18446
+Running over 18446 events.
+Finished entry 0/18445
+Finished entry 900/18445
+Finished entry 1800/18445
+Finished entry 2700/18445
+Finished entry 3600/18445
+Finished entry 4500/18445
+Finished entry 5400/18445
+Finished entry 6300/18445
+Finished entry 7200/18445
+Finished entry 8100/18445
+Finished entry 9000/18445
+Finished entry 9900/18445
+Finished entry 10800/18445
+Finished entry 11700/18445
+Finished entry 12600/18445
+Finished entry 13500/18445
+Finished entry 14400/18445
+Finished entry 15300/18445
+Finished entry 16200/18445
+Finished entry 17100/18445
+Finished entry 18000/18445
+Finished entry 18445/18445
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 18446.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 925.144952   % change= -531.185112
+      GoodTauPassed 0.000000   % change= 100.000000
+         opp charge 0.000000   % change= -nan
+ PassedThirdLepVeto 0.000000   % change= -nan
+     PassedBjetVeto 0.000000   % change= -nan
+       DeltaRPassed 0.000000   % change= -nan
+      Total change :100.000000
+*******************************************
+*******************************************
+Number of events inspected: 18446
+Number of events inspected (minus negative gen. weights): 18430.000000
+ Outpt written to ZJetsToNuNu_HT-100To200_01.root
+Real time 0:00:30, CP time 14.210

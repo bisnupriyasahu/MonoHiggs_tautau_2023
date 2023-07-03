@@ -9,8 +9,8 @@ std::vector<int> tautau_analyzer::getTauCand_noID(double tauPtCut, double tauEta
       dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau2 = applyTauESCorrections(dau2, iTau, shift);
+      //if(is_MC)
+      //dau2 = applyTauESCorrections(dau2, iTau, shift);
       bool kinematic = false;
       bool tauId = false;
       bool decayModeCut = false;
@@ -18,13 +18,13 @@ std::vector<int> tautau_analyzer::getTauCand_noID(double tauPtCut, double tauEta
       bool mutau_separation=false;
       bool newDecayModeFinding=false;
       bool tau_reject=false;
-      bool trigger = false;
+      //bool trigger = false;
       if( dau2.Pt() > tauPtCut 
 	  && fabs( dau2.Eta() )< tauEtaCut 
 	  && tau_LeadChargedHadron_dz->at(iTau) < 0.2
 	  && fabs(tau_Charge->at(iTau))==1
 	  )kinematic = true;
-      if( tau_byVVVLooseDeepTau2017v2p1VSjet->at(iTau)==1 ) tauIsolation=true;
+      if( tau_byVVVLooseDeepTau2017v2p1VSjet->at(iTau)==1 || tau_byMediumDeepTau2017v2p1VSjet->at(iTau)==1) tauIsolation=true;
       if( tau_DecayMode->at(iTau)==0 || tau_DecayMode->at(iTau)==1 || tau_DecayMode->at(iTau)==10 || tau_DecayMode->at(iTau)==11 ) decayModeCut=true;
       if( tau_byVVVLooseDeepTau2017v2p1VSe->at(iTau)==1 && tau_byVLooseDeepTau2017v2p1VSmu->at(iTau)==1)tau_reject=true;
       if( tau_IDbits->at(iTau)>>1&1==1 ) newDecayModeFinding=true;
@@ -53,11 +53,13 @@ void tautau_analyzer::assignTauIndices(vector<int> tauIndices , int& tau1 , int&
 	{
 	  for(int i=0; i<tauIndices.size(); i++)
 	    {
-	      if( tau_byVVVLooseDeepTau2017v2p1VSjet->at(tauIndices[ai])==1 
-		  && !(tau_byMediumDeepTau2017v2p1VSjet->at(tauIndices[ai])==1)
-		  && tau_byMediumDeepTau2017v2p1VSjet->at(tauIndices[i])==1
-		  && tau_Pt->at(tauIndices[ai]) > tau_Pt->at(tauIndices[i])
-		  )
+	      if((tauIndices[ai] != tauIndices[i])
+		 && tau_Pt->at(tauIndices[ai]) > 55
+		 && tau_byVVVLooseDeepTau2017v2p1VSjet->at(tauIndices[ai])==1 
+		 && !(tau_byMediumDeepTau2017v2p1VSjet->at(tauIndices[ai])==1)
+		 && tau_byMediumDeepTau2017v2p1VSjet->at(tauIndices[i])==1
+		 && tau_Pt->at(tauIndices[ai]) > tau_Pt->at(tauIndices[i])
+		 )
 		{
 		  tau1 = tauIndices[ai]; tau2 = tauIndices[i];
 		  return;
@@ -87,7 +89,7 @@ std::vector<int> tautau_analyzer::getTauCand(double tauPtCut, double tauEtaCut, 
       bool mutau_separation=false;
       bool newDecayModeFinding=false;
       bool tau_reject=false;
-      bool trigger = false;
+      //bool trigger = false;
       if( dau2.Pt() > tauPtCut 
 	  && fabs( dau2.Eta() )< tauEtaCut 
 	  && tau_LeadChargedHadron_dz->at(iTau) < 0.2
@@ -142,7 +144,7 @@ std::vector<int> tautau_analyzer::getAISRTauCand(double tauPtCut, double tauEtaC
       bool mutau_separation=false;
       bool newDecayModeFinding=false;
       bool tau_reject=false;
-      bool trigger = false;
+      //bool trigger = false;
       if( dau2.Pt() > tauPtCut
           && fabs( dau2.Eta() )< tauEtaCut
           && tau_LeadChargedHadron_dz->at(iTau) < 0.2
@@ -225,6 +227,8 @@ std::vector<int> tautau_analyzer::getJetCand(int tau1Index, int tau2Index){
       else if (jetPt->at(iJet) > 50 )
         passLoosePUID=true;
       
+      
+      
       double lepton1Phi=tau_Phi->at(tau1Index);
       double lepton1Eta= tau_Eta->at(tau1Index);
       double lepton2Phi=0;double lepton2Eta=0;
@@ -234,7 +238,8 @@ std::vector<int> tautau_analyzer::getJetCand(int tau1Index, int tau2Index){
       if( dr_jetEle>0.5 && dr_jetTau>0.5 )
         drPassed=true;
 
-      if(kinematic30 && !foundNoisyJets && passLoosePUID && drPassed==true)
+      //      if(kinematic30 && !foundNoisyJets && passLoosePUID && drPassed==true)
+      if(kinematic30 && !foundNoisyJets && passLoosePUID && drPassed)
         tmpCand.push_back(iJet);
     }
   return tmpCand;
@@ -384,8 +389,23 @@ float tautau_analyzer::TMass_F(float LepPt, float LepPhi , float met, float metP
   //return sqrt(pow(LepPt + met, 2) - pow(LepPt* cos(LepPhi) + met * cos(metPhi), 2) - pow(LepPt * sin(LepPhi) + met * sin(metPhi), 2));
 }
 
+
+float tautau_analyzer::TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
+  float aPt=a.Pt(); float aPhi=a.Phi();
+  float aPx=aPt*cos(aPhi); float aPy=aPt*sin(aPhi);
+
+  float bPt=b.Pt(); float bPhi=b.Phi();
+  float bPx=bPt*cos(bPhi); float bPy=bPt*sin(bPhi);
+
+  float metPt=met.Pt(); float metPhi=met.Phi();
+  float metPx=metPt*cos(metPhi); float metPy=metPt*sin(metPhi);
+
+  float totalTMass = sqrt((( aPt + bPt + metPt )*(aPt + bPt + metPt)) - ((aPx + bPx + metPx )*(aPx + bPx + metPx)) - ((aPy + bPy + metPy)*(aPy + bPy + metPy)));
+  return totalTMass;
+}
+
 float tautau_analyzer::TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
-  float totalTMass = (a + b+ met).M();
+  float totalTMass = (a + b+ met).Mt();
   return totalTMass;
 }
 
@@ -812,10 +832,12 @@ float tautau_analyzer::exponential(float x,float a,float b,float c) {
 double tautau_analyzer::exponential( double pT) {
   return TMath::Exp(0.088 - 0.00087*pT + 0.00000092*pow(pT,2) ) ; 
 }
-double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double tau1eta, double tau2eta, int taudm, int tau1GenMatch, bool isFakebkg)
+double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double tau1eta, double tau2eta, int taudm1, int taudm2, int tau1GenMatch, int tau2GenMatch, bool isFakebkg)
 {
-
-  
+  int tau1dm = taudm1;
+  int tau2dm = taudm2;
+  int my_genmatching_l1 = tau1GenMatch;
+  int my_genmatching_l2 = tau2GenMatch;
   bool debug=false;
   double rv_sf=1.0;
   double sf_tauTrg = 1.0; double sf_tauTrg_vvvloose=1.0;
@@ -837,7 +859,7 @@ double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double t
       sf_tau2idSF_m = get_BinContent( h_tauidSF_m, tau2dm) ;
       sf_tau2idSF_vvvl = get_BinContent( h_tauidSF_vvvl, tau2dm);
     }
-  
+
   double higgsPt = (my_tau1P4+my_tau2P4).Pt();
   double higgPt_weight=1.0;
   if (my_njets==0)
@@ -854,13 +876,14 @@ double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double t
   //if ( isFakebkg ) higgPt_weight = 1.0;
   //if (higgPt_weight>1.0 && found_DYjet_sample ) higgPt_weight = 1.0;
   //if (my_metP4.Pt()>110)  higgPt_weight = 1.0;
-  //if (isFakebkg && found_DYjet_sample ) higgPt_weight = 1.0;
+  //if (isFakebkg && found_DYjet_sample ) higgPt_weight = 1.0; //addintional line added for isfakbkg
 
   //
   sf_tauTrg = TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt);
   //
   sf_fakeEleMu = eleMuSF(my_genmatching_l1, tau1eta) * eleMuSF(my_genmatching_l2, tau2eta);
-
+  //std::cout<<"_------------------------------------------------higgPt_weight is : "<<higgPt_weight<<std::endl;
+  
   double tau1PtCheck=tau1pt;
   if(tau1pt > 450 ) tau1PtCheck = 450;
   else if ( tau1pt < 20 )  tau1PtCheck = 20;
@@ -879,53 +902,114 @@ double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double t
   w->var("t_eta")->setVal(my_tau1P4.Eta());
   w->var("t_phi")->setVal(my_tau1P4.Phi());
   w->var("t_dm")->setVal(tau1dm);
-  double t1_deeptauid = w->function("t_deeptauid_dm_medium")->getVal();
-  double t1_trg_pog = w->function("t_trg_pog_deeptau_medium_mutau_ratio")->getVal();
-  sf_htt_tau1 = t1_deeptauid*t1_trg_pog;
+  double t1_deeptauid = w->function("t_deeptauid_dm_medium")->getVal(); //should not apply in tautau channel as intautau channel the SFs should be from tau POG, but the "w" is from the H->tt SFs, should be applied in mutau/etau channel
+
+  double t1_deeptauid_vvvl = w->function("t_deeptauid_dm_vvvloose")->getVal(); //should not apply in tautau channel as intautau channel the SFs should be from tau POG, but the "w" is from the H->tt SFs, should be applied in mutau/etau channel
+  //  double t1_trg_pog = w->function("t_trg_pog_deeptau_medium_mutau_ratio")->getVal(); //should not apply in tautau channel as intautau channel the SFs should be from tau POG, but the "w" is from the H->tt SFs, should be applied in mutau/etau channel
+  double t1_trg_pog_m = 1.0;
+  if (tau1dm == 0) double t1_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm0_ratio")->getVal();
+  else if (tau1dm == 1) double t1_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm1_ratio")->getVal();
+  else if (tau1dm == 10) double t1_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm10_ratio")->getVal();
+  else if (tau1dm == 11) double t1_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm11_ratio")->getVal();
+  sf_htt_tau1 = t1_deeptauid*t1_trg_pog_m;
   
+
+
   w->var("t_pt")->setVal(my_tau2P4.Pt());
   w->var("t_eta")->setVal(my_tau2P4.Eta());
   w->var("t_phi")->setVal(my_tau2P4.Phi());
   w->var("t_dm")->setVal(tau2dm);
-  double t2_deeptauid = w->function("t_deeptauid_dm_medium")->getVal();
-  double t2_trg_pog = w->function("t_trg_pog_deeptau_medium_mutau_ratio")->getVal();
-  sf_htt_tau2 = t2_deeptauid*t2_trg_pog;
   
+  double t2_deeptauid = w->function("t_deeptauid_dm_medium")->getVal(); //should not apply in tautau channel as intautau channel the SFs should be from tau POG, but the "w" is from the H->tt SFs, should be applied in mutau/etau channel
+  //  double t2_trg_pog = w->function("t_trg_pog_deeptau_medium_mutau_ratio")->getVal(); //should not apply in tautau channel as intautau channel the SFs should be from tau POG, but the "w" is from the H->tt SFs, should be applied in mutau/etau channel
+  double t2_trg_pog_m= 1.0;
+  if (tau2dm == 0) double t2_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm0_ratio")->getVal();
+  else if (tau2dm == 1) double t2_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm1_ratio")->getVal();
+  else if (tau2dm == 10) double t2_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm10_ratio")->getVal();
+  else if (tau2dm == 11) double t2_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm11_ratio")->getVal();
+
+
+  sf_htt_tau2 = t2_deeptauid*t2_trg_pog_m;
+  
+
   double top_pt_weight=1.0;
   if(found_TTbar_sample){
     if( t_index >-1 && tbar_index > -1 ){
       top_pt_weight = sqrt( exponential(mcPt->at(t_index)) * exponential(mcPt->at(tbar_index)) );
-      //cout<<"top_pt_weight = "<<top_pt_weight<<endl;
+      //cout<<"##---------------------------------------------------------------------------------------------------top_pt_weight = "<<top_pt_weight<<endl;
     } 
   }
   
-  //double zptmass_weight = get_zptmass_weight();
-  
-  // rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * sf_tauTrg * sf_fakeEleMu * t1_trg_pog * t2_trg_pog * higgPt_weight; 
-  
-  // if(isFakebkg)
-  //   rv_sf = sf_tau1idSF_vvvl * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * sf_tau2idSF_m * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * higgPt_weight;
-  
-  rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) *  sf_fakeEleMu * t1_trg_pog * t2_trg_pog * higgPt_weight;   
-  if(isFakebkg)
-    rv_sf = sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt);
-
-  if(rv_sf>0)
-    return rv_sf;
+  double zptmass_weight = get_zptmass_weight();
+  //cout<<"######################################################   t1_trg_pog_m        ###############"<<t1_trg_pog_m<<endl; 
+  if (found_DYjet_sample)
+    {
+      //cout<<"##---------------------------------------------------------------------------------DY sample "<<endl;
+      //rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight * t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m;    
+      rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * zptmass_weight;    
+      // /std::cout<<"sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * zptmass_weight "<<rv_sf<<" \n  sf_tau1idSF_m:  "<<sf_tau1idSF_m<<" \n sf_tau2idSF_m:  "<<sf_tau2idSF_m<< " \n TriggerSF_med.get_sf(tau1dm, tau1pt) : "<<TriggerSF_med.get_sf(tau1dm, tau1pt)<<" \n  TriggerSF_med.get_sf(tau2dm, tau2pt) :  "<< TriggerSF_med.get_sf(tau2dm, tau2pt)<<" \n  sf_fakeEleMu :  "<<sf_fakeEleMu<<" \n t1_deeptauid :  "<<t1_deeptauid<<" \n t2_deeptauid :  "<<t2_deeptauid<< " \n t1_trg_pog_m : "<<t1_trg_pog_m<<" \n t2_trg_pog_m  : "<<t2_trg_pog_m<<" \n zptmass_weight : "<<zptmass_weight<<std::endl;     
+    }
   else
-    return 1.0;
+    {
+      //rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu ;     
+      rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu *t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m;     
+      //rv_sf = 1;
+      // std::cout<<"sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m "<<rv_sf<<" \n sf_tau1idSF_m:  "<<sf_tau1idSF_m<<" \n sf_tau2idSF_m:  "<<sf_tau2idSF_m<< " \n TriggerSF_med.get_sf(tau1dm, tau1pt) : "<<TriggerSF_med.get_sf(tau1dm, tau1pt)<<" \n  TriggerSF_med.get_sf(tau2dm, tau2pt) :  "<< TriggerSF_med.get_sf(tau2dm, tau2pt)<<" \n  sf_fakeEleMu :  "<<sf_fakeEleMu<<" \n t1_deeptauid :  "<<t1_deeptauid<<" \n t2_deeptauid :  "<<t2_deeptauid<< " \n t1_trg_pog_m : "<<t1_trg_pog_m<<" \n t2_trg_pog_m  : "<<t2_trg_pog_m<<std::endl;     
+      
+    }
+  
 
+
+  if(isFakebkg)
+    {
+      // cout<<"##---------------------------------------------------------------------------------DY sample in fake rate "<<endl;
+      if(found_DYjet_sample)
+	{
+
+	  //rv_sf =  sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight *t1_deeptauid_vvvl *t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m ;
+	  //	  rv_sf =  sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl *t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m ;
+	  rv_sf = sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * zptmass_weight *sf_tau1idSF_m ;
+	  //  std::cout<<" sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * zptmass_weight *sf_tau1idSF_m  "<<rv_sf<<" \n sf_tau1idSF_vvvl:  "<<sf_tau1idSF_vvvl<<" \n sf_tau2idSF_m:  "<<sf_tau2idSF_m<< " \n TriggerSF_med.get_sf(tau1dm, tau1pt) : "<<TriggerSF_med.get_sf(tau1dm, tau1pt)<<" \n  TriggerSF_med.get_sf(tau2dm, tau2pt) :  "<< TriggerSF_med.get_sf(tau2dm, tau2pt)<<" \n  sf_fakeEleMu :  "<<sf_fakeEleMu<<" \n t1_deeptauid_vvvl :  "<<t1_deeptauid_vvvl<<" \n t2_deeptauid :  "<<t2_deeptauid<< " \n t1_trg_pog_m : "<<t1_trg_pog_m<<" \n t2_trg_pog_m  : "<<t2_trg_pog_m<<" \n zptmass_weight : "<<zptmass_weight<< " \n sf_tau1idSF_m : "<<sf_tau1idSF_m <<std::endl;     
+	  //rv_sf = zptmass_weight;
+	}
+      else 
+	{
+	  //rv_sf =  sf_tau1idSF_vvvl *  sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu;
+	  //	  rv_sf =  sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu *t1_deeptauid_vvvl *t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m;
+
+	  //	  rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu *t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * sf_tau1idSF_vvvl;
+	  //rv_sf = 1;
+	  rv_sf = sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m   * sf_tau1idSF_m ;
+
+	  // std::cout<<" sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m * sf_tau1idSF_m  "<<rv_sf<<" \n sf_tau1idSF_vvvl:  "<<sf_tau1idSF_vvvl<<" \n sf_tau2idSF_m:  "<<sf_tau2idSF_m<< " \n TriggerSF_med.get_sf(tau1dm, tau1pt) : "<<TriggerSF_med.get_sf(tau1dm, tau1pt)<<" \n  TriggerSF_med.get_sf(tau2dm, tau2pt) :  "<< TriggerSF_med.get_sf(tau2dm, tau2pt)<<" \n  sf_fakeEleMu :  "<<sf_fakeEleMu<<" \n t1_deeptauid_vvvl :  "<<t1_deeptauid_vvvl<<" \n t2_deeptauid :  "<<t2_deeptauid<< " \n t1_trg_pog_m : "<<t1_trg_pog_m<<" \n t2_trg_pog_m  : "<<t2_trg_pog_m<< " \n sf_tau1idSF_m : "<<sf_tau1idSF_m <<std::endl;     
+	}
+            
+    }
+
+  if(found_Signal)
+    rv_sf = 1;
+  return rv_sf;
 }
 bool tautau_analyzer::TriggerSelection(TLorentzVector tau1P4, TLorentzVector tau2P4){
 
-  if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1  )
+  /*if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1  )
     {
-      if(tau1P4.Pt()>40.0 && tau2P4.Pt()>40.0)
-        {
-          return true;
-        }
+    if(tau1P4.Pt()>40.0 && tau2P4.Pt()>40.0)
+    {
+    return true;
+    }
     }
   return false;
+  */
+  
+  if(  (HLTTau>>5&1==1 && tau1P4.Pt()>40.0 && tau2P4.Pt()>40.0)
+       || (HLTTau>>6&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0)
+       || (HLTTau>>7&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0) )
+    return true;
+  else
+    return false;  
+
+
 }
 bool tautau_analyzer::MatchTriggerFilter(int eleIndex, int tauIndex)
 {
@@ -941,6 +1025,7 @@ double  tautau_analyzer::getFR(int tauIndex){
 void tautau_analyzer::fillUncPlots( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight, int shift){
   //////////////////////  fill unccertainity plots ////////////////////////
   string hNumber = histNumber;
+  
   if(check_unc)cout<<"entry # : "<<eventNumber<<"          Shift value = "<<shift<<endl;
   printP4values("entering fillUncPlots");
 
@@ -1004,7 +1089,7 @@ void tautau_analyzer::jetFakeUnc( string histNumber , int tau1Index, int tau2Ind
     double weight = event_weight * FF_unc / FF_nominal;
     if ( event_weight==0 || FF_nominal==0|| FF_unc==0)
       weight = 0;
-    fillHist(histName, Tau1Index, Tau2Index, true, weight);
+    fillHist(histName,Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, weight);
   }
 }
 void tautau_analyzer::JESUnc( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
@@ -1014,11 +1099,11 @@ void tautau_analyzer::JESUnc( string histNumber , int tau1Index, int tau2Index, 
   printP4values("entering JES");
   if(unc_shift=="up")
     {
-      fillHist(histNumber+"_CMS_JES_up", Tau1Index, Tau2Index, true, event_weight);
+      fillHist(histNumber+"_CMS_JES_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
     }
   else if(unc_shift=="down")
     {
-      fillHist(histNumber+"_CMS_JES_down", Tau1Index, Tau2Index, true, event_weight);
+      fillHist(histNumber+"_CMS_JES_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
     }      
 }
 void tautau_analyzer::JERUnc( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
@@ -1027,11 +1112,11 @@ void tautau_analyzer::JERUnc( string histNumber , int tau1Index, int tau2Index, 
   printP4values("entering JER");
   if(unc_shift=="up")
     {
-      fillHist(histNumber+"_CMS_JER_up", Tau1Index, Tau2Index, true, event_weight);
+      fillHist(histNumber+"_CMS_JER_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
     }
   else if(unc_shift=="down")
     {
-      fillHist(histNumber+"_CMS_JER_down", Tau1Index, Tau2Index,true, event_weight);
+      fillHist(histNumber+"_CMS_JER_down", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
     }
 
 }
@@ -1045,9 +1130,9 @@ void tautau_analyzer::tauESunc( string histNumber , int tau1Index, int tau2Index
 	dmName = tauDM_map[i].first;
 	if(tauDM_map[i].second == taudm){
 	  if (unc_shift == "up")
-	    fillHist( histName +dmName+"_up", Tau1Index, Tau2Index, true, event_weight);
+	    fillHist( histName +dmName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  else if (unc_shift == "down")
-	    fillHist( histName +dmName+"_down", Tau1Index, Tau2Index, true, event_weight);
+	    fillHist( histName +dmName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	}
 	else{
 	  if (unc_shift == "up")
@@ -1066,9 +1151,9 @@ void tautau_analyzer::tauESunc( string histNumber , int tau1Index, int tau2Index
 	dmName = tauDM_map[i].first;
 	if(tauDM_map[i].second == taudm){
 	  if (unc_shift == "up")
-	    fillHist( histName +dmName+"_up", Tau1Index, Tau2Index, true, event_weight);
+	    fillHist( histName +dmName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  else if (unc_shift == "down")
-	    fillHist( histName +dmName+"_down", Tau1Index, Tau2Index, true, event_weight);
+	    fillHist( histName +dmName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	}
 	else{
 	  if (unc_shift == "up")
@@ -1096,15 +1181,15 @@ void tautau_analyzer::tauTRGunc( string histNumber , int tau1Index, int tau2Inde
 	string uncName = "CMS_doubletautrg_t1_" + tauDM_map[i].first +"_2017";
 	if(tauDM_map[i].second == taudm ){
 	  if (unc_shift == "up")
-	    fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight*(1+err));
+	    fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*(1+err));
 	  else if( unc_shift == "down")
-	    fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight*(1-err));
+	    fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*(1-err));
 	}
 	else{
 	  if (unc_shift == "up")
-            fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight);
+            fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
           else if( unc_shift == "down")
-            fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight);
+            fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	}
       }
     }
@@ -1119,15 +1204,15 @@ void tautau_analyzer::tauTRGunc( string histNumber , int tau1Index, int tau2Inde
 	string uncName = "CMS_doubletautrg_t2_" + tauDM_map[i].first +"_2017";
 	if(tauDM_map[i].second == taudm ){
 	if (unc_shift == "up")
-	  fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight*(1+err));
+	  fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*(1+err));
 	else if( unc_shift == "down")
-	  fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight*(1-err));
+	  fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*(1-err));
 	}
 	else{
 	  if (unc_shift == "up")
-            fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight);
+            fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
           else if( unc_shift == "down")
-            fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight);
+            fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	}
       }
     }
@@ -1147,16 +1232,16 @@ void tautau_analyzer::tauIDunc( string histNumber , int tau1Index, int tau2Index
 	if(tauDM_map[i].second == taudm && my_genmatching_l1>=5)
 	  {
 	    if (unc_shift == "up")
-	      fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight*sf_up/sf);
+	      fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*sf_up/sf);
 	    else if( unc_shift == "down")
-	      fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight*sf_down/sf);
+	      fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*sf_down/sf);
 	  }
 	else
 	  {
 	    if (unc_shift == "up")
-	      fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight);
+	      fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	    else if( unc_shift == "down")
-	      fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight);
+	      fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  }
       }
     }
@@ -1173,16 +1258,16 @@ void tautau_analyzer::tauIDunc( string histNumber , int tau1Index, int tau2Index
 	if(tauDM_map[i].second == taudm &&  my_genmatching_l2>=5 )
 	  {
 	    if (unc_shift == "up")
-	      fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight*sf_up/sf);
+	      fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*sf_up/sf);
 	    else if( unc_shift == "down")
-	      fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight*sf_down/sf);
+	      fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*sf_down/sf);
 	  }
 	else
 	  {
 	    if (unc_shift == "up")
-	      fillHist(histNumber+"_"+uncName+"_up", Tau1Index, Tau2Index, true, event_weight  );
+	      fillHist(histNumber+"_"+uncName+"_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight  );
 	    else if( unc_shift == "down")
-	      fillHist(histNumber+"_"+uncName+"_down", Tau1Index, Tau2Index, true, event_weight);
+	      fillHist(histNumber+"_"+uncName+"_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  }
       }
     }
@@ -1196,9 +1281,9 @@ void tautau_analyzer::dyShape( string histNumber , int tau1Index, int tau2Index,
    double weight_dn = (zptweight-0.10*abs(zptweight-1))/zptweight;
    
    if(unc_shift == "up")
-     fillHist(histNumber+"_CMS_htt_dyShape_up", Tau1Index, Tau2Index, true, event_weight * weight_up);
+     fillHist(histNumber+"_CMS_htt_dyShape_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight * weight_up);
    else if (unc_shift == "down")
-     fillHist(histNumber+"_CMS_htt_dyShape_down", Tau1Index, Tau2Index, true, event_weight * weight_dn);
+     fillHist(histNumber+"_CMS_htt_dyShape_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight * weight_dn);
 }
 void tautau_analyzer::ttbarShape( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
   if(selected_systematic!="ttbarShape")
@@ -1211,9 +1296,9 @@ void tautau_analyzer::ttbarShape( string histNumber , int tau1Index, int tau2Ind
     }
   }
   if (unc_shift == "up")
-    fillHist(histNumber+"_CMS_htt_ttbarShape_up", Tau1Index, Tau2Index, true, event_weight * (2*(top_pt_weight -1 ) + 1) );
+    fillHist(histNumber+"_CMS_htt_ttbarShape_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight * (2*(top_pt_weight -1 ) + 1) );
   else if (unc_shift == "down")
-    fillHist(histNumber+"_CMS_htt_ttbarShape_down", Tau1Index, Tau2Index, true, event_weight / top_pt_weight );
+    fillHist(histNumber+"_CMS_htt_ttbarShape_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight / top_pt_weight );
 }
 void tautau_analyzer::prefiringUnc(string histNumber , int muIndex, int tauIndex, bool isFakeBkg, float event_weight)
 {
@@ -1221,23 +1306,23 @@ void tautau_analyzer::prefiringUnc(string histNumber , int muIndex, int tauIndex
     return;
   /////// prefiring unc
   if (unc_shift == "up")
-    fillHist(histNumber+"_CMS_Prefiring_up", Tau1Index, Tau2Index, true, event_weight*prefiringweightup/prefiringweight);
+    fillHist(histNumber+"_CMS_Prefiring_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*prefiringweightup/prefiringweight);
   else if (unc_shift == "down")
-    fillHist(histNumber+"_CMS_Prefiring_down", Tau1Index, Tau2Index, true, event_weight*prefiringweightdown/prefiringweight);
+    fillHist(histNumber+"_CMS_Prefiring_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight*prefiringweightdown/prefiringweight);
 }
 
 void tautau_analyzer::metSysUnc( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
   
   string njetName ="";
   if(selected_systematic=="metresponse" && unc_shift == "up")
-    fillHist(histNumber+"_CMS_htt_boson_scale_met_"+njetName+"Jet_2017_up", Tau1Index, Tau2Index, true, event_weight );
+    fillHist(histNumber+"_CMS_htt_boson_scale_met_"+njetName+"Jet_2017_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight );
   else if(selected_systematic=="metresolution" && unc_shift == "up")
-    fillHist(histNumber+"_CMS_htt_boson_reso_met_"+njetName+"Jet_2017_up", Tau1Index, Tau2Index, true, event_weight );
+    fillHist(histNumber+"_CMS_htt_boson_reso_met_"+njetName+"Jet_2017_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight );
   
   else if(selected_systematic=="metresponse" && unc_shift == "down")
-    fillHist(histNumber+"_CMS_htt_boson_scale_met_"+njetName+"Jet_2017_down", Tau1Index, Tau2Index, true, event_weight );
+    fillHist(histNumber+"_CMS_htt_boson_scale_met_"+njetName+"Jet_2017_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight );
   else if(selected_systematic=="metresolution" && unc_shift == "down")
-    fillHist(histNumber+"_CMS_htt_boson_reso_met_"+njetName+"Jet_2017_down", Tau1Index, Tau2Index, true, event_weight );
+    fillHist(histNumber+"_CMS_htt_boson_reso_met_"+njetName+"Jet_2017_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight );
 
   
 }
@@ -1245,9 +1330,9 @@ void tautau_analyzer::metSysUnc( string histNumber , int tau1Index, int tau2Inde
 void tautau_analyzer::metClusteredUnc( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
 
   if(selected_systematic=="metunclustered" && unc_shift == "up")
-    fillHist(histNumber+"_CMS_scale_met_unclustered_2017_up", Tau1Index, Tau2Index, true, event_weight);
+    fillHist(histNumber+"_CMS_scale_met_unclustered_2017_up",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
   if(selected_systematic=="metunclustered" && unc_shift == "down")
-    fillHist(histNumber+"_CMS_scale_met_unclustered_2017_down", Tau1Index, Tau2Index, true, event_weight);
+    fillHist(histNumber+"_CMS_scale_met_unclustered_2017_down",Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 
 }
 
@@ -1321,7 +1406,7 @@ TLorentzVector tautau_analyzer::MetRecoilCorrections(int tau1Index, int tau2Inde
   TLorentzVector visGenP4;
   for(int i=0; i<nMC; i++)
     {
-      if(mcPID->at(i)==23)
+      if(abs(mcPID->at(i))==23)
 	BosonP4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );
     }
   //visGenP4=BosonP4;
@@ -1330,12 +1415,40 @@ TLorentzVector tautau_analyzer::MetRecoilCorrections(int tau1Index, int tau2Inde
       for(int i=0; i<nMC; i++)
 	{
 	  if(mcPID->at(i)==15)
-	    gentau1P4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );
+	    {
+	      // if(gentau1P4.Pt() < mcPt->at(i))
+		gentau1P4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );
+	    }
 	  if(mcPID->at(i)==-15)
-	    gentau2P4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );
+	    {
+	      //if(gentau2P4.Pt() < mcPt->at(i))
+	      gentau2P4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );	
+	    }
 	}
       BosonP4=gentau1P4+gentau2P4;
     }
+  /*  if(BosonP4.Pt()==0)
+    {
+      for(int i=0; i<nMC; i++)
+	{
+	  if(abs(mcPID->at(i))==15)
+	    {
+	      for(int j=0; j<nMC; j++)
+		{
+		  if (i!=j)
+		    {
+		      if(abs(mcPID->at(j))==15 && (mcCharge->at(i) * mcCharge->at(j) < 0))
+			{
+			  gentau1P4.SetPtEtaPhiE(mcPt->at(i), mcEta->at(i) , mcPhi->at(i) , mcE->at(i) );
+			  gentau2P4.SetPtEtaPhiE(mcPt->at(j), mcEta->at(j) , mcPhi->at(i) , mcE->at(j) );
+			}
+		    }
+		}
+	    }
+	}
+      BosonP4=gentau1P4+gentau2P4;
+      }*/
+
   visGenP4=BosonP4;
   for(int i=0; i<nMC; i++)
     {
@@ -1457,9 +1570,9 @@ int tautau_analyzer::if_DY_Genmatching(int eleIndex, int tauIndex){
   if( found_DYjet_sample==false )
     return 1;
   else if(found_DYjet_sample==true){
-    if(  myGenMaching(tauIndex)<5 &&  myGenMaching1(eleIndex)<5 ) // dy -> ll genmatched
+    if(  myGenMaching(tauIndex)<5 &&  myGenMaching(eleIndex)<5 ) // dy -> ll genmatched
       return 2;
-    if (  myGenMaching(tauIndex)>=5 &&  myGenMaching1(eleIndex)<5 ) // dy -> ltau genmatched
+    if (  myGenMaching(tauIndex)>=5 &&  myGenMaching(eleIndex)>=5 ) // dy -> ltau genmatched
       return 3;
   }
   return 0;
@@ -1630,7 +1743,7 @@ int tautau_analyzer::getTau2Cand_noID(double tauPtCut, double tauEtaCut, int tau
       bool mutau_separation=false;
       bool newDecayModeFinding=false;
       bool tau_reject=false;
-      bool trigger = false;
+      //bool trigger = false;
       if( dau2.Pt() > tauPtCut 
 	  && fabs( dau2.Eta() )< tauEtaCut 
 	  && tau_LeadChargedHadron_dz->at(iTau) < 0.2
@@ -1667,10 +1780,10 @@ int tautau_analyzer::getTau1Cand(double tauPtCut, double tauEtaCut, int shift){
       tmp_tau_p4.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau1 = applyTau1ESCorrections(tmp_tau_p4, iTau, shift);
-      else
-	dau1.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
+      //if(is_MC)
+      //	dau1 = applyTau1ESCorrections(tmp_tau_p4, iTau, shift);
+      //else
+      dau1.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			  ,tau_Phi->at(iTau), tau_Energy->at(iTau));
       bool kinematic = false;
       bool tauId = false;
@@ -1679,7 +1792,7 @@ int tautau_analyzer::getTau1Cand(double tauPtCut, double tauEtaCut, int shift){
       bool mutau_separation=false;
       bool newDecayModeFinding=false;
       bool tau_reject=false;
-      bool trigger = false;
+      //bool trigger = false;
       if( dau1.Pt() > tauPtCut 
 	  && fabs( dau1.Eta() )< tauEtaCut 
 	  && tau_LeadChargedHadron_dz->at(iTau) < 0.2
@@ -1727,10 +1840,10 @@ int tautau_analyzer::getTau2Cand(double tauPtCut, double tauEtaCut, int tau1Inde
       tmp_taup4.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau2 = applyTau2ESCorrections(tmp_taup4, iTau, shift);
-      else
-	dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
+      //if(is_MC)
+      //	dau2 = applyTau2ESCorrections(tmp_taup4, iTau, shift);
+      //else
+      dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
       bool kinematic = false;

@@ -8,12 +8,20 @@ import time
 path.append("../../../MacrosAndScripts/")
 from myPlotStyle import *
 
+
+ROOT.gStyle.SetFrameLineWidth(1)
+ROOT.gStyle.SetLineWidth(2)
+ROOT.gStyle.SetOptStat(0)
+
+c, pad1, pad2 = get_canvas()
+
+
 def sample():
     for s in shapes_list:
-        print s
+        print (s)
         
     for key, values in norm_list.items():
-        print key , '\t' , values
+        print( key , '\t' , values)
 
 def AddLikeNuisances(n):
     hslist = []
@@ -59,7 +67,8 @@ def get_syst(xaxis_label=""):
 
     histoname = xaxis_label+'_9'
     dirname = [histoname+"/", histoname ]
-    sysName = histoname+'_'+'CMS_singleeletrg_2017'
+    #sysName = histoname+'_'+'CMS_singleeletrg_2017'
+    sysName = histoname+'_CMS_htt_boson_scale_met_Jet_2017'
     
     sampleName = "ZTTjet"
     up_list = []
@@ -67,33 +76,37 @@ def get_syst(xaxis_label=""):
     norm_hist = None
     
     for s in shapes_list:
-        print 'Chosen one : ', s
         if 'FF_' in s: continue
+        print( 'Chosen one : ', s)
         sysName = histoname+'_'+s
         ZTT_hist      = inFile_n.Get(histoname+"/"+sampleName+"_"+histoname)
         ZTT_hist_up   = inFile_u.Get(sysName+"_up"+"/"+sampleName+"_"+sysName+"_up")
         ZTT_hist_dn   = inFile_d.Get(sysName+"_down"+"/"+sampleName+"_"+sysName+"_down")
         if not (isinstance(ZTT_hist, ROOT.TH1F) and isinstance(ZTT_hist_up, ROOT.TH1F) and isinstance(ZTT_hist_dn, ROOT.TH1F)):
-            print ' check this ', sysName+"_up"+"/"+sampleName+"_"+sysName+"_up"
+            print( ' check this ', sysName+"_up"+"/"+sampleName+"_"+sysName+"_up")
             continue
         norm_hist = ZTT_hist
         up = ZTT_hist_up.Clone("up")
         #up.Divide(ZTT_hist)
         dn = ZTT_hist_dn.Clone("dn")
         #dn.Divide(ZTT_hist)
+
         c.cd()
         ZTT_hist.SetMarkerStyle(20)
+        #        ZTT_hist.SetFillColor(ROOT.TColor.GetColor(color_ztt))
         ZTT_hist.SetMarkerColor(1)
-        ZTT_hist.SetLineColor(1)
+        ZTT_hist.SetFillColor(ROOT.TColor.GetColor(color_ztt))
+      
         up.SetMarkerColor(4)
         up.SetLineColor(4)
+        
         dn.SetMarkerColor(2)
         dn.SetLineColor(2)
         ZTT_hist.Draw()
         up.Draw("same")
         dn.Draw("same")
         #time.sleep(30)
-        print 'up', up.Integral(), '   dn', dn.Integral()
+        print ('up', up.Integral(), '   dn', dn.Integral())
         c.Modified()
         c.SaveAs("sys_check/plot_"+histoname+"_"+s+".png")
         norm_hist = ZTT_hist
@@ -128,7 +141,7 @@ def get_syst(xaxis_label=""):
         up.Draw("same")
         dn.Draw("same")
         #time.sleep(30)
-        print 'up', up.Integral(), '   dn', dn.Integral()
+        print ('up', up.Integral(), '   dn', dn.Integral())
         c.Modified()
         c.SaveAs("sys_check/plot_"+histoname+"_"+sysName+".png")
         norm_hist = ZTT_hist
@@ -158,4 +171,4 @@ def get_syst(xaxis_label=""):
     c.Close()
 
 if __name__=="__main__":
-    get_syst('elePt')
+    get_syst('tot_TMass_new')

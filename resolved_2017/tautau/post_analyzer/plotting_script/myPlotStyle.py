@@ -54,9 +54,9 @@ def add_Preliminary():
     return lumi
 
 def add_text(text=[""]):
-    lowX=0.5 
-    lowY=0.5
-    lumi  = ROOT.TPaveText(lowX, lowY, lowX+0.25, lowY+0.2, "NDC")
+    lowX=0.55 
+    lowY=0.55
+    lumi  = ROOT.TPaveText(lowX, lowY, lowX+0.25, lowY+0.18, "NDC")
     lumi.SetTextFont(61)
     lumi.SetTextFont (   40 )
     lumi.SetTextSize(0.04)
@@ -91,7 +91,7 @@ color_ggh="#12cadd"
 color_vv="#990099"
 color_wjets="#cc6666" 
 color_jetfake="#f1cde1"
-
+color_otherMC="#4496c8"
 
 errorStyle=3002
 

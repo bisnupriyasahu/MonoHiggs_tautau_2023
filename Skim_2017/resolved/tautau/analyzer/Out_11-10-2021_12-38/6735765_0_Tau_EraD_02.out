@@ -1,0 +1,66 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:36104
+Running over 36104 events.
+Finished entry 0/36103
+Finished entry 1000/36103
+Finished entry 2000/36103
+Finished entry 3000/36103
+Finished entry 4000/36103
+Finished entry 5000/36103
+Finished entry 6000/36103
+Finished entry 7000/36103
+Finished entry 8000/36103
+Finished entry 9000/36103
+Finished entry 10000/36103
+Finished entry 11000/36103
+Finished entry 12000/36103
+Finished entry 13000/36103
+Finished entry 14000/36103
+Finished entry 15000/36103
+Finished entry 16000/36103
+Finished entry 17000/36103
+Finished entry 18000/36103
+Finished entry 19000/36103
+Finished entry 20000/36103
+Finished entry 21000/36103
+Finished entry 22000/36103
+Finished entry 23000/36103
+Finished entry 24000/36103
+Finished entry 25000/36103
+Finished entry 26000/36103
+Finished entry 27000/36103
+Finished entry 28000/36103
+Finished entry 29000/36103
+Finished entry 30000/36103
+Finished entry 31000/36103
+Finished entry 32000/36103
+Finished entry 33000/36103
+Finished entry 34000/36103
+Finished entry 35000/36103
+Finished entry 36000/36103
+Finished entry 36103/36103
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 36104.000000
+   Passing smikking 0.000000
+Inspected genWeightd 36104.000000   % change= 0.000000
+   METFiltersPassed 36010.000000   % change= 0.260359
+    SingleTrgPassed 33619.000000   % change= 6.639822
+     GoodMuonPassed 9556.000000   % change= 71.575597
+      GoodTauPassed 920.000000   % change= 90.372541
+         opp charge 610.000000   % change= 33.695652
+ PassedThirdLepVeto 603.000000   % change= 1.147541
+     PassedBjetVeto 603.000000   % change= 0.000000
+       DeltaRPassed 596.000000   % change= 1.160862
+      Total change :98.349213
+*******************************************
+*******************************************
+Number of events inspected: 36104
+Number of events inspected (minus negative gen. weights): 36104.000000
+ Outpt written to Tau_EraD_02.root
+Real time 0:00:14, CP time 12.430

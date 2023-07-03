@@ -5,14 +5,14 @@ LOtoNNLO_DY = 5765.4/4954.0
 LOtoNNLO_Wjets = 61526.7/50380
 
 sampleListDict = {
-    'DY1JetsToLL_M-50_TuneCP5' : ['DY1JetsToLL', 'ZTT', '0'], 
-    'DY2JetsToLL_M-50_TuneCP5' : ['DY2JetsToLL', 'ZTT', '0'], 
-    'DY3JetsToLL_M-50_TuneCP5_ext1' : ['DY3JetsToLL', 'ZTT', '0'], 
-    'DY3JetsToLL_M-50_TuneCP5_v1' : ['DY3JetsToLL', 'ZTT', '0'], 
-    'DY4JetsToLL_M-50_TuneCP5' : ['DY4JetsToLL', 'ZTT', '0'], 
-    'DYJetsToLL_M-10to50_TuneCP5' : ['DYJetsToLL', 'ZTT', '0'], 
-    'DYJetsToLL_M-50_TuneCP5_ext1_v1' : ['DYJetsToLL', 'ZTT', '0'], 
-    'DYJetsToLL_M-50_TuneCP5_v1' : ['DYJetsToLL', 'ZTT', '0'], 
+    #'DY1JetsToLL_M-50_TuneCP5' : ['DY1JetsToLL', 'ZTT', '0'], 
+    #'DY2JetsToLL_M-50_TuneCP5' : ['DY2JetsToLL', 'ZTT', '0'], 
+    #'DY3JetsToLL_M-50_TuneCP5_ext1' : ['DY3JetsToLL', 'ZTT', '0'], 
+    #'DY3JetsToLL_M-50_TuneCP5_v1' : ['DY3JetsToLL', 'ZTT', '0'], 
+    #'DY4JetsToLL_M-50_TuneCP5' : ['DY4JetsToLL', 'ZTT', '0'], 
+    #'DYJetsToLL_M-10to50_TuneCP5' : ['DYJetsToLL', 'ZTT', '0'], 
+    #'DYJetsToLL_M-50_TuneCP5_ext1_v1' : ['DYJetsToLL', 'ZTT', '0'], 
+    #'DYJetsToLL_M-50_TuneCP5_v1' : ['DYJetsToLL', 'ZTT', '0'], 
     
     'DY1JetsToLL_M-50_TuneCP5_stitch' : ['ZTT1jet', 'ZTTjet', '0'],
     'DY2JetsToLL_M-50_TuneCP5_stitch' : ['ZTT2jet', 'ZTTjet', '0'],
@@ -32,55 +32,45 @@ sampleListDict = {
     'ST_t-channel_top_4f_inclusiveDecays_TuneCP5' : ['ST_t-channel_top', 'ST_t', '0'], 
     'ST_tW_antitop_5f_inclusiveDecays_TuneCP5' : ['ST_tW_antitop', 'ST_t', '0'], 
     'ST_tW_top_5f_inclusiveDecays_TuneCP5' : ['ST_tW_top', 'ST_t', '0'], 
-    
-    'SingleElectron_EraB' : ['data_obs', 'data_obs', '0'], 
-    'SingleElectron_EraC' : ['data_obs', 'data_obs', '0'], 
-    'SingleElectron_EraD' : ['data_obs', 'data_obs', '0'], 
-    'SingleElectron_EraE' : ['data_obs', 'data_obs', '0'], 
-    'SingleElectron_EraF' : ['data_obs', 'data_obs', '0'], 
-      
-    'fullLumi_SingleElectron_EraB' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleElectron_EraC' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleElectron_EraD' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleElectron_EraE' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleElectron_EraF' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'],   
-    
-    'SingleMuon_EraB' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuon_EraC' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuon_EraD' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuon_EraE' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuon_EraF' : ['data_obs', 'data_obs', '0'], 
 
-    'MET_EraB' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraC' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraD' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraE' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraF' : ['data_obs', 'data_obs', '0'], 
+    'SingleElectron_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'],
 
-    'blinded_MET_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'],     
-    
-    'blinded_SingleMuon_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_SingleMuon_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_SingleMuon_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_SingleMuon_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_SingleMuon_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
 
-    'fullLumi_SingleMuon_EraB' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleMuon_EraC' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleMuon_EraD' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleMuon_EraE' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    'fullLumi_SingleMuon_EraF' : ['fullLumi_data_obs', 'fullLumi_data_obs', '0'], 
-    
-    
-    'Tau_EraB' : ['data_obs', 'data_obs', '0'], 
-    'Tau_EraC' : ['data_obs', 'data_obs', '0'], 
-    'Tau_EraD' : ['data_obs', 'data_obs', '0'], 
-    'Tau_EraE' : ['data_obs', 'data_obs', '0'], 
-    'Tau_EraF' : ['data_obs', 'data_obs', '0'],     
+    'Tau_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+
+    'fullLumi_SingleElectron_EraB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraD' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraE' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraF' : ['data_obs', 'data_obs', '0'],
+
+
+    'fullLumi_SingleMuon_EraB' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraC' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraD' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraE' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraF' : ['data_obs', 'data_obs', '0'], 
+
+    'fullLumi_Tau_EraB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraD' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraE' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraF' : ['data_obs', 'data_obs', '0'],
+
 
     
     'TTTo2L2Nu_TuneCP5' : ['TTTo2L2Nu', 'TT', '0'], 
@@ -339,7 +329,7 @@ xsex_mapping = {
     'ttHToNonbb' : 1.0 , 
     'QCD' : 720648000*0.00042 , 
     'data_obs' : 1.0 , 
-    'fullLumi_data_obs' : 1.0 , 
+    #'fullLumi_data_obs' : 1.0 , 
     'blinded_data_obs' : 1.0 , 
     'ZJetsToNuNu_HT100-200' : 280.92 , 
     'ZJetsToNuNu_HT200-400' : 77.64 , 
@@ -349,10 +339,12 @@ xsex_mapping = {
     'ZJetsToNuNu_HT1200-2500' : 0.2874 , 
     'ZJetsToNuNu_HT2500-Inf' : 0.006933 , 
     'WZTo1L3Nu' : 3.05 , 
-    'WZTo1L1Nu2Q' : 10.71 , 
+    #'WZTo1L1Nu2Q' : 10.71 , 
     'WZTo2L2Q' : 5.595 , 
+    'WZTo2L2Q' : 5.52 , 
     'WZTo3LNu' : 4.43 , 
     'WZ' : 4.43 ,
+    #'WZ' : 27.57 ,
     'VVTo2L2Nu' : 13.84 , 
     'ST_tW_antitop' : 35.85 , 
     'ST_tW_top' : 35.85 , 
@@ -362,16 +354,20 @@ xsex_mapping = {
     'WWToLNuQQ' : 10.71 , 
     'WWTo2L2Nu' : 12.178 , 
     'WW' : 12.178 ,
+    #'WW' : 118.7 ,
     'GluGluWWTo2L2Nu' : 0.59 , 
     'WWTo2L2Nu_DoubleScattering' : 1.62 , 
     'WpWpJJ_EWK_QCD' : 0.02615 , 
     'WpWpJJ_EWK' : 0.02615 , 
     'WpWpJJ_QCD' : 0.02615 , 
     'ZZTo2L2Q' : 3.22 , 
+    #'ZZTo2L2Q' : 3.38 , 
     'ZZTo2Q2Nu' : 4.03 , 
     'ZZTo4L' : 1.212 , 
+    #'ZZTo4L' : 1.26 , 
     'ZZTo2L2Nu' : 0.564 , 
     'ZZ' :  0.564 ,
+    #'ZZ' :  12.14 ,
     'WWW' : 0.2086 , 
     'WWZ' : 0.1651 , 
     'WZZ' : 0.05565 , 
@@ -798,7 +794,8 @@ xsex_mapping = {
     'Signal_ZpBaryonic2017_43' : 0.3935 ,
 
 }
-zprime_ngen = {'Signal_ZpBaryonic2017_6': 887000, 'Signal_ZpBaryonic2017_7': 10708000, 'Signal_ZpBaryonic2017_4': 1005000, 'Signal_ZpBaryonic2017_5': 916000, 'Signal_ZpBaryonic2017_2': 10428000, 'Signal_ZpBaryonic2017_3': 974000, 'Signal_ZpBaryonic2017_1': 1018000, 'Signal_ZpBaryonic2017_8': 1035000, 'Signal_ZpBaryonic2017_9': 919000, 'Signal_ZpBaryonic2017_29': 1015000, 'Signal_ZpBaryonic2017_28': 933000, 'Signal_ZpBaryonic2017_41': 891000, 'Signal_ZpBaryonic2017_40': 1046000, 'Signal_ZpBaryonic2017_25': 1003000, 'Signal_ZpBaryonic2017_24': 1000000, 'Signal_ZpBaryonic2017_27': 895000, 'Signal_ZpBaryonic2017_26': 949000, 'Signal_ZpBaryonic2017_21': 955000, 'Signal_ZpBaryonic2017_20': 986000, 'Signal_ZpBaryonic2017_23': 1044000, 'Signal_ZpBaryonic2017_22': 1006000, 'Signal_ZpBaryonic2017_14': 968000, 'Signal_ZpBaryonic2017_15': 900000, 'Signal_ZpBaryonic2017_16': 902000, 'Signal_ZpBaryonic2017_17': 917000, 'Signal_ZpBaryonic2017_10': 10625000, 'Signal_ZpBaryonic2017_11': 1039000, 'Signal_ZpBaryonic2017_12': 1002000, 'Signal_ZpBaryonic2017_13': 996000, 'Signal_ZpBaryonic2017_18': 947000, 'Signal_ZpBaryonic2017_19': 957000, 'Signal_ZpBaryonic2017_38': 997000, 'Signal_ZpBaryonic2017_39': 930000, 'Signal_ZpBaryonic2017_36': 944000, 'Signal_ZpBaryonic2017_37': 994000, 'Signal_ZpBaryonic2017_34': 1031000, 'Signal_ZpBaryonic2017_35': 989000, 'Signal_ZpBaryonic2017_32': 995000, 'Signal_ZpBaryonic2017_33': 993000, 'Signal_ZpBaryonic2017_30': 939000, 'Signal_ZpBaryonic2017_31': 940000, 'Signal_ZpBaryonic2017_43': 933000, 'Signal_ZpBaryonic2017_42': 1027000}
+#only change in 7,23,39,2,10,16,26,32,36
+zprime_ngen = {'Signal_ZpBaryonic2017_6': 174000, 'Signal_ZpBaryonic2017_7': 209000, 'Signal_ZpBaryonic2017_4': 196000, 'Signal_ZpBaryonic2017_5': 167000, 'Signal_ZpBaryonic2017_2': 176000, 'Signal_ZpBaryonic2017_3': 187000, 'Signal_ZpBaryonic2017_1': 193000, 'Signal_ZpBaryonic2017_8': 204000, 'Signal_ZpBaryonic2017_9': 165000, 'Signal_ZpBaryonic2017_29': 188000, 'Signal_ZpBaryonic2017_28': 181000, 'Signal_ZpBaryonic2017_41': 155000, 'Signal_ZpBaryonic2017_40': 203000, 'Signal_ZpBaryonic2017_25': 210000, 'Signal_ZpBaryonic2017_24': 177000, 'Signal_ZpBaryonic2017_27': 167000, 'Signal_ZpBaryonic2017_26': 190000, 'Signal_ZpBaryonic2017_21': 194000, 'Signal_ZpBaryonic2017_20': 207000, 'Signal_ZpBaryonic2017_23': 201000, 'Signal_ZpBaryonic2017_22': 195000, 'Signal_ZpBaryonic2017_14': 170000, 'Signal_ZpBaryonic2017_15': 167000, 'Signal_ZpBaryonic2017_16': 165000, 'Signal_ZpBaryonic2017_17': 164000, 'Signal_ZpBaryonic2017_10': 177000, 'Signal_ZpBaryonic2017_11': 181000, 'Signal_ZpBaryonic2017_12': 179000, 'Signal_ZpBaryonic2017_13': 196000, 'Signal_ZpBaryonic2017_18': 175000, 'Signal_ZpBaryonic2017_19': 159000, 'Signal_ZpBaryonic2017_38': 166000, 'Signal_ZpBaryonic2017_39': 190000, 'Signal_ZpBaryonic2017_36': 185000, 'Signal_ZpBaryonic2017_37': 178000.0, 'Signal_ZpBaryonic2017_34': 205000, 'Signal_ZpBaryonic2017_35': 184000, 'Signal_ZpBaryonic2017_32': 188000, 'Signal_ZpBaryonic2017_33': 200000, 'Signal_ZpBaryonic2017_30': 190000, 'Signal_ZpBaryonic2017_31': 193000, 'Signal_ZpBaryonic2017_43': 172000.0, 'Signal_ZpBaryonic2017_42': 190000.0}
 def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
     """
     return weight=luminosity * crossSection / NumberOfGeneratedEvents
@@ -811,34 +808,49 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
     if isBlinded:
         blinding_ratio = 5.0
     luminosity=41520.0/blinding_ratio
+    print("luminosity is in the lumiweight: ",luminosity)
     saveName = ""
+    print('incoming ', sampleName )
     if sampleName+'_stitch' in sampleListDict:
         sample = sampleListDict[sampleName+'_stitch'][0]
         saveName = sampleListDict[sampleName+'_stitch'][1]
+        print("step 1 : sample name is : {} whereas savename is : {}".format(sample, saveName))
         if 'ZTT' in sample:
+            print("step 2 : sample name is : {} whereas savename is : {}".format(sample, saveName))
             weight = get_DYJets_weight()[sample]/blinding_ratio
+            #weight = 1/blinding_ratio
+            #print("for ZTT sample the weight is : ",weight)
+            print("in ZTT ngen : {}, luminosity : {}, xsec: {}".format(ngen,luminosity,xsex_mapping[sample]))
+            print("final weight in ZTT sample in the lumifilesscript :  ", weight)
         else:
             weight = xsex_mapping[sample]/blinding_ratio
     elif sampleName not in sampleListDict:
-        print('############################# '+sampleName+' not found')
+        print("sampleName not found \n")
         return 1.0 , sampleName
+
     else:
         sample = sampleListDict[sampleName][0]
         saveName = sampleListDict[sampleName][1]
         if sample in xsex_mapping:
-            if 'Zpbaryonic' in sampleName:
+            if 'ZpBaryonic' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / zprime_ngen[sample]
-                print(sampleName, luminosity , xsex_mapping[sample] , zprime_ngen[sample] )
+                #weight = luminosity / zprime_ngen[sample] #  # To combine all 3 years, 2016 calculated with 1pb^-1 xsec, to get limits running with with 1pb^-1 xsec, xsec will be added while computing limits (This I am doing only to get limits for mchi 1 samples.)
+                #weight = luminosity * xsex_mapping[sample] / ngen
+                #print(sampleName, luminosity , xsex_mapping[sample] , zprime_ngen[sample] )
             elif 'MH3' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / ngen
+                #weight = luminosity / ngen # check in 2016 calculated with 1pb^-1 xsec, so I tried with 1pb^-1, to get thw limits
             else:
                 weight = luminosity * xsex_mapping[sample] / ngen
+                
         else:
             weight = 0.0
+        print("sample is : {} adnsample sampleName is :  {}  ".format(sample,saveName))
+        print("luminosity is :   ",luminosity)
     if 'data' in saveName:
         weight = 1.0
 
-    if '2HDMa' in sampleName or 'Zpbaryonic' in sampleName:
+    if 'ZpBaryonic' in sampleName or '2HDMa' in sampleName:
         print(sampleName, weight)
         weight = weight * 0.06
 

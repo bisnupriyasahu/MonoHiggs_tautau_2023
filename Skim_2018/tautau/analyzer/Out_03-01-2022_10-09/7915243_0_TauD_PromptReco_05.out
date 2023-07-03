@@ -1,0 +1,53 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:709034
+Running over 709034 events.
+Finished entry 0/709033
+Finished entry 30000/709033
+Finished entry 60000/709033
+Finished entry 90000/709033
+Finished entry 120000/709033
+Finished entry 150000/709033
+Finished entry 180000/709033
+Finished entry 210000/709033
+Finished entry 240000/709033
+Finished entry 270000/709033
+Finished entry 300000/709033
+Finished entry 330000/709033
+Finished entry 360000/709033
+Finished entry 390000/709033
+Finished entry 420000/709033
+Finished entry 450000/709033
+Finished entry 480000/709033
+Finished entry 510000/709033
+Finished entry 540000/709033
+Finished entry 570000/709033
+Finished entry 600000/709033
+Finished entry 630000/709033
+Finished entry 660000/709033
+Finished entry 690000/709033
+Finished entry 709033/709033
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 709034.000000
+   Passing smikking 0.000000
+Inspected genWeightd 709034.000000   % change= 0.000000
+   METFiltersPassed 708092.000000   % change= 0.132857
+    SingleTrgPassed 375099.000000   % change= 47.026799
+     GoodMuonPassed 110553.000000   % change= 70.526981
+      GoodTauPassed 7565.000000   % change= 93.157128
+         opp charge 7565.000000   % change= 0.000000
+ PassedThirdLepVeto 7470.000000   % change= 1.255783
+     PassedBjetVeto 7139.000000   % change= 4.431058
+       DeltaRPassed 7139.000000   % change= 0.000000
+      Total change :98.993137
+*******************************************
+*******************************************
+Number of events inspected: 709034
+Number of events inspected (minus negative gen. weights): 709034.000000
+ Outpt written to TauD_PromptReco_05.root
+Real time 0:03:02, CP time 146.540

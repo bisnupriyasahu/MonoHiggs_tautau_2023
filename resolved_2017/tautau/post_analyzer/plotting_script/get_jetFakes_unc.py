@@ -14,8 +14,9 @@ import argparse
 ROOT.gStyle.SetFrameLineWidth(1)
 ROOT.gStyle.SetLineWidth(2)
 ROOT.gStyle.SetOptStat(0)
-# mc_samples = ['ZTTjet', 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH', 'HWminusJ', 'HWplusJ', 'HZJ', 'ST_t', 'TT', 'VBFH', 'WGToLNuG', 'VV', 'VVV', 'WplusH', 'ZH', 'ZJetsToNuNu']
+#mc_samples = ['ZTTjet', 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH', 'HWminusJ', 'HWplusJ', 'HZJ', 'ST_t', 'TT', 'VBFH', 'WGToLNuG', 'VV', 'VVV', 'WplusH', 'ZH', 'ZJetsToNuNu']
 mc_samples = ['ZTTjet', 'TT', 'otherMC', 'STT', 'VVT']
+#mc_samples = ['ZTT', 'TT', 'otherMC', 'STT', 'VVT']
         
 def checkHistogram(f, histogram):
     isthere=  f.GetListOfKeys().Contains(histogram)

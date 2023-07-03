@@ -1,0 +1,105 @@
+000 (7147216.000.000) 2023-06-19 07:10:14 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7147216.000.000) 2023-06-19 07:10:40 Started transferring input files
+	Transferring to host: <128.105.68.228:9618?addrs=128.105.68.228-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=slot1_21_4549_ee92_25610>
+...
+040 (7147216.000.000) 2023-06-19 07:10:40 Finished transferring input files
+...
+001 (7147216.000.000) 2023-06-19 07:10:41 Job executing on host: <128.105.68.228:9618?addrs=128.105.68.228-9618&alias=e2315.chtc.wisc.edu&noUDP&sock=startd_8328_e4ce>
+...
+006 (7147216.000.000) 2023-06-19 07:10:50 Image size of job updated: 88248
+	86  -  MemoryUsage of job (MB)
+	87888  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 07:40:52 Image size of job updated: 88620
+	87  -  MemoryUsage of job (MB)
+	88492  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 07:45:53 Image size of job updated: 135348
+	132  -  MemoryUsage of job (MB)
+	134868  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 07:50:53 Image size of job updated: 135556
+	132  -  MemoryUsage of job (MB)
+	134868  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 07:55:53 Image size of job updated: 289768
+	283  -  MemoryUsage of job (MB)
+	289768  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:00:54 Image size of job updated: 570464
+	558  -  MemoryUsage of job (MB)
+	570420  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:05:55 Image size of job updated: 707588
+	691  -  MemoryUsage of job (MB)
+	707376  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:10:55 Image size of job updated: 861036
+	841  -  MemoryUsage of job (MB)
+	861036  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:15:55 Image size of job updated: 975456
+	953  -  MemoryUsage of job (MB)
+	975368  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:20:56 Image size of job updated: 1061836
+	1037  -  MemoryUsage of job (MB)
+	1061788  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:25:56 Image size of job updated: 1166904
+	1140  -  MemoryUsage of job (MB)
+	1166848  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:30:56 Image size of job updated: 1265584
+	1236  -  MemoryUsage of job (MB)
+	1265540  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:35:57 Image size of job updated: 1403716
+	1371  -  MemoryUsage of job (MB)
+	1403696  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:40:58 Image size of job updated: 1525876
+	1491  -  MemoryUsage of job (MB)
+	1525836  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:45:58 Image size of job updated: 1652404
+	1614  -  MemoryUsage of job (MB)
+	1652404  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:50:59 Image size of job updated: 1768716
+	1728  -  MemoryUsage of job (MB)
+	1768668  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 08:56:00 Image size of job updated: 1890176
+	1846  -  MemoryUsage of job (MB)
+	1890132  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 09:01:00 Image size of job updated: 2019432
+	1973  -  MemoryUsage of job (MB)
+	2019332  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 09:06:00 Image size of job updated: 2097152
+	2048  -  MemoryUsage of job (MB)
+	2097052  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 09:11:01 Image size of job updated: 2097152
+	2048  -  MemoryUsage of job (MB)
+	2097136  -  ResidentSetSize of job (KB)
+...
+006 (7147216.000.000) 2023-06-19 10:16:09 Image size of job updated: 2097152
+	2048  -  MemoryUsage of job (MB)
+	2097148  -  ResidentSetSize of job (KB)
+...
+007 (7147216.000.000) 2023-06-19 10:26:13 Shadow exception!
+	Error from slot1_21@e2315.chtc.wisc.edu: disk usage exceeded request_disk
+	0  -  Run Bytes Sent By Job
+	205497  -  Run Bytes Received By Job
+...
+012 (7147216.000.000) 2023-06-19 10:26:16 Job was held.
+	Error from slot1_21@e2315.chtc.wisc.edu: disk usage exceeded request_disk
+	Code 21 Subcode 103
+...
+009 (7147216.000.000) 2023-06-20 02:00:13 Job was aborted.
+	via condor_rm (by user bsahu)
+...

@@ -1,0 +1,21 @@
+x509userproxy = /tmp/x509up_u10044
+universe = vanilla
+Executable = Out_31-03-2023_12-19/Job_DY1JetsToLL_M-50_TuneCP5_00.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 2G
+request_disk         = 2G
+
+#OutputDestination = 
+#Initialdir = Out_DY1JetsToLL_M-50_TuneCP5_00         
+Transfer_Input_Files = /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/resolved_2017/2017_Jithin_area_resolved_case/etau/analyze_etau , /nfs_scratch/bsahu/2HDM_amodel/monoH_tautau/CMSSW_10_2_18/src/sf_files
+
+output               = Out_31-03-2023_12-19/$(Cluster)_$(Process)_DY1JetsToLL_M-50_TuneCP5_00.out
+error                = Out_31-03-2023_12-19/$(Cluster)_$(Process)_DY1JetsToLL_M-50_TuneCP5_00.err
+Log                  = Out_31-03-2023_12-19/$(Cluster)_$(Process)_DY1JetsToLL_M-50_TuneCP5_00.log
+Queue

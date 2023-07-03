@@ -1,0 +1,55 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:7506
+Running over 7506 events.
+Finished entry 0/7505
+Finished entry 300/7505
+Finished entry 600/7505
+Finished entry 900/7505
+Finished entry 1200/7505
+Finished entry 1500/7505
+Finished entry 1800/7505
+Finished entry 2100/7505
+Finished entry 2400/7505
+Finished entry 2700/7505
+Finished entry 3000/7505
+Finished entry 3300/7505
+Finished entry 3600/7505
+Finished entry 3900/7505
+Finished entry 4200/7505
+Finished entry 4500/7505
+Finished entry 4800/7505
+Finished entry 5100/7505
+Finished entry 5400/7505
+Finished entry 5700/7505
+Finished entry 6000/7505
+Finished entry 6300/7505
+Finished entry 6600/7505
+Finished entry 6900/7505
+Finished entry 7200/7505
+Finished entry 7500/7505
+Finished entry 7505/7505
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 7506.000000
+   Passing smikking 0.000000
+Inspected genWeightd 6818.000000   % change= 9.166001
+   METFiltersPassed 6601.368402   % change= 3.177348
+    SingleTrgPassed 6601.368402   % change= 0.000000
+     GoodMuonPassed 1621.672024   % change= 75.434305
+      GoodTauPassed 51.421128   % change= 96.829129
+         opp charge 51.421128   % change= 0.000000
+ PassedThirdLepVeto 43.651561   % change= 15.109678
+     PassedBjetVeto 16.015305   % change= 63.311037
+       DeltaRPassed 16.015305   % change= 0.000000
+      Total change :99.786633
+*******************************************
+*******************************************
+Number of events inspected: 7506
+Number of events inspected (minus negative gen. weights): 6818.000000
+ Outpt written to ST_t-channel_antitop_03.root
+Real time 0:00:41, CP time 22.130

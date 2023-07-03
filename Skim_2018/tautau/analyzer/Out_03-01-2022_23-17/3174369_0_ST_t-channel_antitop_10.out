@@ -1,0 +1,66 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:3631
+Running over 3631 events.
+Finished entry 0/3630
+Finished entry 100/3630
+Finished entry 200/3630
+Finished entry 300/3630
+Finished entry 400/3630
+Finished entry 500/3630
+Finished entry 600/3630
+Finished entry 700/3630
+Finished entry 800/3630
+Finished entry 900/3630
+Finished entry 1000/3630
+Finished entry 1100/3630
+Finished entry 1200/3630
+Finished entry 1300/3630
+Finished entry 1400/3630
+Finished entry 1500/3630
+Finished entry 1600/3630
+Finished entry 1700/3630
+Finished entry 1800/3630
+Finished entry 1900/3630
+Finished entry 2000/3630
+Finished entry 2100/3630
+Finished entry 2200/3630
+Finished entry 2300/3630
+Finished entry 2400/3630
+Finished entry 2500/3630
+Finished entry 2600/3630
+Finished entry 2700/3630
+Finished entry 2800/3630
+Finished entry 2900/3630
+Finished entry 3000/3630
+Finished entry 3100/3630
+Finished entry 3200/3630
+Finished entry 3300/3630
+Finished entry 3400/3630
+Finished entry 3500/3630
+Finished entry 3600/3630
+Finished entry 3630/3630
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 3631.000000
+   Passing smikking 0.000000
+Inspected genWeightd 3285.000000   % change= 9.529055
+   METFiltersPassed 3210.682920   % change= 2.262316
+    SingleTrgPassed 3210.682920   % change= 0.000000
+     GoodMuonPassed 776.889856   % change= 75.802972
+      GoodTauPassed 20.489115   % change= 97.362674
+         opp charge 20.489115   % change= 0.000000
+ PassedThirdLepVeto 18.987848   % change= 7.327146
+     PassedBjetVeto 9.293981   % change= 51.053005
+       DeltaRPassed 9.293981   % change= 0.000000
+      Total change :99.744038
+*******************************************
+*******************************************
+Number of events inspected: 3631
+Number of events inspected (minus negative gen. weights): 3285.000000
+ Outpt written to ST_t-channel_antitop_10.root
+Real time 0:00:17, CP time 10.970

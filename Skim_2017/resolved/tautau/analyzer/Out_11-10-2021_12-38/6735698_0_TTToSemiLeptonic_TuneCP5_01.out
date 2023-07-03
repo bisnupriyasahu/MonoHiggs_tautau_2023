@@ -1,0 +1,57 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:26374
+Running over 26374 events.
+Finished entry 0/26373
+Finished entry 1000/26373
+Finished entry 2000/26373
+Finished entry 3000/26373
+Finished entry 4000/26373
+Finished entry 5000/26373
+Finished entry 6000/26373
+Finished entry 7000/26373
+Finished entry 8000/26373
+Finished entry 9000/26373
+Finished entry 10000/26373
+Finished entry 11000/26373
+Finished entry 12000/26373
+Finished entry 13000/26373
+Finished entry 14000/26373
+Finished entry 15000/26373
+Finished entry 16000/26373
+Finished entry 17000/26373
+Finished entry 18000/26373
+Finished entry 19000/26373
+Finished entry 20000/26373
+Finished entry 21000/26373
+Finished entry 22000/26373
+Finished entry 23000/26373
+Finished entry 24000/26373
+Finished entry 25000/26373
+Finished entry 26000/26373
+Finished entry 26373/26373
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 26374.000000
+   Passing smikking 0.000000
+Inspected genWeightd 26146.000000   % change= 0.864488
+   METFiltersPassed 24911.254696   % change= 4.722502
+    SingleTrgPassed 5619.088457   % change= 77.443575
+     GoodMuonPassed 3179.821155   % change= 43.410374
+      GoodTauPassed 310.373957   % change= 90.239264
+         opp charge 251.125367   % change= 19.089421
+ PassedThirdLepVeto 173.187907   % change= 31.035280
+     PassedBjetVeto 173.187907   % change= 0.000000
+       DeltaRPassed 171.762014   % change= 0.823322
+      Total change :99.348745
+*******************************************
+*******************************************
+Number of events inspected: 26374
+Number of events inspected (minus negative gen. weights): 26146.000000
+ Outpt written to TTToSemiLeptonic_TuneCP5_01.root
+Real time 0:00:29, CP time 21.860

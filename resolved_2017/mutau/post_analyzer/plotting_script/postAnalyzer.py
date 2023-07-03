@@ -63,11 +63,19 @@ def getHistList(sampleName = "", hist_name="", idx=""):
 
 def make_files(sampleName = "", hist_name="", idx="", isBlinded=False):
     inFile= ROOT.TFile("../files_initial/"+sampleName,"r")
+    #if 'ZpBaryonic' in sampleName:
+    #    nEventsHisto = inFile.Get("nEvents_ZpB")
+    #else:
     nEventsHisto = inFile.Get("nEvents")
+
     if not isinstance(nEventsHisto, ROOT.TH1F):
         print('nEvents not found in ' "../files_initial/"+sampleName)
         return 
+    #if 'ZpBaryonic' in sampleName:
+    #    nGeneratedEvents = nEventsHisto.Integral()
+    #else:
     nGeneratedEvents = nEventsHisto.GetBinContent(1)
+
     weight, saveName= lumi.get_lumiweight(sampleName[:-11], nGeneratedEvents, isBlinded)
     
     hist_mapping =  getHistList(sampleName, hist_name, idx)

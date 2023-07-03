@@ -1,0 +1,53 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:949
+Running over 949 events.
+Finished entry 0/948
+Finished entry 40/948
+Finished entry 80/948
+Finished entry 120/948
+Finished entry 160/948
+Finished entry 200/948
+Finished entry 240/948
+Finished entry 280/948
+Finished entry 320/948
+Finished entry 360/948
+Finished entry 400/948
+Finished entry 440/948
+Finished entry 480/948
+Finished entry 520/948
+Finished entry 560/948
+Finished entry 600/948
+Finished entry 640/948
+Finished entry 680/948
+Finished entry 720/948
+Finished entry 760/948
+Finished entry 800/948
+Finished entry 840/948
+Finished entry 880/948
+Finished entry 920/948
+Finished entry 948/948
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 949.000000
+   Passing smikking 0.000000
+Inspected genWeightd 947.000000   % change= 0.210748
+   METFiltersPassed 870.594789   % change= 8.068132
+    SingleTrgPassed 213.253762   % change= 75.504820
+     GoodMuonPassed 152.650534   % change= 28.418363
+      GoodTauPassed 35.862464   % change= 76.506821
+         opp charge 28.783602   % change= 19.738917
+ PassedThirdLepVeto 16.543402   % change= 42.524906
+     PassedBjetVeto 16.543402   % change= 0.000000
+       DeltaRPassed 12.477461   % change= 24.577417
+      Total change :98.685199
+*******************************************
+*******************************************
+Number of events inspected: 949
+Number of events inspected (minus negative gen. weights): 947.000000
+ Outpt written to VBFHToWWTo2L2Nu_M125_00.root
+Real time 0:00:07, CP time 4.760

@@ -1,0 +1,52 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:44896
+Running over 44896 events.
+Finished entry 0/44895
+Finished entry 2000/44895
+Finished entry 4000/44895
+Finished entry 6000/44895
+Finished entry 8000/44895
+Finished entry 10000/44895
+Finished entry 12000/44895
+Finished entry 14000/44895
+Finished entry 16000/44895
+Finished entry 18000/44895
+Finished entry 20000/44895
+Finished entry 22000/44895
+Finished entry 24000/44895
+Finished entry 26000/44895
+Finished entry 28000/44895
+Finished entry 30000/44895
+Finished entry 32000/44895
+Finished entry 34000/44895
+Finished entry 36000/44895
+Finished entry 38000/44895
+Finished entry 40000/44895
+Finished entry 42000/44895
+Finished entry 44000/44895
+Finished entry 44895/44895
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 44896.000000
+   Passing smikking 0.000000
+Inspected genWeightd 24900.000000   % change= 44.538489
+   METFiltersPassed 24419.484693   % change= 1.929780
+    SingleTrgPassed 24419.484693   % change= 0.000000
+     GoodMuonPassed 17220.112667   % change= 29.482080
+      GoodTauPassed 5410.903841   % change= 68.578000
+         opp charge 5410.903841   % change= 0.000000
+ PassedThirdLepVeto 4866.896939   % change= 10.053901
+     PassedBjetVeto 3785.322417   % change= 22.223083
+       DeltaRPassed 3751.232779   % change= 0.900574
+      Total change :91.644617
+*******************************************
+*******************************************
+Number of events inspected: 44896
+Number of events inspected (minus negative gen. weights): 24900.000000
+ Outpt written to ZZTo2L2Q_00.root
+Real time 0:05:16, CP time 267.990

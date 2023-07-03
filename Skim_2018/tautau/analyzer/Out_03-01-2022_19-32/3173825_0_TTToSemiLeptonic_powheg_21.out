@@ -1,0 +1,60 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:29491
+Running over 29491 events.
+Finished entry 0/29490
+Finished entry 1000/29490
+Finished entry 2000/29490
+Finished entry 3000/29490
+Finished entry 4000/29490
+Finished entry 5000/29490
+Finished entry 6000/29490
+Finished entry 7000/29490
+Finished entry 8000/29490
+Finished entry 9000/29490
+Finished entry 10000/29490
+Finished entry 11000/29490
+Finished entry 12000/29490
+Finished entry 13000/29490
+Finished entry 14000/29490
+Finished entry 15000/29490
+Finished entry 16000/29490
+Finished entry 17000/29490
+Finished entry 18000/29490
+Finished entry 19000/29490
+Finished entry 20000/29490
+Finished entry 21000/29490
+Finished entry 22000/29490
+Finished entry 23000/29490
+Finished entry 24000/29490
+Finished entry 25000/29490
+Finished entry 26000/29490
+Finished entry 27000/29490
+Finished entry 28000/29490
+Finished entry 29000/29490
+Finished entry 29490/29490
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 29491.000000
+   Passing smikking 0.000000
+Inspected genWeightd 29201.000000   % change= 0.983351
+   METFiltersPassed 28522.667676   % change= 2.322976
+    SingleTrgPassed 28522.667676   % change= 0.000000
+     GoodMuonPassed 12429.865328   % change= 56.421098
+      GoodTauPassed 520.843495   % change= 95.809741
+         opp charge 520.843495   % change= 0.000000
+ PassedThirdLepVeto 444.960340   % change= 14.569282
+     PassedBjetVeto 83.380525   % change= 81.261133
+       DeltaRPassed 82.657404   % change= 0.867254
+      Total change :99.719720
+*******************************************
+*******************************************
+Number of events inspected: 29491
+Number of events inspected (minus negative gen. weights): 29201.000000
+ Outpt written to TTToSemiLeptonic_powheg_21.root
+Real time 0:02:05, CP time 98.380

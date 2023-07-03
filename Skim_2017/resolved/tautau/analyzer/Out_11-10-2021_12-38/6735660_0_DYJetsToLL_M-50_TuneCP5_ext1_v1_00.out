@@ -1,0 +1,53 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:11380
+Running over 11380 events.
+Finished entry 0/11379
+Finished entry 500/11379
+Finished entry 1000/11379
+Finished entry 1500/11379
+Finished entry 2000/11379
+Finished entry 2500/11379
+Finished entry 3000/11379
+Finished entry 3500/11379
+Finished entry 4000/11379
+Finished entry 4500/11379
+Finished entry 5000/11379
+Finished entry 5500/11379
+Finished entry 6000/11379
+Finished entry 6500/11379
+Finished entry 7000/11379
+Finished entry 7500/11379
+Finished entry 8000/11379
+Finished entry 8500/11379
+Finished entry 9000/11379
+Finished entry 9500/11379
+Finished entry 10000/11379
+Finished entry 10500/11379
+Finished entry 11000/11379
+Finished entry 11379/11379
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 11380.000000
+   Passing smikking 0.000000
+Inspected genWeightd 11380.000000   % change= 0.000000
+   METFiltersPassed 10543.636074   % change= 7.349419
+    SingleTrgPassed 3817.360195   % change= 63.794651
+     GoodMuonPassed 2780.693743   % change= 27.156632
+      GoodTauPassed 1372.874425   % change= 50.628348
+         opp charge 1327.072181   % change= 3.336230
+ PassedThirdLepVeto 863.840603   % change= 34.906284
+     PassedBjetVeto 863.840603   % change= 0.000000
+       DeltaRPassed 858.937121   % change= 0.567637
+      Total change :92.452222
+*******************************************
+*******************************************
+Number of events inspected: 11380
+Number of events inspected (minus negative gen. weights): 11380.000000
+ Outpt written to DYJetsToLL_M-50_TuneCP5_ext1_v1_00.root
+Real time 0:00:25, CP time 22.860

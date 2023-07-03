@@ -1,0 +1,54 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:9698
+Running over 9698 events.
+Finished entry 0/9697
+Finished entry 400/9697
+Finished entry 800/9697
+Finished entry 1200/9697
+Finished entry 1600/9697
+Finished entry 2000/9697
+Finished entry 2400/9697
+Finished entry 2800/9697
+Finished entry 3200/9697
+Finished entry 3600/9697
+Finished entry 4000/9697
+Finished entry 4400/9697
+Finished entry 4800/9697
+Finished entry 5200/9697
+Finished entry 5600/9697
+Finished entry 6000/9697
+Finished entry 6400/9697
+Finished entry 6800/9697
+Finished entry 7200/9697
+Finished entry 7600/9697
+Finished entry 8000/9697
+Finished entry 8400/9697
+Finished entry 8800/9697
+Finished entry 9200/9697
+Finished entry 9600/9697
+Finished entry 9697/9697
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 9698.000000
+   Passing smikking 0.000000
+Inspected genWeightd 5156.000000   % change= 46.834399
+   METFiltersPassed 5051.177628   % change= 2.033017
+    SingleTrgPassed 1411.570313   % change= 72.054629
+     GoodMuonPassed 1066.672672   % change= 24.433614
+      GoodTauPassed 322.019514   % change= 69.810841
+         opp charge 322.019514   % change= 0.000000
+ PassedThirdLepVeto 294.500058   % change= 8.545897
+     PassedBjetVeto 289.502717   % change= 1.696890
+       DeltaRPassed 289.502717   % change= 0.000000
+      Total change :97.014820
+*******************************************
+*******************************************
+Number of events inspected: 9698
+Number of events inspected (minus negative gen. weights): 5156.000000
+ Outpt written to WWTo1L1Nu2Q_00.root
+Real time 0:00:20, CP time 15.070

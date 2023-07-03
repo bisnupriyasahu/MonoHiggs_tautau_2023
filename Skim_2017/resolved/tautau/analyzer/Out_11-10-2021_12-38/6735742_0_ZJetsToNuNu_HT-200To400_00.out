@@ -1,0 +1,50 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:4129
+Running over 4129 events.
+Finished entry 0/4128
+Finished entry 200/4128
+Finished entry 400/4128
+Finished entry 600/4128
+Finished entry 800/4128
+Finished entry 1000/4128
+Finished entry 1200/4128
+Finished entry 1400/4128
+Finished entry 1600/4128
+Finished entry 1800/4128
+Finished entry 2000/4128
+Finished entry 2200/4128
+Finished entry 2400/4128
+Finished entry 2600/4128
+Finished entry 2800/4128
+Finished entry 3000/4128
+Finished entry 3200/4128
+Finished entry 3400/4128
+Finished entry 3600/4128
+Finished entry 3800/4128
+Finished entry 4000/4128
+Finished entry 4128/4128
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 4129.000000
+   Passing smikking 0.000000
+Inspected genWeightd 4129.000000   % change= 0.000000
+   METFiltersPassed 3796.369384   % change= 8.055961
+    SingleTrgPassed 428.809629   % change= 88.704744
+     GoodMuonPassed 129.205739   % change= 69.868741
+      GoodTauPassed 8.434024   % change= 93.472407
+         opp charge 3.360018   % change= 60.161158
+ PassedThirdLepVeto 2.445917   % change= 27.205226
+     PassedBjetVeto 2.445917   % change= 0.000000
+       DeltaRPassed 2.445917   % change= 0.000000
+      Total change :99.940762
+*******************************************
+*******************************************
+Number of events inspected: 4129
+Number of events inspected (minus negative gen. weights): 4129.000000
+ Outpt written to ZJetsToNuNu_HT-200To400_00.root
+Real time 0:00:06, CP time 5.370

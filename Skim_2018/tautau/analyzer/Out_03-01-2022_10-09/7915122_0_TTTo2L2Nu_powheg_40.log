@@ -1,0 +1,43 @@
+000 (7915122.000.000) 2022-01-03 10:10:02 Job submitted from host: <144.92.181.245:9618?addrs=144.92.181.245-9618+[2607-f388-101c-1000--372]-9618&alias=login06.hep.wisc.edu&noUDP&sock=schedd_913429_e58e>
+...
+040 (7915122.000.000) 2022-01-03 10:11:04 Entered queue to transfer input files
+	Transferring to host: <128.105.245.144:9618?addrs=128.105.245.144-9618&alias=e344.chtc.wisc.edu&noUDP&sock=slot1_11_30888_23e1_12980>
+...
+040 (7915122.000.000) 2022-01-03 10:12:11 Started transferring input files
+	Seconds spent in queue: 67
+...
+040 (7915122.000.000) 2022-01-03 10:18:20 Finished transferring input files
+...
+001 (7915122.000.000) 2022-01-03 10:18:21 Job executing on host: <128.105.245.144:9618?addrs=128.105.245.144-9618&alias=e344.chtc.wisc.edu&noUDP&sock=startd_26653_51cf>
+...
+006 (7915122.000.000) 2022-01-03 10:18:29 Image size of job updated: 734464
+	395  -  MemoryUsage of job (MB)
+	404336  -  ResidentSetSize of job (KB)
+...
+006 (7915122.000.000) 2022-01-03 10:19:19 Image size of job updated: 1175808
+	395  -  MemoryUsage of job (MB)
+	404336  -  ResidentSetSize of job (KB)
+...
+040 (7915122.000.000) 2022-01-03 10:19:19 Started transferring output files
+	Seconds spent in queue: 495
+...
+040 (7915122.000.000) 2022-01-03 10:19:20 Finished transferring output files
+...
+005 (7915122.000.000) 2022-01-03 10:19:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:37, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:37, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	159543  -  Run Bytes Sent By Job
+	315491744  -  Run Bytes Received By Job
+	159543  -  Total Bytes Sent By Job
+	315491744  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.64        1         1 
+	   Disk (KB)            : 308313     2048000   2338649 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    395        1992      2048 
+
+	Job terminated of its own accord at 2022-01-03T16:19:19Z.
+...

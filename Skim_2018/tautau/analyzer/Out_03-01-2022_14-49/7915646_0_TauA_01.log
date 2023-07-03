@@ -1,0 +1,43 @@
+000 (7915646.000.000) 2022-01-03 14:54:06 Job submitted from host: <144.92.181.245:9618?addrs=144.92.181.245-9618+[2607-f388-101c-1000--372]-9618&alias=login06.hep.wisc.edu&noUDP&sock=schedd_913429_e58e>
+...
+040 (7915646.000.000) 2022-01-03 14:54:21 Entered queue to transfer input files
+	Transferring to host: <128.105.245.206:9618?addrs=128.105.245.206-9618&alias=e2406.chtc.wisc.edu&noUDP&sock=slot1_13_35629_9a82_13966>
+...
+040 (7915646.000.000) 2022-01-03 14:56:22 Started transferring input files
+	Seconds spent in queue: 121
+...
+040 (7915646.000.000) 2022-01-03 14:59:10 Finished transferring input files
+...
+001 (7915646.000.000) 2022-01-03 14:59:11 Job executing on host: <128.105.245.206:9618?addrs=128.105.245.206-9618&alias=e2406.chtc.wisc.edu&noUDP&sock=startd_2491_3281>
+...
+006 (7915646.000.000) 2022-01-03 14:59:19 Image size of job updated: 539556
+	396  -  MemoryUsage of job (MB)
+	405208  -  ResidentSetSize of job (KB)
+...
+006 (7915646.000.000) 2022-01-03 15:04:00 Image size of job updated: 1188952
+	396  -  MemoryUsage of job (MB)
+	405208  -  ResidentSetSize of job (KB)
+...
+040 (7915646.000.000) 2022-01-03 15:04:00 Started transferring output files
+	Seconds spent in queue: 579
+...
+040 (7915646.000.000) 2022-01-03 15:04:00 Finished transferring output files
+...
+005 (7915646.000.000) 2022-01-03 15:04:00 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:01:52, Sys 0 00:00:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:01:52, Sys 0 00:00:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	140855  -  Run Bytes Sent By Job
+	315491712  -  Run Bytes Received By Job
+	140855  -  Total Bytes Sent By Job
+	315491712  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.50        1         1 
+	   Disk (KB)            : 308295     2048000   2352664 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    396        1992      2048 
+
+	Job terminated of its own accord at 2022-01-03T21:04:00Z.
+...

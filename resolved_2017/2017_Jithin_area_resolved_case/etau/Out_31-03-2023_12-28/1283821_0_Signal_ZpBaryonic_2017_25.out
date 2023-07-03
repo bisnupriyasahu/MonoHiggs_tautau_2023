@@ -1,0 +1,77 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========Signal_ZpBaryonic_2017_25
+.... MC file ..... 
+Coming in: 
+nentries:210000
+Running over 210000 events.
+Finished entry 0/209999
+Finished entry 10000/209999
+Finished entry 20000/209999
+Finished entry 30000/209999
+Finished entry 40000/209999
+Finished entry 50000/209999
+Finished entry 60000/209999
+Finished entry 70000/209999
+Finished entry 80000/209999
+Finished entry 90000/209999
+Finished entry 100000/209999
+Finished entry 110000/209999
+Finished entry 120000/209999
+Finished entry 130000/209999
+Finished entry 140000/209999
+Finished entry 150000/209999
+Finished entry 160000/209999
+Finished entry 170000/209999
+Finished entry 180000/209999
+Finished entry 190000/209999
+Finished entry 200000/209999
+Finished entry 209999/209999
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 210000.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 784108.834354   % change= -2662.450707
+      GoodTauPassed 181331.384540   % change= 76.874207
+         opp charge 178033.268943   % change= 1.818833
+ PassedThirdLepVeto 74335.694671   % change= 58.246178
+     PassedBjetVeto 71295.520403   % change= 4.089791
+       DeltaRPassed 60628.268143   % change= 14.962023
+      Total change :71.129396
+*******************************************
+*******************************************
+Number of events inspected: 210000
+Number of events inspected (minus negative gen. weights): 210000.000000
+ Outpt written to Signal_ZpBaryonic_2017_25.root
+Real time 0:11:18, CP time 529.550

@@ -1,6 +1,8 @@
 import os
 
-inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/signal_gg/"
+#inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/"
+#inputDrMC="/hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_skimmed/signal/hadd_postAN_inp/"
+inputDrMC="/hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_in_2017_Analyzerpath_but_change_GT_db/signal/hadd_postAN_inp/"
 filelistMC=os.listdir(inputDrMC)
 filelistMC=sorted(filelistMC)
 
@@ -9,14 +11,21 @@ outFile.write("""
 outDir="Out_$(date +"%d-%m-%Y_%H-%M")" 
 mkdir $outDir 
 
+###########################   MC  #########################
+
+
+./rootcom mutau_analyzer analyze_mutau
+
 """)
 
 
-outFile.write('###########################   Signal  #########################'+'\n\n')
-outFile.write('./rootcom mutau_analyzer analyze_mutau  '+'\n\n\n')
 for j in filelistMC :
-    outFile.write("./MakeCondorFiles.csh analyze_mutau "+inputDrMC+j+" "+j+" -1 1000 2018 MC "+j[:-5]+" $outDir"+"\n")
-
+    print(j)
+    #if j.find('ZpBaryonic') != 0:
+    #    continue
+    inputDrMC = inputDrMC.replace('/hdfs', 'root://cmsxrootd.hep.wisc.edu/')
+    filename = j.replace('.root', '')
+    outFile.write("./MakeCondorFiles.csh analyze_mutau "+inputDrMC+j+" "+filename+".root -1 1000 2018 MC "+filename+"  $outDir"+"\n")
                 
 print("""
 check submit_signal.sh

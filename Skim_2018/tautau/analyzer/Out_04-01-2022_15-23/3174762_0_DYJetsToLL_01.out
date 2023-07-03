@@ -1,0 +1,53 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:13332
+Running over 13332 events.
+Finished entry 0/13331
+Finished entry 600/13331
+Finished entry 1200/13331
+Finished entry 1800/13331
+Finished entry 2400/13331
+Finished entry 3000/13331
+Finished entry 3600/13331
+Finished entry 4200/13331
+Finished entry 4800/13331
+Finished entry 5400/13331
+Finished entry 6000/13331
+Finished entry 6600/13331
+Finished entry 7200/13331
+Finished entry 7800/13331
+Finished entry 8400/13331
+Finished entry 9000/13331
+Finished entry 9600/13331
+Finished entry 10200/13331
+Finished entry 10800/13331
+Finished entry 11400/13331
+Finished entry 12000/13331
+Finished entry 12600/13331
+Finished entry 13200/13331
+Finished entry 13331/13331
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 13332.000000
+   Passing smikking 0.000000
+Inspected genWeightd 13330.000000   % change= 0.015002
+   METFiltersPassed 12653.162166   % change= 5.077553
+    SingleTrgPassed 3051.381251   % change= 75.884437
+     GoodMuonPassed 2011.541520   % change= 34.077673
+      GoodTauPassed 891.250830   % change= 55.693143
+         opp charge 891.250830   % change= 0.000000
+ PassedThirdLepVeto 912.141362   % change= -2.343957
+     PassedBjetVeto 855.019755   % change= 6.262363
+       DeltaRPassed 855.019755   % change= 0.000000
+      Total change :93.586711
+*******************************************
+*******************************************
+Number of events inspected: 13332
+Number of events inspected (minus negative gen. weights): 13330.000000
+ Outpt written to DYJetsToLL_01.root
+Real time 0:00:29, CP time 21.120

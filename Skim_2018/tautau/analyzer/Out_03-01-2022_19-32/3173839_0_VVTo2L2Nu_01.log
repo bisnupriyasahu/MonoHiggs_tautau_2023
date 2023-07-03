@@ -1,0 +1,41 @@
+000 (3173839.000.000) 2022-01-03 19:34:44 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_2326_0560>
+...
+040 (3173839.000.000) 2022-01-03 19:34:53 Entered queue to transfer input files
+	Transferring to host: <128.105.245.187:9618?addrs=128.105.245.187-9618&alias=e2387.chtc.wisc.edu&noUDP&sock=slot1_4_30808_c5de_14552>
+...
+040 (3173839.000.000) 2022-01-03 19:38:39 Started transferring input files
+	Seconds spent in queue: 226
+...
+040 (3173839.000.000) 2022-01-03 19:39:05 Finished transferring input files
+...
+001 (3173839.000.000) 2022-01-03 19:39:06 Job executing on host: <128.105.245.187:9618?addrs=128.105.245.187-9618&alias=e2387.chtc.wisc.edu&noUDP&sock=startd_2714_281f>
+...
+006 (3173839.000.000) 2022-01-03 19:39:14 Image size of job updated: 843896
+	420  -  MemoryUsage of job (MB)
+	429720  -  ResidentSetSize of job (KB)
+...
+040 (3173839.000.000) 2022-01-03 19:39:21 Entered queue to transfer output files
+...
+040 (3173839.000.000) 2022-01-03 19:39:22 Started transferring output files
+	Seconds spent in queue: 269
+...
+040 (3173839.000.000) 2022-01-03 19:39:22 Finished transferring output files
+...
+005 (3173839.000.000) 2022-01-03 19:39:22 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:05, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:05, Sys 0 00:00:01  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	155505  -  Run Bytes Sent By Job
+	315491776  -  Run Bytes Received By Job
+	155505  -  Total Bytes Sent By Job
+	315491776  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :   308310  2048000   2711362 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      420     1992      2048 
+
+	Job terminated of its own accord at 2022-01-04T01:39:16Z.
+...

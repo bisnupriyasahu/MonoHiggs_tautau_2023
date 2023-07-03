@@ -1,0 +1,47 @@
+000 (6066702.000.000) 06/28 19:06:51 Job submitted from host: <144.92.181.244:9618?addrs=144.92.181.244-9618+[2607-f388-101c-1000--371]-9618&noUDP&sock=2237_f972_3>
+...
+001 (6066702.000.000) 06/28 23:11:48 Job executing on host: <144.92.180.118:9618?addrs=144.92.180.118-9618+[2607-f388-101c-1000--629]-9618&noUDP&sock=2158_c977_3>
+...
+006 (6066702.000.000) 06/28 23:11:57 Image size of job updated: 297248
+	105  -  MemoryUsage of job (MB)
+	107508  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/28 23:31:58 Image size of job updated: 721204
+	406  -  MemoryUsage of job (MB)
+	415076  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/28 23:51:58 Image size of job updated: 721204
+	408  -  MemoryUsage of job (MB)
+	417716  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/29 00:11:58 Image size of job updated: 721204
+	409  -  MemoryUsage of job (MB)
+	417848  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/29 00:31:58 Image size of job updated: 721204
+	409  -  MemoryUsage of job (MB)
+	418244  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/29 01:12:00 Image size of job updated: 721204
+	409  -  MemoryUsage of job (MB)
+	418508  -  ResidentSetSize of job (KB)
+...
+006 (6066702.000.000) 06/29 02:12:00 Image size of job updated: 721204
+	409  -  MemoryUsage of job (MB)
+	418772  -  ResidentSetSize of job (KB)
+...
+005 (6066702.000.000) 06/29 02:23:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:40:38, Sys 0 00:02:48  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:40:38, Sys 0 00:02:48  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	432880256  -  Run Bytes Sent By Job
+	218227  -  Run Bytes Received By Job
+	432880256  -  Total Bytes Sent By Job
+	218227  -  Total Bytes Received By Job
+	Partitionable Resources :      Usage  Request Allocated 
+	   Cpus                 :       0.11        1         1 
+	   Disk (KB)            : 1000000     2048000  18346891 
+	   Memory (MB)          :     409        1992      2048 
+...

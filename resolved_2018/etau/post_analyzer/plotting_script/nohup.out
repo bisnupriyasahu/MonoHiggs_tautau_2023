@@ -1,0 +1,646 @@
+running elePt
+sample exists
+Take action sample is not Empty .... removing existing files .....
+removing sample/*elePt*.root  
+running elePt
+sample exists
+Take action sample is not Empty .... removing existing files .....
+removing sample/*elePt*.root  
+1 9b True
+DY1JetsToLL_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DY1JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY1JetsToLL  checking sampleZTT1jet  weight = 0.13965926822708402
+DY1JetsToLL_final.root histograms in file 19967
+Searching for  elePt_9b
+Done......................
+DY2JetsToLL_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DY2JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY2JetsToLL  checking sampleZTT2jet  weight = 0.1580009370852608
+DY2JetsToLL_final.root histograms in file 21551
+Searching for  elePt_9b
+Done......................
+DY3JetsToLL_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DY3JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY3JetsToLL  checking sampleZTT3jet  weight = 0.1955577820780658
+DY3JetsToLL_final.root histograms in file 21523
+Searching for  elePt_9b
+Done......................
+DY4JetsToLL_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DY4JetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DY4JetsToLL  checking sampleZTT4jet  weight = 0.16403137386134845
+DY4JetsToLL_final.root histograms in file 21547
+Searching for  elePt_9b
+Done......................
+DYJetsToLL_M10to50_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DYJetsToLL_M10to50
+
+ for DYJetsToLL_M10to50  checking sampleDYJetsToLL_M10to50  weight = 0.0
+DYJetsToLL_M10to50_final.root histograms in file 4539
+Searching for  elePt_9b
+Done......................
+DYJetsToLL_final.root
+Making root files for elePt
+get_lumiweight , sampleName= DYJetsToLL
+ZTTjet_inc 3.6210537693648166
+ZTT1jet 0.6982963411354202
+ZTT2jet 0.790004685426304
+ZTT3jet 0.977788910390329
+ZTT4jet 0.8201568693067423
+
+ for DYJetsToLL  checking sampleZTTjet_inc  weight = 0.7242107538729633
+DYJetsToLL_final.root histograms in file 19947
+Searching for  elePt_9b
+Done......................
+EGamma2018A_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EGamma2018A
+
+ for EGamma2018A  checking sampleblinded_data_obs  weight = 1.0
+EGamma2018A_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+EGamma2018B_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EGamma2018B
+
+ for EGamma2018B  checking sampleblinded_data_obs  weight = 1.0
+EGamma2018B_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+EGamma2018C_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EGamma2018C
+
+ for EGamma2018C  checking sampleblinded_data_obs  weight = 1.0
+EGamma2018C_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+EGamma2018D_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EGamma2018D
+
+ for EGamma2018D  checking sampleblinded_data_obs  weight = 1.0
+EGamma2018D_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+EWKWMinus2Jets_WToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EWKWMinus2Jets_WToLNu
+
+ for EWKWMinus2Jets_WToLNu  checking sampleEWKWMinus2Jets  weight = 0.0626774485001807
+EWKWMinus2Jets_WToLNu_final.root histograms in file 21563
+Searching for  elePt_9b
+Done......................
+EWKWPlus2Jets_WToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EWKWPlus2Jets_WToLNu
+
+ for EWKWPlus2Jets_WToLNu  checking sampleEWKWPlus2Jets  weight = 0.08081075022872826
+EWKWPlus2Jets_WToLNu_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+EWKZ2Jets_ZToNuNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= EWKZ2Jets_ZToNuNu
+
+ for EWKZ2Jets_ZToNuNu  checking sampleEWKZ2Jets_ZToNuNu  weight = 0.0433516348773842
+EWKZ2Jets_ZToNuNu_final.root histograms in file 1089
+Searching for  elePt_9b
+Done......................
+GluGluHToTauTau_final.root
+Making root files for elePt
+get_lumiweight , sampleName= GluGluHToTauTau
+
+ for GluGluHToTauTau  checking sampleGluGluHToTauTau  weight = 0.0028921538003976142
+GluGluHToTauTau_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+GluGluZH_HToWW_final.root
+Making root files for elePt
+get_lumiweight , sampleName= GluGluZH_HToWW
+
+ for GluGluZH_HToWW  checking sampleGluGluZH_HToWW  weight = 0.0006572044420354708
+GluGluZH_HToWW_final.root histograms in file 21563
+Searching for  elePt_9b
+Done......................
+HWminusJ_HToWW_final.root
+Making root files for elePt
+get_lumiweight , sampleName= HWminusJ_HToWW
+
+ for HWminusJ_HToWW  checking sampleHWminusJ_HToWW  weight = 0.001405285979764609
+HWminusJ_HToWW_final.root histograms in file 21553
+Searching for  elePt_9b
+Done......................
+HWplusJ_HToWW_final.root
+Making root files for elePt
+get_lumiweight , sampleName= HWplusJ_HToWW
+
+ for HWplusJ_HToWW  checking sampleHWplusJ_HToWW  weight = 0.0021753036437246963
+HWplusJ_HToWW_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+HZJ_HToWW_final.root
+Making root files for elePt
+get_lumiweight , sampleName= HZJ_HToWW
+
+ for HZJ_HToWW  checking sampleHZJ_HToWW  weight = 0.0019462336236353655
+HZJ_HToWW_final.root histograms in file 21563
+Searching for  elePt_9b
+Done......................
+ST_t-channel_antitop_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ST_t-channel_antitop
+
+ for ST_t-channel_antitop  checking sampleST_t-channel_antitop  weight = 0.012220675476793761
+ST_t-channel_antitop_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+ST_t-channel_top_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ST_t-channel_top
+
+ for ST_t-channel_top  checking sampleST_t-channel_top  weight = 0.010524944775235415
+ST_t-channel_top_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+ST_tW_antitop_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ST_tW_antitop
+
+ for ST_tW_antitop  checking sampleST_tW_antitop  weight = 0.056152302243211334
+ST_tW_antitop_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+ST_tW_top_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ST_tW_top
+
+ for ST_tW_top  checking sampleST_tW_top  weight = 0.044597728693477806
+ST_tW_top_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+TTTo2L2Nu_powheg_final.root
+Making root files for elePt
+get_lumiweight , sampleName= TTTo2L2Nu_powheg
+
+ for TTTo2L2Nu_powheg  checking sampleTTTo2L2Nu  weight = 0.01639220338983051
+TTTo2L2Nu_powheg_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+TTToHadronic_powheg_final.root
+Making root files for elePt
+get_lumiweight , sampleName= TTToHadronic_powheg
+
+ for TTToHadronic_powheg  checking sampleTTToHadronic  weight = 0.033726252540954196
+TTToHadronic_powheg_final.root histograms in file 8513
+Searching for  elePt_9b
+Done......................
+TTToSemiLeptonic_powheg_final.root
+Making root files for elePt
+get_lumiweight , sampleName= TTToSemiLeptonic_powheg
+
+ for TTToSemiLeptonic_powheg  checking sampleTTToSemiLeptonic  weight = 0.04295695716395864
+TTToSemiLeptonic_powheg_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+VBFHToTauTau_final.root
+Making root files for elePt
+get_lumiweight , sampleName= VBFHToTauTau
+
+ for VBFHToTauTau  checking sampleVBFHToTauTau  weight = 0.0009437829720000001
+VBFHToTauTau_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+VBFHToWWTo2L2Nu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= VBFHToWWTo2L2Nu
+
+ for VBFHToWWTo2L2Nu  checking sampleVBFHToWWTo2L2Nu  weight = 0.001071018
+VBFHToWWTo2L2Nu_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+W1JetsToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= W1JetsToLNu
+
+ for W1JetsToLNu  checking sampleW1Jet  weight = 2.186803142
+W1JetsToLNu_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+W2JetsToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= W2JetsToLNu
+
+ for W2JetsToLNu  checking sampleW2Jet  weight = 1.6634995514
+W2JetsToLNu_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+W3JetsToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= W3JetsToLNu
+
+ for W3JetsToLNu  checking sampleW3Jet  weight = 0.8834897434
+W3JetsToLNu_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+W4JetsToLNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= W4JetsToLNu
+
+ for W4JetsToLNu  checking sampleW4Jet  weight = 0.6622382983999999
+W4JetsToLNu_final.root histograms in file 21553
+Searching for  elePt_9b
+Done......................
+WGToLNuG_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WGToLNuG
+
+ for WGToLNuG  checking sampleWGToLNuG  weight = 0.907787680335864
+WGToLNuG_final.root histograms in file 21473
+Searching for  elePt_9b
+Done......................
+WJetsToLNu_Incl_HT_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WJetsToLNu_Incl_HT
+WJetsToLNu_Incl_HT NOT FOUND !!!!!!
+
+ for WJetsToLNu_Incl_HT  checking sampleWJetsToLNu_Incl_HT  weight = 0.0
+WJetsToLNu_Incl_HT_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+WJetsToLNu_Incl_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WJetsToLNu_Incl
+
+ for WJetsToLNu_Incl  checking sampleWJets_inc  weight = 10.403796498
+WJetsToLNu_Incl_final.root histograms in file 21561
+Searching for  elePt_9b
+Done......................
+WWTo1L1Nu2Q_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WWTo1L1Nu2Q
+
+ for WWTo1L1Nu2Q  checking sampleWWTo1L1Nu2Q  weight = 0.027305933459972124
+WWTo1L1Nu2Q_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+WWToLNuQQ_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WWToLNuQQ
+
+ for WWToLNuQQ  checking sampleWWToLNuQQ  weight = 0.0066605934653186875
+WWToLNuQQ_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+WWW_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WWW
+
+ for WWW  checking sampleWWW  weight = 0.010377850000000001
+WWW_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+WWZ_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WWZ
+
+ for WWZ  checking sampleWWZ  weight = 0.007885175999999999
+WWZ_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+WZTo3LNu_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WZTo3LNu
+
+ for WZTo3LNu  checking sampleWZTo3LNu  weight = 0.004920725306995294
+WZTo3LNu_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+WZZ_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WZZ
+
+ for WZZ  checking sampleWZZ  weight = 0.002657844
+WZZ_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+WplusHToTauTau_final.root
+Making root files for elePt
+get_lumiweight , sampleName= WplusHToTauTau
+
+ for WplusHToTauTau  checking sampleWplusHToTauTau  weight = 0.00016616179252761188
+WplusHToTauTau_final.root histograms in file 21569
+Searching for  elePt_9b
+Done......................
+ZHToTauTau_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZHToTauTau
+
+ for ZHToTauTau  checking sampleZHToTauTau  weight = 0.00011967353742218041
+ZHToTauTau_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+ZJetsToNuNu_HT1200-2500_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZJetsToNuNu_HT1200-2500
+
+ for ZJetsToNuNu_HT1200-2500  checking sampleZJetsToNuNu_HT1200-2500  weight = 0.009998764561565045
+ZJetsToNuNu_HT1200-2500_final.root histograms in file 5025
+Searching for  elePt_9b
+Done......................
+ZJetsToNuNu_HT200-400_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZJetsToNuNu_HT200-400
+
+ for ZJetsToNuNu_HT200-400  checking sampleZJetsToNuNu_HT200-400  weight = 0.039826770046017534
+ZJetsToNuNu_HT200-400_final.root histograms in file 8395
+Searching for  elePt_9b
+Done......................
+ZJetsToNuNu_HT2500-Inf_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZJetsToNuNu_HT2500-Inf
+
+ for ZJetsToNuNu_HT2500-Inf  checking sampleZJetsToNuNu_HT2500-Inf  weight = 0.00023017531469056467
+ZJetsToNuNu_HT2500-Inf_final.root histograms in file 1089
+Searching for  elePt_9b
+Done......................
+ZJetsToNuNu_HT400-600_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZJetsToNuNu_HT400-600
+
+ for ZJetsToNuNu_HT400-600  checking sampleZJetsToNuNu_HT400-600  weight = 0.013396109808539496
+ZJetsToNuNu_HT400-600_final.root histograms in file 1089
+Searching for  elePt_9b
+Done......................
+ZJetsToNuNu_HT800-1200_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZJetsToNuNu_HT800-1200
+
+ for ZJetsToNuNu_HT800-1200  checking sampleZJetsToNuNu_HT800-1200  weight = 0.006804212119423378
+ZJetsToNuNu_HT800-1200_final.root histograms in file 1
+Searching for  elePt_9b
+Done......................
+ZZTo2L2Q_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZZTo2L2Q
+
+ for ZZTo2L2Q  checking sampleZZTo2L2Q  weight = 0.0013779982917850489
+ZZTo2L2Q_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+ZZTo4L_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZZTo4L
+
+ for ZZTo4L  checking sampleZZTo4L  weight = 0.002163153410364878
+ZZTo4L_final.root histograms in file 21571
+Searching for  elePt_9b
+Done......................
+ZZZ_final.root
+Making root files for elePt
+get_lumiweight , sampleName= ZZZ
+
+ for ZZZ  checking sampleZZZ  weight = 0.0006676848
+ZZZ_final.root histograms in file 21531
+Searching for  elePt_9b
+Done......................
+fullLumi_EGamma2018A_final.root
+Making root files for elePt
+get_lumiweight , sampleName= fullLumi_EGamma2018A
+
+ for fullLumi_EGamma2018A  checking sampledata_obs  weight = 1.0
+fullLumi_EGamma2018A_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+fullLumi_EGamma2018B_final.root
+Making root files for elePt
+get_lumiweight , sampleName= fullLumi_EGamma2018B
+
+ for fullLumi_EGamma2018B  checking sampledata_obs  weight = 1.0
+fullLumi_EGamma2018B_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+fullLumi_EGamma2018C_final.root
+Making root files for elePt
+get_lumiweight , sampleName= fullLumi_EGamma2018C
+
+ for fullLumi_EGamma2018C  checking sampledata_obs  weight = 1.0
+fullLumi_EGamma2018C_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+fullLumi_EGamma2018D_final.root
+Making root files for elePt
+get_lumiweight , sampleName= fullLumi_EGamma2018D
+
+ for fullLumi_EGamma2018D  checking sampledata_obs  weight = 1.0
+fullLumi_EGamma2018D_final.root histograms in file 5569
+Searching for  elePt_9b
+Done......................
+Take action root files exits
+hadd Target file: f_elePt_initial.root
+hadd compression setting for all output: 1
+hadd Source file 1: sample/DY1JetsToLL_final_elePt.root
+hadd Source file 2: sample/DY2JetsToLL_final_elePt.root
+hadd Source file 3: sample/DY3JetsToLL_final_elePt.root
+hadd Source file 4: sample/DY4JetsToLL_final_elePt.root
+hadd Source file 5: sample/DYJetsToLL_M10to50_final_elePt.root
+hadd Source file 6: sample/DYJetsToLL_final_elePt.root
+hadd Source file 7: sample/EGamma2018A_final_elePt.root
+hadd Source file 8: sample/EGamma2018B_final_elePt.root
+hadd Source file 9: sample/EGamma2018C_final_elePt.root
+hadd Source file 10: sample/EGamma2018D_final_elePt.root
+hadd Source file 11: sample/EWKWMinus2Jets_WToLNu_final_elePt.root
+hadd Source file 12: sample/EWKWPlus2Jets_WToLNu_final_elePt.root
+hadd Source file 13: sample/GluGluHToTauTau_final_elePt.root
+hadd Source file 14: sample/GluGluZH_HToWW_final_elePt.root
+hadd Source file 15: sample/HWminusJ_HToWW_final_elePt.root
+hadd Source file 16: sample/HWplusJ_HToWW_final_elePt.root
+hadd Source file 17: sample/HZJ_HToWW_final_elePt.root
+hadd Source file 18: sample/ST_t-channel_antitop_final_elePt.root
+hadd Source file 19: sample/ST_t-channel_top_final_elePt.root
+hadd Source file 20: sample/ST_tW_antitop_final_elePt.root
+hadd Source file 21: sample/ST_tW_top_final_elePt.root
+hadd Source file 22: sample/TTTo2L2Nu_powheg_final_elePt.root
+hadd Source file 23: sample/TTToHadronic_powheg_final_elePt.root
+hadd Source file 24: sample/TTToSemiLeptonic_powheg_final_elePt.root
+hadd Source file 25: sample/VBFHToTauTau_final_elePt.root
+hadd Source file 26: sample/VBFHToWWTo2L2Nu_final_elePt.root
+hadd Source file 27: sample/W1JetsToLNu_final_elePt.root
+hadd Source file 28: sample/W2JetsToLNu_final_elePt.root
+hadd Source file 29: sample/W3JetsToLNu_final_elePt.root
+hadd Source file 30: sample/W4JetsToLNu_final_elePt.root
+hadd Source file 31: sample/WGToLNuG_final_elePt.root
+hadd Source file 32: sample/WJetsToLNu_Incl_HT_final_elePt.root
+hadd Source file 33: sample/WJetsToLNu_Incl_final_elePt.root
+hadd Source file 34: sample/WWTo1L1Nu2Q_final_elePt.root
+hadd Source file 35: sample/WWToLNuQQ_final_elePt.root
+hadd Source file 36: sample/WWW_final_elePt.root
+hadd Source file 37: sample/WWZ_final_elePt.root
+hadd Source file 38: sample/WZTo3LNu_final_elePt.root
+hadd Source file 39: sample/WZZ_final_elePt.root
+hadd Source file 40: sample/WplusHToTauTau_final_elePt.root
+hadd Source file 41: sample/ZHToTauTau_final_elePt.root
+hadd Source file 42: sample/ZJetsToNuNu_HT1200-2500_final_elePt.root
+hadd Source file 43: sample/ZJetsToNuNu_HT200-400_final_elePt.root
+hadd Source file 44: sample/ZZTo2L2Q_final_elePt.root
+hadd Source file 45: sample/ZZTo4L_final_elePt.root
+hadd Source file 46: sample/ZZZ_final_elePt.root
+hadd Source file 47: sample/fullLumi_EGamma2018A_final_elePt.root
+hadd Source file 48: sample/fullLumi_EGamma2018B_final_elePt.root
+hadd Source file 49: sample/fullLumi_EGamma2018C_final_elePt.root
+hadd Source file 50: sample/fullLumi_EGamma2018D_final_elePt.root
+hadd Target path: f_elePt_initial.root:/
+hadd Target path: f_elePt_initial.root:/elePt_5
+hadd Target path: f_elePt_initial.root:/elePt_6
+hadd Target path: f_elePt_initial.root:/elePt_7
+hadd Target path: f_elePt_initial.root:/elePt_8
+hadd Target path: f_elePt_initial.root:/elePt_9
+hadd Target path: f_elePt_initial.root:/elePt_9b
+hadd Target path: f_elePt_initial.root:/elePt_9b_fr
+hadd Target path: f_elePt_initial.root:/elePt_9b_dyll
+histogram =  elePt
+integral  ZLL 1.7986529730260372
+histogram =  elePt
+
+
+tdir  =   elePt_5
+Small MC STT_elePt_5 integral = 338.82834243774414
+Small MC VVT_elePt_5 integral = 313.5668354034424
+Small MC otherMC_elePt_5 integral = 391.55122661590576
+
+
+tdir  =   elePt_6
+Small MC STT_elePt_6 integral = 95.98586130142212
+Small MC VVT_elePt_6 integral = 95.36134576797485
+Small MC otherMC_elePt_6 integral = 205.38515329360962
+
+
+tdir  =   elePt_7
+Small MC STT_elePt_7 integral = 120.49910736083984
+Small MC VVT_elePt_7 integral = 102.23807764053345
+Small MC otherMC_elePt_7 integral = 97.0028395652771
+
+
+tdir  =   elePt_8
+Small MC STT_elePt_8 integral = 84.37565994262695
+Small MC VVT_elePt_8 integral = 74.14843368530273
+Small MC otherMC_elePt_8 integral = 76.76439309120178
+
+
+tdir  =   elePt_9
+Small MC STT_elePt_9 integral = 10.827330768108368
+Small MC VVT_elePt_9 integral = 13.021301090717316
+Small MC otherMC_elePt_9 integral = 11.082960307598114
+
+
+tdir  =   elePt_9b
+Small MC STT_elePt_9b integral = 10.729415476322174
+Small MC VVT_elePt_9b integral = 12.710251450538635
+Small MC otherMC_elePt_9b integral = 10.6478630900383
+
+
+tdir  =   elePt_9b_fr
+Small MC STT_elePt_9b_fr integral = 3.116391360759735
+Small MC VVT_elePt_9b_fr integral = 1.2890304513275623
+Small MC otherMC_elePt_9b_fr integral = 2.481225587427616
+
+
+tdir  =   elePt_9b_dyll
+Small MC STT_elePt_9b_dyll integral = 10.729415476322174
+Small MC VVT_elePt_9b_dyll integral = 12.710251450538635
+Small MC otherMC_elePt_9b_dyll integral = 10.6478630900383
+running with full data
+histogram =  elePt
+
+ elePt_9b_fr
+ checking elePt_9b_fr/blinded_data_obs_elePt_9b_fr
+elePt_9b_fr integral  data_obs 228.0771484375
+integral  jetFakes 185.5920147895813
+running blinded with 1/5th data
+histogram =  elePt
+Choose index to select variable(s) to scale/plot ,  example -hist 4   or -hist 4,5,12,11
+ ##  hist elePt  : 1
+ ##  hist eleEta  : 2
+ ##  hist elePhi  : 3
+ ##  hist muPt  : 4
+ ##  hist muEta  : 5
+ ##  hist muPhi  : 6
+ ##  hist tauPt  : 7
+ ##  hist tauEta  : 8
+ ##  hist tauPhi  : 9
+ ##  hist tau1Pt  : 10
+ ##  hist tau1Eta  : 11
+ ##  hist tau1Phi  : 12
+ ##  hist tau2Pt  : 13
+ ##  hist tau2Eta  : 14
+ ##  hist tau2Phi  : 15
+ ##  hist tauIso  : 16
+ ##  hist tauDecayMode  : 17
+ ##  hist tauCharge  : 18
+ ##  hist deltaR  : 19
+ ##  hist higgsPt  : 20
+ ##  hist nJet  : 21
+ ##  hist visMass  : 22
+ ##  hist mT_eleMet  : 23
+ ##  hist trigger  : 24
+ ##  hist genMatch  : 25
+ ##  hist met  : 26
+ ##  hist metPhi  : 27
+ ##  hist deltaPhi  : 28
+ ##  hist deltaEta  : 29
+ ##  hist metLongXaxis  : 30
+ ##  hist tot_TMass  : 31
+ ##  hist tot_TMass_full  : 32
+ ##  hist metFull  : 33
+ ##  hist etau  : 34
+ ##  hist mutau  : 35
+ ##  hist tautau  : 36
+ ##  hist muPt_new  : 41
+ ##  hist tauPt_new  : 42
+ ##  hist muMass_new  : 43
+ ##  hist tauMass_new  : 44
+ ##  hist met_new  : 45
+ ##  hist visMass_new  : 46
+ ##  hist higgsPt_new  : 47
+ ##  hist visMass_met_new  : 48
+ ##  hist higgsPt_met_new  : 49
+ ##  hist muMetTMassFull  : 50
+ ##  hist mT_muMet  : 51
+ ##  hist mT_eleMet  : 52
+ ##  hist tot_TMass_new  : 55
+ 
+Usage : python main.py --hist 1 --idx 9 --ch etau --y 2017
+hist =  1  :  elePt
+executing  |  echo running elePt  ; bash remove_existingfiles.sh scaled_files elePt ; python3 postAnalyzer.py --hist 1 --idx 9b --blinded 1 ; bash remove_existingfiles.sh agg_file elePt ; hadd f_elePt_initial.root sample/*elePt.root ; python3 get_zll.py --hist elePt ; python3 get_small_mc.py --hist elePt ; python3 get_jetFakes.py --hist elePt --blinded 1 ; python3 get_jetFakes_unc.py --hist elePt --blinded 1
+Time for execution =  1.2 minutes
+Total time for executing = 1.0 minutes 
+....Done.....

@@ -15,8 +15,8 @@ ROOT.gStyle.SetFrameLineWidth(1)
 ROOT.gStyle.SetLineWidth(2)
 ROOT.gStyle.SetOptStat(0)
 #mc_samples = ['ZTTjet', 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH', 'HWminusJ', 'HWplusJ', 'HZJ', 'ST_t', 'TT', 'VBFH', 'WGToLNuG', 'VV', 'VVV', 'WplusH', 'ZH', 'ZJetsToNuNu']
-mc_samples = ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT']
-
+mc_samples = ['ZTTjet', 'TT', 'otherMC', 'STT', 'VVT']
+#mc_samples = ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT']
         
 def checkHistogram(f, histogram):
     isthere=  f.GetListOfKeys().Contains(histogram)
@@ -40,7 +40,7 @@ def getHistList(inFile, isblinded=False):
 
         data_dir  = tdir+'/'+'data_obs_'+tdir
         if isblinded:
-            data_dir  = tdir+'/data_obs_'+tdir
+            data_dir  = tdir+'/blinded_data_obs_'+tdir
         print(" checking "+data_dir)
         if not inFile.Get(data_dir):
             print("################## No histogram for {} ".format(data_dir))

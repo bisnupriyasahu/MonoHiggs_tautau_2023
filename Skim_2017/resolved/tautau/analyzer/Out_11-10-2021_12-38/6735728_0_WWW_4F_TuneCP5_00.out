@@ -1,0 +1,52 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:1333
+Running over 1333 events.
+Finished entry 0/1332
+Finished entry 60/1332
+Finished entry 120/1332
+Finished entry 180/1332
+Finished entry 240/1332
+Finished entry 300/1332
+Finished entry 360/1332
+Finished entry 420/1332
+Finished entry 480/1332
+Finished entry 540/1332
+Finished entry 600/1332
+Finished entry 660/1332
+Finished entry 720/1332
+Finished entry 780/1332
+Finished entry 840/1332
+Finished entry 900/1332
+Finished entry 960/1332
+Finished entry 1020/1332
+Finished entry 1080/1332
+Finished entry 1140/1332
+Finished entry 1200/1332
+Finished entry 1260/1332
+Finished entry 1320/1332
+Finished entry 1332/1332
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 1333.000000
+   Passing smikking 0.000000
+Inspected genWeightd 1175.000000   % change= 11.852963
+   METFiltersPassed 1241.795798   % change= -5.684749
+    SingleTrgPassed 426.545569   % change= 65.650909
+     GoodMuonPassed 288.759215   % change= 32.302845
+      GoodTauPassed 80.791031   % change= 72.021315
+         opp charge 57.718110   % change= 28.558765
+ PassedThirdLepVeto 35.466611   % change= 38.552023
+     PassedBjetVeto 35.466611   % change= 0.000000
+       DeltaRPassed 35.466611   % change= 0.000000
+      Total change :97.339339
+*******************************************
+*******************************************
+Number of events inspected: 1333
+Number of events inspected (minus negative gen. weights): 1175.000000
+ Outpt written to WWW_4F_TuneCP5_00.root
+Real time 0:00:07, CP time 5.050

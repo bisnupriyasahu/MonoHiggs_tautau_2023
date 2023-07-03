@@ -5,31 +5,31 @@ LOtoNNLO_DY = 5765.4/4954.0
 LOtoNNLO_Wjets = 61526.7/50380
 
 sampleListDict = {
-    'DY1JetsToLL' : ['DY1JetsToLL', 'ZTT', '0'], 
-    'DY2JetsToLL' : ['DY2JetsToLL', 'ZTT', '0'], 
-    'DY3JetsToLL' : ['DY3JetsToLL', 'ZTT', '0'], 
-    'DY4JetsToLL' : ['DY4JetsToLL', 'ZTT', '0'], 
-    'DYJetsToLL'  : ['DYJetsToLL' , 'ZTT', '0'], 
-    'DYJetsToLL_M10to50' : ['DYJetsToLL_M10to50', 'ZTT', '0'], 
+    #'DY1JetsToLL' : ['DY1JetsToLL', 'ZTT', '0'], 
+    #'DY2JetsToLL' : ['DY2JetsToLL', 'ZTT', '0'], 
+    #'DY3JetsToLL' : ['DY3JetsToLL', 'ZTT', '0'], 
+    #'DY4JetsToLL' : ['DY4JetsToLL', 'ZTT', '0'], 
+    #'DYJetsToLL'  : ['DYJetsToLL' , 'ZTT', '0'], 
+    #'DYJetsToLL_M10to50' : ['DYJetsToLL_M10to50', 'ZTT', '0'], 
 
-    'DYJetsToLL_0J_Incl' : ['DYJetsToLL_0J_Incl', 'ZTT_0J', '0'],
-    'DYJetsToLL_2J_Incl' : ['DYJetsToLL_2J_Incl', 'ZTT_2J', '0'], 
-    'DYJetsToLL_Incl_HT'  : ['DYJetsToLL_Incl_HT' , 'ZTT_HT', '0'],
-    'DYJetsToLL_HT100-200' : ['DYJetsToLL_HT100-200', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT1200-2500' : ['DYJetsToLL_HT1200-2500', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT200-400' : ['DYJetsToLL_HT200-400', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT2500-Inf': ['DYJetsToLL_HT2500-Inf', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT400-600' : [ 'DYJetsToLL_HT400-600', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT600-800' : ['DYJetsToLL_HT600-800',  'ZTT_HT', '0'],
-    'DYJetsToLL_HT70-100' : [ 'DYJetsToLL_HT70-100',  'ZTT_HT', '0'],
-    'DYJetsToLL_HT800-1200' : ['DYJetsToLL_HT800-1200',  'ZTT_HT', '0'],
+    #'DYJetsToLL_0J_Incl' : ['DYJetsToLL_0J_Incl', 'ZTT_0J', '0'],
+    #'DYJetsToLL_2J_Incl' : ['DYJetsToLL_2J_Incl', 'ZTT_2J', '0'], 
+    #'DYJetsToLL_Incl_HT'  : ['DYJetsToLL_Incl_HT' , 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT100-200' : ['DYJetsToLL_HT100-200', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT1200-2500' : ['DYJetsToLL_HT1200-2500', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT200-400' : ['DYJetsToLL_HT200-400', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT2500-Inf': ['DYJetsToLL_HT2500-Inf', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT400-600' : [ 'DYJetsToLL_HT400-600', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT600-800' : ['DYJetsToLL_HT600-800',  'ZTT_HT', '0'],
+    #'DYJetsToLL_HT70-100' : [ 'DYJetsToLL_HT70-100',  'ZTT_HT', '0'],
+    #'DYJetsToLL_HT800-1200' : ['DYJetsToLL_HT800-1200',  'ZTT_HT', '0'],
 
     'DY1JetsToLL_stitch' : ['ZTT1jet', 'ZTTjet', '0'],
     'DY2JetsToLL_stitch' : ['ZTT2jet', 'ZTTjet', '0'],
     'DY3JetsToLL_stitch' : ['ZTT3jet', 'ZTTjet', '0'],
     'DY4JetsToLL_stitch' : ['ZTT4jet', 'ZTTjet', '0'],
     'DYJetsToLL_stitch'  : ['ZTTjet_inc' , 'ZTTjet', '0'],
-
+    'DYJetsToLL_M10to50' : ['ZTTjet_inc' , 'ZTTjet', '0'],
     'EWKWMinus2Jets_WToLNu' : ['EWKWMinus2Jets', 'EWKWMinus', '0'], 
     'EWKWPlus2Jets_WToLNu' : ['EWKWPlus2Jets', 'EWKWPlus', '0'], 
     'EWKZ2Jets_ZToLL' : ['EWKZ2Jets_ZToLL', 'EWKZ2Jets', '0'], 
@@ -46,21 +46,36 @@ sampleListDict = {
     'ST_tW_antitop' : ['ST_tW_antitop', 'ST_t', '0'], 
     'ST_tW_top' : ['ST_tW_top', 'ST_t', '0'], 
 
-    'EGamma2018A' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018B' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018C' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018D' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonA' : ['data_obs', 'data_obs', '0'],
-    'SingleMuonB' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonC' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonD' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonD_PromptReco'  : ['data_obs', 'data_obs', '0'],
-    'SingleMuonE' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonF' : ['data_obs', 'data_obs', '0'], 
-    'TauA' : ['data_obs', 'data_obs', '0'], 
-    'TauB' : ['data_obs', 'data_obs', '0'],
-    'TauC' : ['data_obs', 'data_obs', '0'],
-    'TauD_PromptReco' : ['data_obs', 'data_obs', '0'],
+    'EGamma2018A' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018B' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018C' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018D' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+
+    'SingleMuonA' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleMuonB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuonC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuonD_PromptReco'  : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    'TauA' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'TauB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'TauC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'TauD_PromptReco' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    'fullLumi_EGamma2018A' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018B' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018C' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018D' : ['data_obs', 'data_obs', '0'],
+
+
+    'fullLumi_SingleMuonA' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonD_PromptReco' : ['data_obs', 'data_obs', '0'],
+    
+    'fullLumi_TauA' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauD_PromptReco' : ['data_obs', 'data_obs', '0'],
 
     'TTTo2L2Nu_powheg' : ['TTTo2L2Nu', 'TT', '0'], 
     'TTToHadronic_powheg' : ['TTToHadronic', 'TT', '0'], 
@@ -116,26 +131,6 @@ sampleListDict = {
     'ZJetsToNuNu_HT400-600' :   ['ZJetsToNuNu_HT400-600'   , 'ZJetsToNuNu' ,'0'],
     'ZJetsToNuNu_HT600-800' :   ['ZJetsToNuNu_HT600-800'   , 'ZJetsToNuNu' ,'0'],
     'ZJetsToNuNu_HT800-1200' :  ['ZJetsToNuNu_HT800-1200'  , 'ZJetsToNuNu' ,'0' ],
-
-    'MET_EraB' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraC' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraD' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraE' : ['data_obs', 'data_obs', '0'], 
-    'MET_EraF' : ['data_obs', 'data_obs', '0'], 
-
-    'blinded_MET2018A' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018B' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018C' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018D' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018E' : ['blinded_data_obs', 'blinded_data_obs', '0'],     
-    'blinded_MET2018F' : ['blinded_data_obs', 'blinded_data_obs', '0'],  
-    
-    'MET2018A' : ['data_obs', 'data_obs', '0'], 
-    'MET2018B' : ['data_obs', 'data_obs', '0'], 
-    'MET2018C' : ['data_obs', 'data_obs', '0'], 
-    'MET2018D' : ['data_obs', 'data_obs', '0'], 
-    'MET2018E' : ['data_obs', 'data_obs', '0'],     
-    'MET2018F' : ['data_obs', 'data_obs', '0'],     
     
     'Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200'     :       ['Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200',   'Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200',    '0'     ] ,
     'Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200'     :       ['Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200',   'Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200',    '0'     ] ,
@@ -241,54 +236,55 @@ sampleListDict = {
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400'    :       ['Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400',  'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400',   '0'     ] ,
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500'    :       ['Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500',  'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500',   '0'     ] ,
     
-    'Signal_Zpbaryonic2018_1' : [ 'Signal_Zpbaryonic2018_1' , 'Signal_MZp_1000_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_2' : [ 'Signal_Zpbaryonic2018_2' , 'Signal_MZp_1000_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_3' : [ 'Signal_Zpbaryonic2018_3' , 'Signal_MZp_1000_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_4' : [ 'Signal_Zpbaryonic2018_4' , 'Signal_MZp_1000_MChi_400' , 0 ] ,
-    'Signal_Zpbaryonic2018_5' : [ 'Signal_Zpbaryonic2018_5' , 'Signal_MZp_1000_MChi_600' , 0 ] ,
-    'Signal_Zpbaryonic2018_6' : [ 'Signal_Zpbaryonic2018_6' , 'Signal_MZp_1000_MChi_800' , 0 ] ,
-    'Signal_Zpbaryonic2018_7' : [ 'Signal_Zpbaryonic2018_7' , 'Signal_MZp_100_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_8' : [ 'Signal_Zpbaryonic2018_8' , 'Signal_MZp_100_MChi_50' , 0 ] ,
-    'Signal_Zpbaryonic2018_9' : [ 'Signal_Zpbaryonic2018_9' , 'Signal_MZp_1500_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_10' : [ 'Signal_Zpbaryonic2018_10' , 'Signal_MZp_1500_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_11' : [ 'Signal_Zpbaryonic2018_11' , 'Signal_MZp_1500_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_12' : [ 'Signal_Zpbaryonic2018_12' , 'Signal_MZp_1500_MChi_400' , 0 ] ,
-    'Signal_Zpbaryonic2018_13' : [ 'Signal_Zpbaryonic2018_13' , 'Signal_MZp_1500_MChi_600' , 0 ] ,
-    'Signal_Zpbaryonic2018_14' : [ 'Signal_Zpbaryonic2018_14' , 'Signal_MZp_1500_MChi_800' , 0 ] ,
-    'Signal_Zpbaryonic2018_15' : [ 'Signal_Zpbaryonic2018_15' , 'Signal_MZp_2000_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_16' : [ 'Signal_Zpbaryonic2018_16' , 'Signal_MZp_2000_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_17' : [ 'Signal_Zpbaryonic2018_17' , 'Signal_MZp_2000_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_18' : [ 'Signal_Zpbaryonic2018_18' , 'Signal_MZp_2000_MChi_400' , 0 ] ,
-    'Signal_Zpbaryonic2018_19' : [ 'Signal_Zpbaryonic2018_19' , 'Signal_MZp_2000_MChi_600' , 0 ] ,
-    'Signal_Zpbaryonic2018_20' : [ 'Signal_Zpbaryonic2018_20' , 'Signal_MZp_2000_MChi_800' , 0 ] ,
-    'Signal_Zpbaryonic2018_21' : [ 'Signal_Zpbaryonic2018_21' , 'Signal_MZp_200_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_22' : [ 'Signal_Zpbaryonic2018_22' , 'Signal_MZp_200_MChi_150' , 0 ] ,
-    'Signal_Zpbaryonic2018_23' : [ 'Signal_Zpbaryonic2018_23' , 'Signal_MZp_200_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_24' : [ 'Signal_Zpbaryonic2018_24' , 'Signal_MZp_200_MChi_50' , 0 ] ,
-    'Signal_Zpbaryonic2018_25' : [ 'Signal_Zpbaryonic2018_25' , 'Signal_MZp_2500_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_26' : [ 'Signal_Zpbaryonic2018_26' , 'Signal_MZp_2500_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_27' : [ 'Signal_Zpbaryonic2018_27' , 'Signal_MZp_2500_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_28' : [ 'Signal_Zpbaryonic2018_28' , 'Signal_MZp_2500_MChi_400' , 0 ] ,
-    'Signal_Zpbaryonic2018_29' : [ 'Signal_Zpbaryonic2018_29' , 'Signal_MZp_2500_MChi_600' , 0 ] ,
-    'Signal_Zpbaryonic2018_30' : [ 'Signal_Zpbaryonic2018_30' , 'Signal_MZp_2500_MChi_800' , 0 ] ,
-    'Signal_Zpbaryonic2018_31' : [ 'Signal_Zpbaryonic2018_31' , 'Signal_MZp_3000_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_32' : [ 'Signal_Zpbaryonic2018_32' , 'Signal_MZp_3000_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_33' : [ 'Signal_Zpbaryonic2018_33' , 'Signal_MZp_3000_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_34' : [ 'Signal_Zpbaryonic2018_34' , 'Signal_MZp_300_MChi_150' , 0 ] ,
-    'Signal_Zpbaryonic2018_35' : [ 'Signal_Zpbaryonic2018_35' , 'Signal_MZp_3500_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_36' : [ 'Signal_Zpbaryonic2018_36' , 'Signal_MZp_3500_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_37' : [ 'Signal_Zpbaryonic2018_37' , 'Signal_MZp_350_MChi_50' , 0 ] ,
-    'Signal_Zpbaryonic2018_38' : [ 'Signal_Zpbaryonic2018_38' , 'Signal_MZp_500_MChi_100' , 0 ] ,
-    'Signal_Zpbaryonic2018_39' : [ 'Signal_Zpbaryonic2018_39' , 'Signal_MZp_500_MChi_1' , 0 ] ,
-    'Signal_Zpbaryonic2018_40' : [ 'Signal_Zpbaryonic2018_40' , 'Signal_MZp_500_MChi_200' , 0 ] ,
-    'Signal_Zpbaryonic2018_41' : [ 'Signal_Zpbaryonic2018_41' , 'Signal_MZp_500_MChi_400' , 0 ] ,
-    'Signal_Zpbaryonic2018_42' : [ 'Signal_Zpbaryonic2018_42' , 'Signal_MZp_650_MChi_50' , 0 ] ,
-    'Signal_Zpbaryonic2018_43' : [ 'Signal_Zpbaryonic2018_43' , 'Signal_MZp_800_MChi_50' , 0 ] ,
-    
+
+    'Signal_ZpBaryonic2018_1' : [ 'Signal_ZpBaryonic2018_1' , 'Signal_MZp_1000_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_2' : [ 'Signal_ZpBaryonic2018_2' , 'Signal_MZp_1000_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_3' : [ 'Signal_ZpBaryonic2018_3' , 'Signal_MZp_1000_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_4' : [ 'Signal_ZpBaryonic2018_4' , 'Signal_MZp_1000_MChi_400' , 0 ] ,
+    'Signal_ZpBaryonic2018_5' : [ 'Signal_ZpBaryonic2018_5' , 'Signal_MZp_1000_MChi_600' , 0 ] ,
+    'Signal_ZpBaryonic2018_6' : [ 'Signal_ZpBaryonic2018_6' , 'Signal_MZp_1000_MChi_800' , 0 ] ,
+    'Signal_ZpBaryonic2018_7' : [ 'Signal_ZpBaryonic2018_7' , 'Signal_MZp_100_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_8' : [ 'Signal_ZpBaryonic2018_8' , 'Signal_MZp_100_MChi_50' , 0 ] ,
+    'Signal_ZpBaryonic2018_9' : [ 'Signal_ZpBaryonic2018_9' , 'Signal_MZp_1500_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_10' : [ 'Signal_ZpBaryonic2018_10' , 'Signal_MZp_1500_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_11' : [ 'Signal_ZpBaryonic2018_11' , 'Signal_MZp_1500_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_12' : [ 'Signal_ZpBaryonic2018_12' , 'Signal_MZp_1500_MChi_400' , 0 ] ,
+    'Signal_ZpBaryonic2018_13' : [ 'Signal_ZpBaryonic2018_13' , 'Signal_MZp_1500_MChi_600' , 0 ] ,
+    'Signal_ZpBaryonic2018_14' : [ 'Signal_ZpBaryonic2018_14' , 'Signal_MZp_1500_MChi_800' , 0 ] ,
+    'Signal_ZpBaryonic2018_15' : [ 'Signal_ZpBaryonic2018_15' , 'Signal_MZp_2000_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_16' : [ 'Signal_ZpBaryonic2018_16' , 'Signal_MZp_2000_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_17' : [ 'Signal_ZpBaryonic2018_17' , 'Signal_MZp_2000_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_18' : [ 'Signal_ZpBaryonic2018_18' , 'Signal_MZp_2000_MChi_400' , 0 ] ,
+    'Signal_ZpBaryonic2018_19' : [ 'Signal_ZpBaryonic2018_19' , 'Signal_MZp_2000_MChi_600' , 0 ] ,
+    'Signal_ZpBaryonic2018_20' : [ 'Signal_ZpBaryonic2018_20' , 'Signal_MZp_2000_MChi_800' , 0 ] ,
+    'Signal_ZpBaryonic2018_21' : [ 'Signal_ZpBaryonic2018_21' , 'Signal_MZp_200_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_22' : [ 'Signal_ZpBaryonic2018_22' , 'Signal_MZp_200_MChi_150' , 0 ] ,
+    'Signal_ZpBaryonic2018_23' : [ 'Signal_ZpBaryonic2018_23' , 'Signal_MZp_200_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_24' : [ 'Signal_ZpBaryonic2018_24' , 'Signal_MZp_200_MChi_50' , 0 ] ,
+    'Signal_ZpBaryonic2018_25' : [ 'Signal_ZpBaryonic2018_25' , 'Signal_MZp_2500_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_26' : [ 'Signal_ZpBaryonic2018_26' , 'Signal_MZp_2500_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_27' : [ 'Signal_ZpBaryonic2018_27' , 'Signal_MZp_2500_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_28' : [ 'Signal_ZpBaryonic2018_28' , 'Signal_MZp_2500_MChi_400' , 0 ] ,
+    'Signal_ZpBaryonic2018_29' : [ 'Signal_ZpBaryonic2018_29' , 'Signal_MZp_2500_MChi_600' , 0 ] ,
+    'Signal_ZpBaryonic2018_30' : [ 'Signal_ZpBaryonic2018_30' , 'Signal_MZp_2500_MChi_800' , 0 ] ,
+    'Signal_ZpBaryonic2018_31' : [ 'Signal_ZpBaryonic2018_31' , 'Signal_MZp_3000_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_32' : [ 'Signal_ZpBaryonic2018_32' , 'Signal_MZp_3000_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_33' : [ 'Signal_ZpBaryonic2018_33' , 'Signal_MZp_3000_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_34' : [ 'Signal_ZpBaryonic2018_34' , 'Signal_MZp_300_MChi_150' , 0 ] ,
+    'Signal_ZpBaryonic2018_35' : [ 'Signal_ZpBaryonic2018_35' , 'Signal_MZp_3500_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_36' : [ 'Signal_ZpBaryonic2018_36' , 'Signal_MZp_3500_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_37' : [ 'Signal_ZpBaryonic2018_37' , 'Signal_MZp_350_MChi_50' , 0 ] ,
+    'Signal_ZpBaryonic2018_38' : [ 'Signal_ZpBaryonic2018_38' , 'Signal_MZp_500_MChi_100' , 0 ] ,
+    'Signal_ZpBaryonic2018_39' : [ 'Signal_ZpBaryonic2018_39' , 'Signal_MZp_500_MChi_1' , 0 ] ,
+    'Signal_ZpBaryonic2018_40' : [ 'Signal_ZpBaryonic2018_40' , 'Signal_MZp_500_MChi_200' , 0 ] ,
+    'Signal_ZpBaryonic2018_41' : [ 'Signal_ZpBaryonic2018_41' , 'Signal_MZp_500_MChi_400' , 0 ] ,
+    'Signal_ZpBaryonic2018_42' : [ 'Signal_ZpBaryonic2018_42' , 'Signal_MZp_650_MChi_50' , 0 ] ,
+    'Signal_ZpBaryonic2018_43' : [ 'Signal_ZpBaryonic2018_43' , 'Signal_MZp_800_MChi_50' , 0 ] ,
+
 }
 
 xsex_mapping = {
-    'ZL' : 5765.4 , 
+       'ZL' : 5765.4 , 
     'ZTT' : 5765.4 , 
     'ZJ' : 5765.4 , 
     'ZLL' : 5765.4 , 
@@ -402,7 +398,7 @@ xsex_mapping = {
     'EWKZNuNu_TT' : 10.66 , 
     'EWKZNuNu_J' : 10.66 , 
     'EWKZNuNu_L' : 10.66 , 
-    'EWKZNuNu_LL' : 10.66 , 
+    'EWKZNuNu_LL' : 10.66 ,
     
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_500':0.01092, 
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250':0.009472, 
@@ -765,52 +761,57 @@ xsex_mapping = {
     'Signal_2HDMa_bb_sinp_0p35_tanb_0p5_mXd_10_MH3_600_MH4_250':5.395e-05, 
     'Signal_2HDMa_bb_sinp_0p35_tanb_2p0_mXd_10_MH3_300_MH4_150':0.01227, 
 
-    'Signal_Zpbaryonic2018_1' : 0.2077 ,
-    'Signal_Zpbaryonic2018_2' : 0.2094 ,
-    'Signal_Zpbaryonic2018_3' : 0.1947 ,
-    'Signal_Zpbaryonic2018_4' : 0.09047 ,
-    'Signal_Zpbaryonic2018_5' : 0.0001443 ,
-    'Signal_Zpbaryonic2018_6' : 5.138e-06 ,
-    'Signal_Zpbaryonic2018_7' : 3.322 ,
-    'Signal_Zpbaryonic2018_8' : 0.9046 ,
-    'Signal_Zpbaryonic2018_9' : 0.05066 ,
-    'Signal_Zpbaryonic2018_10' : 0.0505 ,
-    'Signal_Zpbaryonic2018_11' : 0.04976 ,
-    'Signal_Zpbaryonic2018_12' : 0.04371 ,
-    'Signal_Zpbaryonic2018_13' : 0.02549 ,
-    'Signal_Zpbaryonic2018_14' : 0.0002038 ,
-    'Signal_Zpbaryonic2018_15' : 0.01422 ,
-    'Signal_Zpbaryonic2018_16' : 0.01425 ,
-    'Signal_Zpbaryonic2018_17' : 0.01413 ,
-    'Signal_Zpbaryonic2018_18' : 0.01351 ,
-    'Signal_Zpbaryonic2018_19' : 0.01176 ,
-    'Signal_Zpbaryonic2018_20' : 0.007706 ,
-    'Signal_Zpbaryonic2018_21' : 0.5484 ,
-    'Signal_Zpbaryonic2018_22' : 0.0033 ,
-    'Signal_Zpbaryonic2018_23' : 2.67 ,
-    'Signal_Zpbaryonic2018_24' : 2.184 ,
-    'Signal_Zpbaryonic2018_25' : 0.004391 ,
-    'Signal_Zpbaryonic2018_26' : 0.004382 ,
-    'Signal_Zpbaryonic2018_27' : 0.00435 ,
-    'Signal_Zpbaryonic2018_28' : 0.004283 ,
-    'Signal_Zpbaryonic2018_29' : 0.004033 ,
-    'Signal_Zpbaryonic2018_30' : 0.003516 ,
-    'Signal_Zpbaryonic2018_31' : 0.001463 ,
-    'Signal_Zpbaryonic2018_32' : 0.001458 ,
-    'Signal_Zpbaryonic2018_33' : 0.001456 ,
-    'Signal_Zpbaryonic2018_34' : 0.3163 ,
-    'Signal_Zpbaryonic2018_35' : 0.0005227 ,
-    'Signal_Zpbaryonic2018_36' : 0.0005255 ,
-    'Signal_Zpbaryonic2018_37' : 1.858 ,
-    'Signal_Zpbaryonic2018_38' : 0.9952 ,
-    'Signal_Zpbaryonic2018_39' : 1.139 ,
-    'Signal_Zpbaryonic2018_40' : 0.4235 ,
-    'Signal_Zpbaryonic2018_41' : 0.0001253 ,
-    'Signal_Zpbaryonic2018_42' : 0.6549 ,
-    'Signal_Zpbaryonic2018_43' : 0.3935 ,
+    'Signal_ZpBaryonic2018_1' : 0.2077 ,
+    'Signal_ZpBaryonic2018_2' : 0.2094 ,
+    'Signal_ZpBaryonic2018_3' : 0.1947 ,
+    'Signal_ZpBaryonic2018_4' : 0.09047 ,
+    'Signal_ZpBaryonic2018_5' : 0.0001443 ,
+    'Signal_ZpBaryonic2018_6' : 5.138e-06 ,
+    'Signal_ZpBaryonic2018_7' : 3.322 ,
+    'Signal_ZpBaryonic2018_8' : 0.9046 ,
+    'Signal_ZpBaryonic2018_9' : 0.05066 ,
+    'Signal_ZpBaryonic2018_10' : 0.0505 ,
+    'Signal_ZpBaryonic2018_11' : 0.04976 ,
+    'Signal_ZpBaryonic2018_12' : 0.04371 ,
+    'Signal_ZpBaryonic2018_13' : 0.02549 ,
+    'Signal_ZpBaryonic2018_14' : 0.0002038 ,
+    'Signal_ZpBaryonic2018_15' : 0.01422 ,
+    'Signal_ZpBaryonic2018_16' : 0.01425 ,
+    'Signal_ZpBaryonic2018_17' : 0.01413 ,
+    'Signal_ZpBaryonic2018_18' : 0.01351 ,
+    'Signal_ZpBaryonic2018_19' : 0.01176 ,
+    'Signal_ZpBaryonic2018_20' : 0.007706 ,
+    'Signal_ZpBaryonic2018_21' : 0.5484 ,
+    'Signal_ZpBaryonic2018_22' : 0.0033 ,
+    'Signal_ZpBaryonic2018_23' : 2.67 ,
+    'Signal_ZpBaryonic2018_24' : 2.184 ,
+    'Signal_ZpBaryonic2018_25' : 0.004391 ,
+    'Signal_ZpBaryonic2018_26' : 0.004382 ,
+    'Signal_ZpBaryonic2018_27' : 0.00435 ,
+    'Signal_ZpBaryonic2018_28' : 0.004283 ,
+    'Signal_ZpBaryonic2018_29' : 0.004033 ,
+    'Signal_ZpBaryonic2018_30' : 0.003516 ,
+    'Signal_ZpBaryonic2018_31' : 0.001463 ,
+    'Signal_ZpBaryonic2018_32' : 0.001458 ,
+    'Signal_ZpBaryonic2018_33' : 0.001456 ,
+    'Signal_ZpBaryonic2018_34' : 0.3163 ,
+    'Signal_ZpBaryonic2018_35' : 0.0005227 ,
+    'Signal_ZpBaryonic2018_36' : 0.0005255 ,
+    'Signal_ZpBaryonic2018_37' : 1.858 ,
+    'Signal_ZpBaryonic2018_38' : 0.9952 ,
+    'Signal_ZpBaryonic2018_39' : 1.139 ,
+    'Signal_ZpBaryonic2018_40' : 0.4235 ,
+    'Signal_ZpBaryonic2018_41' : 0.0001253 ,
+    'Signal_ZpBaryonic2018_42' : 0.6549 ,
+    'Signal_ZpBaryonic2018_43' : 0.3935 ,
 }
+#2018 ZpB sample AN has some issue so run the script with 2017 Zprimebaryonic 2017 ntuples, the ngen is also changed to 2017, but will check the AN soon.
+''' 
+zprime_ngen = {'Signal_ZpBaryonic2018_38': 933000, 'Signal_ZpBaryonic2018_39': 495000, 'Signal_ZpBaryonic2018_15': 955000, 'Signal_ZpBaryonic2018_14': 930000, 'Signal_ZpBaryonic2018_17': 991000, 'Signal_ZpBaryonic2018_16': 485000, 'Signal_ZpBaryonic2018_11': 1010000, 'Signal_ZpBaryonic2018_10': 507000, 'Signal_ZpBaryonic2018_13': 979000, 'Signal_ZpBaryonic2018_12': 945000, 'Signal_ZpBaryonic2018_33': 929000, 'Signal_ZpBaryonic2018_32': 525000, 'Signal_ZpBaryonic2018_31': 972000, 'Signal_ZpBaryonic2018_30': 1038000, 'Signal_ZpBaryonic2018_19': 996000, 'Signal_ZpBaryonic2018_18': 880000, 'Signal_ZpBaryonic2018_35': 999000, 'Signal_ZpBaryonic2018_34': 1015000, 'Signal_ZpBaryonic2018_9': 1002000, 'Signal_ZpBaryonic2018_8': 1052000, 'Signal_ZpBaryonic2018_5': 832000, 'Signal_ZpBaryonic2018_4': 879000, 'Signal_ZpBaryonic2018_7': 481000, 'Signal_ZpBaryonic2018_6': 1023000, 'Signal_ZpBaryonic2018_1': 959000, 'Signal_ZpBaryonic2018_3': 909000, 'Signal_ZpBaryonic2018_2': 477000, 'Signal_ZpBaryonic2018_42': 1003000, 'Signal_ZpBaryonic2018_37': 1097000, 'Signal_ZpBaryonic2018_40': 1010000, 'Signal_ZpBaryonic2018_41': 940000, 'Signal_ZpBaryonic2018_36': 496000, 'Signal_ZpBaryonic2018_28': 978000, 'Signal_ZpBaryonic2018_29': 864000, 'Signal_ZpBaryonic2018_43': 984000, 'Signal_ZpBaryonic2018_24': 956000, 'Signal_ZpBaryonic2018_25': 937000, 'Signal_ZpBaryonic2018_26': 467000, 'Signal_ZpBaryonic2018_27': 945000, 'Signal_ZpBaryonic2018_20': 954000, 'Signal_ZpBaryonic2018_21': 1036000, 'Signal_ZpBaryonic2018_22': 858000, 'Signal_ZpBaryonic2018_23': 513000}
+'''
 
-zprime_ngen = {'Signal_Zpbaryonic2018_38': 933000, 'Signal_Zpbaryonic2018_39': 953000, 'Signal_Zpbaryonic2018_15': 955000, 'Signal_Zpbaryonic2018_14': 930000, 'Signal_Zpbaryonic2018_17': 991000, 'Signal_Zpbaryonic2018_16': 946000, 'Signal_Zpbaryonic2018_11': 1010000, 'Signal_Zpbaryonic2018_10': 1008000, 'Signal_Zpbaryonic2018_13': 979000, 'Signal_Zpbaryonic2018_12': 945000, 'Signal_Zpbaryonic2018_33': 929000, 'Signal_Zpbaryonic2018_32': 1006000, 'Signal_Zpbaryonic2018_31': 972000, 'Signal_Zpbaryonic2018_30': 1038000, 'Signal_Zpbaryonic2018_19': 996000, 'Signal_Zpbaryonic2018_18': 880000, 'Signal_Zpbaryonic2018_35': 999000, 'Signal_Zpbaryonic2018_34': 1015000, 'Signal_Zpbaryonic2018_9': 1002000, 'Signal_Zpbaryonic2018_8': 1052000, 'Signal_Zpbaryonic2018_5': 832000, 'Signal_Zpbaryonic2018_4': 879000, 'Signal_Zpbaryonic2018_7': 956000, 'Signal_Zpbaryonic2018_6': 1023000, 'Signal_Zpbaryonic2018_1': 959000, 'Signal_Zpbaryonic2018_3': 909000, 'Signal_Zpbaryonic2018_2': 960000, 'Signal_Zpbaryonic2018_42': 1003000, 'Signal_Zpbaryonic2018_37': 1097000, 'Signal_Zpbaryonic2018_40': 1010000, 'Signal_Zpbaryonic2018_41': 940000, 'Signal_Zpbaryonic2018_36': 1016000, 'Signal_Zpbaryonic2018_28': 978000, 'Signal_Zpbaryonic2018_29': 864000, 'Signal_Zpbaryonic2018_43': 984000, 'Signal_Zpbaryonic2018_24': 956000, 'Signal_Zpbaryonic2018_25': 937000, 'Signal_Zpbaryonic2018_26': 875000, 'Signal_Zpbaryonic2018_27': 945000, 'Signal_Zpbaryonic2018_20': 954000, 'Signal_Zpbaryonic2018_21': 1036000, 'Signal_Zpbaryonic2018_22': 858000, 'Signal_Zpbaryonic2018_23': 1004000}
+
+zprime_ngen = {'Signal_ZpBaryonic2018_6': 174000, 'Signal_ZpBaryonic2018_7': 209000, 'Signal_ZpBaryonic2018_4': 196000, 'Signal_ZpBaryonic2018_5': 167000, 'Signal_ZpBaryonic2018_2': 176000, 'Signal_ZpBaryonic2018_3': 187000, 'Signal_ZpBaryonic2018_1': 193000, 'Signal_ZpBaryonic2018_8': 204000, 'Signal_ZpBaryonic2018_9': 165000, 'Signal_ZpBaryonic2018_29': 188000, 'Signal_ZpBaryonic2018_28': 181000, 'Signal_ZpBaryonic2018_41': 155000, 'Signal_ZpBaryonic2018_40': 203000, 'Signal_ZpBaryonic2018_25': 210000, 'Signal_ZpBaryonic2018_24': 177000, 'Signal_ZpBaryonic2018_27': 167000, 'Signal_ZpBaryonic2018_26': 190000, 'Signal_ZpBaryonic2018_21': 194000, 'Signal_ZpBaryonic2018_20': 207000, 'Signal_ZpBaryonic2018_23': 201000, 'Signal_ZpBaryonic2018_22': 195000, 'Signal_ZpBaryonic2018_14': 170000, 'Signal_ZpBaryonic2018_15': 167000, 'Signal_ZpBaryonic2018_16': 165000, 'Signal_ZpBaryonic2018_17': 164000, 'Signal_ZpBaryonic2018_10': 177000, 'Signal_ZpBaryonic2018_11': 181000, 'Signal_ZpBaryonic2018_12': 179000, 'Signal_ZpBaryonic2018_13': 196000, 'Signal_ZpBaryonic2018_18': 175000, 'Signal_ZpBaryonic2018_19': 159000, 'Signal_ZpBaryonic2018_38': 166000, 'Signal_ZpBaryonic2018_39': 190000, 'Signal_ZpBaryonic2018_36': 185000, 'Signal_ZpBaryonic2018_37': 178000.0, 'Signal_ZpBaryonic2018_34': 205000, 'Signal_ZpBaryonic2018_35': 184000, 'Signal_ZpBaryonic2018_32': 188000, 'Signal_ZpBaryonic2018_33': 200000, 'Signal_ZpBaryonic2018_30': 190000, 'Signal_ZpBaryonic2018_31': 193000, 'Signal_ZpBaryonic2018_43': 172000.0, 'Signal_ZpBaryonic2018_42': 190000.0}
 
 def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
     """
@@ -818,23 +819,20 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
     
     """
     print("get_lumiweight , sampleName=", sampleName)
-    if '2HDMa' in sampleName:
-        sampleName = 'Signal_'+sampleName
-    elif 'Zpbaryonic'in sampleName:
-        sampleName = 'Signal_'+sampleName
     xs=1.0 
     weight=1.0
     blinding_ratio = 1.0
     if isBlinded:
         blinding_ratio = 5.0
 
-    luminosity= 59700.0/blinding_ratio
+    luminosity= round(59700.0/blinding_ratio, 3)
     saveName = ""
     if sampleName+'_stitch' in sampleListDict:
         sample = sampleListDict[sampleName+'_stitch'][0]
         saveName = sampleListDict[sampleName+'_stitch'][1]
         if 'ZTT' in sample:
             weight = get_DYJets_weight()[sample]/blinding_ratio
+            #weight = xsex_mapping[sample]/blinding_ratio
         else:
             weight = xsex_mapping[sample]/blinding_ratio
     elif sampleName not in sampleListDict:
@@ -843,8 +841,9 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
         sample = sampleListDict[sampleName][0]
         saveName = sampleListDict[sampleName][1]
         if sample in xsex_mapping:
-            if 'Zpbaryonic' in sampleName:
+            if 'ZpBaryonic' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / zprime_ngen[sample]
+                #weight = luminosity / zprime_ngen[sample] #  # To combine all 3 years, 2016 calculated with 1pb^-1 xsec, to get limits running with with 1pb^-1 xsec, xsec will be added while computing limits (This I am doing only to get limits for mchi 1 samples.)
             elif 'MH3' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / ngen
             else:
@@ -855,7 +854,7 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
             weight = 0.0
     if 'data' in saveName:
         weight = 1.0
-    if 'MH3' in sampleName or 'Zpbaryonic' in sampleName:
+    if 'ZpBaryonic' in sampleName or '2HDMa' in sampleName:
        weight = weight * 0.06
     print("\n for "+sampleName+"  checking sample"+sample+ "  weight = "+str(weight))
     return weight , saveName

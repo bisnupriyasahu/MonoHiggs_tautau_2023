@@ -1,0 +1,55 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** wjet sample found
+.... MC file ..... 
+Coming in: 
+nentries:985
+Running over 985 events.
+Finished entry 0/984
+Finished entry 40/984
+Finished entry 80/984
+Finished entry 120/984
+Finished entry 160/984
+Finished entry 200/984
+Finished entry 240/984
+Finished entry 280/984
+Finished entry 320/984
+Finished entry 360/984
+Finished entry 400/984
+Finished entry 440/984
+Finished entry 480/984
+Finished entry 520/984
+Finished entry 560/984
+Finished entry 600/984
+Finished entry 640/984
+Finished entry 680/984
+Finished entry 720/984
+Finished entry 760/984
+Finished entry 800/984
+Finished entry 840/984
+Finished entry 880/984
+Finished entry 920/984
+Finished entry 960/984
+Finished entry 984/984
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 985.000000
+   Passing smikking 0.000000
+Inspected genWeightd 985.000000   % change= 0.000000
+   METFiltersPassed 932.415175   % change= 5.338561
+    SingleTrgPassed 196.667449   % change= 78.907738
+     GoodMuonPassed 140.063407   % change= 28.781602
+      GoodTauPassed 20.563769   % change= 85.318243
+         opp charge 20.563769   % change= 0.000000
+ PassedThirdLepVeto 12.854825   % change= 37.487990
+     PassedBjetVeto 12.854825   % change= 0.000000
+       DeltaRPassed 12.854825   % change= 0.000000
+      Total change :98.694942
+*******************************************
+*******************************************
+Number of events inspected: 985
+Number of events inspected (minus negative gen. weights): 985.000000
+ Outpt written to WJetsToLNu_TuneCP5_01.root
+Real time 0:00:05, CP time 4.280

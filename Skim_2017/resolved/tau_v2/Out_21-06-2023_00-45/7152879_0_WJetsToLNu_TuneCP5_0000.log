@@ -1,0 +1,139 @@
+000 (7152879.000.000) 2023-06-21 00:45:53 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7152879.000.000) 2023-06-21 01:37:04 Started transferring input files
+	Transferring to host: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=slot1_16_4364_952b_68207>
+...
+040 (7152879.000.000) 2023-06-21 01:37:04 Finished transferring input files
+...
+001 (7152879.000.000) 2023-06-21 01:37:05 Job executing on host: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+...
+006 (7152879.000.000) 2023-06-21 01:37:14 Image size of job updated: 87700
+	85  -  MemoryUsage of job (MB)
+	86380  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 01:57:15 Image size of job updated: 885272
+	275  -  MemoryUsage of job (MB)
+	281396  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 02:17:15 Image size of job updated: 885580
+	278  -  MemoryUsage of job (MB)
+	284564  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 02:37:15 Image size of job updated: 885716
+	281  -  MemoryUsage of job (MB)
+	287732  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 02:57:15 Image size of job updated: 885716
+	285  -  MemoryUsage of job (MB)
+	290900  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 03:17:16 Image size of job updated: 885716
+	287  -  MemoryUsage of job (MB)
+	293012  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 03:37:17 Image size of job updated: 885716
+	287  -  MemoryUsage of job (MB)
+	293804  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 03:57:17 Image size of job updated: 885716
+	288  -  MemoryUsage of job (MB)
+	294860  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 04:17:17 Image size of job updated: 885716
+	289  -  MemoryUsage of job (MB)
+	295916  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 04:37:17 Image size of job updated: 885716
+	290  -  MemoryUsage of job (MB)
+	296180  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 04:57:18 Image size of job updated: 885716
+	290  -  MemoryUsage of job (MB)
+	296444  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 05:17:19 Image size of job updated: 885852
+	291  -  MemoryUsage of job (MB)
+	297896  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 05:37:19 Image size of job updated: 885852
+	292  -  MemoryUsage of job (MB)
+	298556  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 05:57:19 Image size of job updated: 885852
+	293  -  MemoryUsage of job (MB)
+	299216  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 06:17:20 Image size of job updated: 885852
+	293  -  MemoryUsage of job (MB)
+	299876  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 06:37:21 Image size of job updated: 885852
+	294  -  MemoryUsage of job (MB)
+	300668  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 06:57:22 Image size of job updated: 885852
+	295  -  MemoryUsage of job (MB)
+	301856  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 07:17:22 Image size of job updated: 885852
+	297  -  MemoryUsage of job (MB)
+	303176  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 07:37:22 Image size of job updated: 885852
+	298  -  MemoryUsage of job (MB)
+	304232  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 07:57:23 Image size of job updated: 885852
+	299  -  MemoryUsage of job (MB)
+	305552  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 08:17:24 Image size of job updated: 885852
+	300  -  MemoryUsage of job (MB)
+	306344  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 08:37:24 Image size of job updated: 885852
+	301  -  MemoryUsage of job (MB)
+	307664  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 08:57:24 Image size of job updated: 885852
+	302  -  MemoryUsage of job (MB)
+	308720  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 09:17:25 Image size of job updated: 885852
+	303  -  MemoryUsage of job (MB)
+	309908  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 09:37:26 Image size of job updated: 885852
+	304  -  MemoryUsage of job (MB)
+	311228  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 09:57:26 Image size of job updated: 885852
+	306  -  MemoryUsage of job (MB)
+	312812  -  ResidentSetSize of job (KB)
+...
+006 (7152879.000.000) 2023-06-21 10:17:27 Image size of job updated: 885852
+	307  -  MemoryUsage of job (MB)
+	314000  -  ResidentSetSize of job (KB)
+...
+022 (7152879.000.000) 2023-06-21 10:49:42 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_16@g26n03.hep.wisc.edu <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+...
+023 (7152879.000.000) 2023-06-21 10:49:44 Job reconnected to slot1_16@g26n03.hep.wisc.edu
+    startd address: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+    starter address: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=slot1_16_4364_952b_68207>
+...
+004 (7152879.000.000) 2023-06-21 11:45:56 Job was evicted.
+	(0) CPU times
+		Usr 0 01:34:43, Sys 0 00:05:22  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :     0.11        1         1 
+	   Disk (KB)            :  9646     2097152  18358380 
+	   Memory (MB)          :   318        2048      2500 
+...
+009 (7152879.000.000) 2023-06-21 11:45:57 Job was aborted.
+	via condor_rm (by user bsahu)
+...

@@ -4,7 +4,8 @@ mkdir $outDir
 
 
 ###########################  DATA #########################
-
+#root://cmsxrootd.hep.wisc.edu/
+#root://cmsxrootd.hep.wisc.edu//
 ./rootcom tautau_analyzer analyze_tautau  
 
 ./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/jmadhusu/2017_skimmed/tautau_new/Tau_EraB_00.root fullLumi_Tau_EraB_00.root -1 1000 2017 DATA Tau_EraB_00 $outDir

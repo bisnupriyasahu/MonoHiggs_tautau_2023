@@ -1,0 +1,91 @@
+000 (1283731.000.000) 2023-03-31 12:24:18 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_2816_1ec8>
+...
+040 (1283731.000.000) 2023-03-31 12:26:08 Started transferring input files
+	Transferring to host: <128.105.68.159:9618?addrs=128.105.68.159-9618+[2607-f388-2200-100-b226-28ff-fe51-396c]-9618&alias=e2018.chtc.wisc.edu&noUDP&sock=slot1_28_256612_1e3c_34791>
+...
+040 (1283731.000.000) 2023-03-31 12:34:18 Finished transferring input files
+...
+001 (1283731.000.000) 2023-03-31 12:34:19 Job executing on host: <128.105.68.159:9618?addrs=128.105.68.159-9618+[2607-f388-2200-100-b226-28ff-fe51-396c]-9618&alias=e2018.chtc.wisc.edu&noUDP&sock=startd_8988_9950>
+...
+006 (1283731.000.000) 2023-03-31 12:34:27 Image size of job updated: 534564
+	308  -  MemoryUsage of job (MB)
+	314432  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 12:39:27 Image size of job updated: 1429504
+	516  -  MemoryUsage of job (MB)
+	527940  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 12:44:28 Image size of job updated: 1429504
+	516  -  MemoryUsage of job (MB)
+	528088  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 12:49:28 Image size of job updated: 1430864
+	517  -  MemoryUsage of job (MB)
+	528988  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 12:54:29 Image size of job updated: 1432912
+	519  -  MemoryUsage of job (MB)
+	530880  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 12:59:29 Image size of job updated: 1437008
+	522  -  MemoryUsage of job (MB)
+	533868  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:04:29 Image size of job updated: 1437008
+	523  -  MemoryUsage of job (MB)
+	534784  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:09:30 Image size of job updated: 1441104
+	526  -  MemoryUsage of job (MB)
+	537776  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:14:30 Image size of job updated: 1449300
+	531  -  MemoryUsage of job (MB)
+	542784  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:19:31 Image size of job updated: 1449300
+	531  -  MemoryUsage of job (MB)
+	543696  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:24:32 Image size of job updated: 1449300
+	532  -  MemoryUsage of job (MB)
+	544580  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:29:32 Image size of job updated: 1449300
+	533  -  MemoryUsage of job (MB)
+	545420  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:34:34 Image size of job updated: 1449300
+	534  -  MemoryUsage of job (MB)
+	546292  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:39:34 Image size of job updated: 1457496
+	539  -  MemoryUsage of job (MB)
+	551236  -  ResidentSetSize of job (KB)
+...
+006 (1283731.000.000) 2023-03-31 13:44:34 Image size of job updated: 1457496
+	540  -  MemoryUsage of job (MB)
+	552112  -  ResidentSetSize of job (KB)
+...
+040 (1283731.000.000) 2023-03-31 13:46:28 Started transferring output files
+...
+040 (1283731.000.000) 2023-03-31 13:46:29 Finished transferring output files
+...
+005 (1283731.000.000) 2023-03-31 13:46:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:59:53, Sys 0 00:00:26  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:59:53, Sys 0 00:00:26  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	14026557  -  Run Bytes Sent By Job
+	315801216  -  Run Bytes Received By Job
+	14026557  -  Total Bytes Sent By Job
+	315801216  -  Total Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.87        1         1 
+	   Disk (KB)            : 322165     2097152   4099179 
+	   IoHeavy              :                            0 
+	   Memory (MB)          :    540        2048      2048 
+
+	Job terminated of its own accord at 2023-03-31T18:46:28Z.
+...

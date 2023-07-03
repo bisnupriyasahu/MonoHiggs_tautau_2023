@@ -1,0 +1,22 @@
+x509userproxy = /tmp/x509up_u10044
+universe = vanilla
+Executable = Out_MC_19-06-2023_07-03/Job_ZJetsToNuNu_HT-600To800_00.sh
+Notification         = never
+WhenToTransferOutput = On_Exit
+ShouldTransferFiles  = yes
+Requirements = (OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+#Requirements = ( TARGET.HAS_CMS_HDFS && OpSysAndVer == "CENTOS7" && TARGET.Arch == "X86_64" && (MY.RequiresSharedFS=!=true || TARGET.HasAFS_OSG) && (TARGET.HAS_OSG_WN_CLIENT =?= TRUE || TARGET.IS_GLIDEIN=?=true) && IsSlowSlot=!=true)
+on_exit_remove       = (ExitBySignal == FALSE && (ExitCode == 0 || ExitCode == 42 || NumJobStarts>3))
++IsFastQueueJob      = True
+getenv               = True
+request_memory       = 2G
+request_disk         = 3G
+
+#OutputDestination = 
+#Initialdir = Out_ZJetsToNuNu_HT-600To800_00         
+Transfer_Input_Files = /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/Skim_2017/resolved/tautau/analyze_tautau_skim
+
+output               = Out_MC_19-06-2023_07-03/$(Cluster)_$(Process)_ZJetsToNuNu_HT-600To800_00.out
+error                = Out_MC_19-06-2023_07-03/$(Cluster)_$(Process)_ZJetsToNuNu_HT-600To800_00.err
+Log                  = Out_MC_19-06-2023_07-03/$(Cluster)_$(Process)_ZJetsToNuNu_HT-600To800_00.log
+Queue

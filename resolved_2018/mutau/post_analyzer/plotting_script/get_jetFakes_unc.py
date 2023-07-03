@@ -16,7 +16,7 @@ ROOT.gStyle.SetLineWidth(2)
 ROOT.gStyle.SetOptStat(0)
 # mc_samples = ['ZTTjet', 'EWKWMinus', 'EWKWPlus', 'EWKZ2Jets', 'GluGluH', 'GluGluZH', 'HWminusJ', 'HWplusJ', 'HZJ', 'ST_t', 'TT', 'VBFH', 'WGToLNuG', 'VV', 'VVV', 'WplusH', 'ZH', 'ZJetsToNuNu']
 mc_samples = ['ZTTjet', 'TT', 'otherMC', 'STT', 'VVT']
-        
+#mc_samples = ['ZTTjet', 'ZLLjet', 'TT', 'otherMC', 'STT', 'VVT']
 def checkHistogram(f, histogram):
     isthere=  f.GetListOfKeys().Contains(histogram)
     #print(isthere)
@@ -41,7 +41,7 @@ def getHistList(inFile, isblinded=False):
         print('\n***************************     tdir  =  ', tdir)
         data_dir  = tdir+'/'+'data_obs_'+tdir
         if isblinded:
-            data_dir  = tdir+'/data_obs_'+tdir
+            data_dir  = tdir+'/blinded_data_obs_'+tdir
         print(" checking "+data_dir)
 
         jetFakes = inFile.Get(data_dir).Clone()

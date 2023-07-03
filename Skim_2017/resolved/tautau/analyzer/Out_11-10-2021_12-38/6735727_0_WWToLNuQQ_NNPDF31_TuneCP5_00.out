@@ -1,0 +1,52 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:13549
+Running over 13549 events.
+Finished entry 0/13548
+Finished entry 600/13548
+Finished entry 1200/13548
+Finished entry 1800/13548
+Finished entry 2400/13548
+Finished entry 3000/13548
+Finished entry 3600/13548
+Finished entry 4200/13548
+Finished entry 4800/13548
+Finished entry 5400/13548
+Finished entry 6000/13548
+Finished entry 6600/13548
+Finished entry 7200/13548
+Finished entry 7800/13548
+Finished entry 8400/13548
+Finished entry 9000/13548
+Finished entry 9600/13548
+Finished entry 10200/13548
+Finished entry 10800/13548
+Finished entry 11400/13548
+Finished entry 12000/13548
+Finished entry 12600/13548
+Finished entry 13200/13548
+Finished entry 13548/13548
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 13549.000000
+   Passing smikking 0.000000
+Inspected genWeightd 13537.000000   % change= 0.088567
+   METFiltersPassed 12947.127447   % change= 4.357484
+    SingleTrgPassed 3325.230267   % change= 74.316849
+     GoodMuonPassed 2194.569207   % change= 34.002489
+      GoodTauPassed 252.314235   % change= 88.502790
+         opp charge 209.019184   % change= 17.159179
+ PassedThirdLepVeto 139.485328   % change= 33.266734
+     PassedBjetVeto 139.485328   % change= 0.000000
+       DeltaRPassed 138.822456   % change= 0.475227
+      Total change :98.975404
+*******************************************
+*******************************************
+Number of events inspected: 13549
+Number of events inspected (minus negative gen. weights): 13537.000000
+ Outpt written to WWToLNuQQ_NNPDF31_TuneCP5_00.root
+Real time 0:00:17, CP time 12.940

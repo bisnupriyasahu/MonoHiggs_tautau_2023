@@ -1,0 +1,34 @@
+argc = 9
+sp = 34
+arg 0 ./analyze_signal
+arg 1 /nfs_scratch/bsahu/NTuplizer_MonoHiggs/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/Output_AN_Ntuple_signal_lhtnotvalid_signalparam_clear.root
+arg 2 Output_PostAN_Ntuple_signal_lhtnotvalid_signalparam_clear_24.root
+arg 3 -1
+arg 4 100
+arg 5 2017
+arg 6 MC
+arg 7 Signal_ZpBaryonic_2017_0000
+arg 8 34
+path :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: /nfs_scratch/bsahu/NTuplizer_MonoHiggs/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/Output_AN_Ntuple_signal_lhtnotvalid_signalparam_clear.root
+file name :::::/nfs_scratch/bsahu/NTuplizer_MonoHiggs/CMSSW_10_2_18/src/phoJetAnalysis/phoJetNtuplizer/test/Output_AN_Ntuple_signal_lhtnotvalid_signalparam_clear.root
+********** for MC *********
+All files added.
+Initializing chain.
+from Init MC
+from Init signal = Signal_ZpBaryonic_2017_0000
+__________found_ZprimeBaryonic________
+1070 zprimeBaryonic_signal = 34
+.... MC file ..... 
+Coming in: 
+nentries:8000
+Running over 8000 events.
+##################################################################################################################      size of param beginning:  0
+ientry is : 0
+jentry is : 0
+signal param ele : 34 type of param :d
+coming after if condition 1: 
+coming after if condition 2 : 
+coming before Skimminghht : 
+coming in skimming htt function: 
+nboosted 2055368160
+coming in skimming htt function: is n boosted 2055368160

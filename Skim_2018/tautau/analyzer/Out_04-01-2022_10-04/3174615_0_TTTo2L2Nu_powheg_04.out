@@ -1,0 +1,63 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:32374
+Running over 32374 events.
+Finished entry 0/32373
+Finished entry 1000/32373
+Finished entry 2000/32373
+Finished entry 3000/32373
+Finished entry 4000/32373
+Finished entry 5000/32373
+Finished entry 6000/32373
+Finished entry 7000/32373
+Finished entry 8000/32373
+Finished entry 9000/32373
+Finished entry 10000/32373
+Finished entry 11000/32373
+Finished entry 12000/32373
+Finished entry 13000/32373
+Finished entry 14000/32373
+Finished entry 15000/32373
+Finished entry 16000/32373
+Finished entry 17000/32373
+Finished entry 18000/32373
+Finished entry 19000/32373
+Finished entry 20000/32373
+Finished entry 21000/32373
+Finished entry 22000/32373
+Finished entry 23000/32373
+Finished entry 24000/32373
+Finished entry 25000/32373
+Finished entry 26000/32373
+Finished entry 27000/32373
+Finished entry 28000/32373
+Finished entry 29000/32373
+Finished entry 30000/32373
+Finished entry 31000/32373
+Finished entry 32000/32373
+Finished entry 32373/32373
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 32374.000000
+   Passing smikking 0.000000
+Inspected genWeightd 32034.000000   % change= 1.050225
+   METFiltersPassed 31212.825740   % change= 2.563446
+    SingleTrgPassed 9220.242936   % change= 70.460083
+     GoodMuonPassed 7462.516779   % change= 19.063773
+      GoodTauPassed 2772.029228   % change= 62.853963
+         opp charge 2772.029228   % change= 0.000000
+ PassedThirdLepVeto 2413.208956   % change= 12.944318
+     PassedBjetVeto 456.168402   % change= 81.097020
+       DeltaRPassed 456.168402   % change= 0.000000
+      Total change :98.590942
+*******************************************
+*******************************************
+Number of events inspected: 32374
+Number of events inspected (minus negative gen. weights): 32034.000000
+ Outpt written to TTTo2L2Nu_powheg_04.root
+Real time 0:01:28, CP time 62.160

@@ -1,5 +1,7 @@
-void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index, bool isFakeBkg, float event_weight){
+void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index, TLorentzVector a, TLorentzVector b, bool isFakeBkg, float event_weight){
   string hNumber = histNumber;
+  my_tau1P4 = a;
+  my_tau2P4 = b;
   //cout<<" in fillHist event_weight="<<event_weight<<endl;
   /// leading tau 
   plotFill("tau1Pt_"+hNumber,  my_tau1P4.Pt() , 30 , 40 , 180,  event_weight);
@@ -7,14 +9,14 @@ void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index
   plotFill("tau1Phi_"+hNumber, my_tau1P4.Phi(), 30, -3.14, 3.14,  event_weight);
   plotFill("tau1Charge_"+hNumber, tau_Charge->at(tau1Index), 8, -2, 2 ,  event_weight);
   plotFill("tau1Iso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tau1Index), 4, -2, 2,  event_weight);
-  plotFill("tau1rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau1Index), 20, -1, 1,  event_weight);
+  //  plotFill("tau1rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau1Index), 20, -1, 1,  event_weight);
   plotFill("tau1DecayMode_"+hNumber, tau_DecayMode->at(tau1Index) , 12, 0, 12,  event_weight);
   /// subleading tau
   plotFill("tau2Pt_"+hNumber,  my_tau2P4.Pt() , 30 , 40 , 120,  event_weight);
   plotFill("tau2Eta_"+hNumber, my_tau2P4.Eta(), 22, -2.1, 2.1,  event_weight);
   plotFill("tau2Phi_"+hNumber, my_tau2P4.Phi(), 30, -3.14, 3.14,  event_weight);
   plotFill("tau2Iso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tau2Index), 4, -2, 2,  event_weight);
-  plotFill("tau2rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau2Index), 20, -1, 1,  event_weight);
+  //  plotFill("tau2rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau2Index), 20, -1, 1,  event_weight);
   plotFill("tau2DecayMode_"+hNumber, tau_DecayMode->at(tau2Index) , 12, 0, 12,  event_weight);
   plotFill("tau2Charge_"+hNumber, tau_Charge->at(tau2Index), 8, -2, 2 ,  event_weight);
 
@@ -39,12 +41,21 @@ void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index
   double HiggsPt = (my_tau1P4+my_tau2P4).Pt();
   plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
 
-  double tot_tr_mass = (my_tau1P4 + my_tau2P4 + my_metP4 ).M();
+  //  double tot_tr_mass = (my_tau1P4 + my_tau2P4 + my_metP4 ).M();
+  
+  //double tot_tr_mass = (my_tau1P4 + my_tau2P4 + my_metP4 ).Mt();
+  
+
+  //  TLorentzVector tauhtauh = my_tau1P4 + my_tau2P4;
+  //double tot_tr_mass = (tauhtauh + my_metP4 ).Mt();
+
+  //from the function pt^2 - px^2 -py^2
+  double tot_tr_mass = TMasstaumet_F(my_tau1P4,my_tau2P4,my_metP4);
+    
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
   plotFill("tot_TMass_"+hNumber, tot_tr_mass , 16, 40, 200,  event_weight);
   float TrMassBins[13]={40, 60, 90, 120, 150, 180, 210, 235, 260, 285, 325, 400, 2000};
   plotFill_customBinning("tot_TMass_full_"+hNumber, tot_tr_mass , 12, TrMassBins,  event_weight);
-
   plotFill("tot_TMass_new_"+hNumber, tot_tr_mass , 196, 40, 2000,  event_weight);
 
   double met_with_overflow = my_metP4.Pt();
@@ -105,14 +116,14 @@ void tautau_analyzer::fillHist_nominal(string histNumber, float event_weight){
   plotFill("tau1Phi_"+hNumber, tau1P4.Phi(), 30, -3.14, 3.14,  event_weight);
   plotFill("tau1Charge_"+hNumber, tau_Charge->at(tau1Index), 8, -2, 2 ,  event_weight);
   plotFill("tau1Iso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tau1Index), 4, -2, 2,  event_weight);
-  plotFill("tau1rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau1Index), 20, -1, 1,  event_weight);
+  //  plotFill("tau1rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau1Index), 20, -1, 1,  event_weight);
   plotFill("tau1DecayMode_"+hNumber, tau_DecayMode->at(tau1Index) , 12, 0, 12,  event_weight);
   /// subleading tau
   plotFill("tau2Pt_"+hNumber,  tau2P4.Pt() , 30 , 40 , 120,  event_weight);
   plotFill("tau2Eta_"+hNumber, tau2P4.Eta(), 22, -2.1, 2.1,  event_weight);
   plotFill("tau2Phi_"+hNumber, tau2P4.Phi(), 30, -3.14, 3.14,  event_weight);
   plotFill("tau2Iso_"+hNumber, tau_byMediumDeepTau2017v2p1VSjet->at(tau2Index), 4, -2, 2,  event_weight);
-  plotFill("tau2rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau2Index), 20, -1, 1,  event_weight);
+  //  plotFill("tau2rawiso_"+hNumber, tau_byIsolationMVArun2017v2DBoldDMwLTraw2017->at(tau2Index), 20, -1, 1,  event_weight);
   plotFill("tau2DecayMode_"+hNumber, tau_DecayMode->at(tau2Index) , 12, 0, 12,  event_weight);
   plotFill("tau2Charge_"+hNumber, tau_Charge->at(tau2Index), 8, -2, 2 ,  event_weight);
 
@@ -134,7 +145,7 @@ void tautau_analyzer::fillHist_nominal(string histNumber, float event_weight){
   double visMass_mutau = (tau1P4+ tau2P4).M();
   plotFill("visMass_"+hNumber, visMass_mutau , 30, 0, 300,  event_weight);
   
-  double HiggsPt = (tau1P4+ tau2P4).Pt();
+  double HiggsPt = (my_tau1P4+my_tau2P4).Pt();
   plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
 
   double tot_tr_mass = (tau1P4 + tau2P4 + my_metP4 ).M();

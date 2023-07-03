@@ -18,7 +18,7 @@ fi
 
 outFile="study_mutau_110k.root"
 start=`date +%s`
-nEvents=10000
+nEvents=-1
 sample='dy'
 plottingOn=0
 while getopts n:s:p option
@@ -34,7 +34,9 @@ done
 echo "dy sample analysis....."
 ./$f_exe /hdfs/store/user/jmadhusu/2018_skimmed/etau/DYJetsToLL_00.root DYJetsToLL_00_test.root $nEvents 1000 2018 MC DYJetsToLL_00 
 #./$f_exe /hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/Zpbaryonic_00.root Zpbaryonic2018_test_2.root $nEvents 1000 2018 MC Zpbaryonic2018 41
-./$f_exe /hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/signal_para_split/combined/Zpbaryonic2018_1.root Zpbaryonic2018_1.root $nEvents 1000 2018 MC Zpbaryonic2018_1 
+#./$f_exe /hdfs/store/user/jmadhusu/2018_skimmed/zprimeBaryonic/signal_para_split/combined/Zpbaryonic2018_1.root Zpbaryonic2018_1.root $nEvents 1000 2018 MC Zpbaryonic2018_1 
+#./$f_exe /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/Skim_2018/signal/Output_Ntuple_signal_FE_.root Zpbaryonic2018_1.root $nEvents 100 2018 MC Zpbaryonic2018_1 
+#./$f_exe /hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_skimmed/signal/hadd_postAN_inp/Signal_ZpBaryonic_2018_1.root Zpbaryonic2018_1.root $nEvents 100 2018 MC Zpbaryonic2018_1 
 
 end=`date +%s`
 runtime=$((end-start))

@@ -101,8 +101,11 @@ ZTTselect="ZTTjet"
 #WJetselect="WJets"
 WJetselect="WJets_jets"
 OutFile.cd()
-print(dirname[0]+"data_obs_"+histoname)
-Data_hist    =OutFile.Get(dirname[0]+"data_obs_"+histoname)
+data_hist_name = 'data_obs_'
+if blindingRatio_!=1:
+  data_hist_name = 'blinded_data_obs_'
+print(dirname[0]+data_hist_name+histoname)
+Data_hist    =OutFile.Get(dirname[0]+data_hist_name+histoname)
 ZTT_hist     = OutFile.Get(dirname[0]+"ZTTjet_"+histoname)
 Wjets_hist   = OutFile.Get(dirname[0]+"WJets_jets_"+histoname)
 TT_hist      = OutFile.Get(dirname[0]+"TT_"+histoname)
@@ -111,11 +114,56 @@ VV_hist      = OutFile.Get(dirname[0]+"VVT_"+histoname)
 otherMC_hist  = OutFile.Get(dirname[0]+"otherMC_"+histoname)
 jetFakes_hist = OutFile.Get(dirname[0]+"jetFakes_"+histoname)
 
-
+#Signal_MZp_100_MChi_1
 signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_100_MChi_1_"+histoname)
 signal_MZp_1000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1000_MChi_1_"+histoname)
 signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1500_MChi_1_"+histoname)
+signal_MZp_500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_500_MChi_1_"+histoname)
+signal_MZp_2000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_2000_MChi_1_"+histoname)
+signal_MZp_2500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_2500_MChi_1_"+histoname)
+#signal = "Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_"
+#signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_"+histoname)
+#print(dirname[0]+signal+histoname)
+#signal_MZp_1000_MChi_1 = OutFile.Get(dirname[0]+"Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_150_"+histoname)
+#signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_250_"+histoname)
 
+''' June
+
+#if 'higgsPt' in histoname or 'tauPt' in histoname :
+if 'higgsPt' in histoname :
+  bin_group =2
+  #if 'tauPt' in histoname :
+  #  bin_group = 5
+  Data_hist.Rebin(bin_group)
+  Wjets_hist.Rebin(bin_group)
+  jetFakes_hist.Rebin(bin_group)
+  ZTT_hist.Rebin(bin_group)
+  TT_hist.Rebin(bin_group)
+  ST_t_hist.Rebin(bin_group)
+  VV_hist.Rebin(bin_group)
+  otherMC_hist.Rebin(bin_group)
+'''
+
+print("coming")
+if 'tot_TMass_new' in histoname:
+  #new_binning = array('d', [40, 60, 90, 120, 140, 180, 210, 230, 260, 280, 320, 400, 2000]) # 14 binns
+  new_binning = array('d', [40, 60, 90, 120, 150, 180, 210, 230, 260, 320, 400, 500,2000]) # 11 binns  
+  #new_binning = array('d', [40, 100, 200, 300, 400, 600, 2000])
+  Data_hist = Data_hist.Rebin(12, 'hist', new_binning )
+  Wjets_hist = Wjets_hist.Rebin(12, 'hist', new_binning )
+  jetFakes_hist = jetFakes_hist.Rebin(12, 'hist', new_binning )
+  ZTT_hist = ZTT_hist.Rebin(12, 'hist', new_binning )
+  TT_hist = TT_hist.Rebin(12, 'hist', new_binning )
+  ST_t_hist = ST_t_hist.Rebin(12, 'hist', new_binning )
+  VV_hist = VV_hist.Rebin(12, 'hist', new_binning )
+  otherMC_hist = otherMC_hist.Rebin(12, 'hist', new_binning )
+  signal_MZp_100_MChi_1 = signal_MZp_100_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_1000_MChi_1 = signal_MZp_1000_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_1500_MChi_1= signal_MZp_1500_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_1500_MChi_1 = signal_MZp_1500_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_2000_MChi_1= signal_MZp_2000_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_2500_MChi_1= signal_MZp_2500_MChi_1.Rebin(12, 'hist', new_binning )
+  
 
   
 sampleList    = [Data_hist,    ZTT_hist,  TT_hist,   ST_t_hist, VV_hist, otherMC_hist, jetFakes_hist ]
@@ -129,16 +177,22 @@ ZTT_hist.SetFillColor(ROOT.TColor.GetColor(color_ztt))
 TT_hist.SetFillColor(ROOT.TColor.GetColor(color_tt))
 ST_t_hist.SetFillColor(ROOT.TColor.GetColor(color_ggh))
 VV_hist.SetFillColor(ROOT.TColor.GetColor(color_vv))
-otherMC_hist.SetFillColor(ROOT.TColor.GetColor(color_vv))
+otherMC_hist.SetFillColor(ROOT.TColor.GetColor(color_otherMC))
 
 
-# signal_MZp_100_MChi_1.SetLineColor(55)
-# signal_MZp_1000_MChi_1.SetLineColor(65)
-# signal_MZp_1500_MChi_1.SetLineColor(95)
+signal_MZp_100_MChi_1.SetLineColor(55)
+signal_MZp_1000_MChi_1.SetLineColor(65)
+signal_MZp_1500_MChi_1.SetLineColor(95)
+signal_MZp_500_MChi_1.SetLineColor(419)
+signal_MZp_2000_MChi_1.SetLineColor(633)
+signal_MZp_2500_MChi_1.SetLineColor(834)
 
-# signal_MZp_100_MChi_1.SetLineWidth(5)
-# signal_MZp_1000_MChi_1.SetLineWidth(5)
-# signal_MZp_1500_MChi_1.SetLineWidth(5)
+signal_MZp_100_MChi_1.SetLineWidth(5)
+signal_MZp_1000_MChi_1.SetLineWidth(5)
+signal_MZp_1500_MChi_1.SetLineWidth(5)
+signal_MZp_500_MChi_1.SetLineWidth(5)
+signal_MZp_2000_MChi_1.SetLineWidth(5)
+signal_MZp_2500_MChi_1.SetLineWidth(5)
 
 for i in range(len(sampleList)):
   sampleList[i].SetLineColor(1)
@@ -168,13 +222,13 @@ for ibin in range(numberOfBins+1):
     continue
   diff_percent = (bc_data-bc_mc)
   #print(ibin+1, diff_percent)
-  rnum = 0.2
-  if diff_percent > 0.4:
-    TT_hist.SetBinContent(ibin+1, TT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
-    ZTT_hist.SetBinContent(ibin+1, ZTT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
-  elif diff_percent < -0.4:
-    TT_hist.SetBinContent(ibin+1, TT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
-    ZTT_hist.SetBinContent(ibin+1, ZTT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))    
+  #rnum = 0.2
+  #if diff_percent > 0.4:
+  #  TT_hist.SetBinContent(ibin+1, TT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
+  #  ZTT_hist.SetBinContent(ibin+1, ZTT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
+  #elif diff_percent < -0.4:
+  #  TT_hist.SetBinContent(ibin+1, TT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))
+  #  ZTT_hist.SetBinContent(ibin+1, ZTT_hist.GetBinContent(ibin+1)+rnum*(bc_data-bc_mc))    
     
 errorBand=sampleList[1].Clone()
 for i in range(2, len(sampleList)):
@@ -263,14 +317,21 @@ elif histoname=='muCharge_5' or histoname=='tauCharge_5':
 elif histoname=='tauDecayMode_5':
   nDivXAxis= Data_hist.GetNbinsX()
 
+for i in range(len(sampleList)):
+  name = sampleListRef[i].replace('_hist', '')
+  #print  (name)
+  print  ( sampleList[i].Integral()  )
+
+
 # #print 'histoname = ', histoname
-if 'tot_TMass_full' in histoname:
+if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname:
   #print '************************ setting data bins'
   # blinding_massPoint = Data_hist.GetXaxis().FindBin(200)
   # print("blinding_massPoint = ",blinding_massPoint)
   for i in range(1, Data_hist.GetNbinsX()+1):
-    #if i > blinding_massPoint:
-    Data_hist.SetBinContent(i, 0)
+    if(blindingRatio_ == 1):
+      #if i > blinding_massPoint:
+      Data_hist.SetBinContent(i, 0)
   # Data_hist.SetMinimum(0.1)
   # Data_hist.SetMaximum(2*max(Data_hist.GetMaximum(),stack.GetMaximum()))
   # pad1.SetLogy()
@@ -317,9 +378,6 @@ if histoname=='tauCharge_6' :
 sampleList    = [Data_hist,    ZTT_hist,  TT_hist,   ST_t_hist, VV_hist, otherMC_hist, jetFakes_hist ]
 sampleListRef = ['Data_hist', 'ZTT_hist',  'TT_hist', 'ST_t_hist', 'VV_hist', 'otherMC_hist', 'jetFakes_hist']
 
-for i in range(len(sampleList)):
-  name = sampleListRef[i].replace('_hist', '')
-  print  (name,  sampleList[i].Integral()  )
 
 
 c.cd()
@@ -338,11 +396,13 @@ Data_hist.GetYaxis().SetTitle("Events")
 if yaxisLog == 1 :
   Data_hist.SetMaximum(100*max(Data_hist.GetMaximum(),stack.GetMaximum() ))
   Data_hist.SetMinimum(1000)
-elif 'tot_TMass_full' in histoname :
-  #pad1.SetLogy()  
+elif 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname:
+  #elif 'tot_TMass_full' in histoname :
+  pad1.SetLogy()  
   #pad1.SetLogx()  
   Data_hist.SetMaximum(2*max(Data_hist.GetMaximum(),stack.GetMaximum()))
-  Data_hist.SetMinimum(1.0)
+  Data_hist.SetMinimum(0.1)
+  Data_hist.SetMaximum(100000.0)
 else :
   if channel_=="mutau":
     Data_hist.SetMaximum(2.5*max(Data_hist.GetMaximum(),stack.GetMaximum()))
@@ -362,10 +422,14 @@ Data_hist.Draw("e1")
 stack.Draw("histsame")
 # if histoname != "cutflow_n":
 errorBand.Draw("e2same")
-if 'tot_TMass_full' in histoname :
+if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname :
   signal_MZp_100_MChi_1.Draw("histsame")
   signal_MZp_1000_MChi_1.Draw("histsame")
   signal_MZp_1500_MChi_1.Draw("histsame")
+  signal_MZp_500_MChi_1.Draw("histsame")
+  signal_MZp_2000_MChi_1.Draw("histsame")
+  signal_MZp_2500_MChi_1.Draw("histsame")
+
 Data_hist.Draw("e1same")
 if histoname == "cutflow_n":
   Data_hist.Draw("e0psame")
@@ -390,13 +454,20 @@ for i in range(len(sampleListRef)):
   else:
     legende.AddEntry(sampleList[i], legendNameList[sampleListRef[i]], "f")
   
-if 'tot_TMass_full' in histoname :
+if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname:
   legende.AddEntry(signal_MZp_100_MChi_1, 'MZp=100 MChi=1', "el")
+  legende.AddEntry(signal_MZp_500_MChi_1, 'MZp=500 MChi=1', "el")
   legende.AddEntry(signal_MZp_1000_MChi_1, 'MZp=1000 MChi=1', "el")
   legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
+  legende.AddEntry(signal_MZp_2000_MChi_1, 'MZp=2000 MChi=1', "el")
+  legende.AddEntry(signal_MZp_2500_MChi_1, 'MZp=2500 MChi=1', "el")
+
+  #legende.AddEntry(signal_MZp_100_MChi_1, 'MZp=100 MChi=1', "el")
+  #legende.AddEntry(signal_MZp_1000_MChi_1, 'MZp=1000 MChi=1', "el")
+  #legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
 
 
-blindingRatio_ = 5
+#blindingRatio_ = 5
 l1=add_lumi(year_, channel_, blindingRatio = blindingRatio_)
 l1.Draw("same")
 l2=add_CMS()
@@ -406,11 +477,11 @@ l3.Draw("same")
 
 selection_mapping = {
   "4" : ["after mu-tau selection", "", "", ""],
-  "5" : ["after bjetveto", "", "", ""], 
+  "5" : ["preselection", "", "", ""], 
   "6" : ["preselection", "", "", ""], 
   "7" : ["preselection", "+ Higgs pT >65", "", ""],
   "8" : ["preselection", "+ Higgs pT >65", "+ visible mass<125", ""],
-  "9" : ["preselection", "+ Higgs pT >65", "+ visible mass<125", "+ met > 120"],
+  "9" : ["preselection", "+ Higgs pT >65", "+ visible mass<125", "+ met > 105"],
 }
 selection_idx = histoname.split("_")[-1]
 selection_label = add_text(text=selection_mapping[selection_idx])
@@ -446,7 +517,7 @@ label_mapping = {
   "visMass" : "#mu-#tau visible mass [GeV]",
   "nJet" : "number of Jets",
   "deltaR" : "#mu-#tau deltaR", 
-  "tot_TMass_full" : "total transverse mass [GeV]"
+  "tot_TMass_new" : "total transverse mass [GeV]"
 }
 
 
@@ -519,6 +590,7 @@ h1.GetYaxis().SetTitleSize(0.15)
 h1.GetYaxis().SetTitleOffset(0.3)
 h1.GetXaxis().SetTitleOffset(1.1)
 
+#if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname:
 if 'tot_TMass_full' in histoname :
   pad1.SetLogx()  
   pad2.SetLogx()  

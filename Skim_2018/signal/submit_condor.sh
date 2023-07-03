@@ -1,0 +1,46 @@
+./rootcom skimm_signal_2017 analyze_signal 
+
+mkdir -p /hdfs/store/user/bsahu/Resolved_ZPB_signal_sample_17032023/2018_skimmed/signal/Signal_ZpBaryonic_2018/ 
+./make_condor.sh Signal_ZpBaryonic_2018_1 
+./make_condor.sh Signal_ZpBaryonic_2018_2 
+./make_condor.sh Signal_ZpBaryonic_2018_3 
+./make_condor.sh Signal_ZpBaryonic_2018_4 
+./make_condor.sh Signal_ZpBaryonic_2018_5 
+./make_condor.sh Signal_ZpBaryonic_2018_6 
+./make_condor.sh Signal_ZpBaryonic_2018_7 
+./make_condor.sh Signal_ZpBaryonic_2018_8 
+./make_condor.sh Signal_ZpBaryonic_2018_9 
+./make_condor.sh Signal_ZpBaryonic_2018_10 
+./make_condor.sh Signal_ZpBaryonic_2018_11 
+./make_condor.sh Signal_ZpBaryonic_2018_12 
+./make_condor.sh Signal_ZpBaryonic_2018_13 
+./make_condor.sh Signal_ZpBaryonic_2018_14 
+./make_condor.sh Signal_ZpBaryonic_2018_15 
+./make_condor.sh Signal_ZpBaryonic_2018_16 
+./make_condor.sh Signal_ZpBaryonic_2018_17 
+./make_condor.sh Signal_ZpBaryonic_2018_18 
+./make_condor.sh Signal_ZpBaryonic_2018_19 
+./make_condor.sh Signal_ZpBaryonic_2018_20 
+./make_condor.sh Signal_ZpBaryonic_2018_21 
+./make_condor.sh Signal_ZpBaryonic_2018_22 
+./make_condor.sh Signal_ZpBaryonic_2018_23 
+./make_condor.sh Signal_ZpBaryonic_2018_24 
+./make_condor.sh Signal_ZpBaryonic_2018_25 
+./make_condor.sh Signal_ZpBaryonic_2018_26 
+./make_condor.sh Signal_ZpBaryonic_2018_27 
+./make_condor.sh Signal_ZpBaryonic_2018_28 
+./make_condor.sh Signal_ZpBaryonic_2018_29 
+./make_condor.sh Signal_ZpBaryonic_2018_30 
+./make_condor.sh Signal_ZpBaryonic_2018_31 
+./make_condor.sh Signal_ZpBaryonic_2018_32 
+./make_condor.sh Signal_ZpBaryonic_2018_33 
+./make_condor.sh Signal_ZpBaryonic_2018_34 
+./make_condor.sh Signal_ZpBaryonic_2018_35 
+./make_condor.sh Signal_ZpBaryonic_2018_36 
+./make_condor.sh Signal_ZpBaryonic_2018_37 
+./make_condor.sh Signal_ZpBaryonic_2018_38 
+./make_condor.sh Signal_ZpBaryonic_2018_39 
+./make_condor.sh Signal_ZpBaryonic_2018_40 
+./make_condor.sh Signal_ZpBaryonic_2018_41 
+./make_condor.sh Signal_ZpBaryonic_2018_42 
+./make_condor.sh Signal_ZpBaryonic_2018_43 

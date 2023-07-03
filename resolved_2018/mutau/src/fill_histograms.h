@@ -40,11 +40,14 @@ void mutau_analyzer::fillHist( string histNumber , int muIndex, int tauIndex, bo
   double HiggsPt = (my_muP4+my_tauP4).Pt();
   plotFill("higgsPt_"+hNumber,HiggsPt ,  40, 0, 400,  event_weight);
 
-  double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+  //  double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+  double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
   plotFill("tot_TMass_"+hNumber, tot_tr_mass , 16, 40, 200,  event_weight);
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
   float TrMassBins[13]={ 40, 60, 90, 120, 150, 180, 210, 235, 260, 285, 325, 400, 2000};
   plotFill_customBinning("tot_TMass_full_"+hNumber, tot_tr_mass , 12, TrMassBins,  event_weight);
+  plotFill("tot_TMass_new_"+hNumber, tot_tr_mass , 196, 40, 2000,  event_weight);
+
   double met_with_overflow = my_metP4.Pt();
   if ( met_with_overflow>= 2000 )
     met_with_overflow = 1900;
@@ -165,7 +168,8 @@ void mutau_analyzer::fillHist_nominal(string histNumber, float event_weight){
   double HiggsPt = (muP4+tauP4).Pt();
   plotFill("higgsPt_"+hNumber,HiggsPt ,  40, 0, 400,  event_weight);
 
-  double tot_tr_mass = (muP4 + tauP4 + MET_P4 ).M();
+  //  double tot_tr_mass = (muP4 + tauP4 + MET_P4 ).M();
+  double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
   plotFill("tot_TMass_"+hNumber, tot_tr_mass , 16, 40, 200,  event_weight);
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
   float TrMassBins[13]={ 40, 60, 90, 120, 150, 180, 210, 235, 260, 285, 325, 400, 2000};

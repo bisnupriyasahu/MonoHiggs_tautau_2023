@@ -122,7 +122,7 @@ void etau_analyzer::BookHistos(const char* file1, const char* file2, string year
   
   Float_t MetBins[15]={0.0, 20, 40, 60, 80, 100, 120, 140, 160,180., 200, 300., 400., 600.0,800.0};
   Float_t TrMassBins[24]={0.0, 20, 40, 60, 80, 100, 120, 140, 160,180., 200, 220, 240,260,280,300.,320,340,360,380, 400., 600.0,800.0, 1000.0};
-  
+
 
 }
 
@@ -158,6 +158,8 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
   
   
   //TH1F* h_cutflow_Htt=new TH1F("cutflow_Htt", "cutflow_Htt", 11, 0, 11); h_cutflow_Htt->Sumw2();
+  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 13, 0, 13);h_cutflow_n->Sumw2();
+
   
   Long64_t nentries = fChain->GetEntries();
   if ( is_MC==true ) std::cout<<".... MC file ..... "<<std::endl;
@@ -278,7 +280,7 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
 	    for (int i = 0; i < 14 ; i++ ){
 	      // if (shape_names[i] != "metunclustered")
 	      // 	continue;     
-	      // cout<<"shape name = "<<shape_names[i]<<endl;
+	      //current_event_number	      // cout<<"shape name = "<<shape_names[i]<<endl;
 	      selections(event_weight,  1, shape_names[i]);
 	      selections(event_weight,  -1, shape_names[i]);
 	    }
@@ -330,8 +332,12 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
   std::cout<<"*******************************************"<<std::endl;
   std::cout<<std::setw(20) <<std::right <<"Number of events inspected: " << nInspected <<std::endl;
   std::cout<<std::setw(20) <<std::right << "Number of events inspected (minus negative gen. weights): " << nInspected_genWeighted << std::endl; 
+  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodMuonPassed,nGoodTauPassed, nnominalpassed, ndatapassedselection, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed};
+  for(int i=0; i<cutflow_n.size(); i++)
+    h_cutflow_n->SetBinContent( i+1 , cutflow_n[i] );  
 
 
+/*
   h_cutflow_n->SetBinContent(1,nInspected_genWeighted );
   h_cutflow_n->SetBinContent(2, nSingleTrgPassed);
   h_cutflow_n->SetBinContent(3, nGoodMuonPassed);
@@ -340,7 +346,10 @@ void etau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName)
   h_cutflow_n->SetBinContent(6, nPassedThirdLepVeto);
   h_cutflow_n->SetBinContent(7, nPassedBjetVeto);
   h_cutflow_n->SetBinContent(8, nDeltaRPassed);
-   
+  h_cutflow_n->SetBinContent(9, );
+  h_cutflow_n->SetBinContent(10, nDeltaRPassed);
+  h_cutflow_n->SetBinContent(11, nDeltaRPassed);
+  */
   h_cutflow_n_fr->SetBinContent(1,nInspected_genWeighted );
   h_cutflow_n_fr->SetBinContent(2, nSingleTrgPassed);
   h_cutflow_n_fr->SetBinContent(3, nGoodMuonPassed_fr);

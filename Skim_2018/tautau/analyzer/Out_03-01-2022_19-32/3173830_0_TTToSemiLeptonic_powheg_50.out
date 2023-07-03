@@ -1,0 +1,65 @@
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+.... MC file ..... 
+Coming in: 
+nentries:34652
+Running over 34652 events.
+Finished entry 0/34651
+Finished entry 1000/34651
+Finished entry 2000/34651
+Finished entry 3000/34651
+Finished entry 4000/34651
+Finished entry 5000/34651
+Finished entry 6000/34651
+Finished entry 7000/34651
+Finished entry 8000/34651
+Finished entry 9000/34651
+Finished entry 10000/34651
+Finished entry 11000/34651
+Finished entry 12000/34651
+Finished entry 13000/34651
+Finished entry 14000/34651
+Finished entry 15000/34651
+Finished entry 16000/34651
+Finished entry 17000/34651
+Finished entry 18000/34651
+Finished entry 19000/34651
+Finished entry 20000/34651
+Finished entry 21000/34651
+Finished entry 22000/34651
+Finished entry 23000/34651
+Finished entry 24000/34651
+Finished entry 25000/34651
+Finished entry 26000/34651
+Finished entry 27000/34651
+Finished entry 28000/34651
+Finished entry 29000/34651
+Finished entry 30000/34651
+Finished entry 31000/34651
+Finished entry 32000/34651
+Finished entry 33000/34651
+Finished entry 34000/34651
+Finished entry 34651/34651
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 34652.000000
+   Passing smikking 0.000000
+Inspected genWeightd 34338.000000   % change= 0.906153
+   METFiltersPassed 33402.935391   % change= 2.723119
+    SingleTrgPassed 33402.935391   % change= 0.000000
+     GoodMuonPassed 14549.090934   % change= 56.443675
+      GoodTauPassed 600.583181   % change= 95.872023
+         opp charge 600.583181   % change= 0.000000
+ PassedThirdLepVeto 496.546478   % change= 17.322613
+     PassedBjetVeto 97.010405   % change= 80.462976
+       DeltaRPassed 97.010405   % change= 0.000000
+      Total change :99.720044
+*******************************************
+*******************************************
+Number of events inspected: 34652
+Number of events inspected (minus negative gen. weights): 34338.000000
+ Outpt written to TTToSemiLeptonic_powheg_50.root
+Real time 0:03:43, CP time 115.450

@@ -1,0 +1,111 @@
+000 (1283933.000.000) 2023-03-31 12:38:01 Job submitted from host: <144.92.180.99:9618?addrs=144.92.180.99-9618+[2607-f388-101c-1000--367]-9618&alias=login01.hep.wisc.edu&noUDP&sock=schedd_2816_1ec8>
+...
+040 (1283933.000.000) 2023-03-31 12:38:03 Started transferring input files
+	Transferring to host: <144.92.180.82:9618?addrs=144.92.180.82-9618+[2607-f388-101c-1000--248]-9618&alias=g23n02.hep.wisc.edu&noUDP&sock=slot1_15_15091_b97f_30572>
+...
+040 (1283933.000.000) 2023-03-31 12:38:51 Finished transferring input files
+...
+001 (1283933.000.000) 2023-03-31 12:38:52 Job executing on host: <144.92.180.82:9618?addrs=144.92.180.82-9618+[2607-f388-101c-1000--248]-9618&alias=g23n02.hep.wisc.edu&noUDP&sock=startd_2268_3ce2>
+...
+006 (1283933.000.000) 2023-03-31 12:39:00 Image size of job updated: 828724
+	360  -  MemoryUsage of job (MB)
+	367792  -  ResidentSetSize of job (KB)
+...
+006 (1283933.000.000) 2023-03-31 12:39:10 Image size of job updated: 2784972
+	360  -  MemoryUsage of job (MB)
+	367792  -  ResidentSetSize of job (KB)
+...
+040 (1283933.000.000) 2023-03-31 12:39:10 Started transferring output files
+...
+040 (1283933.000.000) 2023-03-31 12:39:10 Finished transferring output files
+...
+004 (1283933.000.000) 2023-03-31 12:39:10 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:14, Sys 0 00:00:03  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	8366  -  Run Bytes Sent By Job
+	315801248  -  Run Bytes Received By Job
+	(1) Normal termination (return value 139)
+	The job attribute OnExitRemove expression '(ExitBySignal == false && (ExitCode == 0 || ExitCode == 42 || NumJobStarts > 3))' evaluated to FALSE
+...
+040 (1283933.000.000) 2023-03-31 12:39:21 Started transferring input files
+	Transferring to host: <128.105.69.38:9618?addrs=128.105.69.38-9618+[2607-f388-2200-100-1e6a-7aff-fe21-9e77]-9618&alias=e2360.chtc.wisc.edu&noUDP&sock=slot1_31_39575_eae2_30797>
+...
+040 (1283933.000.000) 2023-03-31 12:39:37 Finished transferring input files
+...
+001 (1283933.000.000) 2023-03-31 12:39:38 Job executing on host: <128.105.69.38:9618?addrs=128.105.69.38-9618+[2607-f388-2200-100-1e6a-7aff-fe21-9e77]-9618&alias=e2360.chtc.wisc.edu&noUDP&sock=startd_7371_78ac>
+...
+006 (1283933.000.000) 2023-03-31 12:39:46 Image size of job updated: 3000000
+	539  -  MemoryUsage of job (MB)
+	551692  -  ResidentSetSize of job (KB)
+...
+006 (1283933.000.000) 2023-03-31 12:40:00 Image size of job updated: 3000000
+	549  -  MemoryUsage of job (MB)
+	561816  -  ResidentSetSize of job (KB)
+...
+040 (1283933.000.000) 2023-03-31 12:40:00 Started transferring output files
+...
+040 (1283933.000.000) 2023-03-31 12:40:00 Finished transferring output files
+...
+004 (1283933.000.000) 2023-03-31 12:40:00 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:10, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	8366  -  Run Bytes Sent By Job
+	315801248  -  Run Bytes Received By Job
+	(1) Normal termination (return value 139)
+	The job attribute OnExitRemove expression '(ExitBySignal == false && (ExitCode == 0 || ExitCode == 42 || NumJobStarts > 3))' evaluated to FALSE
+...
+040 (1283933.000.000) 2023-03-31 12:40:05 Started transferring input files
+	Transferring to host: <128.105.69.38:9618?addrs=128.105.69.38-9618+[2607-f388-2200-100-1e6a-7aff-fe21-9e77]-9618&alias=e2360.chtc.wisc.edu&noUDP&sock=slot1_33_39575_eae2_30800>
+...
+040 (1283933.000.000) 2023-03-31 12:40:15 Finished transferring input files
+...
+001 (1283933.000.000) 2023-03-31 12:40:16 Job executing on host: <128.105.69.38:9618?addrs=128.105.69.38-9618+[2607-f388-2200-100-1e6a-7aff-fe21-9e77]-9618&alias=e2360.chtc.wisc.edu&noUDP&sock=startd_7371_78ac>
+...
+040 (1283933.000.000) 2023-03-31 12:40:34 Started transferring output files
+...
+040 (1283933.000.000) 2023-03-31 12:40:34 Finished transferring output files
+...
+004 (1283933.000.000) 2023-03-31 12:40:34 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:11, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	8366  -  Run Bytes Sent By Job
+	315801248  -  Run Bytes Received By Job
+	(1) Normal termination (return value 139)
+	The job attribute OnExitRemove expression '(ExitBySignal == false && (ExitCode == 0 || ExitCode == 42 || NumJobStarts > 3))' evaluated to FALSE
+...
+040 (1283933.000.000) 2023-03-31 12:40:40 Started transferring input files
+	Transferring to host: <128.105.68.159:9618?addrs=128.105.68.159-9618+[2607-f388-2200-100-b226-28ff-fe51-396c]-9618&alias=e2018.chtc.wisc.edu&noUDP&sock=slot1_27_256612_1e3c_34846>
+...
+040 (1283933.000.000) 2023-03-31 12:40:50 Finished transferring input files
+...
+001 (1283933.000.000) 2023-03-31 12:40:51 Job executing on host: <128.105.68.159:9618?addrs=128.105.68.159-9618+[2607-f388-2200-100-b226-28ff-fe51-396c]-9618&alias=e2018.chtc.wisc.edu&noUDP&sock=startd_8988_9950>
+...
+006 (1283933.000.000) 2023-03-31 12:41:26 Image size of job updated: 4078584
+	733  -  MemoryUsage of job (MB)
+	750000  -  ResidentSetSize of job (KB)
+...
+040 (1283933.000.000) 2023-03-31 12:41:26 Started transferring output files
+...
+040 (1283933.000.000) 2023-03-31 12:41:26 Finished transferring output files
+...
+005 (1283933.000.000) 2023-03-31 12:41:26 Job terminated.
+	(1) Normal termination (return value 139)
+		Usr 0 00:00:12, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:47, Sys 0 00:00:09  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	8372  -  Run Bytes Sent By Job
+	315801248  -  Run Bytes Received By Job
+	33470  -  Total Bytes Sent By Job
+	1263204992  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   308468  2097152   4099179 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      733     2048      2048 
+
+	Job terminated of its own accord at 2023-03-31T17:41:26Z.
+...

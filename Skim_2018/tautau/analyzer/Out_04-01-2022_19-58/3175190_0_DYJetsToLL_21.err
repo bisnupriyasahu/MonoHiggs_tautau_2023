@@ -1,0 +1,79 @@
+Error in <TNetXNGFile::Open>: [ERROR] Server responded with an error: [3011] Too many attempts to gain dfs read access to the file
+
+
+ *** Break *** segmentation violation
+
+
+
+===========================================================
+There was a crash.
+This is the entire stack trace of all threads:
+===========================================================
+
+Thread 6 (Thread 0x1471fe11f700 (LWP 25885)):
+#0  0x000014720c224d19 in syscall () from /lib64/libc.so.6
+#1  0x00001471fe9df79e in XrdSys::LinuxSemaphore::Wait (this=0xaa4b4e0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x18eda418) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x18eda400) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00001471fe9df989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x000014720c501ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x000014720c22a9fd in clone () from /lib64/libc.so.6
+
+Thread 5 (Thread 0x1471fe320700 (LWP 25882)):
+#0  0x000014720c224d19 in syscall () from /lib64/libc.so.6
+#1  0x00001471fe9df79e in XrdSys::LinuxSemaphore::Wait (this=0xaa4b4e0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x18eda418) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x18eda400) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00001471fe9df989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x000014720c501ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x000014720c22a9fd in clone () from /lib64/libc.so.6
+
+Thread 4 (Thread 0x1471fe521700 (LWP 25881)):
+#0  0x000014720c224d19 in syscall () from /lib64/libc.so.6
+#1  0x00001471fe9df79e in XrdSys::LinuxSemaphore::Wait (this=0xaa4b4e0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysLinuxSemaphore.hh:161
+#2  XrdCl::SyncQueue<XrdCl::JobManager::JobHelper>::Get (this=0x18eda418) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdCl/XrdClSyncQueue.hh:67
+#3  XrdCl::JobManager::RunJobs (this=0x18eda400) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:146
+#4  0x00001471fe9df989 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClJobManager.cc:33
+#5  0x000014720c501ea5 in start_thread () from /lib64/libpthread.so.0
+#6  0x000014720c22a9fd in clone () from /lib64/libc.so.6
+
+Thread 3 (Thread 0x1471fe722700 (LWP 25880)):
+#0  0x000014720c508e9d in nanosleep () from /lib64/libpthread.so.0
+#1  0x00001471ff290ded in XrdSysTimer::Wait (mills=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysTimer.cc:239
+#2  0x00001471fe983118 in XrdCl::TaskManager::RunTasks (this=0x18edbb60) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClTaskManager.cc:244
+#3  0x00001471fe983269 in RunRunnerThread (arg=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdCl/XrdClTaskManager.cc:37
+#4  0x000014720c501ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x000014720c22a9fd in clone () from /lib64/libc.so.6
+
+Thread 2 (Thread 0x1471fe923700 (LWP 25879)):
+#0  0x000014720c22afd3 in epoll_wait () from /lib64/libc.so.6
+#1  0x00001471ff295c17 in XrdSys::IOEvents::PollE::Begin (this=0x18ed6b70, syncsem=<optimized out>, retcode=<optimized out>, eTxt=<optimized out>) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/./XrdSys/XrdSysIOEventsPollE.icc:213
+#2  0x00001471ff2924f5 in XrdSys::IOEvents::BootStrap::Start (parg=0x7ffe8a75fdb0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysIOEvents.cc:131
+#3  0x00001471ff2905e8 in XrdSysThread_Xeq (myargs=0xa1f41c0) at /build/cmsbld/auto-builds/CMSSW_10_2_0_pre6-slc7_amd64_gcc700/build/CMSSW_10_2_0_pre6-build/BUILD/slc7_amd64_gcc700/external/xrootd/4.8.3-gnimlf/xrootd-4.8.3/src/XrdSys/XrdSysPthread.cc:86
+#4  0x000014720c501ea5 in start_thread () from /lib64/libpthread.so.0
+#5  0x000014720c22a9fd in clone () from /lib64/libc.so.6
+
+Thread 1 (Thread 0x14720a24fc40 (LWP 25337)):
+#0  0x000014720c1f1549 in waitpid () from /lib64/libc.so.6
+#1  0x000014720c16efb2 in do_system () from /lib64/libc.so.6
+#2  0x000014720c16f361 in system () from /lib64/libc.so.6
+#3  0x000014720ea0ca8b in TUnixSystem::StackTrace() () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_10/external/slc7_amd64_gcc700/lib/libCore.so
+#4  0x000014720ea0f0cc in TUnixSystem::DispatchSignals(ESignals) () from /cvmfs/cms.cern.ch/slc7_amd64_gcc700/cms/cmssw/CMSSW_10_2_10/external/slc7_amd64_gcc700/lib/libCore.so
+#5  <signal handler called>
+#6  0x000000000042938a in tautau_analyzer::tautau_analyzer(char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000430e5a in main ()
+===========================================================
+
+
+The lines below might hint at the cause of the crash.
+You may get help by asking at the ROOT forum http://root.cern.ch/forum.
+Only if you are really convinced it is a bug in ROOT then please submit a
+report at http://root.cern.ch/bugs. Please post the ENTIRE stack trace
+from above as an attachment in addition to anything else
+that might help us fixing this issue.
+===========================================================
+#6  0x000000000042938a in tautau_analyzer::tautau_analyzer(char const*, char const*, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) ()
+#7  0x0000000000430e5a in main ()
+===========================================================
+
+

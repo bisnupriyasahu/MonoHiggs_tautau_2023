@@ -130,7 +130,7 @@ def get_syst(xaxis_label="" ,sample=None, index=None):
     inFile_d=ROOT.TFile(down,"r")
     
     if index is None:
-        index = "9"
+        index = "9b"
     histoname = xaxis_label+'_'+index
     dirname = [histoname+"/", histoname ]
     
@@ -220,5 +220,5 @@ if __name__=="__main__":
         # print ('\n')
         get_syst('tauPt', ss , "5")
         # print ('\n')
-        get_syst('tauPt', ss , "9")
+        get_syst('tauPt', ss , "9b")
     

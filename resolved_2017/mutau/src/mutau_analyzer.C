@@ -125,7 +125,7 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
   Double_t  Pt_Bins_highPt[21]={100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 450, 500, 600, 800, 1000};
 
   //TH1F* h_cutflow=new TH1F("cutflow", "cutflow", 10, 0, 10); h_cutflow->Sumw2();
-  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 8, 0, 8);h_cutflow_n->Sumw2();
+  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 15, 0, 15);h_cutflow_n->Sumw2();
   TH1F* h_cutflow_n_fr=new TH1F("cutflow_n_fr", "cutflow_n_fr", 8, 0, 8);h_cutflow_n_fr->Sumw2();
   TH1F* h_cutflow_n_dyll=new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 8, 0, 8);h_cutflow_n_dyll->Sumw2();
   TH1F* h_cutflow_n_dyll_fr=new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 8, 0, 8);h_cutflow_n_dyll_fr->Sumw2();
@@ -191,9 +191,10 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
       if( isGoodVtx==false ) continue;
       t_index = get_t_Cand(); tbar_index = get_tbar_Cand();
 
-      /////Trigger bit selection
-      if(HLTEleMuX>>21&1 == 1 || HLTEleMuX>>60&1 == 1 )
+      /////Trigger bit selection \\HLT_IsoMu27_v==> 21 and HLT_IsoMu24_v==> 60
+      if(HLTEleMuX>>21&1 == 1 || HLTEleMuX>>60&1 == 1 ) 
 	passSingleTriggerPaths=true;
+      ///////HLT_IsoMu20_eta2p1_LooseChargedIsoPFTau27_eta2p1_CrossL1
       if( HLTTau>>0&1 == 1  )
 	passCrossTrigger=true;
       ////
@@ -230,14 +231,14 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
 	  selections(event_weight,  -1, "jetFakes");
 	  if(is_MC){
 	    /// UP 
-	    string shape_names[7] = {
-            //"tauES", 
-				    //"JES","JER", 
-				    //"metresponse", "metresolution",  "metunclustered", 
+	    string shape_names[13] = {
+	                            "tauES", 
+				    "JES","JER", 
+				    "metresponse", "metresolution",  "metunclustered", 
 				    "tauIDunc", "tauTRGunc", "leptonTRGunc", 
 				    "prefiringUnc", "muonMissID", 
 				    "dyShape", "ttbarShape"};
-	    for (int i = 0; i < 7 ; i++ ){
+	    for (int i = 0; i < 13 ; i++ ){
 	      // if (shape_names[i] != "metunclustered")
 	      // 	continue;     
 	      // cout<<"shape name = "<<shape_names[i]<<endl;
@@ -294,10 +295,12 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
    std::cout<<"*******************************************"<<std::endl;
    std::cout<<std::setw(20) <<std::right <<"Number of events inspected: " << nInspected <<std::endl;
    std::cout<<std::setw(20) <<std::right << "Number of events inspected (minus negative gen. weights): " << nInspected_genWeighted << std::endl; 
-   
+   vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodMuonPassed, nGoodTauPassed, nnominalpassed, ndatapassedselection,  nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed};
+   for(int i=0; i<cutflow_n.size(); i++)
+     h_cutflow_n->SetBinContent( i+1 , cutflow_n[i] );
 
      
-   h_cutflow_n->SetBinContent(1,nInspected_genWeighted );
+   /* h_cutflow_n->SetBinContent(1,nInspected_genWeighted );
    h_cutflow_n->SetBinContent(2, nSingleTrgPassed);
    h_cutflow_n->SetBinContent(3, nGoodMuonPassed);
    h_cutflow_n->SetBinContent(4, nGoodTauPassed);
@@ -305,7 +308,7 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
    h_cutflow_n->SetBinContent(6, nPassedThirdLepVeto);
    h_cutflow_n->SetBinContent(7, nPassedBjetVeto);
    h_cutflow_n->SetBinContent(8, nDeltaRPassed);
-   
+   */
    h_cutflow_n_fr->SetBinContent(1,nInspected_genWeighted );
    h_cutflow_n_fr->SetBinContent(2, nSingleTrgPassed_fr);
    h_cutflow_n_fr->SetBinContent(3, nGoodMuonPassed_fr);

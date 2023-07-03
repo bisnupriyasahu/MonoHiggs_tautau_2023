@@ -1,0 +1,51 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:175137
+Running over 175137 events.
+Finished entry 0/175136
+Finished entry 8000/175136
+Finished entry 16000/175136
+Finished entry 24000/175136
+Finished entry 32000/175136
+Finished entry 40000/175136
+Finished entry 48000/175136
+Finished entry 56000/175136
+Finished entry 64000/175136
+Finished entry 72000/175136
+Finished entry 80000/175136
+Finished entry 88000/175136
+Finished entry 96000/175136
+Finished entry 104000/175136
+Finished entry 112000/175136
+Finished entry 120000/175136
+Finished entry 128000/175136
+Finished entry 136000/175136
+Finished entry 144000/175136
+Finished entry 152000/175136
+Finished entry 160000/175136
+Finished entry 168000/175136
+Finished entry 175136/175136
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 175137.000000
+   Passing smikking 0.000000
+Inspected genWeightd 175137.000000   % change= 0.000000
+   METFiltersPassed 174788.000000   % change= 0.199273
+    SingleTrgPassed 165194.000000   % change= 5.488935
+     GoodMuonPassed 45749.000000   % change= 72.305895
+      GoodTauPassed 4403.000000   % change= 90.375746
+         opp charge 2852.000000   % change= 35.225982
+ PassedThirdLepVeto 2828.000000   % change= 0.841515
+     PassedBjetVeto 2828.000000   % change= 0.000000
+       DeltaRPassed 2806.000000   % change= 0.777935
+      Total change :98.397826
+*******************************************
+*******************************************
+Number of events inspected: 175137
+Number of events inspected (minus negative gen. weights): 175137.000000
+ Outpt written to Tau_EraE_03.root
+Real time 0:00:47, CP time 35.490

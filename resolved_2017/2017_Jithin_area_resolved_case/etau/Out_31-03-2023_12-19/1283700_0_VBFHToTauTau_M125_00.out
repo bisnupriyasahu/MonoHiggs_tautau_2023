@@ -1,0 +1,90 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========VBFHToTauTau_M125_00
+.... MC file ..... 
+Coming in: 
+nentries:333497
+Running over 333497 events.
+Finished entry 0/333496
+Finished entry 10000/333496
+Finished entry 20000/333496
+Finished entry 30000/333496
+Finished entry 40000/333496
+Finished entry 50000/333496
+Finished entry 60000/333496
+Finished entry 70000/333496
+Finished entry 80000/333496
+Finished entry 90000/333496
+Finished entry 100000/333496
+Finished entry 110000/333496
+Finished entry 120000/333496
+Finished entry 130000/333496
+Finished entry 140000/333496
+Finished entry 150000/333496
+Finished entry 160000/333496
+Finished entry 170000/333496
+Finished entry 180000/333496
+Finished entry 190000/333496
+Finished entry 200000/333496
+Finished entry 210000/333496
+Finished entry 220000/333496
+Finished entry 230000/333496
+Finished entry 240000/333496
+Finished entry 250000/333496
+Finished entry 260000/333496
+Finished entry 270000/333496
+Finished entry 280000/333496
+Finished entry 290000/333496
+Finished entry 300000/333496
+Finished entry 310000/333496
+Finished entry 320000/333496
+Finished entry 330000/333496
+Finished entry 333496/333496
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 333497.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 2671189.667410   % change= -2572.606313
+      GoodTauPassed 913354.009165   % change= 65.807220
+         opp charge 879712.591944   % change= 3.683283
+ PassedThirdLepVeto 404307.271216   % change= 54.040982
+     PassedBjetVeto 385544.677027   % change= 4.640677
+       DeltaRPassed 384315.926817   % change= 0.318705
+      Total change :-15.238196
+*******************************************
+*******************************************
+Number of events inspected: 333497
+Number of events inspected (minus negative gen. weights): 333069.000000
+ Outpt written to VBFHToTauTau_M125_00.root
+Real time 0:26:43, CP time 1507.020

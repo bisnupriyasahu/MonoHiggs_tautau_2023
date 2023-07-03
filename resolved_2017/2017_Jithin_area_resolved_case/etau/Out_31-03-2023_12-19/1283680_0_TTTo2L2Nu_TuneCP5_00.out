@@ -1,0 +1,92 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** ttbar sample found
+sample ==========TTTo2L2Nu_TuneCP5_00
+.... MC file ..... 
+Coming in: 
+nentries:340414
+Running over 340414 events.
+Finished entry 0/340413
+Finished entry 10000/340413
+Finished entry 20000/340413
+Finished entry 30000/340413
+Finished entry 40000/340413
+Finished entry 50000/340413
+Finished entry 60000/340413
+Finished entry 70000/340413
+Finished entry 80000/340413
+Finished entry 90000/340413
+Finished entry 100000/340413
+Finished entry 110000/340413
+Finished entry 120000/340413
+Finished entry 130000/340413
+Finished entry 140000/340413
+Finished entry 150000/340413
+Finished entry 160000/340413
+Finished entry 170000/340413
+Finished entry 180000/340413
+Finished entry 190000/340413
+Finished entry 200000/340413
+Finished entry 210000/340413
+Finished entry 220000/340413
+Finished entry 230000/340413
+Finished entry 240000/340413
+Finished entry 250000/340413
+Finished entry 260000/340413
+Finished entry 270000/340413
+Finished entry 280000/340413
+Finished entry 290000/340413
+Finished entry 300000/340413
+Finished entry 310000/340413
+Finished entry 320000/340413
+Finished entry 330000/340413
+Finished entry 340000/340413
+Finished entry 340413/340413
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 340414.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 6979991.166786   % change= -2825.456612
+      GoodTauPassed 1228697.506844   % change= 82.396862
+         opp charge 1184281.386566   % change= 3.614895
+ PassedThirdLepVeto 634418.840531   % change= 46.430059
+     PassedBjetVeto 110797.398504   % change= 82.535607
+       DeltaRPassed 110170.193258   % change= 0.566083
+      Total change :67.636409
+*******************************************
+*******************************************
+Number of events inspected: 340414
+Number of events inspected (minus negative gen. weights): 338100.000000
+ Outpt written to TTTo2L2Nu_TuneCP5_00.root
+Real time 0:50:12, CP time 2764.740

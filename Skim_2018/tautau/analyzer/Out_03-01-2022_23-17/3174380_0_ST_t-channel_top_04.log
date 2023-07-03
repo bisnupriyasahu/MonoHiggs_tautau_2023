@@ -1,0 +1,39 @@
+000 (3174380.000.000) 2022-01-03 23:17:56 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_2326_0560>
+...
+040 (3174380.000.000) 2022-01-03 23:18:53 Started transferring input files
+	Transferring to host: <128.104.58.113:9618?addrs=128.104.58.113-9618+[2607-f388-1086-0-ea9a-8fff-fe83-b4ee]-9618&alias=e473.chtc.wisc.edu&noUDP&sock=slot1_10_17543_6162_13951>
+...
+040 (3174380.000.000) 2022-01-03 23:19:33 Finished transferring input files
+...
+001 (3174380.000.000) 2022-01-03 23:19:34 Job executing on host: <128.104.58.113:9618?addrs=128.104.58.113-9618+[2607-f388-1086-0-ea9a-8fff-fe83-b4ee]-9618&alias=e473.chtc.wisc.edu&noUDP&sock=startd_3838_2093>
+...
+006 (3174380.000.000) 2022-01-03 23:19:42 Image size of job updated: 52428
+	15  -  MemoryUsage of job (MB)
+	15204  -  ResidentSetSize of job (KB)
+...
+006 (3174380.000.000) 2022-01-03 23:20:22 Image size of job updated: 1197212
+	15  -  MemoryUsage of job (MB)
+	15204  -  ResidentSetSize of job (KB)
+...
+040 (3174380.000.000) 2022-01-03 23:20:27 Started transferring output files
+...
+040 (3174380.000.000) 2022-01-03 23:20:27 Finished transferring output files
+...
+005 (3174380.000.000) 2022-01-03 23:20:27 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:26, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:26, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	151817  -  Run Bytes Sent By Job
+	315491776  -  Run Bytes Received By Job
+	151817  -  Total Bytes Sent By Job
+	315491776  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   308297  2048000   7354789 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :       15     1992      2048 
+
+	Job terminated of its own accord at 2022-01-04T05:20:22Z.
+...

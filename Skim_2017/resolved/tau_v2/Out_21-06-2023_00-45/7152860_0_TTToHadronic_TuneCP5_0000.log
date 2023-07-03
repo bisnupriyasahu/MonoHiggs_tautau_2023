@@ -1,0 +1,47 @@
+000 (7152860.000.000) 2023-06-21 00:45:47 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7152860.000.000) 2023-06-21 01:20:05 Started transferring input files
+	Transferring to host: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=slot1_3_4364_952b_68168>
+...
+040 (7152860.000.000) 2023-06-21 01:20:05 Finished transferring input files
+...
+001 (7152860.000.000) 2023-06-21 01:20:06 Job executing on host: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+...
+006 (7152860.000.000) 2023-06-21 01:20:14 Image size of job updated: 525776
+	76  -  MemoryUsage of job (MB)
+	77460  -  ResidentSetSize of job (KB)
+...
+006 (7152860.000.000) 2023-06-21 01:40:14 Image size of job updated: 892708
+	372  -  MemoryUsage of job (MB)
+	380392  -  ResidentSetSize of job (KB)
+...
+006 (7152860.000.000) 2023-06-21 02:00:15 Image size of job updated: 897608
+	383  -  MemoryUsage of job (MB)
+	391968  -  ResidentSetSize of job (KB)
+...
+006 (7152860.000.000) 2023-06-21 02:20:16 Image size of job updated: 897608
+	388  -  MemoryUsage of job (MB)
+	396456  -  ResidentSetSize of job (KB)
+...
+022 (7152860.000.000) 2023-06-21 10:49:42 Job disconnected, attempting to reconnect
+    Local schedd and job shadow died, schedd now running again
+    Trying to reconnect to slot1_3@g26n03.hep.wisc.edu <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+...
+023 (7152860.000.000) 2023-06-21 10:49:43 Job reconnected to slot1_3@g26n03.hep.wisc.edu
+    startd address: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=startd_4050_8aa7>
+    starter address: <144.92.180.105:9618?addrs=144.92.180.105-9618+[2607-f388-101c-1000--277]-9618&alias=g26n03.hep.wisc.edu&noUDP&sock=slot1_3_4364_952b_68168>
+...
+004 (7152860.000.000) 2023-06-21 11:45:56 Job was evicted.
+	(0) CPU times
+		Usr 0 01:29:47, Sys 0 00:05:51  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :     Usage  Request Allocated 
+	   Cpus                 :      0.13        1         1 
+	   Disk (KB)            : 842470     2097152  18358380 
+	   Memory (MB)          :    391        2048      2500 
+...
+009 (7152860.000.000) 2023-06-21 11:45:57 Job was aborted.
+	via condor_rm (by user bsahu)
+...

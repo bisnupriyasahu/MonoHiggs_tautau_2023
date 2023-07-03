@@ -192,13 +192,15 @@ void mutau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleName
       t_index = get_t_Cand(); tbar_index = get_tbar_Cand();
 
       /////Trigger bit selection
-      if( HLTEleMuX>>21&1 == 1  || HLTEleMuX>>60&1 == 1 ) ////HLT_IsoMu27_v or HLT_IsoMu24_v
+      ////HLT_IsoMu27_v or HLT_IsoMu24_v
+      if( HLTEleMuX>>21&1 == 1  || HLTEleMuX>>60&1 == 1 ) 
 	passSingleTriggerPaths=true;
-      if( HLTTau>>0&1 == 1 || HLTTau>>14&1 == 1 )  /// HLT_IsoMu20_eta2p1_LooseChargedIsoPFTau27_eta2p1_CrossL1 or HLT_IsoMu20_eta2p1_LooseChargedIsoPFTauHPS27_eta2p1_TightID_CrossL1_v
+      //if( HLTTau>>0&1 == 1 || HLTTau>>14&1 == 1 )  /// HLT_IsoMu20_eta2p1_LooseChargedIsoPFTau27_eta2p1_CrossL1 or HLT_IsoMu20_eta2p1_LooseChargedIsoPFTauHPS27_eta2p1_TightID_CrossL1_v
+      /// 13 ==>HLT_IsoMu20_eta2p1_LooseChargedIsoPFTauHPS27_eta2p1_CrossL1_v  or 14==>HLT_IsoMu20_eta2p1_LooseChargedIsoPFTauHPS27_eta2p1_TightID_CrossL1_v
+      if( (HLTTau>>13&1==1 && is_MC==false ) || (HLTTau>>14&1==1 ))
 	passCrossTrigger=true;
-      ////
       
-      
+           
       /////
       if(debug)cout<<"entry # : "<<jentry<<endl;
       

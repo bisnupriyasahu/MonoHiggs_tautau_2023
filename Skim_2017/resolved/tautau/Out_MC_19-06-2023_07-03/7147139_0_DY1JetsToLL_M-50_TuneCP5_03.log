@@ -1,0 +1,74 @@
+000 (7147139.000.000) 2023-06-19 07:03:26 Job submitted from host: <144.92.180.29:9618?addrs=144.92.180.29-9618+[2607-f388-101c-1000--369]-9618&alias=login03.hep.wisc.edu&noUDP&sock=schedd_3083_4292>
+...
+040 (7147139.000.000) 2023-06-19 07:08:09 Started transferring input files
+	Transferring to host: <128.104.58.158:9618?addrs=128.104.58.158-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7933]-9618&alias=e1010.chtc.wisc.edu&noUDP&sock=slot1_14_43682_aba9_12297>
+...
+040 (7147139.000.000) 2023-06-19 07:08:09 Finished transferring input files
+...
+001 (7147139.000.000) 2023-06-19 07:08:10 Job executing on host: <128.104.58.158:9618?addrs=128.104.58.158-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7933]-9618&alias=e1010.chtc.wisc.edu&noUDP&sock=startd_10179_869c>
+...
+006 (7147139.000.000) 2023-06-19 07:08:20 Image size of job updated: 46756
+	46  -  MemoryUsage of job (MB)
+	46756  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-19 07:13:20 Image size of job updated: 305152
+	298  -  MemoryUsage of job (MB)
+	304184  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-19 07:18:20 Image size of job updated: 305152
+	298  -  MemoryUsage of job (MB)
+	304204  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-19 07:23:21 Image size of job updated: 305152
+	298  -  MemoryUsage of job (MB)
+	304220  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-19 07:28:22 Image size of job updated: 305152
+	298  -  MemoryUsage of job (MB)
+	304240  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-19 07:33:22 Image size of job updated: 305152
+	298  -  MemoryUsage of job (MB)
+	304256  -  ResidentSetSize of job (KB)
+...
+006 (7147139.000.000) 2023-06-20 01:22:32 Image size of job updated: 449180
+	298  -  MemoryUsage of job (MB)
+	304256  -  ResidentSetSize of job (KB)
+...
+040 (7147139.000.000) 2023-06-20 01:22:32 Started transferring output files
+...
+040 (7147139.000.000) 2023-06-20 01:22:32 Finished transferring output files
+...
+004 (7147139.000.000) 2023-06-20 01:22:32 Job was evicted.
+	(0) Job terminated and was requeued
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	6714  -  Run Bytes Sent By Job
+	205538  -  Run Bytes Received By Job
+	(1) Normal termination (return value 139)
+	The job attribute OnExitRemove expression '(ExitBySignal == false && (ExitCode == 0 || ExitCode == 42 || NumJobStarts > 3))' evaluated to FALSE
+...
+040 (7147139.000.000) 2023-06-20 01:29:27 Started transferring input files
+	Transferring to host: <128.105.69.43:9618?addrs=128.105.69.43-9618&alias=e365.chtc.wisc.edu&noUDP&sock=slot1_18_5417_8435_10880>
+...
+040 (7147139.000.000) 2023-06-20 01:29:27 Finished transferring input files
+...
+001 (7147139.000.000) 2023-06-20 01:29:28 Job executing on host: <128.105.69.43:9618?addrs=128.105.69.43-9618&alias=e365.chtc.wisc.edu&noUDP&sock=startd_7835_bc9e>
+...
+004 (7147139.000.000) 2023-06-20 02:00:13 Job was evicted.
+	(0) CPU times
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	205538  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :        0        1         1 
+	   Disk (KB)            :      269  3145728   3312394 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :      318     2048      2048 
+...
+009 (7147139.000.000) 2023-06-20 02:00:13 Job was aborted.
+	via condor_rm (by user bsahu)
+
+	Job terminated by itself at 2023-06-20T06:22:32Z (using method 0: OF_ITS_OWN_ACCORD).
+...

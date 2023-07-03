@@ -1,0 +1,51 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:1981
+Running over 1981 events.
+Finished entry 0/1980
+Finished entry 90/1980
+Finished entry 180/1980
+Finished entry 270/1980
+Finished entry 360/1980
+Finished entry 450/1980
+Finished entry 540/1980
+Finished entry 630/1980
+Finished entry 720/1980
+Finished entry 810/1980
+Finished entry 900/1980
+Finished entry 990/1980
+Finished entry 1080/1980
+Finished entry 1170/1980
+Finished entry 1260/1980
+Finished entry 1350/1980
+Finished entry 1440/1980
+Finished entry 1530/1980
+Finished entry 1620/1980
+Finished entry 1710/1980
+Finished entry 1800/1980
+Finished entry 1890/1980
+Finished entry 1980/1980
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 1981.000000
+   Passing smikking 0.000000
+Inspected genWeightd 1977.000000   % change= 0.201918
+   METFiltersPassed 1901.995121   % change= 3.793874
+    SingleTrgPassed 1901.995121   % change= 0.000000
+     GoodMuonPassed 1090.537604   % change= 42.663491
+      GoodTauPassed 163.447736   % change= 85.012187
+         opp charge 163.447736   % change= 0.000000
+ PassedThirdLepVeto 142.149257   % change= 13.030758
+     PassedBjetVeto 138.253357   % change= 2.740711
+       DeltaRPassed 115.483720   % change= 16.469500
+      Total change :94.170433
+*******************************************
+*******************************************
+Number of events inspected: 1981
+Number of events inspected (minus negative gen. weights): 1977.000000
+ Outpt written to VBFHToWWTo2L2Nu_00.root
+Real time 0:00:13, CP time 8.580

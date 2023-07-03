@@ -1,0 +1,51 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:1480
+Running over 1480 events.
+Finished entry 0/1479
+Finished entry 70/1479
+Finished entry 140/1479
+Finished entry 210/1479
+Finished entry 280/1479
+Finished entry 350/1479
+Finished entry 420/1479
+Finished entry 490/1479
+Finished entry 560/1479
+Finished entry 630/1479
+Finished entry 700/1479
+Finished entry 770/1479
+Finished entry 840/1479
+Finished entry 910/1479
+Finished entry 980/1479
+Finished entry 1050/1479
+Finished entry 1120/1479
+Finished entry 1190/1479
+Finished entry 1260/1479
+Finished entry 1330/1479
+Finished entry 1400/1479
+Finished entry 1470/1479
+Finished entry 1479/1479
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 1480.000000
+   Passing smikking 0.000000
+Inspected genWeightd 1256.000000   % change= 15.135135
+   METFiltersPassed 1215.557465   % change= 3.219947
+    SingleTrgPassed 355.185436   % change= 70.780037
+     GoodMuonPassed 279.593041   % change= 21.282515
+      GoodTauPassed 123.237203   % change= 55.922650
+         opp charge 123.237203   % change= 0.000000
+ PassedThirdLepVeto 112.093910   % change= 9.042151
+     PassedBjetVeto 84.491127   % change= 24.624695
+       DeltaRPassed 83.838749   % change= 0.772125
+      Total change :94.335220
+*******************************************
+*******************************************
+Number of events inspected: 1480
+Number of events inspected (minus negative gen. weights): 1256.000000
+ Outpt written to ZZZ_00.root
+Real time 0:00:11, CP time 8.010

@@ -105,4 +105,4 @@ def get_syst(xaxis_label=""):
     c.Close()
 
 if __name__=="__main__":
-    get_syst('elePt')
+    get_syst('tot_TMass_new')

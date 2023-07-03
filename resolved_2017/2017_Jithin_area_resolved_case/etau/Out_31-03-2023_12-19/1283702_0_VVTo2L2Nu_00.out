@@ -1,0 +1,79 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========VVTo2L2Nu_00
+.... MC file ..... 
+Coming in: 
+nentries:683214
+Running over 683214 events.
+Finished entry 0/683213
+Finished entry 30000/683213
+Finished entry 60000/683213
+Finished entry 90000/683213
+Finished entry 120000/683213
+Finished entry 150000/683213
+Finished entry 180000/683213
+Finished entry 210000/683213
+Finished entry 240000/683213
+Finished entry 270000/683213
+Finished entry 300000/683213
+Finished entry 330000/683213
+Finished entry 360000/683213
+Finished entry 390000/683213
+Finished entry 420000/683213
+Finished entry 450000/683213
+Finished entry 480000/683213
+Finished entry 510000/683213
+Finished entry 540000/683213
+Finished entry 570000/683213
+Finished entry 600000/683213
+Finished entry 630000/683213
+Finished entry 660000/683213
+Finished entry 683213/683213
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 683214.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 6292017.679269   % change= -2603.154854
+      GoodTauPassed 1194492.588920   % change= 81.015746
+         opp charge 1156237.490928   % change= 3.202623
+ PassedThirdLepVeto 664830.080414   % change= 42.500560
+     PassedBjetVeto 653727.825702   % change= 1.669939
+       DeltaRPassed 651633.130217   % change= 0.320423
+      Total change :4.622398
+*******************************************
+*******************************************
+Number of events inspected: 683214
+Number of events inspected (minus negative gen. weights): 358560.000000
+ Outpt written to VVTo2L2Nu_00.root
+Real time 1:08:30, CP time 3742.950

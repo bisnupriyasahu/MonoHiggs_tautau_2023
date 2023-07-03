@@ -1,0 +1,59 @@
+All files added.
+Initializing chain.
+from Init DATA
+.... DATA file ..... 
+Coming in: 
+nentries:594580
+Running over 594580 events.
+Finished entry 0/594579
+Finished entry 20000/594579
+Finished entry 40000/594579
+Finished entry 60000/594579
+Finished entry 80000/594579
+Finished entry 100000/594579
+Finished entry 120000/594579
+Finished entry 140000/594579
+Finished entry 160000/594579
+Finished entry 180000/594579
+Finished entry 200000/594579
+Finished entry 220000/594579
+Finished entry 240000/594579
+Finished entry 260000/594579
+Finished entry 280000/594579
+Finished entry 300000/594579
+Finished entry 320000/594579
+Finished entry 340000/594579
+Finished entry 360000/594579
+Finished entry 380000/594579
+Finished entry 400000/594579
+Finished entry 420000/594579
+Finished entry 440000/594579
+Finished entry 460000/594579
+Finished entry 480000/594579
+Finished entry 500000/594579
+Finished entry 520000/594579
+Finished entry 540000/594579
+Finished entry 560000/594579
+Finished entry 580000/594579
+Finished entry 594579/594579
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 594580.000000
+   Passing smikking 0.000000
+Inspected genWeightd 594580.000000   % change= 0.000000
+   METFiltersPassed 593285.000000   % change= 0.217801
+    SingleTrgPassed 557555.000000   % change= 6.022401
+     GoodMuonPassed 143005.000000   % change= 74.351409
+      GoodTauPassed 12676.000000   % change= 91.135974
+         opp charge 8169.000000   % change= 35.555380
+ PassedThirdLepVeto 8113.000000   % change= 0.685518
+     PassedBjetVeto 8113.000000   % change= 0.000000
+       DeltaRPassed 8032.000000   % change= 0.998398
+      Total change :98.649130
+*******************************************
+*******************************************
+Number of events inspected: 594580
+Number of events inspected (minus negative gen. weights): 594580.000000
+ Outpt written to Tau_EraF_00.root
+Real time 0:02:12, CP time 105.580

@@ -1,0 +1,33 @@
+
+#!/bin/bash
+set -e 
+
+if [ "$(ls -A cutflow)" ]; then
+echo "Take action files_initial/ is not Empty .... removing existing files ....."
+#rm files_initial/*.root
+else
+echo " cutflow/ is Empty"
+fi
+
+hadd cutflow/DYJetsToLL_M-50_TuneCP5_final.root files_initial/DY1JetsToLL_M-50_TuneCP5_final.root files_initial/DY2JetsToLL_M-50_TuneCP5_final.root files_initial/DY3JetsToLL_M-50_TuneCP5_ext1_final.root files_initial/DY3JetsToLL_M-50_TuneCP5_v1_final.root files_initial/DY4JetsToLL_M-50_TuneCP5_final.root files_initial/DYJetsToLL_M-10to50_TuneCP5_final.root files_initial/DYJetsToLL_M-50_TuneCP5_ext1_v1_final.root files_initial/DYJetsToLL_M-50_TuneCP5_v1_final.root
+
+hadd cutflow/otherMC.root files_initial/EWKWMinus2Jets_WToLNu_M-50_TuneCP5_final.root files_initial/EWKWPlus2Jets_WToLNu_M-50_TuneCP5_final.root files_initial/EWKZ2Jets_ZToLL_M-50_TuneCP5_final.root files_initial/EWKZ2Jets_ZToNuNu_TuneCP5_final.root files_initial/GluGluHToTauTau_M125_final.root files_initial/GluGluHToWWTo2L2Nu_M125_final.root files_initial/VBFHToTauTau_M125_final.root files_initial/VBFHToWWTo2L2Nu_M125_final.root files_initial/ZJetsToNuNu_HT-100To200_final.root files_initial/ZJetsToNuNu_HT-1200To2500_final.root files_initial/ZJetsToNuNu_HT-200To400_final.root files_initial/ZJetsToNuNu_HT-2500ToInf_final.root files_initial/ZJetsToNuNu_HT-400To600_final.root files_initial/ZJetsToNuNu_HT-600To800_final.root files_initial/ZJetsToNuNu_HT-800To1200_final.root files_initial/ZHToTauTau_M125_final.root files_initial/WminusHToTauTau_M125_final.root files_initial/WplusHToTauTau_M125_final.root
+
+hadd cutflow/SingleTop_channel.root files_initial/ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5_final.root files_initial/ST_t-channel_top_4f_inclusiveDecays_TuneCP5_final.root files_initial/ST_tW_antitop_5f_inclusiveDecays_TuneCP5_final.root files_initial/ST_tW_top_5f_inclusiveDecays_TuneCP5_final.root
+
+
+hadd cutflow/TTbar_channel.root files_initial/TTTo2L2Nu_TuneCP5_final.root  files_initial/TTToHadronic_TuneCP5_final.root files_initial/TTToSemiLeptonic_TuneCP5_final.root
+
+
+hadd cutflow/VVT_channel.root files_initial/WWTo1L1Nu2Q_final.root files_initial/WWToLNuQQ_NNPDF31_TuneCP5_final.root  files_initial/WW_TuneCP5_final.root  files_initial/WZTo3LNu_TuneCP5_final.root files_initial/WZ_TuneCP5_final.root files_initial/ZZTo2L2Q_final.root files_initial/ZZTo4L_TuneCP5_final.root files_initial/ZZ_TuneCP5_final.root files_initial/ZZZ_TuneCP5_final.root files_initial/WZZ_TuneCP5_final.root files_initial/WWW_4F_TuneCP5_final.root files_initial/WWZ_4F_TuneCP5_final.root files_initial/VVTo2L2Nu_final.root
+
+hadd cutflow/WJets.root files_initial/W1JetsToLNu_TuneCP5_final.root  files_initial/W2JetsToLNu_TuneCP5_final.root files_initial/W3JetsToLNu_TuneCP5_final.root files_initial/W4JetsToLNu_TuneCP5_final.root files_initial/WJetsToLNu_TuneCP5_final.root
+
+
+hadd cutflow/fullLumi_Tau.root files_initial/fullLumi_Tau_EraB_final.root files_initial/fullLumi_Tau_EraC_final.root files_initial/fullLumi_Tau_EraD_final.root  files_initial/fullLumi_Tau_EraE_final.root files_initial/fullLumi_Tau_EraF_final.root
+
+
+hadd cutflow/blinded_Tau.root files_initial/Tau_EraB_final.root files_initial/Tau_EraC_final.root files_initial/Tau_EraD_final.root files_initial/Tau_EraE_final.root files_initial/Tau_EraF_final.root 
+
+hadd cutflow/Signal_ZpBaryonic2017_1.root files_initial/Signal_ZpBaryonic2017_1_final.root
+hadd cutflow/Signal_ZpBaryonic2017_17.root files_initial/Signal_ZpBaryonic2017_17_final.root

@@ -43,7 +43,8 @@ void mutau_analyzer::fillHist( string histNumber , int muIndex, int tauIndex, bo
   double delpta_phi_HptMet = (my_muP4+my_tauP4+my_metP4).DeltaPhi(my_metP4);
   plotFill("delptaPhi_HptMet_"+hNumber, delpta_phi_HptMet , 30, -3.14, 3.14,  event_weight); 
   
-  double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+  //  double tot_tr_mass = (my_muP4 + my_tauP4 + my_metP4 ).M();
+  double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
   plotFill("tot_TMass_"+hNumber, tot_tr_mass , 16, 40, 200,  event_weight);
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
   float TrMassBins[13]={ 40, 60, 90, 120, 150, 180, 210, 235, 260, 285, 325, 400, 2000};
@@ -190,7 +191,7 @@ void mutau_analyzer::fillHist_nominal(string histNumber, float event_weight){
   double delpta_phi_HptMet = (muP4+tauP4+MET_P4).DeltaPhi(MET_P4);
   plotFill("delptaPhi_HptMet_"+hNumber, delpta_phi_HptMet , 30, -3.14, 3.14,  event_weight);
   
-  double tot_tr_mass = (muP4 + tauP4 + MET_P4 ).M();
+  double tot_tr_mass = TMasstaumet_F(my_muP4,my_tauP4,my_metP4);
   plotFill("tot_TMass_"+hNumber, tot_tr_mass , 16, 40, 200,  event_weight);
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
   float TrMassBins[13]={ 40, 60, 90, 120, 150, 180, 210, 235, 260, 285, 325, 400, 2000};

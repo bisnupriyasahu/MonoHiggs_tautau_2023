@@ -1,0 +1,60 @@
+All files added.
+Initializing chain.
+from Init MC
+.... MC file ..... 
+Coming in: 
+nentries:3065
+Running over 3065 events.
+Finished entry 0/3064
+Finished entry 100/3064
+Finished entry 200/3064
+Finished entry 300/3064
+Finished entry 400/3064
+Finished entry 500/3064
+Finished entry 600/3064
+Finished entry 700/3064
+Finished entry 800/3064
+Finished entry 900/3064
+Finished entry 1000/3064
+Finished entry 1100/3064
+Finished entry 1200/3064
+Finished entry 1300/3064
+Finished entry 1400/3064
+Finished entry 1500/3064
+Finished entry 1600/3064
+Finished entry 1700/3064
+Finished entry 1800/3064
+Finished entry 1900/3064
+Finished entry 2000/3064
+Finished entry 2100/3064
+Finished entry 2200/3064
+Finished entry 2300/3064
+Finished entry 2400/3064
+Finished entry 2500/3064
+Finished entry 2600/3064
+Finished entry 2700/3064
+Finished entry 2800/3064
+Finished entry 2900/3064
+Finished entry 3000/3064
+Finished entry 3064/3064
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 3065.000000
+   Passing smikking 0.000000
+Inspected genWeightd 3065.000000   % change= 0.000000
+   METFiltersPassed 3011.511233   % change= 1.745147
+    SingleTrgPassed 3011.511233   % change= 0.000000
+     GoodMuonPassed 1518.247541   % change= 49.585194
+      GoodTauPassed 475.951432   % change= 68.651263
+         opp charge 475.951432   % change= 0.000000
+ PassedThirdLepVeto 300.992639   % change= 36.759800
+     PassedBjetVeto 268.061214   % change= 10.940941
+       DeltaRPassed 261.141109   % change= 2.581539
+      Total change :91.479899
+*******************************************
+*******************************************
+Number of events inspected: 3065
+Number of events inspected (minus negative gen. weights): 3065.000000
+ Outpt written to GluGluZH_HToWW_00.root
+Real time 0:00:18, CP time 17.360

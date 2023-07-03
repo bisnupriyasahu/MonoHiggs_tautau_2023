@@ -1,0 +1,39 @@
+000 (3174979.000.000) 2022-01-04 17:42:54 Job submitted from host: <144.92.180.5:9618?addrs=144.92.180.5-9618+[2607-f388-101c-1000--368]-9618&alias=login02.hep.wisc.edu&noUDP&sock=schedd_2326_0560>
+...
+040 (3174979.000.000) 2022-01-04 17:44:52 Started transferring input files
+	Transferring to host: <128.104.58.197:9618?addrs=128.104.58.197-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7a4a]-9618&alias=e1056.chtc.wisc.edu&noUDP&sock=slot1_17_21337_98bd_14672>
+...
+040 (3174979.000.000) 2022-01-04 17:45:37 Finished transferring input files
+...
+001 (3174979.000.000) 2022-01-04 17:45:38 Job executing on host: <128.104.58.197:9618?addrs=128.104.58.197-9618+[2607-f388-1086-0-16fe-b5ff-fec6-7a4a]-9618&alias=e1056.chtc.wisc.edu&noUDP&sock=startd_4985_dfb4>
+...
+006 (3174979.000.000) 2022-01-04 17:45:47 Image size of job updated: 61076
+	9  -  MemoryUsage of job (MB)
+	8568  -  ResidentSetSize of job (KB)
+...
+006 (3174979.000.000) 2022-01-04 17:46:35 Image size of job updated: 1183464
+	9  -  MemoryUsage of job (MB)
+	8568  -  ResidentSetSize of job (KB)
+...
+040 (3174979.000.000) 2022-01-04 17:46:36 Started transferring output files
+...
+040 (3174979.000.000) 2022-01-04 17:46:36 Finished transferring output files
+...
+005 (3174979.000.000) 2022-01-04 17:46:36 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:23, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	165579  -  Run Bytes Sent By Job
+	315491776  -  Run Bytes Received By Job
+	165579  -  Total Bytes Sent By Job
+	315491776  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 1         1 
+	   Disk (KB)            :   308310  2048000   2336922 
+	   IoHeavy              :                           0 
+	   Memory (MB)          :        9     1992      2048 
+
+	Job terminated of its own accord at 2022-01-04T23:46:35Z.
+...

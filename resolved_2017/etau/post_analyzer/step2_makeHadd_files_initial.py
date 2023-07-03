@@ -8,7 +8,7 @@ mapping = OrderedDict()
 for x in sorted(filelist):
     #print x
     if '.root' not in x: continue
-    if 'Zpbaryonic' in x or '2HDMa' in x :
+    if 'ZpBaryonic' in x or '2HDMa' in x :
         continue
     x = x.replace('.root', '')
     save_name = '_'.join(x.split('_')[:-1])
@@ -25,7 +25,7 @@ for x in sorted(filelist):
 for x in sorted(filelist):
     #print x
     if '.root' not in x: continue
-    if 'Zpbaryonic' not in x :
+    if 'ZpBaryonic' not in x :
         continue
     x = x.replace('.root', '')
     save_name = x.split('_')

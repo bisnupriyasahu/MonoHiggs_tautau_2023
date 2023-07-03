@@ -9,13 +9,13 @@ std::vector<int> etau_analyzer::getEleCand(double elePtCut, double eleEtaCut, in
     {
       // cout<<__LINE__<<endl;
       dau1.SetPtEtaPhiE(elePt->at(iEle), eleEta->at(iEle), elePhi->at(iEle), eleE->at(iEle));
-      if(is_MC)
-	dau1 = applyEleESCorrections(dau1, iEle, shift);
-      // cout<<__LINE__<<endl;
+      // if(is_MC)
+      //	dau1 = applyEleESCorrections(dau1, iEle, shift);
+      // cout<<__LINE__<<endl; //fabs(eleD0->at(iEle)) < 0.45
       bool kinematic = false;
       if( dau1.Pt() > elePtCut  
 	  && fabs(dau1.Eta())< eleEtaCut 
-	  && fabs(eleD0->at(iEle)) < 0.045
+	  && fabs(eleD0->at(iEle)) < 0.45 
 	  && fabs(eleDz->at(iEle)) < 0.2
 	  && eleMissHits->at(iEle) <= 1 && eleConvVeto->at(iEle)==1
 	  ) kinematic = true;
@@ -26,7 +26,7 @@ std::vector<int> etau_analyzer::getEleCand(double elePtCut, double eleEtaCut, in
       bool relative_iso = false;    
       float relEleIso = ( elePFChIso->at(iEle) + max( elePFNeuIso->at(iEle) + elePFPhoIso->at(iEle) - 0.5 *elePFPUIso->at(iEle) , 0.0 )) / dau1.Pt();
       // cout<<__LINE__<<endl;
-      if( relEleIso < 0.15 ) relative_iso = true;
+      if( relEleIso < 0.1 ) relative_iso = true;
       // cout<<__LINE__<<endl;
       if( kinematic && electronId && relative_iso ){
 	tmpCand.push_back(iEle);
@@ -48,8 +48,8 @@ std::vector<int> etau_analyzer::getTauCand(double tauPtCut, double tauEtaCut, in
       dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
 			,tau_Phi->at(iTau), tau_Energy->at(iTau)
 			);
-      if(is_MC)
-	dau2 = applyTauESCorrections(dau2, iTau, shift);
+      //if(is_MC)
+      //	dau2 = applyTauESCorrections(dau2, iTau, shift);
       bool kinematic = false;
       bool tauId = false;
       bool decayModeCut = false;
@@ -96,8 +96,8 @@ std::vector<int> etau_analyzer::getAISRTauCand(double tauPtCut, double tauEtaCut
       dau2.SetPtEtaPhiE(tau_Pt->at(iTau),tau_Eta->at(iTau)
                         ,tau_Phi->at(iTau), tau_Energy->at(iTau)
                         );
-      if(is_MC)
-	dau2 = applyTauESCorrections(dau2, iTau, shift);
+      //if(is_MC)
+      //	dau2 = applyTauESCorrections(dau2, iTau, shift);
       bool kinematic = false;
       bool tauId = false;
       bool decayModeCut = false;
@@ -208,11 +208,12 @@ int etau_analyzer::thirdLeptonVeto(){
   std::vector<int> tmpCand;
   tmpCand.clear();
   int thirdLepIndex = -1;
-  bool thirdLepVeto=true;
+  bool thirdLepVeto=false;
+  //   bool thirdLepVeto=true;
   for(int iMu=0; iMu < nMu;iMu++)
     {
       bool kinematic = false;
-      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.045 && (*muDz)[iMu] < 0.2 ) kinematic = true;
+      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.45 && (*muDz)[iMu] < 0.2 ) kinematic = true;
       bool muonId =false;
       if( muIDbit->at(iMu)>>1&1==1) muonId =true;
       bool relative_iso = false;
@@ -230,13 +231,14 @@ bool etau_analyzer::thirdLeptonVeto(int eleIndex, int tauIndex){
   std::vector<int> tmpCand;
   tmpCand.clear();
   int thirdLepIndex = -1;
-  bool thirdLepVeto=true;
+  //   bool thirdLepVeto=true;
+  bool thirdLepVeto=false;
   for(int iMu=0; iMu < nMu;iMu++)
     {
       bool kinematic = false;
-      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.045 && (*muDz)[iMu] < 0.2 ) kinematic = true;
+      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.45 && (*muDz)[iMu] < 0.2 ) kinematic = true;
       bool muonId =false;
-      if( muIDbit->at(iMu)>>1&1==1) muonId =true;
+      if( muIDbit->at(iMu)>>1&1==1) muonId =true; //CutBasedIdMedium
       bool relative_iso = false;
       float relMuIso = ( muPFChIso->at(iMu) + max( muPFNeuIso->at(iMu) + muPFPhoIso->at(iMu) - 0.5 *muPFPUIso->at(iMu) , 0.0 )) / (muPt->at(iMu));
       if( relMuIso < 0.3 ) relative_iso = true;
@@ -261,11 +263,12 @@ bool etau_analyzer::thirdLeptonVeto(int eleIndex, int tauIndex, int ele2Index){
   std::vector<int> tmpCand;
   tmpCand.clear();
   int thirdLepIndex = -1;
-  bool thirdLepVeto=true;
+  //  bool thirdLepVeto=true;
+  bool thirdLepVeto=false;
   for(int iMu=0; iMu < nMu;iMu++)
     {
       bool kinematic = false;
-      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.045 && (*muDz)[iMu] < 0.2 ) kinematic = true;
+      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.45 && (*muDz)[iMu] < 0.2 ) kinematic = true;
       bool muonId =false;
       if( muIDbit->at(iMu)>>1&1==1) muonId =true;
       bool relative_iso = false;
@@ -316,6 +319,19 @@ double etau_analyzer::DeltaPhi(double phi1, double phi2)
 float etau_analyzer::TMass_F(float LepPt, float LepPhi , float met, float metPhi) {
   return  sqrt(2.0*LepPt*met*(1.0-cos(DeltaPhi(LepPhi, metPhi))));
   //return sqrt(pow(LepPt + met, 2) - pow(LepPt* cos(LepPhi) + met * cos(metPhi), 2) - pow(LepPt * sin(LepPhi) + met * sin(metPhi), 2));
+}
+float etau_analyzer::TMasstaumet_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
+  float aPt=a.Pt(); float aPhi=a.Phi();
+  float aPx=aPt*cos(aPhi); float aPy=aPt*sin(aPhi);
+
+  float bPt=b.Pt(); float bPhi=b.Phi();
+  float bPx=bPt*cos(bPhi); float bPy=bPt*sin(bPhi);
+
+  float metPt=met.Pt(); float metPhi=met.Phi();
+  float metPx=metPt*cos(metPhi); float metPy=metPt*sin(metPhi);
+
+  float totalTMass = sqrt((( aPt + bPt + metPt )*(aPt + bPt + metPt)) - ((aPx + bPx + metPx )*(aPx + bPx + metPx)) - ((aPy + bPy + metPy)*(aPy + bPy + metPy)));
+  return totalTMass;
 }
 
 float etau_analyzer::TotTMass_F(TLorentzVector a, TLorentzVector b, TLorentzVector met) {
@@ -444,7 +460,7 @@ bool etau_analyzer::passDiElectronVeto(int eleIndex)
       bool kinematic = false;
       if( elePt->at(iEle) > 15
 	  && fabs(eleEta->at(iEle))< 2.5
-	  && fabs(eleD0->at(iEle)) < 0.045
+	  && fabs(eleD0->at(iEle)) < 0.45
 	  && fabs(eleDz->at(iEle)) < 0.2
        	  ) kinematic = true;
       bool electronId =false;
@@ -483,7 +499,7 @@ bool etau_analyzer::eVetoZTTp001dxyz(int eleIndex, int tauIndex){
       bool kinematic = false;
       if( elePt->at(iEle) > 10
 	  && fabs(eleEta->at(iEle))< 2.5
-	  && fabs(eleD0->at(iEle)) < 0.045
+	  && fabs(eleD0->at(iEle)) < 0.45
 	  && fabs(eleDz->at(iEle)) < 0.2
 	  && eleConvVeto->at(iEle)==1 && eleConvVeto->at(iEle)==1
        	  ) kinematic = true;
@@ -520,7 +536,7 @@ bool etau_analyzer::mVetoZTTp001dxyz(int eleIndex, int tauIndex){
   for(int iMu=0; iMu < nMu;iMu++)
     {
       bool kinematic = false;
-      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.045 && (*muDz)[iMu] < 0.2 ) kinematic = true;
+      if( (*muPt)[iMu] > 10.0  && fabs((*muEta)[iMu])< 2.4 && (*muD0)[iMu] < 0.45 && (*muDz)[iMu] < 0.2 ) kinematic = true;
       bool muonId =false;
       if( muIDbit->at(iMu)>>1&1==1) muonId =true;
       bool relative_iso = false;
@@ -875,24 +891,34 @@ double etau_analyzer::getScaleFactors(  double elept, double taupt, double eleet
   else 
     { e_trg24_sf = 1.0; } //sf_tauTrg = 1.0; t_trg_sf=1.0;}
     
-  sf_htt_workspace=  e_trk_sf * e_idiso_sf *  e_trg24_sf * e_trg_sf * t_trg_sf * zptmass_weight;
-  rv_sf =  sf_tauidSF_m  *  sf_htt_workspace * weight_btagSF * top_pt_weight * higgPt_weight * sf_fakeEle;
+  //  sf_htt_workspace=  e_trk_sf * e_idiso_sf *  e_trg24_sf * e_trg_sf * t_trg_sf * zptmass_weight;
+
+
+  if(found_DYjet_sample==true)
+    sf_htt_workspace= e_trk_sf * e_idiso_sf *  e_trg24_sf * e_trg_sf * t_trg_sf * zptmass_weight;
+  else 
+    sf_htt_workspace= e_trk_sf * e_idiso_sf *  e_trg24_sf * e_trg_sf * t_trg_sf;
+
+  //  rv_sf =  sf_tauidSF_m  *  sf_htt_workspace * weight_btagSF * top_pt_weight * higgPt_weight * sf_fakeEle;
+  rv_sf =  sf_tauidSF_m  *  sf_htt_workspace * sf_fakeEle;
+  
+
   /* printTabSeparated("____________ in rv_sf , zptmass_weight = ", zptmass_weight); */
   /* printTabSeparated(" "); */
-
   //rv_sf = rv_sf * ElectronIDIso.get_ScaleFactor(elept , eleeta);
+  
   if(elept<28.0)
     {
       rv_sf = rv_sf * ElectronIDIso.get_ScaleFactor(elept , eleeta);
-      rv_sf = rv_sf *CrossTriggerSF.get_ScaleFactor(elept , eleeta); 
+      rv_sf = rv_sf * CrossTriggerSF.get_ScaleFactor(elept , eleeta); 
     }
   else if (elept>=28.0 && elept<35.0)
    rv_sf = rv_sf *TrgEle32orEle35.get_ScaleFactor(elept , eleeta);
   else if (elept>=35.0)
     rv_sf = rv_sf *TrgEle35.get_ScaleFactor(elept , eleeta);
 
-  // if(isFakebkg)
-  //  rv_sf=rv_sf*sf_tauidSF_vvvl;
+  if(isFakebkg)
+    rv_sf=rv_sf*sf_tauidSF_vvvl;
 
 
     /// uncomment to debug
@@ -905,9 +931,9 @@ double etau_analyzer::getScaleFactors(  double elept, double taupt, double eleet
     //   cout<<endl;
     // }
 
+  if(found_Signal)
+    rv_sf = 1.0;
   return rv_sf;
-
-
 }
 bool etau_analyzer::TriggerSelection(TLorentzVector eleP4, TLorentzVector tauP4){
 
@@ -1618,10 +1644,16 @@ int etau_analyzer::if_DY_Genmatching(int eleIndex, int tauIndex){
   if( found_DYjet_sample==false )
     return 1;
   else if(found_DYjet_sample==true){
-    if(  my_genmatching_l2<5 &&  my_genmatching_l1<5 ) // dy -> ll genmatched
+    //    if(  my_genmatching_l2<5 &&  my_genmatching_l1<5 ) // dy -> ll genmatched
+    if(  my_genmatching_l2<5 &&  (my_genmatching_l1==1 || my_genmatching_l1==3 )) // dy -> ll genmatched
       return 2;
-    if (  my_genmatching_l2>=5 &&  my_genmatching_l1<5 ) // dy -> ltau genmatched
+    //    if (  my_genmatching_l2>=5 &&  my_genmatching_l1<5 ) // dy -> ltau genmatched
+    //return 3;
+    if (  my_genmatching_l2==5 &&  (my_genmatching_l1==1 || my_genmatching_l1==3 )) // dy -> ltau genmatched
       return 3;
+    //if (  my_genmatching_l2>5 &&  my_genmatching_l1>5 ) // dy -> jets (ZJ background) genmatched
+    else
+      return 4; // all other cases wiil be considered as dy -> jets (ZJ background) genmatched 
   }
   return 0;
 

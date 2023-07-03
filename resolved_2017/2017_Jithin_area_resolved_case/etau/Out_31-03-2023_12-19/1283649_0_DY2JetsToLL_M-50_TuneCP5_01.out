@@ -1,0 +1,83 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+****************** dyjet sample found
+sample ==========DY2JetsToLL_M-50_TuneCP5_01
+.... MC file ..... 
+Coming in: 
+nentries:50133
+Running over 50133 events.
+Finished entry 0/50132
+Finished entry 2000/50132
+Finished entry 4000/50132
+Finished entry 6000/50132
+Finished entry 8000/50132
+Finished entry 10000/50132
+Finished entry 12000/50132
+Finished entry 14000/50132
+Finished entry 16000/50132
+Finished entry 18000/50132
+Finished entry 20000/50132
+Finished entry 22000/50132
+Finished entry 24000/50132
+Finished entry 26000/50132
+Finished entry 28000/50132
+Finished entry 30000/50132
+Finished entry 32000/50132
+Finished entry 34000/50132
+Finished entry 36000/50132
+Finished entry 38000/50132
+Finished entry 40000/50132
+Finished entry 42000/50132
+Finished entry 44000/50132
+Finished entry 46000/50132
+Finished entry 48000/50132
+Finished entry 50000/50132
+Finished entry 50132/50132
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 50133.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 905311.413592   % change= -2675.193572
+      GoodTauPassed 24745.028558   % change= 97.266683
+         opp charge 17091.050667   % change= 30.931376
+ PassedThirdLepVeto 8205.608016   % change= 51.988861
+     PassedBjetVeto 7681.057354   % change= 6.392587
+       DeltaRPassed 7667.124959   % change= 0.181386
+      Total change :84.706431
+*******************************************
+*******************************************
+Number of events inspected: 50133
+Number of events inspected (minus negative gen. weights): 50125.000000
+ Outpt written to DY2JetsToLL_M-50_TuneCP5_01.root
+Real time 0:02:00, CP time 109.720

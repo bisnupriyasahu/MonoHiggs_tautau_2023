@@ -1,0 +1,92 @@
+argc = 8
+sp = 0
+Systematics : V  Response NJet0 = 0.017
+Systematics : V  Response NJet1 = 0.022
+Systematics : V  Response NJetGe2 = 0.026
+Systematics : V  Resolution NJet0 = 0.024
+Systematics : V  Resolution NJet1 = 0.03
+Systematics : V  Resolution NJetGe2 = 0.034
+Systematics : EWK  Response NJet0 = 0.015
+Systematics : EWK  Response NJet1 = 0.02
+Systematics : EWK  Response NJetGe2 = 0.025
+Systematics : EWK  Resolution NJet0 = 0.021
+Systematics : EWK  Resolution NJet1 = 0.027
+Systematics : EWK  Resolution NJetGe2 = 0.032
+Systematics : TOP  Response NJet0 = 0.015
+Systematics : TOP  Response NJet1 = 0.02
+Systematics : TOP  Response NJetGe2 = 0.025
+Systematics : TOP  Resolution NJet0 = 0.021
+Systematics : TOP  Resolution NJet1 = 0.027
+Systematics : TOP  Resolution NJetGe2 = 0.032
+V_NJet0
+V_NJet1
+V_NJetGe2
+EWK_NJet0
+EWK_NJet1
+EWK_NJetGe2
+TOP_NJet0
+TOP_NJet1
+TOP_NJetGe2
+All files added.
+Initializing chain.
+from Init MC
+sample ==========VBFHToWWTo2L2Nu_M125_00
+.... MC file ..... 
+Coming in: 
+nentries:35632
+Running over 35632 events.
+Finished entry 0/35631
+Finished entry 1000/35631
+Finished entry 2000/35631
+Finished entry 3000/35631
+Finished entry 4000/35631
+Finished entry 5000/35631
+Finished entry 6000/35631
+Finished entry 7000/35631
+Finished entry 8000/35631
+Finished entry 9000/35631
+Finished entry 10000/35631
+Finished entry 11000/35631
+Finished entry 12000/35631
+Finished entry 13000/35631
+Finished entry 14000/35631
+Finished entry 15000/35631
+Finished entry 16000/35631
+Finished entry 17000/35631
+Finished entry 18000/35631
+Finished entry 19000/35631
+Finished entry 20000/35631
+Finished entry 21000/35631
+Finished entry 22000/35631
+Finished entry 23000/35631
+Finished entry 24000/35631
+Finished entry 25000/35631
+Finished entry 26000/35631
+Finished entry 27000/35631
+Finished entry 28000/35631
+Finished entry 29000/35631
+Finished entry 30000/35631
+Finished entry 31000/35631
+Finished entry 32000/35631
+Finished entry 33000/35631
+Finished entry 34000/35631
+Finished entry 35000/35631
+Finished entry 35631/35631
+All events checked.
+*******************************************
+******************Jithin's original*************************
+    Initial entries 35632.000000
+   Passing smikking 0.000000
+     GoodMuonPassed 509359.632240   % change= -2656.997888
+      GoodTauPassed 54303.617907   % change= 89.338845
+         opp charge 49141.973603   % change= 9.505157
+ PassedThirdLepVeto 23013.561884   % change= 53.169236
+     PassedBjetVeto 21842.225047   % change= 5.089768
+       DeltaRPassed 17827.921417   % change= 18.378639
+      Total change :49.966543
+*******************************************
+*******************************************
+Number of events inspected: 35632
+Number of events inspected (minus negative gen. weights): 35590.000000
+ Outpt written to VBFHToWWTo2L2Nu_M125_00.root
+Real time 0:03:00, CP time 163.000
