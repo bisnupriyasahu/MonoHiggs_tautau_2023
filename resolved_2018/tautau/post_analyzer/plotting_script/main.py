@@ -25,7 +25,7 @@ var_mapping = { 1: "elePt" ,     2:"eleEta",          3:"elePhi" ,
                 45:"met_new",    46:"visMass_new",
                 47:"higgsPt_new" , 48:"visMass_met_new", 49:"higgsPt_met_new",
                 50: "muMetTMassFull", 51 : "mT_muMet" , 52 :"mT_tauMet",
-                55: 'tot_TMass_new'
+                55: 'tot_TMass_new' 
                 }
 
 title_mapping= {

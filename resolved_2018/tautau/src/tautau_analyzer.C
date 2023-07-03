@@ -1,4 +1,4 @@
-////tautau_analyzer.C
+///tautau_analyzer.C
 // For use with Ntuples made from ggNtuplizer
 // Required arguments: 1 is folder containing input files, 2 is output file path, 3 is maxEvents (-1 to run over all events), 4 is reportEvery
 //
@@ -129,13 +129,13 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
 
   TH1F *h_cutflow = new TH1F("cutflow", "cutflow", 10, 0, 10);
   h_cutflow->Sumw2();
-  TH1F *h_cutflow_n = new TH1F("cutflow_n", "cutflow_n", 7, 0, 7);
+  TH1F *h_cutflow_n = new TH1F("cutflow_n", "cutflow_n", 15, 0, 15);
   h_cutflow_n->Sumw2();
-  TH1F *h_cutflow_n_fr = new TH1F("cutflow_n_fr", "cutflow_n_fr", 7, 0, 7);
+  TH1F *h_cutflow_n_fr = new TH1F("cutflow_n_fr", "cutflow_n_fr", 15, 0, 15);
   h_cutflow_n_fr->Sumw2();
-  TH1F *h_cutflow_n_dyll = new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 7, 0, 7);
+  TH1F *h_cutflow_n_dyll = new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 15, 0, 15);
   h_cutflow_n_dyll->Sumw2();
-  TH1F *h_cutflow_n_dyll_fr = new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 7, 0, 7);
+  TH1F *h_cutflow_n_dyll_fr = new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 15, 0, 15);
   h_cutflow_n_dyll_fr->Sumw2();
   // TH1F* h_cutflow_Htt=new TH1F("cutflow_Htt", "cutflow_Htt", 11, 0, 11); h_cutflow_Htt->Sumw2();
 
@@ -167,9 +167,11 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
     nb = fChain->GetEntry(jentry);
     nbytes += nb;
     double inspected_event_weight = 1.0;
+    //to avaoid negative gen weights:
     if (is_MC)
       fabs(genWeight) > 0.0 ? inspected_event_weight *= genWeight / fabs(genWeight) : inspected_event_weight = 0.0;
     nInspected_genWeighted += inspected_event_weight;
+    //cout<<"coming in ninspected : "<<nInspected_genWeighted<<endl;
     nInspected += 1;
     double event_weight = 1.0;
     double weight = 1.0;
@@ -187,7 +189,16 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       weight = 1.0;
     if (is_MC)
       pileup_sf = h_pileup->GetBinContent(h_pileup->GetXaxis()->FindBin(puTrue->at(0)));
+    //cout<<"/////////////////////////////////////////pileup_sf in 2018 is /////////////////////////////////////     "<<pileup_sf<<endl;
+    //if (is_MC)
     weight = weight * pileup_sf;
+    //    if(is_MC) weight = weight * prefiringweight;
+    if(!is_MC)
+      weight = 1.0;
+
+    //cout<<"########################  AFTER PU weight ########"<<weight<<endl;
+
+    //    cout<<"weight is :"<<
     // if(is_MC)
     // 	weight=weight*prefiringweight;
     if (isGoodVtx == false)
@@ -199,11 +210,12 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
     // 5 : HLT_DoubleTightChargedIsoPFTau35_Trk1_TightID_eta2p1_Reg_v
     // 6 : HLT_DoubleMediumChargedIsoPFTau40_Trk1_TightID_eta2p1_Reg_v
     // 7 : HLT_DoubleTightChargedIsoPFTau40_Trk1_eta2p1_Reg_v
-    if (HLTTau >> 5 & 1 == 1 || HLTTau >> 6 & 1 == 1 || HLTTau >> 7 & 1 == 1 || HLTTau >> 17 & 1 == 1 || DoubleMediumTau40TightID || DoubleTightTau40 || DoubleTightTau35TightID || DoubleTightTauHPS40
-        //|| HLTTauPath>>1&1==1 || HLTTauPath>>2&1==1 || HLTTauPath>>3&1==1 || HLTTauPath>>4&1==1
-    )
-      passTauTrigger = true;
-
+    //17:    HLT_DoubleTightChargedIsoPFTauHPS40_Trk1_eta2p1_Reg_v
+    //|| HLTTauPath>>1&1==1 || HLTTauPath>>2&1==1 || HLTTauPath>>3&1==1 || HLTTauPath>>4&1==1
+    if (HLTTau >> 5 & 1 == 1 || HLTTau >> 6 & 1 == 1 || HLTTau >> 7 & 1 == 1 || HLTTau >> 17 & 1 == 1 || DoubleMediumTau40TightID || DoubleTightTau40 || DoubleTightTau35TightID || DoubleTightTauHPS40)
+      //if (HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1 || HLTTau>>17&1==1)
+          passTauTrigger = true;
+    
     /////
     if (debug)
       cout << "entry # : " << jentry << endl;
@@ -215,50 +227,58 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       event_weight = weight;
     else
       event_weight = 1.0;
+    
     tauCand.clear();
     tau2Cand.clear();
-    //     if (found_ZprimeBaryonic==true && std::find(signalParameters->begin(), signalParameters->end(), zprimeBaryonic_signal) == signalParameters->end()) {
+    //if (found_ZprimeBaryonic==true && std::find(signalParameters->begin(), signalParameters->end(), zprimeBaryonic_signal) == signalParameters->end()) {
     // //cout<< "zprimeBaryonic_signal "<<zprimeBaryonic_signal<<"  "<<endl;
     // continue;
     //     }
-    if (found_ZprimeBaryonic == true)
-      plotFill("nEvents_ZpB", zprimeBaryonic_signal, 50, 0, 50, 1.0);
+    //if (found_ZprimeBaryonic == true)
+    // plotFill("nEvents_ZpB", zprimeBaryonic_signal, 50, 0, 50, 1.0);
 
     if (metFilters == 0 && passTauTrigger)
-    {
-      eventNumber = jentry;
-      nSingleTrgPassed += event_weight;
-      // if(check_unc)cout<<"Preparing NOMINAL"<<endl;
-      t_index = get_t_Cand();
-      tbar_index = get_tbar_Cand();
-      orginal_jetPt.clear();
-      for (float pt : (*jetPt))
-        orginal_jetPt.push_back(pt);
-
-      selections(event_weight, 0, "nominal"); // this is for nominal
-
-      // jet-tau fakes
-      selections(event_weight, 1, "jetFakes");
-      selections(event_weight, -1, "jetFakes");
-      if (is_MC)
       {
-        // // /// UP
-        string shape_names[13] = {"tau1ES", "tau2ES",
-                                  "JES", "JER",
-                                  "metresponse", "metresolution", "metunclustered",
-                                  "tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc",
-                                  "dyShape", "ttbarShape"};
-        for (int i = 0; i < 13; i++)
-        {
-          // if (shape_names[i] != "metunclustered")
-          // 	continue;
-          // cout<<"shape name = "<<shape_names[i]<<endl;
-          selections(event_weight, 1, shape_names[i]);
-          selections(event_weight, -1, shape_names[i]);
-        }
+	//cout<<"--------------------------------event_weight : -----------"<<event_weight<<endl;
+	eventNumber = jentry;
+	nSingleTrgPassed += event_weight;
+	//cout<<"coming in npassed single trigger :   "<<nSingleTrgPassed<<endl;
+	
+	// if(check_unc)cout<<"Preparing NOMINAL"<<endl;
+	t_index = get_t_Cand();
+	tbar_index = get_tbar_Cand();
+	orginal_jetPt.clear();
+	for (float pt : (*jetPt))
+	  orginal_jetPt.push_back(pt);
+	
+	selections(event_weight, 0, "nominal"); // this is for nominal
+	
+	// jet-tau fakes
+	selections(event_weight, 1, "jetFakes");
+	selections(event_weight, -1, "jetFakes");
+	if (is_MC)
+	  {
+	    // // /// UP
+	    string shape_names[13] = {"tau1ES", "tau2ES",
+				      "JES", "JER",
+				      "metresponse", 
+				      "metresolution", 
+				      "metunclustered"
+				      "tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc",
+				      "dyShape", "ttbarShape"
+	    };
+	    for (int i = 0; i < 13; i++)
+	      {
+		//for (int i = 0; i < 3; i++)
+		// if (shape_names[i] != "metunclustered")
+		// 	continue;
+		// cout<<"shape name = "<<shape_names[i]<<endl;
+		selections(event_weight, 1, shape_names[i]);
+		selections(event_weight, -1, shape_names[i]);
+	      }
+	  }
       }
-    }
-
+    
     ////// fake rate anti isolated region end
     report_test = nentriesToCheck / 20;
     while (report_test > 10)
@@ -282,7 +302,7 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   // sw.Stop();
   std::cout << "All events checked." << std::endl;
   std::cout << "*******************************************" << std::endl;
-  std::cout << "******************Jithin's original*************************" << std::endl;
+  std::cout << "******************Bisnupriya's original*************************" << std::endl;
   std::cout << std::setw(20) << std::right << "Initial entries " << numberOfEvents << std::endl;
   std::cout << std::setw(20) << std::right << "Passing smikking " << nPassedSkimmed << std::endl;
   std::cout << std::setw(20) << std::right << "Inspected genWeightd " << nInspected_genWeighted << std::setw(10) << std::right << "   % change= " << (numberOfEvents - nInspected_genWeighted) * 100 / numberOfEvents << std::endl;
@@ -307,8 +327,9 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   std::cout << std::setw(20) << std::right << "Number of events inspected: " << nInspected << std::endl;
   std::cout << std::setw(20) << std::right << "Number of events inspected (minus negative gen. weights): " << nInspected_genWeighted << std::endl;
 
-  vector<double> cutflow_n = {nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed};
-  vector<double> cutflow_n_fr = {nInspected_genWeighted, nSingleTrgPassed_fr, nGoodTauPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr};
+  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nGoodTau1Passed, nGoodMuonPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed,nhemvetopassed};
+  vector<double> cutflow_n_fr={nInspected_genWeighted,nSingleTrgPassed_fr, nGoodTauPassed_fr,nGoodMuTauPassed_fr,nPassedThirdLepVeto_fr,nPassedBjetVeto_fr,nDeltaRPassed_fr,nHiggsptPassed_fr,nMVisssPassed_fr,nMETPassed_fr,nhemvetopassed_fr};
+
   vector<double> cutflow_n_dyll = {nInspected_genWeighted, nSingleTrgPassed_dyll, nGoodTauPassed_dyll, nGoodMuTauPassed_dyll, nPassedThirdLepVeto_dyll, nPassedBjetVeto_dyll, nDeltaRPassed_dyll};
   for (int i = 0; i < cutflow_n.size(); i++)
     h_cutflow_n->SetBinContent(i + 1, cutflow_n[i]);

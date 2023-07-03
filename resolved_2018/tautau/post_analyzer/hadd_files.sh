@@ -32,10 +32,6 @@ hadd files_initial/ST_tW_top_final.root ../output/ST_tW_top_00.root ../output/ST
 hadd files_initial/TTTo2L2Nu_powheg_final.root ../output/TTTo2L2Nu_powheg_00.root ../output/TTTo2L2Nu_powheg_01.root ../output/TTTo2L2Nu_powheg_02.root ../output/TTTo2L2Nu_powheg_03.root ../output/TTTo2L2Nu_powheg_04.root ../output/TTTo2L2Nu_powheg_05.root ../output/TTTo2L2Nu_powheg_06.root ../output/TTTo2L2Nu_powheg_10.root ../output/TTTo2L2Nu_powheg_20.root ../output/TTTo2L2Nu_powheg_30.root ../output/TTTo2L2Nu_powheg_40.root ../output/TTTo2L2Nu_powheg_50.root ../output/TTTo2L2Nu_powheg_60.root ../output/TTTo2L2Nu_powheg_70.root 
 hadd files_initial/TTToHadronic_powheg_final.root ../output/TTToHadronic_powheg_00.root ../output/TTToHadronic_powheg_01.root ../output/TTToHadronic_powheg_02.root ../output/TTToHadronic_powheg_03.root ../output/TTToHadronic_powheg_05.root ../output/TTToHadronic_powheg_06.root ../output/TTToHadronic_powheg_07.root ../output/TTToHadronic_powheg_08.root ../output/TTToHadronic_powheg_10.root ../output/TTToHadronic_powheg_11.root ../output/TTToHadronic_powheg_12.root ../output/TTToHadronic_powheg_13.root ../output/TTToHadronic_powheg_14.root ../output/TTToHadronic_powheg_15.root ../output/TTToHadronic_powheg_16.root ../output/TTToHadronic_powheg_17.root ../output/TTToHadronic_powheg_18.root ../output/TTToHadronic_powheg_20.root ../output/TTToHadronic_powheg_21.root ../output/TTToHadronic_powheg_22.root ../output/TTToHadronic_powheg_23.root ../output/TTToHadronic_powheg_24.root ../output/TTToHadronic_powheg_25.root ../output/TTToHadronic_powheg_26.root ../output/TTToHadronic_powheg_27.root ../output/TTToHadronic_powheg_30.root ../output/TTToHadronic_powheg_31.root ../output/TTToHadronic_powheg_32.root ../output/TTToHadronic_powheg_33.root ../output/TTToHadronic_powheg_34.root ../output/TTToHadronic_powheg_35.root ../output/TTToHadronic_powheg_36.root ../output/TTToHadronic_powheg_37.root 
 hadd files_initial/TTToSemiLeptonic_powheg_final.root ../output/TTToSemiLeptonic_powheg_00.root ../output/TTToSemiLeptonic_powheg_01.root ../output/TTToSemiLeptonic_powheg_10.root ../output/TTToSemiLeptonic_powheg_11.root ../output/TTToSemiLeptonic_powheg_20.root ../output/TTToSemiLeptonic_powheg_21.root ../output/TTToSemiLeptonic_powheg_30.root ../output/TTToSemiLeptonic_powheg_31.root ../output/TTToSemiLeptonic_powheg_40.root ../output/TTToSemiLeptonic_powheg_41.root ../output/TTToSemiLeptonic_powheg_50.root ../output/TTToSemiLeptonic_powheg_51.root ../output/TTToSemiLeptonic_powheg_60.root ../output/TTToSemiLeptonic_powheg_70.root ../output/TTToSemiLeptonic_powheg_80.root ../output/TTToSemiLeptonic_powheg_90.root 
-hadd files_initial/TauA_final.root ../output/TauA_00.root ../output/TauA_01.root ../output/TauA_02.root ../output/TauA_03.root ../output/TauA_04.root 
-hadd files_initial/TauB_final.root ../output/TauB_00.root ../output/TauB_01.root ../output/TauB_02.root 
-hadd files_initial/TauC_final.root ../output/TauC_00.root ../output/TauC_01.root ../output/TauC_02.root 
-hadd files_initial/TauD_PromptReco_final.root ../output/TauD_PromptReco_00.root ../output/TauD_PromptReco_01.root ../output/TauD_PromptReco_02.root ../output/TauD_PromptReco_03.root ../output/TauD_PromptReco_04.root ../output/TauD_PromptReco_05.root ../output/TauD_PromptReco_06.root ../output/TauD_PromptReco_07.root ../output/TauD_PromptReco_08.root ../output/TauD_PromptReco_09.root 
 hadd files_initial/VBFHToTauTau_final.root ../output/VBFHToTauTau_00.root 
 hadd files_initial/VBFHToWWTo2L2Nu_final.root ../output/VBFHToWWTo2L2Nu_00.root 
 hadd files_initial/VVTo2L2Nu_final.root ../output/VVTo2L2Nu_00.root ../output/VVTo2L2Nu_01.root 
@@ -67,48 +63,9 @@ hadd files_initial/fullLumi_TauA_final.root ../output/fullLumi_TauA_00.root ../o
 hadd files_initial/fullLumi_TauB_final.root ../output/fullLumi_TauB_00.root ../output/fullLumi_TauB_01.root ../output/fullLumi_TauB_02.root 
 hadd files_initial/fullLumi_TauC_final.root ../output/fullLumi_TauC_00.root ../output/fullLumi_TauC_01.root ../output/fullLumi_TauC_02.root 
 hadd files_initial/fullLumi_TauD_PromptReco_final.root ../output/fullLumi_TauD_PromptReco_00.root ../output/fullLumi_TauD_PromptReco_01.root ../output/fullLumi_TauD_PromptReco_02.root ../output/fullLumi_TauD_PromptReco_03.root ../output/fullLumi_TauD_PromptReco_04.root ../output/fullLumi_TauD_PromptReco_05.root ../output/fullLumi_TauD_PromptReco_06.root ../output/fullLumi_TauD_PromptReco_07.root ../output/fullLumi_TauD_PromptReco_08.root ../output/fullLumi_TauD_PromptReco_09.root 
-hadd files_initial/Signal_ZpBaryonic2017_1_final.root ../output/Zpbaryonic2018_1.root 
-hadd files_initial/Signal_ZpBaryonic2017_10_final.root ../output/Zpbaryonic2018_10.root 
-hadd files_initial/Signal_ZpBaryonic2017_11_final.root ../output/Zpbaryonic2018_11.root 
-hadd files_initial/Signal_ZpBaryonic2017_12_final.root ../output/Zpbaryonic2018_12.root 
-hadd files_initial/Signal_ZpBaryonic2017_13_final.root ../output/Zpbaryonic2018_13.root 
-hadd files_initial/Signal_ZpBaryonic2017_14_final.root ../output/Zpbaryonic2018_14.root 
-hadd files_initial/Signal_ZpBaryonic2017_15_final.root ../output/Zpbaryonic2018_15.root 
-hadd files_initial/Signal_ZpBaryonic2017_16_final.root ../output/Zpbaryonic2018_16.root 
-hadd files_initial/Signal_ZpBaryonic2017_17_final.root ../output/Zpbaryonic2018_17.root 
-hadd files_initial/Signal_ZpBaryonic2017_18_final.root ../output/Zpbaryonic2018_18.root 
-hadd files_initial/Signal_ZpBaryonic2017_19_final.root ../output/Zpbaryonic2018_19.root 
-hadd files_initial/Signal_ZpBaryonic2017_2_final.root ../output/Zpbaryonic2018_2.root 
-hadd files_initial/Signal_ZpBaryonic2017_20_final.root ../output/Zpbaryonic2018_20.root 
-hadd files_initial/Signal_ZpBaryonic2017_21_final.root ../output/Zpbaryonic2018_21.root 
-hadd files_initial/Signal_ZpBaryonic2017_22_final.root ../output/Zpbaryonic2018_22.root 
-hadd files_initial/Signal_ZpBaryonic2017_23_final.root ../output/Zpbaryonic2018_23.root 
-hadd files_initial/Signal_ZpBaryonic2017_24_final.root ../output/Zpbaryonic2018_24.root 
-hadd files_initial/Signal_ZpBaryonic2017_25_final.root ../output/Zpbaryonic2018_25.root 
-hadd files_initial/Signal_ZpBaryonic2017_26_final.root ../output/Zpbaryonic2018_26.root 
-hadd files_initial/Signal_ZpBaryonic2017_27_final.root ../output/Zpbaryonic2018_27.root 
-hadd files_initial/Signal_ZpBaryonic2017_28_final.root ../output/Zpbaryonic2018_28.root 
-hadd files_initial/Signal_ZpBaryonic2017_29_final.root ../output/Zpbaryonic2018_29.root 
-hadd files_initial/Signal_ZpBaryonic2017_3_final.root ../output/Zpbaryonic2018_3.root 
-hadd files_initial/Signal_ZpBaryonic2017_30_final.root ../output/Zpbaryonic2018_30.root 
-hadd files_initial/Signal_ZpBaryonic2017_31_final.root ../output/Zpbaryonic2018_31.root 
-hadd files_initial/Signal_ZpBaryonic2017_32_final.root ../output/Zpbaryonic2018_32.root 
-hadd files_initial/Signal_ZpBaryonic2017_33_final.root ../output/Zpbaryonic2018_33.root 
-hadd files_initial/Signal_ZpBaryonic2017_34_final.root ../output/Zpbaryonic2018_34.root 
-hadd files_initial/Signal_ZpBaryonic2017_35_final.root ../output/Zpbaryonic2018_35.root 
-hadd files_initial/Signal_ZpBaryonic2017_36_final.root ../output/Zpbaryonic2018_36.root 
-hadd files_initial/Signal_ZpBaryonic2017_37_final.root ../output/Zpbaryonic2018_37.root 
-hadd files_initial/Signal_ZpBaryonic2017_38_final.root ../output/Zpbaryonic2018_38.root 
-hadd files_initial/Signal_ZpBaryonic2017_39_final.root ../output/Zpbaryonic2018_39.root 
-hadd files_initial/Signal_ZpBaryonic2017_4_final.root ../output/Zpbaryonic2018_4.root 
-hadd files_initial/Signal_ZpBaryonic2017_40_final.root ../output/Zpbaryonic2018_40.root 
-hadd files_initial/Signal_ZpBaryonic2017_41_final.root ../output/Zpbaryonic2018_41.root 
-hadd files_initial/Signal_ZpBaryonic2017_42_final.root ../output/Zpbaryonic2018_42.root 
-hadd files_initial/Signal_ZpBaryonic2017_43_final.root ../output/Zpbaryonic2018_43.root 
-hadd files_initial/Signal_ZpBaryonic2017_5_final.root ../output/Zpbaryonic2018_5.root 
-hadd files_initial/Signal_ZpBaryonic2017_6_final.root ../output/Zpbaryonic2018_6.root 
-hadd files_initial/Signal_ZpBaryonic2017_7_final.root ../output/Zpbaryonic2018_7.root 
-hadd files_initial/Signal_ZpBaryonic2017_8_final.root ../output/Zpbaryonic2018_8.root 
-hadd files_initial/Signal_ZpBaryonic2017_9_final.root ../output/Zpbaryonic2018_9.root 
+hadd files_initial/ggZH_HToTauTau_ZToLL_final.root ../output/ggZH_HToTauTau_ZToLL_00.root 
+hadd files_initial/ggZH_HToTauTau_ZToNuNu_final.root ../output/ggZH_HToTauTau_ZToNuNu_00.root 
+hadd files_initial/ggZH_HToTauTau_ZToQQ_final.root ../output/ggZH_HToTauTau_ZToQQ_00.root 
+hadd files_initial/ttHToNonbb_final.root ../output/ttHToNonbb_00.root 
 
 

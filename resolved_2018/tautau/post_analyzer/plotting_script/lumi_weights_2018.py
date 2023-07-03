@@ -5,30 +5,33 @@ LOtoNNLO_DY = 5765.4/4954.0
 LOtoNNLO_Wjets = 61526.7/50380
 
 sampleListDict = {
-    'DY1JetsToLL' : ['DY1JetsToLL', 'ZTT', '0'], 
-    'DY2JetsToLL' : ['DY2JetsToLL', 'ZTT', '0'], 
-    'DY3JetsToLL' : ['DY3JetsToLL', 'ZTT', '0'], 
-    'DY4JetsToLL' : ['DY4JetsToLL', 'ZTT', '0'], 
-    'DYJetsToLL'  : ['DYJetsToLL' , 'ZTT', '0'], 
-    'DYJetsToLL_M10to50' : ['DYJetsToLL_M10to50', 'ZTT', '0'], 
+    #'DY1JetsToLL' : ['DY1JetsToLL', 'ZTT', '0'], 
+    #'DY2JetsToLL' : ['DY2JetsToLL', 'ZTT', '0'], 
+    #'DY3JetsToLL' : ['DY3JetsToLL', 'ZTT', '0'], 
+    #'DY4JetsToLL' : ['DY4JetsToLL', 'ZTT', '0'], 
+    #'DYJetsToLL'  : ['DYJetsToLL' , 'ZTT', '0'], 
+    #'DYJetsToLL_M10to50' : ['DYJetsToLL_M10to50', 'ZTT', '0'], 
 
-    'DYJetsToLL_0J_Incl' : ['DYJetsToLL_0J_Incl', 'ZTT_0J', '0'],
-    'DYJetsToLL_2J_Incl' : ['DYJetsToLL_2J_Incl', 'ZTT_2J', '0'], 
-    'DYJetsToLL_Incl_HT'  : ['DYJetsToLL_Incl_HT' , 'ZTT_HT', '0'],
-    'DYJetsToLL_HT100-200' : ['DYJetsToLL_HT100-200', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT1200-2500' : ['DYJetsToLL_HT1200-2500', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT200-400' : ['DYJetsToLL_HT200-400', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT2500-Inf': ['DYJetsToLL_HT2500-Inf', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT400-600' : [ 'DYJetsToLL_HT400-600', 'ZTT_HT', '0'],
-    'DYJetsToLL_HT600-800' : ['DYJetsToLL_HT600-800',  'ZTT_HT', '0'],
-    'DYJetsToLL_HT70-100' : [ 'DYJetsToLL_HT70-100',  'ZTT_HT', '0'],
-    'DYJetsToLL_HT800-1200' : ['DYJetsToLL_HT800-1200',  'ZTT_HT', '0'],
+    #'DYJetsToLL_0J_Incl' : ['DYJetsToLL_0J_Incl', 'ZTT_0J', '0'],
+    #'DYJetsToLL_2J_Incl' : ['DYJetsToLL_2J_Incl', 'ZTT_2J', '0'], 
+    #'DYJetsToLL_Incl_HT'  : ['DYJetsToLL_Incl_HT' , 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT100-200' : ['DYJetsToLL_HT100-200', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT1200-2500' : ['DYJetsToLL_HT1200-2500', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT200-400' : ['DYJetsToLL_HT200-400', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT2500-Inf': ['DYJetsToLL_HT2500-Inf', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT400-600' : [ 'DYJetsToLL_HT400-600', 'ZTT_HT', '0'],
+    #'DYJetsToLL_HT600-800' : ['DYJetsToLL_HT600-800',  'ZTT_HT', '0'],
+    #'DYJetsToLL_HT70-100' : [ 'DYJetsToLL_HT70-100',  'ZTT_HT', '0'],
+    #'DYJetsToLL_HT800-1200' : ['DYJetsToLL_HT800-1200',  'ZTT_HT', '0'],
 
     'DY1JetsToLL_stitch' : ['ZTT1jet', 'ZTTjet', '0'],
     'DY2JetsToLL_stitch' : ['ZTT2jet', 'ZTTjet', '0'],
     'DY3JetsToLL_stitch' : ['ZTT3jet', 'ZTTjet', '0'],
     'DY4JetsToLL_stitch' : ['ZTT4jet', 'ZTTjet', '0'],
     'DYJetsToLL_stitch'  : ['ZTTjet_inc' , 'ZTTjet', '0'],
+    'DYJetsToLL_M10to50_stitch' : ['ZTTjet_inc' , 'ZTTjet', '0'],
+
+
 
     'EWKWMinus2Jets_WToLNu' : ['EWKWMinus2Jets', 'EWKWMinus', '0'], 
     'EWKWPlus2Jets_WToLNu' : ['EWKWPlus2Jets', 'EWKWPlus', '0'], 
@@ -46,21 +49,36 @@ sampleListDict = {
     'ST_tW_antitop' : ['ST_tW_antitop', 'ST_t', '0'], 
     'ST_tW_top' : ['ST_tW_top', 'ST_t', '0'], 
 
-    'EGamma2018A' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018B' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018C' : ['data_obs', 'data_obs', '0'], 
-    'EGamma2018D' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonA' : ['data_obs', 'data_obs', '0'],
-    'SingleMuonB' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonC' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonD' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonD_PromptReco'  : ['data_obs', 'data_obs', '0'],
-    'SingleMuonE' : ['data_obs', 'data_obs', '0'], 
-    'SingleMuonF' : ['data_obs', 'data_obs', '0'], 
-    'TauA' : ['data_obs', 'data_obs', '0'], 
-    'TauB' : ['data_obs', 'data_obs', '0'],
-    'TauC' : ['data_obs', 'data_obs', '0'],
-    'TauD_PromptReco' : ['data_obs', 'data_obs', '0'],
+    'EGamma2018A' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018B' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018C' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'EGamma2018D' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+
+    'SingleMuonA' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleMuonB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuonC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuonD_PromptReco'  : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    'TauA' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'TauB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'TauC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'TauD_PromptReco' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    'fullLumi_EGamma2018A' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018B' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018C' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_EGamma2018D' : ['data_obs', 'data_obs', '0'],
+
+
+    'fullLumi_SingleMuonA' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleMuonD_PromptReco' : ['data_obs', 'data_obs', '0'],
+    
+    'fullLumi_TauA' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauD_PromptReco' : ['data_obs', 'data_obs', '0'],
 
     'TTTo2L2Nu_powheg' : ['TTTo2L2Nu', 'TT', '0'], 
     'TTToHadronic_powheg' : ['TTToHadronic', 'TT', '0'], 
@@ -94,13 +112,16 @@ sampleListDict = {
     'WJetsToLNu_HT800-1200' : [ 'WJetsToLNu_HT800-1200' , 'WJets_HT', '0'],
     
     'WGToLNuG' : ['WGToLNuG', 'WGToLNuG', '0'], 
+
     'WWTo1L1Nu2Q' : ['WWTo1L1Nu2Q', 'VV', '0'], 
     'WWToLNuQQ' : ['WWToLNuQQ', 'VV', '0'], 
     'WZTo3LNu' : ['WZTo3LNu', 'VV', '0'], 
+    'ZZTo2L2Q' : ['ZZTo2L2Q', 'VV', '0'], 
+
     'WminusHToTauTau' : ['WminusHToTauTau', 'WminusH', '0'], 
     'WplusHToTauTau' : ['WplusHToTauTau', 'WplusH', '0'], 
     'ZHToTauTau' : ['ZHToTauTau', 'ZH', '0'], 
-    'ZZTo2L2Q' : ['ZZTo2L2Q', 'VV', '0'], 
+
     'ggZH_HToTauTau_ZToLL' : ['ggZH_HToTauTau_ZToLL', 'ggZH', '0'], 
     'ggZH_HToTauTau_ZToNuNu' : ['ggZH_HToTauTau_ZToNuNu', 'ggZH', '0'], 
     'ggZH_HToTauTau_ZToQQ' : ['ggZH_HToTauTau_ZToQQ', 'ggZH', '0'], 
@@ -116,20 +137,6 @@ sampleListDict = {
     'ZJetsToNuNu_HT400-600' :   ['ZJetsToNuNu_HT400-600'   , 'ZJetsToNuNu' ,'0'],
     'ZJetsToNuNu_HT600-800' :   ['ZJetsToNuNu_HT600-800'   , 'ZJetsToNuNu' ,'0'],
     'ZJetsToNuNu_HT800-1200' :  ['ZJetsToNuNu_HT800-1200'  , 'ZJetsToNuNu' ,'0' ],
-
-    'MET2018A' : ['data_obs', 'data_obs', '0'], 
-    'MET2018B' : ['data_obs', 'data_obs', '0'], 
-    'MET2018C' : ['data_obs', 'data_obs', '0'], 
-    'MET2018D' : ['data_obs', 'data_obs', '0'], 
-    'MET2018E' : ['data_obs', 'data_obs', '0'], 
-    'MET2018F' : ['data_obs', 'data_obs', '0'], 
-
-    'blinded_MET2018A' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018B' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018C' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018D' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
-    'blinded_MET2018E' : ['blinded_data_obs', 'blinded_data_obs', '0'],     
-    'blinded_MET2018F' : ['blinded_data_obs', 'blinded_data_obs', '0'],     
     
     'Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200'     :       ['Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200',   'Signal_2HDMa_bb_sinp_0p1_tanb_1p0_mXd_10_MH3_600_MH4_200',    '0'     ] ,
     'Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200'     :       ['Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200',   'Signal_2HDMa_bb_sinp_0p2_tanb_1p0_mXd_10_MH3_600_MH4_200',    '0'     ] ,
@@ -235,6 +242,7 @@ sampleListDict = {
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400'    :       ['Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400',  'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_400',   '0'     ] ,
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500'    :       ['Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500',  'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_900_MH4_500',   '0'     ] ,
     
+
     'Signal_ZpBaryonic2018_1' : [ 'Signal_ZpBaryonic2018_1' , 'Signal_MZp_1000_MChi_100' , 0 ] ,
     'Signal_ZpBaryonic2018_2' : [ 'Signal_ZpBaryonic2018_2' , 'Signal_MZp_1000_MChi_1' , 0 ] ,
     'Signal_ZpBaryonic2018_3' : [ 'Signal_ZpBaryonic2018_3' , 'Signal_MZp_1000_MChi_200' , 0 ] ,
@@ -278,11 +286,11 @@ sampleListDict = {
     'Signal_ZpBaryonic2018_41' : [ 'Signal_ZpBaryonic2018_41' , 'Signal_MZp_500_MChi_400' , 0 ] ,
     'Signal_ZpBaryonic2018_42' : [ 'Signal_ZpBaryonic2018_42' , 'Signal_MZp_650_MChi_50' , 0 ] ,
     'Signal_ZpBaryonic2018_43' : [ 'Signal_ZpBaryonic2018_43' , 'Signal_MZp_800_MChi_50' , 0 ] ,
-    
+
 }
 
 xsex_mapping = {
-    'ZL' : 5765.4 , 
+       'ZL' : 5765.4 , 
     'ZTT' : 5765.4 , 
     'ZJ' : 5765.4 , 
     'ZLL' : 5765.4 , 
@@ -396,7 +404,7 @@ xsex_mapping = {
     'EWKZNuNu_TT' : 10.66 , 
     'EWKZNuNu_J' : 10.66 , 
     'EWKZNuNu_L' : 10.66 , 
-    'EWKZNuNu_LL' : 10.66 , 
+    'EWKZNuNu_LL' : 10.66 ,
     
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1000_MH4_500':0.01092, 
     'Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_1200_MH4_250':0.009472, 
@@ -803,10 +811,15 @@ xsex_mapping = {
     'Signal_ZpBaryonic2018_42' : 0.6549 ,
     'Signal_ZpBaryonic2018_43' : 0.3935 ,
 }
+#2018 ZpB sample AN has some issue so run the script with 2017 Zprimebaryonic 2017 ntuples, the ngen is also changed to 2017, but will check the AN soon.
+''' 
+zprime_ngen = {'Signal_ZpBaryonic2018_38': 933000, 'Signal_ZpBaryonic2018_39': 495000, 'Signal_ZpBaryonic2018_15': 955000, 'Signal_ZpBaryonic2018_14': 930000, 'Signal_ZpBaryonic2018_17': 991000, 'Signal_ZpBaryonic2018_16': 485000, 'Signal_ZpBaryonic2018_11': 1010000, 'Signal_ZpBaryonic2018_10': 507000, 'Signal_ZpBaryonic2018_13': 979000, 'Signal_ZpBaryonic2018_12': 945000, 'Signal_ZpBaryonic2018_33': 929000, 'Signal_ZpBaryonic2018_32': 525000, 'Signal_ZpBaryonic2018_31': 972000, 'Signal_ZpBaryonic2018_30': 1038000, 'Signal_ZpBaryonic2018_19': 996000, 'Signal_ZpBaryonic2018_18': 880000, 'Signal_ZpBaryonic2018_35': 999000, 'Signal_ZpBaryonic2018_34': 1015000, 'Signal_ZpBaryonic2018_9': 1002000, 'Signal_ZpBaryonic2018_8': 1052000, 'Signal_ZpBaryonic2018_5': 832000, 'Signal_ZpBaryonic2018_4': 879000, 'Signal_ZpBaryonic2018_7': 481000, 'Signal_ZpBaryonic2018_6': 1023000, 'Signal_ZpBaryonic2018_1': 959000, 'Signal_ZpBaryonic2018_3': 909000, 'Signal_ZpBaryonic2018_2': 477000, 'Signal_ZpBaryonic2018_42': 1003000, 'Signal_ZpBaryonic2018_37': 1097000, 'Signal_ZpBaryonic2018_40': 1010000, 'Signal_ZpBaryonic2018_41': 940000, 'Signal_ZpBaryonic2018_36': 496000, 'Signal_ZpBaryonic2018_28': 978000, 'Signal_ZpBaryonic2018_29': 864000, 'Signal_ZpBaryonic2018_43': 984000, 'Signal_ZpBaryonic2018_24': 956000, 'Signal_ZpBaryonic2018_25': 937000, 'Signal_ZpBaryonic2018_26': 467000, 'Signal_ZpBaryonic2018_27': 945000, 'Signal_ZpBaryonic2018_20': 954000, 'Signal_ZpBaryonic2018_21': 1036000, 'Signal_ZpBaryonic2018_22': 858000, 'Signal_ZpBaryonic2018_23': 513000}
+'''
 
-zprime_ngen = {'Signal_ZpBaryonic2018_38': 933000, 'Signal_ZpBaryonic2018_39': 953000, 'Signal_ZpBaryonic2018_15': 955000, 'Signal_ZpBaryonic2018_14': 930000, 'Signal_ZpBaryonic2018_17': 991000, 'Signal_ZpBaryonic2018_16': 946000, 'Signal_ZpBaryonic2018_11': 1010000, 'Signal_ZpBaryonic2018_10': 1008000, 'Signal_ZpBaryonic2018_13': 979000, 'Signal_ZpBaryonic2018_12': 945000, 'Signal_ZpBaryonic2018_33': 929000, 'Signal_ZpBaryonic2018_32': 1006000, 'Signal_ZpBaryonic2018_31': 972000, 'Signal_ZpBaryonic2018_30': 1038000, 'Signal_ZpBaryonic2018_19': 996000, 'Signal_ZpBaryonic2018_18': 880000, 'Signal_ZpBaryonic2018_35': 999000, 'Signal_ZpBaryonic2018_34': 1015000, 'Signal_ZpBaryonic2018_9': 1002000, 'Signal_ZpBaryonic2018_8': 1052000, 'Signal_ZpBaryonic2018_5': 832000, 'Signal_ZpBaryonic2018_4': 879000, 'Signal_ZpBaryonic2018_7': 956000, 'Signal_ZpBaryonic2018_6': 1023000, 'Signal_ZpBaryonic2018_1': 959000, 'Signal_ZpBaryonic2018_3': 909000, 'Signal_ZpBaryonic2018_2': 960000, 'Signal_ZpBaryonic2018_42': 1003000, 'Signal_ZpBaryonic2018_37': 1097000, 'Signal_ZpBaryonic2018_40': 1010000, 'Signal_ZpBaryonic2018_41': 940000, 'Signal_ZpBaryonic2018_36': 1016000, 'Signal_ZpBaryonic2018_28': 978000, 'Signal_ZpBaryonic2018_29': 864000, 'Signal_ZpBaryonic2018_43': 984000, 'Signal_ZpBaryonic2018_24': 956000, 'Signal_ZpBaryonic2018_25': 937000, 'Signal_ZpBaryonic2018_26': 875000, 'Signal_ZpBaryonic2018_27': 945000, 'Signal_ZpBaryonic2018_20': 954000, 'Signal_ZpBaryonic2018_21': 1036000, 'Signal_ZpBaryonic2018_22': 858000, 'Signal_ZpBaryonic2018_23': 1004000}
 
-def get_lumiweight(sampleName="", ngen=1, isBlinded=True):
+zprime_ngen = {'Signal_ZpBaryonic2018_6': 174000, 'Signal_ZpBaryonic2018_7': 209000, 'Signal_ZpBaryonic2018_4': 196000, 'Signal_ZpBaryonic2018_5': 167000, 'Signal_ZpBaryonic2018_2': 176000, 'Signal_ZpBaryonic2018_3': 187000, 'Signal_ZpBaryonic2018_1': 193000, 'Signal_ZpBaryonic2018_8': 204000, 'Signal_ZpBaryonic2018_9': 165000, 'Signal_ZpBaryonic2018_29': 188000, 'Signal_ZpBaryonic2018_28': 181000, 'Signal_ZpBaryonic2018_41': 155000, 'Signal_ZpBaryonic2018_40': 203000, 'Signal_ZpBaryonic2018_25': 210000, 'Signal_ZpBaryonic2018_24': 177000, 'Signal_ZpBaryonic2018_27': 167000, 'Signal_ZpBaryonic2018_26': 190000, 'Signal_ZpBaryonic2018_21': 194000, 'Signal_ZpBaryonic2018_20': 207000, 'Signal_ZpBaryonic2018_23': 201000, 'Signal_ZpBaryonic2018_22': 195000, 'Signal_ZpBaryonic2018_14': 170000, 'Signal_ZpBaryonic2018_15': 167000, 'Signal_ZpBaryonic2018_16': 165000, 'Signal_ZpBaryonic2018_17': 164000, 'Signal_ZpBaryonic2018_10': 177000, 'Signal_ZpBaryonic2018_11': 181000, 'Signal_ZpBaryonic2018_12': 179000, 'Signal_ZpBaryonic2018_13': 196000, 'Signal_ZpBaryonic2018_18': 175000, 'Signal_ZpBaryonic2018_19': 159000, 'Signal_ZpBaryonic2018_38': 166000, 'Signal_ZpBaryonic2018_39': 190000, 'Signal_ZpBaryonic2018_36': 185000, 'Signal_ZpBaryonic2018_37': 178000.0, 'Signal_ZpBaryonic2018_34': 205000, 'Signal_ZpBaryonic2018_35': 184000, 'Signal_ZpBaryonic2018_32': 188000, 'Signal_ZpBaryonic2018_33': 200000, 'Signal_ZpBaryonic2018_30': 190000, 'Signal_ZpBaryonic2018_31': 193000, 'Signal_ZpBaryonic2018_43': 172000.0, 'Signal_ZpBaryonic2018_42': 190000.0}
+
+def get_lumiweight(sampleName="", ngen=1, isBlinded=False):
     """
     return weight=luminosity * crossSection / NumberOfGeneratedEvents
     
@@ -819,14 +832,18 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=True):
         blinding_ratio = 5.0
 
     luminosity= round(59700.0/blinding_ratio, 3)
+    print("blinded ratio_:   ", blinding_ratio)
     saveName = ""
     if sampleName+'_stitch' in sampleListDict:
         sample = sampleListDict[sampleName+'_stitch'][0]
         saveName = sampleListDict[sampleName+'_stitch'][1]
+
         if 'ZTT' in sample:
             weight = get_DYJets_weight()[sample]/blinding_ratio
+            #weight = xsex_mapping[sample]/blinding_ratio
         else:
             weight = xsex_mapping[sample]/blinding_ratio
+
     elif sampleName not in sampleListDict:
         return 1.0 , sampleName
     else:
@@ -835,6 +852,7 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=True):
         if sample in xsex_mapping:
             if 'ZpBaryonic' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / zprime_ngen[sample]
+                #weight = luminosity / zprime_ngen[sample] #  # To combine all 3 years, 2016 calculated with 1pb^-1 xsec, to get limits running with with 1pb^-1 xsec, xsec will be added while computing limits (This I am doing only to get limits for mchi 1 samples.)
             elif 'MH3' in sampleName:
                 weight = luminosity * xsex_mapping[sample] / ngen
             else:
@@ -845,7 +863,7 @@ def get_lumiweight(sampleName="", ngen=1, isBlinded=True):
             weight = 0.0
     if 'data' in saveName:
         weight = 1.0
-    if 'MH3' in sampleName or 'ZpBaryonic' in sampleName:
+    if 'ZpBaryonic' in sampleName or '2HDMa' in sampleName:
        weight = weight * 0.06
     print("\n for "+sampleName+"  checking sample"+sample+ "  weight = "+str(weight))
     return weight , saveName

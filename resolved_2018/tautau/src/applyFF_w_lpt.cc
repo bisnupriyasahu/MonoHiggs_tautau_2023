@@ -56,8 +56,8 @@ public:
     ff_qcd_0jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_0jet");
     ff_qcd_1jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_1jet");
     ff_qcd_2jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_2jet");
-    ff_qcd_3jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_3jet");
-    ff_qcd_4jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_4jet");
+    //ff_qcd_3jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_3jet");
+    //ff_qcd_4jet_tt=(TH1F*) frawff_tt->Get("raw_FF_tautau_4jet");
 
     // ff_qcd_dm0_0jet=(TF1*) frawff->Get("rawFF_tt_qcd_dm0_0jet");
     // ff_qcd_dm0_1jet=(TF1*) frawff->Get("rawFF_tt_qcd_dm0_1jet");
@@ -127,6 +127,7 @@ public:
     if (corr<=0 || corr>2) return 1.0;
     else return corr;
   }
+
   double get_BinContent(TH1* histo, double xValue) {
     //if ( histo == NULL ) cout << histo->GetName() << " is null" << endl;
     return histo->GetBinContent( histo->GetXaxis()->FindBin(xValue) );
@@ -140,7 +141,13 @@ public:
     float ff_qcd=1.0;
     float ff_w=0;
     float ff_tt=1.0;
+    /////////////////////////////////////////////
+    //    in 2017 for ff_qcd -> frawff->Get("rawFF_tt_qcd_0jet"); was taken. so I have changed the  following
+    //ff_qcd= get_BinContent(ff_qcd_0jet_tt, pt); ==> ff_qcd= get_BinContent(ff_qcd_0jet, pt);
+    // ff_qcd= get_BinContent(ff_qcd_1jet_tt, pt);  ==>    ff_qcd= get_BinContent(ff_qcd_1jet, pt);
+    //      ff_qcd= get_BinContent(ff_qcd_2jet_tt, pt); ==>    ff_qcd= get_BinContent(ff_qcd_2jet, pt);
 
+    /////////////////////////////////////////////
     // if (njets==0)
     //   ff_qcd= get_raw_FF(pt, ff_qcd_0jet);
     // else if (njets==1)
@@ -149,21 +156,25 @@ public:
     //   ff_qcd= get_raw_FF(pt, ff_qcd_2jet);
     if (njets==0)
       {
-	ff_qcd= get_BinContent(ff_qcd_0jet_tt, pt);
+	//ff_qcd= get_BinContent(ff_qcd_0jet_tt, pt);
+	ff_qcd= get_raw_FF(pt, ff_qcd_0jet);
 	float err = get_BinError(ff_qcd_0jet_tt, pt);
 	if (shift=="ff_up") err = ff_qcd + err ;
 	else if (shift=="ff_down") err = ff_qcd - err ;
       }
     else if (njets==1)
       {
-	ff_qcd= get_BinContent(ff_qcd_1jet_tt, pt);
+	//ff_qcd= get_BinContent(ff_qcd_1jet_tt, pt);
+	ff_qcd= get_raw_FF(pt, ff_qcd_1jet);
 	float err = get_BinError(ff_qcd_1jet_tt, pt);
         if (shift=="ff_up") err = ff_qcd + err ;
         else if (shift=="ff_down") err = ff_qcd - err ;
       }
-    else if (njets==2)
+    //    else if (njets==2)
+    else if (njets>=2)
       {
-	ff_qcd= get_BinContent(ff_qcd_2jet_tt, pt);
+	//ff_qcd= get_BinContent(ff_qcd_2jet_tt, pt);
+	ff_qcd= get_raw_FF(pt, ff_qcd_2jet);
 	float err = get_BinError(ff_qcd_2jet_tt, pt);
         if (shift=="ff_up") err = ff_qcd + err ;
         else if (shift=="ff_down") err = ff_qcd - err ;
@@ -218,8 +229,8 @@ public:
           else                             ff_qcd = ff_qcd * corr;
         }
       }
-    if (ff_qcd<0)
-      cout<<__LINE__<<"     ff_qcd = "<<ff_qcd<<endl;
+    // if (ff_qcd<0)
+    //cout<<__LINE__<<"     ff_qcd = "<<ff_qcd<<endl;
 
     double visCorr = 1.0;
     if(mvis<=90)
@@ -235,13 +246,13 @@ public:
     if (shift=="mvis_corr_up")        ff_qcd = ff_qcd*(1 + mvis_err);
     else if (shift=="mvis_corr_down") ff_qcd = ff_qcd*(1 - mvis_err);
 
-    if (ff_qcd<0)
-      ff_qcd = -1*ff_qcd;
+
     //cout<<__LINE__<<"     ff_qcd = "<<ff_qcd<<endl;
     ////// jet multiplicity 5% normalization uncertainty
     if (shift=="njet_up") ff_qcd = ff_qcd * 1.05;
     else if (shift=="njet_down") ff_qcd = ff_qcd * 0.95;
-
+    if (ff_qcd<0)
+      ff_qcd = -1*ff_qcd;
     
     return ff_qcd;
   }
