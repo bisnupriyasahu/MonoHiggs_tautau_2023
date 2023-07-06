@@ -1,35 +1,38 @@
 Instructions for boostedtaus:
 
 
-
-Boosted 2017:
+For Boosted 2017:
+```
 /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2017/
 different channels:
 etau_met
 mutau_met
 tautau_met
+```
 
-
-Boosted 2018:
+For Boosted 2018:
+```
 /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/
 different channels:
 etau_met
 mutau_met
 tautau_met
-
+```
 
 
 The scripts are in "src" directory
+```
 /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/src
-
+```
 
 For testing in local area:
-/nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/
+```
+#path: /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/
 bash runAnalyzer.sh
 
-
+```
 Steps to submit condor jobs:
-
+```
 1)To make submitfile:
 python step1_makeSubmitFile.py
 
@@ -47,13 +50,14 @@ job_queue_signal.sh
 
 4)To submit in condor:
 bash submit_condor.sh
-
+```
 
 For plotting:
 After running the postanalyzer, keep all the root files in directory named: output
 #you can change this name, than change accordingly in the next steps too
-steps:
 
+steps:
+```
 1) go to postanalyzer directory
 cd postanalyzer
 #pwd: /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/postanalyzer
@@ -71,8 +75,11 @@ All the hadd root files will be in the folder: files_initial
 
 5)cd plotting_script
 #pwd: /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/mutau_met/postanalyzer/plotting_script
+```
+
 
 To make plots:
+```
 1) to run the plotting file:
 python main.py -hist 32,34 -idx 9 -ch etau -y 2018 --blinded 0 
 -hist: It is taking the name of the histogram you want to make plot(check the main.py for histogram number)
@@ -87,3 +94,5 @@ check /nfs_scratch/bsahu/MonoHiggs_Nov2022_V2/CMSSW_12_3_5/src/boosted_2018/muta
 mkdir plots
 bash do_make_plots.sh 
 #change the index of the histogram eg: 9,9b,9d in do_make_plots.sh file
+
+```
