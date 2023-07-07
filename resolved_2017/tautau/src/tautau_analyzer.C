@@ -124,7 +124,7 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   Double_t  Pt_Bins_highPt[21]={100, 120, 140, 160, 180, 200, 220, 240, 260, 280, 300, 320, 340, 360, 380, 400, 450, 500, 600, 800, 1000};
   
   TH1F* h_cutflow=new TH1F("cutflow", "cutflow", 10, 0, 10); h_cutflow->Sumw2();
-  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 16, 0, 16);h_cutflow_n->Sumw2();
+  TH1F* h_cutflow_n=new TH1F("cutflow_n", "cutflow_n", 11, 0, 11);h_cutflow_n->Sumw2();
   TH1F* h_cutflow_n_fr=new TH1F("cutflow_n_fr", "cutflow_n_fr", 15, 0, 15);h_cutflow_n_fr->Sumw2();
   TH1F* h_cutflow_n_dyll=new TH1F("cutflow_n_dyll", "cutflow_n_dyll", 15, 0, 15);h_cutflow_n_dyll->Sumw2();
   TH1F* h_cutflow_n_dyll_fr=new TH1F("cutflow_n_dyll_fr", "cutflow_n_dyll_fr", 15, 0, 15);h_cutflow_n_dyll_fr->Sumw2();
@@ -309,8 +309,10 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
    
   //vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, ndatapassedselection, nGoodTauPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed};
   vector<double> cutflow = {nInspected_genWeighted, nSingleTrgPassed,nnominalpassed,njetfakesuppassed,njetfakesdownpassed};
-  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nBeforeTauESPassed, nAfterTauESPassed, nMETRecoilPassed, nGoodTau1Passed, nGoodMuonPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed, nMETPassed};
-  vector<double> cutflow_n_fr={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed_fr, nGoodMuonPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr, nHiggsptPassed_fr, nMVisssPassed_fr, nMETPassed_fr};
+  //  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nBeforeTauESPassed, nAfterTauESPassed, nMETRecoilPassed, nGoodTau1Passed, nGoodMuonPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed, nMETPassed};
+  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nGoodMuonPassed, nGoodMuTauPassed, nDeltaRPassed, nHiggsptPassed, nMVisssPassed, nMETPassed};
+  //  vector<double> cutflow_n_fr={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed_fr, nGoodMuonPassed_fr, nGoodMuTauPassed_fr, nPassedThirdLepVeto_fr, nPassedBjetVeto_fr, nDeltaRPassed_fr, nHiggsptPassed_fr, nMVisssPassed_fr, nMETPassed_fr};
+  vector<double> cutflow_n_fr={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed_fr, nGoodMuonPassed_fr, nGoodMuTauPassed_fr, nDeltaRPassed_fr, nHiggsptPassed_fr, nMVisssPassed_fr, nMETPassed_fr};
   vector<double>cutflow_n_dyll={nInspected_genWeighted,nSingleTrgPassed_dyll,nGoodTauPassed_dyll,nGoodMuTauPassed_dyll,nPassedThirdLepVeto_dyll,nPassedBjetVeto_dyll,nDeltaRPassed_dyll};
   for(int i=0; i<cutflow.size(); i++)
     h_cutflow->SetBinContent( i+1 , cutflow[i] );

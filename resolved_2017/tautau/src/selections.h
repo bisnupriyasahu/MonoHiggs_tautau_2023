@@ -112,12 +112,11 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 
   if( index_tau1 > -1 && index_tau2 > -1 )
     {
-      if (shift ==0) {nGoodTauPassed+=event_weight;	}
       setMyEleTau(index_tau1, index_tau2, metP4, shift,event_weight);
-      if (shift ==0) {nGoodTau1Passed+=event_weight;	}
-      if (shift ==0) fillHist("1",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+      if (shift ==0) {nGoodTauPassed+=event_weight;	}
       if ( TriggerSelection(my_tau1P4, my_tau2P4) )
       {
+	//if (shift ==0 ) fillHist("1b",   Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
 	{
 	  if (shift ==0) {	  nGoodMuonPassed+=event_weight; }
 	  if ( ((tau_Charge->at(Tau1Index)*tau_Charge->at(Tau2Index))<0 ) )
@@ -294,6 +293,7 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 	  double mvis=(my_tau1P4+my_tau2P4).M();
 	  double higgsPt = (my_tau1P4+my_tau2P4).Pt();
 	  double newFF = 1.0;
+	  //fillHist("1a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  //	  if ( tau_Charge->at(Tau1Index)*tau_Charge->at(Tau2Index)<0 )
 	  newFF = FF_weights_withlpt.get_ff( my_tau1P4.Pt(), mt, mvis
 					     , 0 , my_tau2P4.Pt(), my_metP4.Pt()
@@ -303,9 +303,11 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 		      
 	  //if(is_MC)
 	  event_weight = event_weight * newFF;
-	  if (shift ==0) {        nGoodMuonPassed_fr+=event_weight; }
+	  //fillHist("1b_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
+
 	  if ( TriggerSelection(my_tau1P4, my_tau2P4) )
 	  {
+	    if (shift ==0) {        nGoodMuonPassed_fr+=event_weight; }
 	    {
 	      if ( tau_Charge->at(Tau1Index)*tau_Charge->at(Tau2Index)<0 )
 		{				  
