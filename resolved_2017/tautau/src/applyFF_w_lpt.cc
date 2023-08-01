@@ -109,7 +109,7 @@ public:
   float get_mvis_closure(float mvis, TF1* fct){
     float corr=1.0;
     corr=fct->Eval(mvis);
-    //if (mvis>150) corr=fct->Eval(150);
+    if (mvis>150) corr=fct->Eval(150);
     if (corr<0 || corr>2) return 1.0;
     else return corr;
   }
@@ -138,7 +138,8 @@ public:
   
   float get_ff(float pt, float mt, float mvis, float msv, float lpt, float met, int njets, int tau_dm , float frac_tt, float frac_qcd, float frac_w, TString shift){
     float ff_qcd=1.0;
-    float ff_w=0;
+    //float ff_w=0;
+    float ff_w=1.0;
     float ff_tt=1.0;
 
     // if (njets==0)
@@ -243,8 +244,8 @@ public:
     // if (shift=="mvis_corr_up")        ff_qcd = ff_qcd + mvis_err;
     // else if (shift=="mvis_corr_down") ff_qcd = ff_qcd - mvis_err;
     
-    if (ff_qcd<0)
-      ff_qcd = -1*ff_qcd;
+    // if (ff_qcd<0)
+    //  ff_qcd = -1*ff_qcd;
       //cout<<__LINE__<<"     ff_qcd = "<<ff_qcd<<endl;
     ////// jet multiplicity 5% normalization uncertainty
     if (shift=="njet_up") ff_qcd = ff_qcd * 1.05;

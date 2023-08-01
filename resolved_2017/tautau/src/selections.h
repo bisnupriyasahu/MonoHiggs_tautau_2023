@@ -1,7 +1,7 @@
 void tautau_analyzer::selections(float weight, int shift, string uncObject)
 {
   check_unc=false; // set true for printing unc pt, values
-
+  double anti_event_weight = weight;
   double event_weight = weight;
   //  ndatapassedselection+=event_weight;  
   //  std::cout<<"coming in selection first "<<ndatapassedselection<<std::endl;
@@ -178,6 +178,9 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 			      nDeltaRPassed+=event_weight;
 			    }
 			  else fillUncPlots("5", Tau1Index, Tau2Index, false, event_weight, shift);
+			  if (shift ==0 )  fillHist("5a",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+			  else fillUncPlots("5a", Tau1Index, Tau2Index, false, event_weight, shift);
+				      
 			  //else fillUncPlots("5", Tau1Index, Tau2Index, false, event_weight, shift);
 			  //makeTestPlot("i", 0,0,0,event_weight);
 			  //my_higgsP4 = my_tau1P4 + my_tau2P4;
@@ -194,31 +197,37 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 				  nHiggsptPassed+=event_weight;
 				  //std::cout<<"coming after nHiggsptPassed: "<<nHiggsptPassed<<std::endl;
 				  fillHist("7", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+				  fillHist("7a",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);			
 				}
+			      else fillUncPlots("7", Tau1Index, Tau2Index, false, event_weight, shift);
 			      if(mvis < 125)
 				{
 				  if (shift ==0 )
 				    {
 				      nMVisssPassed+=event_weight;
 				      fillHist("8", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+				      fillHist("8a",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
 				    }
 				  else fillUncPlots("8", Tau1Index, Tau2Index, false, event_weight, shift);
 				  if(my_metP4.Pt() > 105)
 				    {
-				      
 				      stage = "9";
 				      if (unc_shift == "nominal" ) save_nom();
 				      if (shift ==0 ) 
 					{
 					  fillHist("9", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+					  //fillHist("9a",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
 					  nMETPassed+=event_weight;
 					}
 				      else fillUncPlots("9", Tau1Index, Tau2Index, false, event_weight, shift);
+				      if (shift ==0 )  fillHist("9a",  Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
+				      else fillUncPlots("9a", Tau1Index, Tau2Index, false, event_weight, shift);
 				      if(deltaR <2.0 )
 					{
 					  if(shift ==0 ) fillHist("9b", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
 					  else           fillUncPlots("9b", Tau1Index, Tau2Index,  false, event_weight, shift);
-					  double tot_tr_mass = (my_tau1P4+ my_tau2P4 + my_metP4 ).Mt();
+					  //double tot_tr_mass = (my_tau1P4+ my_tau2P4 + my_metP4 ).Mt();
+					  double tot_tr_mass =  TMasstaumet_F(my_tau1P4, my_tau2P4 , my_metP4 );
 					  if(tot_tr_mass > 260)
 					    {
 					      if(shift ==0 ) fillHist("9d", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, false, event_weight);
@@ -277,32 +286,33 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
   /* index_tau2 = get2TauCand_noID(40.0, 2.1, 0 ); */
 
   metP4.SetPtEtaPhiE(pfMET ,0,pfMETPhi,pfMET);
-  if( tauCand.size()>=2 )
+  //  if( tauCand.size()>=2 )
+  if( tauCand.size()>0 )
     {
       //std::cout<<"tau cand in the antiiso region"<<tauCand.size()<<std::endl;
       // nGoodMuonPassed_fr+=event_weight;
       //makeTestPlot("c_fr", 0,0,0,event_weight);
       if(debug)cout<<"this worked Line "<<__LINE__<<endl;
       assignTauIndices(tauCand , leadingtau, subleadingtau);  // select iso and anti-iso taus -> subleading & leading taus
+      
       if( tauCand.size()>=2 && leadingtau>-1 && subleadingtau>-1 ) 
 	{ 
+	        
 	  setMyEleTau(leadingtau, subleadingtau, metP4, shift, event_weight); 
+
 	  if (shift ==0) {nGoodTauPassed_fr+=event_weight;     }
-	  double mt=TMass_F(my_tau2P4.Pt(),my_tau2P4.Phi()
+	  //	  double mt=TMass_F(my_tau2P4.Pt(),my_tau2P4.Phi()
+	  double mt=TMass_F(my_tau1P4.Pt(),my_tau1P4.Phi()
 			    ,my_metP4.Pt(), my_metP4.Phi());
 	  double mvis=(my_tau1P4+my_tau2P4).M();
 	  double higgsPt = (my_tau1P4+my_tau2P4).Pt();
 	  double newFF = 1.0;
 	  //fillHist("1a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 	  //	  if ( tau_Charge->at(Tau1Index)*tau_Charge->at(Tau2Index)<0 )
-	  newFF = FF_weights_withlpt.get_ff( my_tau1P4.Pt(), mt, mvis
-					     , 0 , my_tau2P4.Pt(), my_metP4.Pt()
-					     , my_njets, 0
-					     , 0, 0 , 0
-					     , TString(" "));
-		      
 	  //if(is_MC)
-	  event_weight = event_weight * newFF;
+	  //cout<<"new FF is "<<newFF<<endl;
+	  anti_event_weight = event_weight;
+	  //event_weight = event_weight * newFF;
 	  //fillHist("1b_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 
 	  if ( TriggerSelection(my_tau1P4, my_tau2P4) )
@@ -328,8 +338,9 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 						   my_genmatching_l2,					
 						   true  /// this is set to true for fake bakground
 						   );
-		      
+		      anti_event_weight = anti_event_weight * applySf;
 		      event_weight = event_weight * applySf;
+		      //event_weight = event_weight ;
 		      //if(shift ==0 )fillHist("1_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 		      //if( pass3rdLeptonVeto  )
 		      {
@@ -361,37 +372,56 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 				  nDeltaRPassed_fr+=event_weight;
 				}
 			      else fillUncPlots("5_fr", Tau1Index, Tau2Index, true, event_weight, shift);
-			      double mvis=(my_tau1P4+my_tau2P4).M();
-			      double higgsPt = (my_tau1P4+my_tau2P4).Pt();
+			      if(shift ==0 ) fillHist("5a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, anti_event_weight);
+			      else fillUncPlots("5a_fr", Tau1Index, Tau2Index, true, anti_event_weight, shift);
+			      //double mvis=(my_tau1P4+my_tau2P4).M();
+			      //double higgsPt = (my_tau1P4+my_tau2P4).Pt();
+			      
 			      if(higgsPt > 65)
 				{
 				  if(shift ==0 )
 				    {
 				      nHiggsptPassed_fr+=event_weight;
 				      fillHist("7_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
+				      fillHist("7a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, anti_event_weight);
 				    }
+				  else fillUncPlots("7_fr", Tau1Index, Tau2Index, true, event_weight, shift);
 				  if(mvis < 125)
 				    {
 				      if(shift ==0 )
 					{
 					  nMVisssPassed_fr+=event_weight;
 					  fillHist("8_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
+					  fillHist("8a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, anti_event_weight);
 					}
 				      else fillUncPlots("8_fr", Tau1Index, Tau2Index, true, event_weight, shift);
+				      
 				      if(my_metP4.Pt() > 105)
 					{
+					  newFF = FF_weights_withlpt.get_ff( my_tau1P4.Pt(), mt, mvis
+									     , 0 , my_tau2P4.Pt(), my_metP4.Pt()
+									     , my_njets, 0
+									     , 0, 0 , 0
+									     , TString(" "));
+					  
+					  event_weight = event_weight * newFF;				  
+					  //event_weight = event_weight;				  
 					  if(shift ==0 )
 					    {
 					      nMETPassed_fr+=event_weight;
 					      stage = "9_fr";
 					      fillHist("9_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 					    }
+					  
 					  else fillUncPlots("9_fr", Tau1Index, Tau2Index, true, event_weight, shift);
+					  if (shift ==0 ) fillHist("9a_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, anti_event_weight);
+					  else fillUncPlots("9a_fr", Tau1Index, Tau2Index, true, anti_event_weight, shift);
 					  if(deltaR <2.0 )
 					    {
 					      if(shift ==0 ) fillHist("9b_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
 					      else           fillUncPlots("9b_fr", Tau1Index, Tau2Index, true, event_weight, shift);
-					      double tot_tr_mass = (my_tau1P4+ my_tau2P4 + my_metP4 ).Mt();
+					      //double tot_tr_mass = (my_tau1P4+ my_tau2P4 + my_metP4 ).Mt();
+					      double tot_tr_mass = TMasstaumet_F(my_tau1P4, my_tau2P4, my_metP4 );
 					      if(tot_tr_mass > 260)
 						{
 						  if(shift ==0 ) fillHist("9d_fr", Tau1Index, Tau2Index, my_tau1P4, my_tau2P4, true, event_weight);
@@ -399,7 +429,7 @@ void tautau_analyzer::selections(float weight, int shift, string uncObject)
 						}
 					    }
 					}
-				      }
+				    }
 				}
 			      if(higgsPt < 65)
                                 {

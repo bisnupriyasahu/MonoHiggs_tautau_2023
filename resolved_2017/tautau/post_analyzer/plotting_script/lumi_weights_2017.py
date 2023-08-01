@@ -71,7 +71,10 @@ sampleListDict = {
     'fullLumi_Tau_EraE' : ['data_obs', 'data_obs', '0'],
     'fullLumi_Tau_EraF' : ['data_obs', 'data_obs', '0'],
 
-
+    'fullLumi_TauA' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_TauD_PromptReco' : ['data_obs', 'data_obs', '0'],
     
     'TTTo2L2Nu_TuneCP5' : ['TTTo2L2Nu', 'TT', '0'], 
     'TTToHadronic_TuneCP5' : ['TTToHadronic', 'TT', '0'], 

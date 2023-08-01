@@ -1,0 +1,3 @@
+bash submit_new_skim_jun23.sh
+bash submit_new_skim_jun23_blinded_data.sh
+#bash submit_new_skim_jun23_unblinded_data.sh

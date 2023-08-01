@@ -40,7 +40,7 @@ outFile_data.write('###########################   DATA  ########################
 outFile_data.write('./rootcom tautau_analyzer analyze_tautau  '+'\n\n\n')
 for j in filelistDATA :
     inputDrDATA = inputDrDATA.replace('/hdfs' , "root://cmsxrootd.hep.wisc.edu/")
-    outFile_data.write("./MakeCondorFiles.csh analyze_tautau "+inputDrDATA+j+" fulllumi_"+j+" -1 1000 2017 DATA "+j[:-5]+" $outDir"+"\n")
+    outFile_data.write("./MakeCondorFiles.csh analyze_tautau "+inputDrDATA+j+" fullLumi_"+j+" -1 1000 2017 DATA "+j[:-5]+" $outDir"+"\n")
 
 
 outFile_data.close()

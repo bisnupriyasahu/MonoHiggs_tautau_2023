@@ -198,7 +198,8 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       // 5 : HLT_DoubleTightChargedIsoPFTau35_Trk1_TightID_eta2p1_Reg_v
       // 6 : HLT_DoubleMediumChargedIsoPFTau40_Trk1_TightID_eta2p1_Reg_v
       // 7 : HLT_DoubleTightChargedIsoPFTau40_Trk1_eta2p1_Reg_v
-      if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1  )
+      //      if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1 || HLTTau>>17&1==1  ) # checking purpose added 2018 trigger in 2017 area
+      if(  HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1 )
       	passTauTrigger=true;
       
       /////
@@ -218,9 +219,7 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
       	{
 	  eventNumber = jentry;
 	  nSingleTrgPassed+=event_weight;
-	  //std::cout<<"event weight after met and triggers: "<<nSingleTrgPassed<<std::endl;
-	  //std::cout<<"event weight after met and triggers: "<<nSingleTrgPassed<<std::endl;
-	  //if(check_unc)cout<<"Preparing NOMINAL"<<endl;
+	  
 	  t_index = get_t_Cand(); tbar_index = get_tbar_Cand();
 	  orginal_jetPt.clear();
 	  for (float pt : (*jetPt)) orginal_jetPt.push_back(pt);
@@ -233,28 +232,27 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
 	  selections(event_weight,  -1, "jetFakes");
 	  njetfakesdownpassed+=event_weight;
 	  if(is_MC){
-	    //string shape_names[14] = {//"tau1ES", "tau2ES", 
-	      string shape_names[3] = {//"tau1ES", "tau2ES", 
-				      //"JES","JER", 
+	    //string shape_names[3] = {//"tau1ES", "tau2ES", 	    
+	    string shape_names[14] = {"tau1ES", "tau2ES", 
+				      "JES","JER", 
 				      "metresponse", 
 				      "metresolution",  
 				      "metunclustered"
-				      //"tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc", 
-				      //"prefiringUnc", 
-				      //"dyShape", "ttbarShape"
+				      "tau1IDunc", "tau2IDunc", "tau1TRGunc", "tau2TRGunc", 
+				      "prefiringUnc", 
+				      "dyShape", "ttbarShape"
 	      };
-	      //for (int i = 0; i < 14 ; i++ )
-	      for (int i = 0; i < 3 ; i++ )
-	      {
-		// if (shape_names[i] != "metunclustered")
-		// 	continue;     
-		// cout<<"shape name = "<<shape_names[i]<<endl;
-		selections(event_weight,  1, shape_names[i]);
-		//njetfakesdownpassed+=event_weight;
-		selections(event_weight,  -1, shape_names[i]);
-	      }
+	    for (int i = 0; i < 14 ; i++ ){
+	      //for (int i = 0; i < 3 ; i++ ){
+	      // if (shape_names[i] != "metunclustered")
+	      // 	continue;     
+	      // cout<<"shape name = "<<shape_names[i]<<endl;
+	      selections(event_weight,  1, shape_names[i]);
+	      //njetfakesdownpassed+=event_weight;
+	      selections(event_weight,  -1, shape_names[i]);
+	    }
 	    
-	  } 
+	  }
 	}
       
       ////// fake rate anti isolated region end

@@ -6,6 +6,7 @@ set -e
 #declare -a plotList=("tau1Pt" "tau2Pt" "tau1Eta" "tau2Eta" "higgsPt" "nJet" "metLongXaxis" "deltaR" "visMass"  "tot_TMass_new")  
 #declare -a plotList=("higgsPt" "nJet" "metLongXaxis" "tot_TMass_new")  
 declare -a plotList=("tot_TMass_new" )  
+#declare -a plotList=("nJet" )  
 #declare -a plotList=("tau1Pt" "higgsPt" "tot_TMass_new")  
 
 declare -a indexList=("_9")
