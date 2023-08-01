@@ -114,9 +114,9 @@ VV_hist      = OutFile.Get(dirname[0]+"VVT_"+histoname)
 otherMC_hist  = OutFile.Get(dirname[0]+"otherMC_"+histoname)
 #jetFakes_hist = OutFile.Get(dirname[0]+"jetFakes_"+histoname)
 
-signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1000_MChi_100_"+histoname)
-signal_MZp_1000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_200_MChi_1_"+histoname)
-signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_100_MChi_1_"+histoname)
+signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_100_MChi_1_"+histoname)
+signal_MZp_1000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1000_MChi_1_"+histoname)
+signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1500_MChi_1_"+histoname)
 #signal = "Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_"
 #signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_2HDMa_gg_sinp_0p35_tanb_1p0_mXd_10_MH3_600_MH4_200_"+histoname)
 #print(dirname[0]+signal+histoname)
@@ -152,7 +152,7 @@ if 'tot_TMass_new' in histoname:
   otherMC_hist = otherMC_hist.Rebin(11, 'hist', new_binning )
   signal_MZp_100_MChi_1 = signal_MZp_100_MChi_1.Rebin(11, 'hist', new_binning )
   signal_MZp_1000_MChi_1 = signal_MZp_1000_MChi_1.Rebin(11, 'hist', new_binning )
-  #signal_MZp_1500_MChi_1= signal_MZp_1500_MChi_1.Rebin(11, 'hist', new_binning )
+  signal_MZp_1500_MChi_1= signal_MZp_1500_MChi_1.Rebin(11, 'hist', new_binning )
 '''
 
 
@@ -187,11 +187,11 @@ otherMC_hist.SetFillColor(ROOT.TColor.GetColor(color_otherMC))
 
 signal_MZp_100_MChi_1.SetLineColor(55)
 signal_MZp_1000_MChi_1.SetLineColor(65)
-#signal_MZp_1500_MChi_1.SetLineColor(95)
+signal_MZp_1500_MChi_1.SetLineColor(95)
 
 signal_MZp_100_MChi_1.SetLineWidth(5)
 signal_MZp_1000_MChi_1.SetLineWidth(5)
-#signal_MZp_1500_MChi_1.SetLineWidth(5)
+signal_MZp_1500_MChi_1.SetLineWidth(5)
 
 
 for i in range(len(sampleList)):
@@ -295,9 +295,9 @@ if histoname=='cutflow_n' or histoname=='cutflow_n_fr' :
       j = str(i)
       mctot = (ZTT_hist.GetBinContent(i)+TT_hist.GetBinContent(i)+ST_t_hist.GetBinContent(i)+VV_hist.GetBinContent(i)+otherMC_hist.GetBinContent(i) )
       #mctot = (TT_hist.GetBinContent(i)+ST_t_hist.GetBinContent(i)+VV_hist.GetBinContent(i)+otherMC_hist.GetBinContent(i) )
-      #print("%.3f " %(Data_hist.GetBinContent(i)/mctot))
+      print("%.3f " %(Data_hist.GetBinContent(i)/mctot))
       #yield_write.writerow(["%.3f " %signal_MZp_100_MChi_1.GetBinContent(i) ])
-      print("%.3f " %(signal_MZp_1500_MChi_1.GetBinContent(i)))
+      #print("%.3f " %(signal_MZp_1500_MChi_1.GetBinContent(i)))
       yield_write.writerow([ "%.3f " %( ZTT_hist.GetBinContent(i)+TT_hist.GetBinContent(i)+ST_t_hist.GetBinContent(i)+VV_hist.GetBinContent(i)+otherMC_hist.GetBinContent(i) )])
       #yield_write.writerow(["%.3f " %signal_MZp_1500_MChi_1.GetBinContent(i) ])
       
@@ -378,6 +378,7 @@ stack.Draw("histsame")
 if histoname == "cutflow_n" or histoname=="cutflow_n_fr" :
   signal_MZp_100_MChi_1.Draw("histsame")
   signal_MZp_1000_MChi_1.Draw("histsame")  
+  signal_MZp_1500_MChi_1.Draw("histsame")  
 
 # if histoname != "cutflow_n":
 #errorBand.Draw("e2same")
@@ -413,9 +414,9 @@ if 'cutflow_n' in histoname or 'cutflow_n_fr' in histoname:
   #legende.AddEntry(signal_MZp_1000_MChi_1, 'mA=600 ma=150', "el")
   #legende.AddEntry(signal_MZp_1500_MChi_1, 'mA=600 ma=250', "el")
   print("coming here")
-  legende.AddEntry(signal_MZp_100_MChi_1, 'MZp=1000 MChi=100', "el")
-  legende.AddEntry(signal_MZp_1000_MChi_1, 'MZp=2000 MChi=200', "el")
-  #`  legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
+  legende.AddEntry(signal_MZp_100_MChi_1, 'MZp=100 MChi=1', "el")
+  legende.AddEntry(signal_MZp_1000_MChi_1, 'MZp=1000 MChi=1', "el")
+  legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
 
 
 blindingRatio_ = 1

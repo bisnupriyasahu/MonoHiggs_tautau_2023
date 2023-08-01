@@ -24,7 +24,7 @@ std::vector<int> tautau_analyzer::getTauCand_noID(double tauPtCut, double tauEta
 	  && tau_LeadChargedHadron_dz->at(iTau) < 0.2
 	  && fabs(tau_Charge->at(iTau))==1
 	  )kinematic = true;
-      if( tau_byVVVLooseDeepTau2017v2p1VSjet->at(iTau)==1 ) tauIsolation=true;
+      //if( tau_byVVVLooseDeepTau2017v2p1VSjet->at(iTau)==1 ) tauIsolation=true;
       if( tau_DecayMode->at(iTau)==0 || tau_DecayMode->at(iTau)==1 || tau_DecayMode->at(iTau)==10 || tau_DecayMode->at(iTau)==11 ) decayModeCut=true;
       if( tau_byVVVLooseDeepTau2017v2p1VSe->at(iTau)==1 && tau_byVLooseDeepTau2017v2p1VSmu->at(iTau)==1)tau_reject=true;
       if( tau_IDbits->at(iTau)>>1&1==1 ) newDecayModeFinding=true;
@@ -33,7 +33,7 @@ std::vector<int> tautau_analyzer::getTauCand_noID(double tauPtCut, double tauEta
 	  && decayModeCut==true   
 	  && tau_reject==true   
 	  && newDecayModeFinding==true
-	  && tauIsolation==true
+	  //&& tauIsolation==true
 	  )
 	{
 	  tmpCand.push_back(iTau);
@@ -42,6 +42,7 @@ std::vector<int> tautau_analyzer::getTauCand_noID(double tauPtCut, double tauEta
   return tmpCand;
     
 }
+
 void tautau_analyzer::assignTauIndices(vector<int> tauIndices , int& tau1 , int& tau2 ){
   if( tauIndices.size()<2 )
     {
@@ -903,38 +904,35 @@ double tautau_analyzer::getScaleFactors(  double tau1pt, double tau2pt, double t
   else if (tau2dm == 11) double t2_trg_pog_m = w->function("t_trg_pog_deeptau_medium_mutau_dm11_ratio")->getVal();
 
   double zpt_weight = zptmass_weight;
-    if(found_DYjet_sample)
+  if(found_DYjet_sample)
     {
-      //      rv_sf = sf_tau1idSF_m * sf_tau2idSF_m *TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight ;
       rv_sf = sf_tau1idSF_m * sf_tau2idSF_m *TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight * t1_deeptauid * t2_deeptauid * t1_trg_pog_m * t2_trg_pog_m ;
     }
   else
     rv_sf = sf_tau1idSF_m * sf_tau2idSF_m *TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt)  * sf_fakeEleMu * t1_deeptauid * t2_deeptauid *t1_trg_pog_m * t2_trg_pog_m ;
-  // 
-  //rv_sf = 0.8*rv_sf;
+  
   if(isFakebkg)
     {
       if(found_DYjet_sample)
 	{
 	  rv_sf = sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight * t1_deeptauid_vvvl * t2_deeptauid  * t1_trg_pog_m * t2_trg_pog_m ;
-	  //rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * zptmass_weight * t1_deeptauid * t2_deeptauid * sf_tau1idSF_vvvl;
 	}
       else
-	//rv_sf = sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_vvvl.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu ; 
-	//rv_sf = sf_tau1idSF_m * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid * t2_deeptauid * sf_tau1idSF_vvvl ; 
 	rv_sf =  sf_tau1idSF_vvvl * sf_tau2idSF_m * TriggerSF_med.get_sf(tau1dm, tau1pt) * TriggerSF_med.get_sf(tau2dm, tau2pt) * sf_fakeEleMu * t1_deeptauid_vvvl * t2_deeptauid  * t1_trg_pog_m * t2_trg_pog_m ;
     }
   if(found_Signal)
     rv_sf = 1;
   return rv_sf;
 }
+
+
 bool tautau_analyzer::TriggerSelection(TLorentzVector tau1P4, TLorentzVector tau2P4)
 {
-  if(  (HLTTau>>5&1==1 && tau1P4.Pt()>40.0 && tau2P4.Pt()>40.0)
-       || (HLTTau>>6&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0)
-       || (HLTTau>>7&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0) 
-       || (HLTTau>>17&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0) )
-    
+  if((HLTTau>>5&1==1 && tau1P4.Pt()>40.0 && tau2P4.Pt()>40.0)
+     || (HLTTau>>6&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0)
+     || (HLTTau>>7&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0) 
+     || (HLTTau>>17&1==1 && tau1P4.Pt()>45.0 && tau2P4.Pt()>45.0) 
+    )
     return true;
   else
     return false;
@@ -1403,14 +1401,14 @@ TLorentzVector tautau_analyzer::applyTau1ESCorrections(TLorentzVector tauP4, int
   int taudm = tau_DecayMode->at(tauIndex);
   TLorentzVector tauP4Corr;
   if ( genmatch>=5 ) tauP4Corr = tauP4 * get_BinContent( h_tauesSF, taudm);
-  else if ( (genmatch==1 || genmatch==3) && taudm==0)    tauP4Corr = tauP4*0.968;
+  /*else if ( (genmatch==1 || genmatch==3) && taudm==0)    tauP4Corr = tauP4*0.968;
   else if ( (genmatch==1 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*1.026;
   else if ( (genmatch==2 || genmatch==3) && taudm==0)    tauP4Corr = tauP4*0.998;
   else if ( (genmatch==2 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*0.9990;
-  
-/*else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*1.003;
+  */
+  else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*1.003;
   else if ( (genmatch==1 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*1.036;
-*/
+
   if (selected_systematic != "tau1ES")
     return tauP4Corr;
 
@@ -1443,14 +1441,14 @@ TLorentzVector tautau_analyzer::applyTau2ESCorrections(TLorentzVector tauP4, int
   int taudm = tau_DecayMode->at(tauIndex);
   TLorentzVector tauP4Corr;
   if (genmatch>=5) tauP4Corr = tauP4 * get_BinContent( h_tauesSF, taudm);
-    else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*0.968;
+  /* else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*0.968;
   else if ( (genmatch==1 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*1.026;
   else if ( (genmatch==2 || genmatch==3) && taudm==0)    tauP4Corr = tauP4*0.998;
   else if ( (genmatch==2 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*0.9990;
-  
-/*else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*1.003;
+  */
+  else if ( (genmatch==1 || genmatch==3) && taudm==0 )    tauP4Corr = tauP4*1.003;
   else if ( (genmatch==1 || genmatch==3) && taudm==1)    tauP4Corr = tauP4*1.036;
-*/
+
   if (selected_systematic != "tau2ES")
     return tauP4Corr;
 

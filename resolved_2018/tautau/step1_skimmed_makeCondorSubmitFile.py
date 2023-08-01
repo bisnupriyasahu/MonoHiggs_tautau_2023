@@ -2,10 +2,11 @@ import os
 
 #inputDrMC="/hdfs/store/user/jmadhusu/2018_skimmed/tautau/"
 inputDrMC="/hdfs/store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/"
+#inputDrMC="/hdfs/store/user/bsahu/Resolved_MC_Skimm_v2_2018/"
 filelistMC=os.listdir(inputDrMC)
 filelistMC=sorted(filelistMC)
 
-outFile = open("submit_new_skim_Jun23_wjet.sh", "w")
+outFile = open("submit_new_skim_Jun23.sh", "w")
 outFile.write("""
 outDir="Out_$(date +"%d-%m-%Y_%H-%M")" 
 mkdir $outDir 
@@ -27,6 +28,8 @@ outFile.close()
 
 #inputDrDATA="/hdfs/store/user/jmadhusu/blinded_data/2018/tautau/"
 inputDrDATA="/hdfs/store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/blinded/"
+#inputDrDATA="/hdfs/store/user/bsahu/Resolved_MC_Skimm_v3_2018_data2018_16May2021/"
+#inputDrDATA="/hdfs/store/user/bsahu/Resolved_MC_Skimm_v2_2018/blinded/"
 filelistDATA=os.listdir(inputDrDATA)
 filelistDATA=sorted(filelistDATA)
 outFile_data = open("submit_new_skim_Jun23_blinded_data.sh", "w")

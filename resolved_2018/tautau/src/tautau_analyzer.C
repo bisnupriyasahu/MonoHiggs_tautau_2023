@@ -129,7 +129,7 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
 
   TH1F *h_cutflow = new TH1F("cutflow", "cutflow", 10, 0, 10);
   h_cutflow->Sumw2();
-  TH1F *h_cutflow_n = new TH1F("cutflow_n", "cutflow_n", 15, 0, 15);
+  TH1F *h_cutflow_n = new TH1F("cutflow_n", "cutflow_n", 11, 0, 11);
   h_cutflow_n->Sumw2();
   TH1F *h_cutflow_n_fr = new TH1F("cutflow_n_fr", "cutflow_n_fr", 15, 0, 15);
   h_cutflow_n_fr->Sumw2();
@@ -212,9 +212,11 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
     // 7 : HLT_DoubleTightChargedIsoPFTau40_Trk1_eta2p1_Reg_v
     //17:    HLT_DoubleTightChargedIsoPFTauHPS40_Trk1_eta2p1_Reg_v
     //|| HLTTauPath>>1&1==1 || HLTTauPath>>2&1==1 || HLTTauPath>>3&1==1 || HLTTauPath>>4&1==1
-    if (HLTTau >> 5 & 1 == 1 || HLTTau >> 6 & 1 == 1 || HLTTau >> 7 & 1 == 1 || HLTTau >> 17 & 1 == 1 || DoubleMediumTau40TightID || DoubleTightTau40 || DoubleTightTau35TightID || DoubleTightTauHPS40)
+    // || DoubleMediumTau40TightID || DoubleTightTau40 || DoubleTightTau35TightID || DoubleTightTauHPS40)
       //if (HLTTau>>5&1==1 || HLTTau>>6&1==1 || HLTTau>>7&1==1 || HLTTau>>17&1==1)
-          passTauTrigger = true;
+    
+    if (HLTTau >> 5 & 1 == 1 || HLTTau >> 6 & 1 == 1 || HLTTau >> 7 & 1 == 1 || HLTTau >> 17 & 1 == 1)
+      passTauTrigger = true;
     
     /////
     if (debug)
@@ -327,8 +329,9 @@ void tautau_analyzer::Loop(Long64_t maxEvents, int reportEvery, string SampleNam
   std::cout << std::setw(20) << std::right << "Number of events inspected: " << nInspected << std::endl;
   std::cout << std::setw(20) << std::right << "Number of events inspected (minus negative gen. weights): " << nInspected_genWeighted << std::endl;
 
-  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed, nGoodTau1Passed, nGoodMuonPassed, nGoodMuTauPassed, nPassedThirdLepVeto, nPassedBjetVeto, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed,nhemvetopassed};
-  vector<double> cutflow_n_fr={nInspected_genWeighted,nSingleTrgPassed_fr, nGoodTauPassed_fr,nGoodMuTauPassed_fr,nPassedThirdLepVeto_fr,nPassedBjetVeto_fr,nDeltaRPassed_fr,nHiggsptPassed_fr,nMVisssPassed_fr,nMETPassed_fr,nhemvetopassed_fr};
+  vector<double> cutflow_n={nInspected_genWeighted, nSingleTrgPassed, nGoodTauPassed,  nGoodMuonPassed, nGoodMuTauPassed, nDeltaRPassed, nHiggsptPassed, nMVisssPassed,nMETPassed,nhemvetopassed};
+  //vector<double> cutflow_n_fr={nInspected_genWeighted,nSingleTrgPassed_fr, nGoodTauPassed_fr,nGoodMuTauPassed_fr, nDeltaRPassed_fr,nHiggsptPassed_fr,nMVisssPassed_fr,nMETPassed_fr,nhemvetopassed_fr};
+  vector<double> cutflow_n_fr={nInspected_genWeighted,nSingleTrgPassed, nGoodTauPassed_fr,  nGoodMuonPassed_fr, nGoodMuTauPassed_fr, nDeltaRPassed_fr,nHiggsptPassed_fr,nMVisssPassed_fr,nMETPassed_fr,nhemvetopassed_fr};
 
   vector<double> cutflow_n_dyll = {nInspected_genWeighted, nSingleTrgPassed_dyll, nGoodTauPassed_dyll, nGoodMuTauPassed_dyll, nPassedThirdLepVeto_dyll, nPassedBjetVeto_dyll, nDeltaRPassed_dyll};
   for (int i = 0; i < cutflow_n.size(); i++)

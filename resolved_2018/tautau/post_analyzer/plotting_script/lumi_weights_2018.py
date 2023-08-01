@@ -24,6 +24,116 @@ sampleListDict = {
     #'DYJetsToLL_HT70-100' : [ 'DYJetsToLL_HT70-100',  'ZTT_HT', '0'],
     #'DYJetsToLL_HT800-1200' : ['DYJetsToLL_HT800-1200',  'ZTT_HT', '0'],
 
+
+    'DY1JetsToLL_M-50_TuneCP5_stitch' : ['ZTT1jet', 'ZTTjet', '0'],
+    'DY2JetsToLL_M-50_TuneCP5_stitch' : ['ZTT2jet', 'ZTTjet', '0'],
+    'DY3JetsToLL_M-50_TuneCP5_ext1_stitch' : ['ZTT3jet', 'ZTTjet', '0'],
+    'DY3JetsToLL_M-50_TuneCP5_v1_stitch' : ['ZTT3jet', 'ZTTjet', '0'],
+    'DY4JetsToLL_M-50_TuneCP5_stitch' : ['ZTT4jet', 'ZTTjet', '0'],
+    'DYJetsToLL_M-50_TuneCP5_ext1_v1_stitch'  : ['ZTTjet_inc' , 'ZTTjet', '0'],
+    'DYJetsToLL_M-50_TuneCP5_v1_stitch'  : ['ZTTjet_inc' , 'ZTTjet', '0'],
+
+    'EWKWMinus2Jets_WToLNu_M-50_TuneCP5' : ['EWKWMinus2Jets', 'EWKWMinus', '0'], 
+    'EWKWPlus2Jets_WToLNu_M-50_TuneCP5' : ['EWKWPlus2Jets', 'EWKWPlus', '0'], 
+    'EWKZ2Jets_ZToLL_M-50_TuneCP5' : ['EWKZ2Jets_ZToLL', 'EWKZ2Jets', '0'], 
+    'EWKZ2Jets_ZToNuNu_TuneCP5' : ['EWKZ2Jets_ZToNuNu', 'EWKZ2Jets', '0'], 
+    'GluGluHToTauTau_M125' : ['GluGluHToTauTau', 'GluGluH', '0'], 
+    'GluGluHToWWTo2L2Nu_M125' : ['GluGluHToWWTo2L2Nu', 'GluGluH', '0'], 
+    'ST_t-channel_antitop_4f_inclusiveDecays_TuneCP5' : ['ST_t-channel_antitop', 'ST_t', '0'], 
+    'ST_t-channel_top_4f_inclusiveDecays_TuneCP5' : ['ST_t-channel_top', 'ST_t', '0'], 
+    'ST_tW_antitop_5f_inclusiveDecays_TuneCP5' : ['ST_tW_antitop', 'ST_t', '0'], 
+    'ST_tW_top_5f_inclusiveDecays_TuneCP5' : ['ST_tW_top', 'ST_t', '0'], 
+
+    'SingleElectron_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'SingleElectron_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    'SingleMuon_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+    'SingleMuon_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'], 
+
+    'Tau_EraB' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraC' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraD' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraE' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+    'Tau_EraF' : ['blinded_data_obs', 'blinded_data_obs', '0'],
+
+    #fullLumi
+    'fullLumi_SingleElectron_EraB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraD' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraE' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_SingleElectron_EraF' : ['data_obs', 'data_obs', '0'],
+
+
+    'fullLumi_SingleMuon_EraB' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraC' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraD' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraE' : ['data_obs', 'data_obs', '0'], 
+    'fullLumi_SingleMuon_EraF' : ['data_obs', 'data_obs', '0'], 
+
+    'fullLumi_Tau_EraB' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraC' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraD' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraE' : ['data_obs', 'data_obs', '0'],
+    'fullLumi_Tau_EraF' : ['data_obs', 'data_obs', '0'],
+    
+
+    
+    'TTTo2L2Nu_TuneCP5' : ['TTTo2L2Nu', 'TT', '0'], 
+    'TTToHadronic_TuneCP5' : ['TTToHadronic', 'TT', '0'], 
+    'TTToSemiLeptonic_TuneCP5' : ['TTToSemiLeptonic', 'TT', '0'], 
+    'VBFHToTauTau_M125' : ['VBFHToTauTau', 'VBFH', '0'], 
+    'VBFHToWWTo2L2Nu_M125' : ['VBFHToWWTo2L2Nu', 'VBFH', '0'], 
+    'VVTo2L2Nu' : ['VVTo2L2Nu', 'VV', '0'], 
+    'W1JetsToLNu_TuneCP5' : ['W1JetsToLNu', 'WJets', '0'], 
+    'W2JetsToLNu_TuneCP5' : ['W2JetsToLNu', 'WJets', '0'], 
+    'W3JetsToLNu_TuneCP5' : ['W3JetsToLNu', 'WJets', '0'], 
+    'W4JetsToLNu_TuneCP5' : ['W4JetsToLNu', 'WJets', '0'], 
+    'WJetsToLNu_TuneCP5' : ['WJetsToLNu', 'WJets', '0'], 
+    
+    'W1JetsToLNu_TuneCP5_stitch' : ['W1Jet', 'WJets_jets', '0'],
+    'W2JetsToLNu_TuneCP5_stitch' : ['W2Jet', 'WJets_jets', '0'],
+    'W3JetsToLNu_TuneCP5_stitch' : ['W3Jet', 'WJets_jets', '0'],
+    'W4JetsToLNu_TuneCP5_stitch' : ['W4Jet', 'WJets_jets', '0'],
+    'WJetsToLNu_TuneCP5_stitch'  : ['WJets_inc' , 'WJets_jets', '0'],
+    
+    'WWTo1L1Nu2Q' : ['WWTo1L1Nu2Q', 'VV', '0'], 
+    'WWToLNuQQ_NNPDF31_TuneCP5' : ['WWToLNuQQ', 'VV', '0'], 
+    'WWW_4F_TuneCP5' : ['WWW', 'VVV', '0'], 
+    'WWZ_4F_TuneCP5' : ['WWZ', 'VVV', '0'], 
+    'WW_TuneCP5' : ['WW', 'VV', '0'], 
+    'WZTo3LNu_TuneCP5' : ['WZTo3LNu', 'VV', '0'], 
+    'WZZ_TuneCP5' : ['WZZ', 'VVV', '0'], 
+    'WZ_TuneCP5' : ['WZ', 'VV', '0'], 
+    'WminusHToTauTau_M125' : ['WminusHToTauTau', 'WminusH', '0'], 
+    'WplusHToTauTau_M125' : ['WplusHToTauTau', 'WplusH', '0'], 
+    'ZHToTauTau_M125' : ['ZHToTauTau', 'ZH', '0'], 
+    'ZJetsToNuNu_HT-100To200' : ['ZJetsToNuNu_HT100-200', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-1200To2500' : ['ZJetsToNuNu_HT1200-2500', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-200To400' : ['ZJetsToNuNu_HT200-400', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-2500ToInf' : ['ZJetsToNuNu_HT2500-Inf', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-400To600' : ['ZJetsToNuNu_HT400-600', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-600To800' : ['ZJetsToNuNu_HT600-800', 'ZJetsToNuNu', '0'], 
+    'ZJetsToNuNu_HT-800To1200' : ['ZJetsToNuNu_HT800-1200', 'ZJetsToNuNu', '0'], 
+    'ZZTo2L2Q' : ['ZZTo2L2Q', 'VV', '0'], 
+    'ZZTo4L_TuneCP5' : ['ZZTo4L', 'VV', '0'], 
+    'ZZZ_TuneCP5' : ['ZZZ', 'VVV', '0'], 
+    'ZZ_TuneCP5' : ['ZZ', 'VV', '0'], 
+    'ggZH_HToTauTau_ZToLL_M125' : ['ggZH_HToTauTau_ZToLL', 'ggZH', '0'], 
+    'ggZH_HToTauTau_ZToNuNu_M125' : ['ggZH_HToTauTau_ZToNuNu', 'ggZH', '0'], 
+    'ttHToTauTau_M125_TuneCP5' : ['ttHToTauTau', 'ttH', '0'], 
+
+
+
+
+    ###############################################         2018 ################################################################
+
+
     'DY1JetsToLL_stitch' : ['ZTT1jet', 'ZTTjet', '0'],
     'DY2JetsToLL_stitch' : ['ZTT2jet', 'ZTTjet', '0'],
     'DY3JetsToLL_stitch' : ['ZTT3jet', 'ZTTjet', '0'],

@@ -82,5 +82,5 @@ mkdir $outDir
 ./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/ZZTo2L2Q_0000.root ZZTo2L2Q_0000.root -1 1000 2018 MC ZZTo2L2Q_0000 $outDir
 ./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/ZZTo4L_0000.root ZZTo4L_0000.root -1 1000 2018 MC ZZTo4L_0000 $outDir
 ./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/ZZZ_0000.root ZZZ_0000.root -1 1000 2018 MC ZZZ_0000 $outDir
-#./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/blinded blinded -1 1000 2018 MC bl $outDir
-#./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/unblinded unblinded -1 1000 2018 MC unbl $outDir
+./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/blinded blinded -1 1000 2018 MC bl $outDir
+./MakeCondorFiles.csh analyze_tautau root://cmsxrootd.hep.wisc.edu//store/user/bsahu/Resolved_MC_Skimm/2018_skimmed/tautau/unblinded unblinded -1 1000 2018 MC unbl $outDir

@@ -81,15 +81,16 @@ public :
    TFile *f_pileup = new TFile("sf_files/RootFiles/pileup/PU_Central_2018.root");
    TH1F* h_pileup = (TH1F*)f_pileup->Get("pileup");
    
-   
    TFile *f_tauidSF = new TFile("sf_files/TauIDSFs/data/TauID_SF_dm_DeepTau2017v2p1VSjet_2018ReReco.root");
   TH1F *h_tauidSF_m = (TH1F*)f_tauidSF->Get("Medium");
   TH1F *h_tauidSF_vvvl = (TH1F*)f_tauidSF->Get("VVVLoose");
   
-  TFile *f_tauidSF_pt = new TFile("sf_files/TauIDSFs/data/TauID_SF_pt_DeepTau2017v2p1VSjet_2017ReReco.root");
+  //  TFile *f_tauidSF_pt = new TFile("sf_files/TauIDSFs/data/TauID_SF_pt_DeepTau2017v2p1VSjet_2017ReReco.root");
+  TFile *f_tauidSF_pt = new TFile("sf_files/TauIDSFs/data/TauID_SF_pt_DeepTau2017v2p1VSjet_2018ReReco.root");
   TF1 *fn_tauIDSF_m = (TF1*) f_tauidSF->Get("Medium_cent");
 
-  TFile *f_tauesSF = new TFile("sf_files/TauIDSFs/data/TauES_dm_DeepTau2017v2p1VSjet_2017ReReco.root");
+  //  TFile *f_tauesSF = new TFile("sf_files/TauIDSFs/data/TauES_dm_DeepTau2017v2p1VSjet_2017ReReco.root");
+  TFile *f_tauesSF = new TFile("sf_files/TauIDSFs/data/TauES_dm_DeepTau2017v2p1VSjet_2018ReReco.root");
   TH1F *h_tauesSF = (TH1F*)f_tauesSF->Get("tes");
   TFile *f_tauesSF_highpt = new TFile("sf_files/TauIDSFs/data/TauES_dm_DeepTau2017v2p1VSjet_2018ReReco.root");
   TH1F *h_tauesSF_highpt = (TH1F*)f_tauesSF->Get("tes");
@@ -1032,7 +1033,7 @@ public :
    TLorentzVector metClusteredUnc( TLorentzVector event_metP4 );
 
    int eventCategory(int eleIndex, int tauIndex,  double higgsPt);
-   void setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift);
+   void setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift, float weight);
    void save_nom( );
 
    int if_DY_Genmatching(int eleIndex, int tauIndex);
@@ -1928,7 +1929,8 @@ Int_t tautau_analyzer::Cut(Long64_t entry)
 // returns -1 otherwise.
    return 1;
 }
-void tautau_analyzer::setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift){
+void tautau_analyzer::setMyEleTau(int tau1Index, int tau2Index, TLorentzVector metP4, int shift, float weight){
+  double event_weight = weight;
   /// first select leading and subleading
   { Tau1Index=tau1Index; Tau2Index=tau2Index; }
   /* if (tau_Pt->at(tau1Index) > tau_Pt->at(tau2Index)) */

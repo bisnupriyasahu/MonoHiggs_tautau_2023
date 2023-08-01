@@ -118,7 +118,7 @@ jetFakes_hist = OutFile.Get(dirname[0]+"jetFakes_"+histoname)
 
 signal_MZp_100_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_100_MChi_1_"+histoname)
 signal_MZp_1000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1000_MChi_1_"+histoname)
-signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1500_MChi_1_"+histoname)
+#signal_MZp_1500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_1500_MChi_1_"+histoname)
 signal_MZp_500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_500_MChi_1_"+histoname)
 signal_MZp_2000_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_2000_MChi_1_"+histoname)
 signal_MZp_2500_MChi_1 = OutFile.Get(dirname[0]+"Signal_MZp_2500_MChi_1_"+histoname)
@@ -139,29 +139,29 @@ sampleListRef = ['Data_hist', 'ZTT_hist',  'TT_hist', 'ST_t_hist', 'VV_hist', 'o
 
 for i in range(len(sampleList)):
   name = sampleListRef[i].replace('_hist', '')
-  print(sampleListRef[i])
+  #print(sampleListRef[i])
   print( sampleList[i].Integral())
 
 
 if 'tot_TMass_new' in histoname:
   #new_binning = array('d', [40, 60, 90, 120, 140, 180, 210, 230, 260, 280, 320, 400, 2000]) # 14 binns
-  #new_binning = array('d', [40, 60, 90, 120, 150, 180, 210, 230, 260, 320, 400, 500, 2000]) # 12 binns
-  new_binning = array('d', [40, 60, 90, 120, 150, 180, 210, 230, 260, 320, 400, 500]) # 11 binns
+  new_binning = array('d', [40, 60, 90, 120, 150, 180, 210, 230, 260, 320, 400, 500, 2000]) # 12 binns
+  #new_binning = array('d', [40, 60, 90, 120, 150, 180, 210, 230, 260, 320, 400, 500]) # 11 binns
   #new_binning = array('d', [40, 100, 200, 300, 400, 600, 2000])
-  Data_hist = Data_hist.Rebin(11, 'hist', new_binning )
-  Wjets_hist = Wjets_hist.Rebin(11, 'hist', new_binning )
-  jetFakes_hist = jetFakes_hist.Rebin(11, 'hist', new_binning )
-  ZTT_hist = ZTT_hist.Rebin(11, 'hist', new_binning )
-  TT_hist = TT_hist.Rebin(11, 'hist', new_binning )
-  ST_t_hist = ST_t_hist.Rebin(11, 'hist', new_binning )
-  VV_hist = VV_hist.Rebin(11, 'hist', new_binning )
-  otherMC_hist = otherMC_hist.Rebin(11, 'hist', new_binning )
-  signal_MZp_100_MChi_1 = signal_MZp_100_MChi_1.Rebin(11, 'hist', new_binning )
-  signal_MZp_500_MChi_1 = signal_MZp_500_MChi_1.Rebin(11, 'hist', new_binning )
-  signal_MZp_1000_MChi_1 = signal_MZp_1000_MChi_1.Rebin(11, 'hist', new_binning )
-  signal_MZp_1500_MChi_1 = signal_MZp_1500_MChi_1.Rebin(11, 'hist', new_binning )
-  signal_MZp_2000_MChi_1= signal_MZp_2000_MChi_1.Rebin(11, 'hist', new_binning )  
-  signal_MZp_2500_MChi_1= signal_MZp_2500_MChi_1.Rebin(11, 'hist', new_binning )  
+  Data_hist = Data_hist.Rebin(12, 'hist', new_binning )
+  Wjets_hist = Wjets_hist.Rebin(12, 'hist', new_binning )
+  jetFakes_hist = jetFakes_hist.Rebin(12, 'hist', new_binning )
+  ZTT_hist = ZTT_hist.Rebin(12, 'hist', new_binning )
+  TT_hist = TT_hist.Rebin(12, 'hist', new_binning )
+  ST_t_hist = ST_t_hist.Rebin(12, 'hist', new_binning )
+  VV_hist = VV_hist.Rebin(12, 'hist', new_binning )
+  otherMC_hist = otherMC_hist.Rebin(12, 'hist', new_binning )
+  signal_MZp_100_MChi_1 = signal_MZp_100_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_500_MChi_1 = signal_MZp_500_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_1000_MChi_1 = signal_MZp_1000_MChi_1.Rebin(12, 'hist', new_binning )
+  #signal_MZp_1500_MChi_1 = signal_MZp_1500_MChi_1.Rebin(12, 'hist', new_binning )
+  signal_MZp_2000_MChi_1= signal_MZp_2000_MChi_1.Rebin(12, 'hist', new_binning )  
+  signal_MZp_2500_MChi_1= signal_MZp_2500_MChi_1.Rebin(12, 'hist', new_binning )  
 
 
 
@@ -176,9 +176,9 @@ if 'tot_TMass_new' in histoname:
 #   ST_t_hist.Rebin(new_bining)
 #   VV_hist.Rebin(new_bining)
 #   otherMC_hist.Rebin(new_bining)
-  # signal_MZp_100_MChi_1.Rebin(new_bining)
-  # signal_MZp_1000_MChi_1.Rebin(new_bining)
-  # signal_MZp_1500_MChi_1.Rebin(new_bining)
+# signal_MZp_100_MChi_1.Rebin(new_bining)
+# signal_MZp_1000_MChi_1.Rebin(new_bining)
+# signal_MZp_1500_MChi_1.Rebin(new_bining)
 
 
 '''
@@ -211,6 +211,9 @@ if 'muPt' in histoname or 'elePt' in histoname or 'higgsPt' in histoname or 'tau
 
 
 '''
+
+
+
 print("coming")
 
 #Wjets_hist.SetFillColor(ROOT.TColor.GetColor(color_wjets))
@@ -225,14 +228,14 @@ otherMC_hist.SetFillColor(ROOT.TColor.GetColor(color_otherMC))
 
 signal_MZp_100_MChi_1.SetLineColor(55)
 signal_MZp_1000_MChi_1.SetLineColor(65)
-signal_MZp_1500_MChi_1.SetLineColor(95)
+#signal_MZp_1500_MChi_1.SetLineColor(95)
 signal_MZp_500_MChi_1.SetLineColor(419)
 signal_MZp_2000_MChi_1.SetLineColor(633)
 signal_MZp_2500_MChi_1.SetLineColor(834)
 
 signal_MZp_100_MChi_1.SetLineWidth(5)
 signal_MZp_1000_MChi_1.SetLineWidth(5)
-signal_MZp_1500_MChi_1.SetLineWidth(5)
+#signal_MZp_1500_MChi_1.SetLineWidth(5)
 signal_MZp_500_MChi_1.SetLineWidth(5)
 signal_MZp_2000_MChi_1.SetLineWidth(5)
 signal_MZp_2500_MChi_1.SetLineWidth(5)
@@ -469,7 +472,7 @@ errorBand.Draw("e2same")
 if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname : 
   signal_MZp_100_MChi_1.Draw("histsame")
   signal_MZp_1000_MChi_1.Draw("histsame")
-  signal_MZp_1500_MChi_1.Draw("histsame")
+  #signal_MZp_1500_MChi_1.Draw("histsame")
   signal_MZp_500_MChi_1.Draw("histsame")
   signal_MZp_2000_MChi_1.Draw("histsame")
   signal_MZp_2500_MChi_1.Draw("histsame")
@@ -510,7 +513,7 @@ if 'tot_TMass_full' in histoname or 'tot_TMass_new' in histoname:
   legende.AddEntry(signal_MZp_100_MChi_1, 'MZp=100 MChi=1', "el")
   legende.AddEntry(signal_MZp_500_MChi_1, 'MZp=500 MChi=1', "el")
   legende.AddEntry(signal_MZp_1000_MChi_1, 'MZp=1000 MChi=1', "el")
-  legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
+  #legende.AddEntry(signal_MZp_1500_MChi_1, 'MZp=1500 MChi=1', "el")
   legende.AddEntry(signal_MZp_2000_MChi_1, 'MZp=2000 MChi=1', "el")
   legende.AddEntry(signal_MZp_2500_MChi_1, 'MZp=2500 MChi=1', "el")
 

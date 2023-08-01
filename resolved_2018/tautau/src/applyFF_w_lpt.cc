@@ -48,7 +48,7 @@ public:
   applyFF_w_lpt(){
     //std::cout<<"applyFF_w_lpt constructed"<<endl;
     frawff = TFile::Open("sf_files/FF_lptCorrInBinsOfTauPt/FF_differential/ff_files_tt_2018/uncorrected_fakefactors_tt.root");
-    ff_qcd_0jet=(TF1*) frawff->Get("rawFF_tt_qcd_0jet");
+        ff_qcd_0jet=(TF1*) frawff->Get("rawFF_tt_qcd_0jet");
     ff_qcd_1jet=(TF1*) frawff->Get("rawFF_tt_qcd_1jet");
     ff_qcd_2jet=(TF1*) frawff->Get("rawFF_tt_qcd_2jet");
     
@@ -86,6 +86,7 @@ public:
     closure_tau2pt_tt_qcd_2jet=(TF1*) fmvisclosure->Get("closure_tau2pt_tt_qcd_2jet");
 
     fosssclosure  = TFile::Open("sf_files/FF_lptCorrInBinsOfTauPt/FF_differential/ff_files_tt_2018/FF_QCDcorrectionOSSS_tt.root");
+    //fosssclosure  = TFile::Open("sf_files/FF_lptCorrInBinsOfTauPt/FF_differential/ff_files_tt_2017/FF_QCDcorrectionOSSS_tt.root");
     osssclosure_qcd_low=(TF1*) fosssclosure->Get("closure_OSSS_mvis_tt_qcd");
     osssclosure_qcd_high=(TF1*) fosssclosure->Get("closure_OSSS_mvis_tt_qcd_linear");
 
@@ -109,7 +110,7 @@ public:
   float get_mvis_closure(float mvis, TF1* fct){
     float corr=1.0;
     corr=fct->Eval(mvis);
-    //if (mvis>150) corr=fct->Eval(150);
+    if (mvis>150) corr=fct->Eval(150);
     if (corr<0 || corr>2) return 1.0;
     else return corr;
   }
@@ -139,7 +140,8 @@ public:
   
   float get_ff(float pt, float mt, float mvis, float msv, float lpt, float met, int njets, int tau_dm , float frac_tt, float frac_qcd, float frac_w, TString shift){
     float ff_qcd=1.0;
-    float ff_w=0;
+    //    float ff_w=0;
+    float ff_w=1.0;
     float ff_tt=1.0;
     /////////////////////////////////////////////
     //    in 2017 for ff_qcd -> frawff->Get("rawFF_tt_qcd_0jet"); was taken. so I have changed the  following

@@ -5,7 +5,7 @@ set -e
 #declare -a plotList=("metLongXaxis" "tot_TMass_new") 
 #declare -a plotList=("higgsPt" "nJet" "metLongXaxis" )
 declare -a plotList=("tot_TMass_new")
-#declare -a plotList=("higgsPt")
+#declare -a plotList=("nJet")
 #declare -a plotList=("tau1Pt" )
 
 declare -a indexList=("_9b")

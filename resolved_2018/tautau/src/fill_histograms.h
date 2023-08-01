@@ -13,6 +13,7 @@ void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index
   my_tau2P4 = b;
   //cout<<"coming in selection fill hist 1 "<<endl;
   plotFill("tau1Pt_"+hNumber,  my_tau1P4.Pt() , 30 , 40 , 180,  event_weight);
+  //  plotFill("tau1Pt_"+hNumber,  my_tau1P4.Pt() , 30 , 55 , 180,  event_weight);
   plotFill("tau1Eta_"+hNumber, my_tau1P4.Eta(), 22, -2.1, 2.1,  event_weight);
   plotFill("tau1Phi_"+hNumber, my_tau1P4.Phi(), 30, -3.14, 3.14,  event_weight);
   plotFill("tau1Charge_"+hNumber, tau_Charge->at(tau1Index), 8, -2, 2 ,  event_weight);
@@ -42,16 +43,19 @@ void tautau_analyzer::fillHist( string histNumber , int tau1Index, int tau2Index
 
   plotFill("nJet_"+hNumber,  my_njets , 8, 0, 8,  event_weight);
   plotFill("met_"+hNumber, my_metP4.Pt() , 30, 0, 150,  event_weight);
-  plotFill("metLongXaxis_"+hNumber, my_metP4.Pt() , 40, 0, 200,  event_weight);
+  //  plotFill("metLongXaxis_"+hNumber, my_metP4.Pt() , 40, 0, 200,  event_weight);
+  plotFill("metLongXaxis_"+hNumber, my_metP4.Pt() , 40, 0, 300,  event_weight);
   plotFill("metPhi_"+hNumber, my_metP4.Phi() , 30, -3.14, 3.14,  event_weight);
   double mT_tauMet = TMass_F( my_tau1P4.Pt(),my_tau1P4.Phi(), my_metP4.Pt(), my_metP4.Phi() );
   plotFill("mT_tauMet_"+hNumber, mT_tauMet , 30, 0, 150,  event_weight);
 
   double visMass_mutau = (my_tau1P4+ my_tau2P4).M();
+  //  plotFill("visMass_"+hNumber, visMass_mutau , 30, 0, 300,  event_weight);
   plotFill("visMass_"+hNumber, visMass_mutau , 30, 0, 300,  event_weight);
   
   double HiggsPt = (my_tau1P4+my_tau2P4).Pt();
-  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
+  //  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
+  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 65, 300,  event_weight);
 
   //  double tot_tr_mass = (my_tau1P4 + my_tau2P4 + my_metP4 ).M();
   double tot_tr_mass = TMasstaumet_F(my_tau1P4,my_tau2P4,my_metP4);
@@ -137,7 +141,7 @@ void tautau_analyzer::fillHist_nominal(string histNumber, float event_weight){
 
   plotFill("nJet_"+hNumber,  my_njets , 8, 0, 8,  event_weight);
   plotFill("met_"+hNumber, my_metP4.Pt() , 30, 0, 150,  event_weight);
-  plotFill("metLongXaxis_"+hNumber, my_metP4.Pt() , 40, 0, 200,  event_weight);
+  plotFill("metLongXaxis_"+hNumber, my_metP4.Pt() , 40, 0, 300,  event_weight);
   plotFill("metPhi_"+hNumber, my_metP4.Phi() , 30, -3.14, 3.14,  event_weight);
   double mT_tauMet = TMass_F( tau2P4.Pt(),tau2P4.Phi(), my_metP4.Pt(), my_metP4.Phi() );
   plotFill("mT_tauMet_"+hNumber, mT_tauMet , 30, 0, 150,  event_weight);
@@ -146,7 +150,8 @@ void tautau_analyzer::fillHist_nominal(string histNumber, float event_weight){
   plotFill("visMass_"+hNumber, visMass_mutau , 30, 0, 300,  event_weight);
   
   double HiggsPt = (my_tau1P4+my_tau2P4).Pt();
-  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
+  //  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 0, 230,  event_weight);
+  plotFill("higgsPt_"+hNumber,HiggsPt , 30, 65, 300,  event_weight);
 
   double tot_tr_mass = (tau1P4 + tau2P4 + my_metP4 ).M();
   if (tot_tr_mass >= 2000) tot_tr_mass = 1900;
